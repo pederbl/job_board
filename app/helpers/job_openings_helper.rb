@@ -15,4 +15,16 @@ module JobOpeningsHelper
     end
   end
 
+  def description
+    str = "Ledigt jobb: #{@job_opening.t(:body)}"
+    str = str[0..250] + "..." if str.length > 250
+    str
+  end
+
+  def keywords
+    arr = ["lediga jobb", "jobb"]
+    arr += title.gsub(/(jobb:|[@,])/i, "").split(" ")
+    arr.join(", ")
+  end
+
 end
