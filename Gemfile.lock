@@ -1,8 +1,12 @@
-GIT
-  remote: git@github.com:pederbl2/job_opening_models.git
-  revision: 848758e8839cf80334c58607346b8ee6de9b065c
+PATH
+  remote: ../job_opening_models
   specs:
     job_opening_models (0.0.1)
+
+PATH
+  remote: ../mongoid_translated_strings
+  specs:
+    mongoid_translated_strings (0.0.1)
 
 GEM
   remote: http://rubygems.org/
@@ -40,6 +44,7 @@ GEM
     builder (2.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    haml (3.0.25)
     i18n (0.5.0)
     mail (2.2.15)
       activesupport (>= 2.3.6)
@@ -74,6 +79,7 @@ GEM
       rake (>= 0.8.7)
       thor (~> 0.14.4)
     rake (0.8.7)
+    sitemap_generator (1.4.0)
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
@@ -85,6 +91,9 @@ PLATFORMS
 
 DEPENDENCIES
   bson_ext (~> 1.2)
+  haml
   job_opening_models!
   mongoid (= 2.0.0.rc.6)
+  mongoid_translated_strings!
   rails (= 3.0.4)
+  sitemap_generator

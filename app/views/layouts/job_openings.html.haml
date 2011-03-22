@@ -1,0 +1,7 @@
+- content_for :title do 
+  = title
+
+- content_for :body do 
+  = yield
+
+= render file: 'layouts/application'
