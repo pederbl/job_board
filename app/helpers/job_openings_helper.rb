@@ -53,7 +53,7 @@ module JobOpeningsHelper
 
   def show_worktime
     d = @job.worktime
-    return (d.present? and (d.type || d.hour_per_week || d.text).present?)
+    return (d.present? and (d.type || d.hours_per_week || d.text).present?)
   end
 
   def show_salary
