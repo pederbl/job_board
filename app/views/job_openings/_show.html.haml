@@ -12,7 +12,8 @@
     = render partial: 'share_job'
   
   .right
-    /= render partial: "apply"
+    - if Rails.env.development?
+      = render partial: "apply"
 
 .middle
   .left

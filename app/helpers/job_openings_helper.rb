@@ -61,4 +61,9 @@ module JobOpeningsHelper
     return (d.present? and (d.minimum || d.maximum || d.accommodation || d.meals || d.travel_expenses || d.relocation || d.text).present?)
   end
 
+  def show_requirements
+    d = @job.requirements
+    return (d.present? and (d.drivers_license.present? || d.education || d.experience || d.own_car || d.minimum_age || d.maximum_age || d.text || d.languages.present?).present?)
+  end
+
 end

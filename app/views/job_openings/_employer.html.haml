@@ -3,5 +3,63 @@
     = t(".employer")
   .employer_name
     = @job.employer.name 
-  = render partial: 'like_employer'
+  - if Rails.env.development? 
+    .like
+      = render partial: 'like_employer' 
+
+  - if @job.employer.national_id
+    .national_id
+      .header
+        = t(".national_id") + ":"
+      .value
+        = @job.employer.national_id
+
+  - if @job.employer.email
+    .email
+      .header
+        = t("email") + ":"
+      .value
+        = @job.employer.email
+
+  - if @job.employer.phone
+    .phone
+      .header
+        = t("phone") + ":"
+      .value
+        = @job.employer.phone
+
+  - if @job.employer.fax
+    .fax
+      .header
+        = t("fax") + ":"
+      .value
+        = @job.employer.fax
+
+  - if @job.employer.website
+    .website
+      .header
+        = t("website") + ":"
+      .value
+        = link_to @job.employer.website, @job.employer.website
+
+  - if @job.employer.mail_address
+    .mail_address
+      .header
+        = t("postal_address") + ":"
+      .value
+        = raw h(@job.employer.mail_address).gsub("\n", "<br/>")
+
+  - if @job.employer.visit_address
+    .visit_address
+      .header
+        = t("visit_address") + ":"
+      .value
+        = @job.employer.visit_address
+
+  - if @job.employer.text
+    .text
+      = @job.employer.t(:text)
+
+
+
 

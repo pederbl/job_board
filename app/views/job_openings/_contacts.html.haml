@@ -1,4 +1,25 @@
-%fieldset.contacts
-  %legend 
-    = t(".contacts")
+- if @job.contacts.present? or @job.union_contacts.present?
+  %fieldset.contacts
+    %legend 
+      = t(".contacts")
 
+    - if @job.contacts.present?
+      .contacts 
+        - @job.contacts.each do |contact|
+          .contact
+            - if contact.formatted
+              = contact.formatted
+            - else
+              = [contact.name, contact.title, contact.phone, contact.email, contact.other].compact.join(", ")
+  
+    - if @job.union_contacts.present?
+      .union_contacts_title
+        = t(".union_contacts")
+      .union_contacts
+        - @job.union_contacts.each do |contact|
+          .contact
+            - if contact.formatted
+              = contact.formatted
+            - else
+              = [contact.name, contact.title, contact.phone, contact.email, contact.other].compact.join(", ")
+        
