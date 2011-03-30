@@ -1,0 +1,57 @@
+
+%fieldset.requirements
+  %legend 
+    = t(".requirements")
+  
+  - if @job.requirements.drivers_license
+    .driver_license
+      .header
+        = t(".drivers_license") + ":" 
+      .value
+        = @job.requirements.drivers_license.join(", ")
+
+  - if @job.requirements.education
+    .education
+      .header
+        = t(".education") + ":" 
+      .value
+        = @job.requirements.t(:education)
+
+  - if @job.requirements.experience
+    .experience
+      .header
+        = t(".experience") + ":" 
+      .value
+        = @job.requirements.experience
+
+  - if @job.requirements.own_car
+    .own_car
+      = t(".own_car") + ":" 
+
+  - if @job.requirements.minimum_age 
+    .minimum_age
+      .header
+        = t(".minimun_age") + ":" 
+      .value
+        = @job.requirements.minimum_age
+
+  - if @job.requirements.maximum_age
+    .maxiumum_age
+      .header
+        = t(".maximum_age") + ":" 
+      .value
+        = @job.requirements.maximum_age
+
+  - if @job.requirements.languages.present?
+    .languages
+      .header
+        = t(".languages") + ":" 
+      .value
+        - @job.requirements.languages.each do |d|
+          .language
+            = t(".language_type.#{d.language}") + ": " + t(".language_proficiency.#{d.proficiency}")
+  
+  - if @job.requirements.text
+    .text
+      = @job.requirements.text
+

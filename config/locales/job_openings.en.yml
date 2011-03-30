@@ -1,0 +1,89 @@
+en:
+  description: Description
+  type: Type
+  minimum: Minimum
+  maximum: Maximum
+  phone: Phone
+  fax: Fax
+  email: Email
+  website: Website
+  postal_address: Postal address
+  visit_address: Visit address
+
+  job_openings:
+    show:
+      anonymous: Anonymous
+      published: Published
+      
+    job_information:
+      job_information: Job Information
+      num_positions: Positions
+      job_category: Job category
+      industry: Industry
+      location: Location
+      see_map: See map
+
+      duration: Duration
+      length: Length
+      length_type:
+        "-1": Permanent
+      starts: Starts
+      ends: Ends
+      substitute: Substitute
+
+      worktime: Worktime
+      worktime_type:
+        FULL_TIME: Full-time
+        PART_TIME: Part-time
+      hours_per_week: h / week
+
+      salary: Salary
+      accommodation_paid_for: Accommodation paid for
+      meals_paid_for: Meals paid for
+      travel_expenses_paid_for: Travel expenses paid for
+      relocation_paid_for: Relocation paid for
+      salary_period: 
+        H: h
+        D: day
+        W: week
+        M: month
+        Y: year
+
+    requirements:
+      requirements: Requirements
+      drivers_license: Drivers license
+      education: Education
+      experience: Experience
+      must_have_car: Must have car
+      minimum_age: Minimum age
+      maximum_age: Maximum age
+      languages: Languages
+      language_type: 
+        en: English
+        de: German
+        fr: French
+        it: Italian
+        ro: Romanian
+        cs: Czech
+      language_proficiency:
+        "1": Elementary proficiency
+        "2": Limited working proficiency
+        "3": Professional working proficiency
+        "4": Full professional proficiency
+        "5": Native or bilingual proficiency
+
+    job_description:
+      job_description: Job Description
+
+    employer:
+      employer: Employer
+      national_id: National ID
+
+    apply: 
+      apply: Apply
+      application_deadline: Deadline
+    
+    contacts:
+      contacts: Contacts
+      union_contacts: Union Contacts
+

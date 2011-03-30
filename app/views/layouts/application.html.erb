@@ -12,10 +12,59 @@
   <% end %>
   
   <%= csrf_meta_tag %>
+  <%= hoptoad_javascript_notifier %>
+  <%= 
+    (Rails.env.production? and File.exists?("#{Rails.root}/public/stylesheets/cached/all.css")) ? 
+      stylesheet_link_tag('cached/all') : 
+      stylesheet_link_tag(all_stylesheets, concat: (true ? false : 'cached/all')) 
+  %>
+  <script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=pederbl"></script>
+  <% if Rails.env.production? %>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22140768-1']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  <% end %>
 </head>
 <body>
 
+  <div class='logo'>
+    Jobboteket
+  </div> 
+  <div class='bbc'>
+    <a href="http://www.bbc.co.uk/iplayer/console/radio1" target="_blank">BBC Radio One | Now playing: </a>
+  </div>
+
   <%= content_for?(:body) ? yield(:body) : yield %>
 
+  <%= 
+      (Rails.env.production? and File.exists?("#{Rails.root}/public/javascripts/cached/all.js")) ? 
+        javascript_include_tag('cached/all') : 
+        javascript_include_tag(all_javascripts, concat: (true ? false : 'cached/all')) 
+  %>
+  <% if Rails.env.production? %>
+    <div class='media-creeper'>
+      <!-- Begin MediaCreeper tracker code -->
+      <a href="http://mediacreeper.com/latest" title="MediaCreeper">
+        <img src="http://mediacreeper.com/image" alt="MediaCreeper" onerror="this.src='http://mediacreeper.se/image';" />
+      </a>
+      <!-- End MediaCreeper tracker code --> 
+    </div>
+    <div class='creeper'>
+      <!-- Begin Creeper tracker code -->
+        <a href="http://gnuheter.com/creeper/senaste" title="Creeper">
+          <img src="http://gnuheter.com/creeper/image" alt="Creeper"/>
+        </a>
+      <!-- End Creeper tracker code -->
+    </div>
+  <% end %>
 </body>
 </html>

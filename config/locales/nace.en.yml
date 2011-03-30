@@ -1,0 +1,803 @@
+en:
+  nace_code:
+    "01": Agriculture, hunting and related service activities
+    "01_1":  Growing of crops; market gardening; horticulture 
+    "01_11": Growing of cereals and other crops n.e.c.
+    "01_12": Growing of vegetables, horticultural specialities and nursery products 
+    "01_13": Growing of fruit, nuts, beverage and spice crops 
+    "01_2":  Farming of animals 
+    "01_21": Farming of cattle, dairy farming 
+    "01_22": Farming of sheep, goats, horses, asses, mules and hinnies
+    "01_23": Farming of swine 
+    "01_24": Farming of poultry 
+    "01_25": Other farming of animals 
+    "01_3":  Growing of crops combined with farming of animals (mixed farming)
+    "01_30": Growing of crops combined with farming of animals (mixed farming)
+    "01_4":  Agricultural and animal husbandry service activities, except veterinary activities; landscape gardening
+    "01_41": Agricultural service activities; landscape gardening 
+    "01_42": Animal husbandry service activities, except veterinary activities
+    "01_5":  Hunting, trapping and game propagation, including related service activities 
+    "01_50": Hunting, trapping and game propagation, including related service activities 
+    "02":  Forestry, logging and related service activities 
+    "02_0":  Forestry, logging and related service activities 
+    "02_01": Forestry and logging 
+    "02_02": Forestry and logging related service activities
+    "05":  Fishing, fish farming and related service activities 
+    "05_0":  Fishing, fish farming and related service activities 
+    "05_01": Fishing
+    "05_02": Fish farming 
+    "10":  Mining of coal and lignite; extraction of peat 
+    "10_1":  Mining and agglomeration of hard coal
+    "10_10": Mining and agglomeration of hard coal
+    "10_2":  Mining and agglomeration of lignite
+    "10_20": Mining and agglomeration of lignite
+    "10_3":  Extraction and agglomeration of peat 
+    "10_30": Extraction and agglomeration of peat 
+    "11":  Extraction of crude petroleum and natural gas; service activities incidental to oil and gas extraction, excluding surveying
+    "11_1":  Extraction of crude petroleum and natural gas
+    "11_10": Extraction of crude petroleum and natural gas
+    "11_2":  Service activities incidental to oil and gas extraction, excluding surveying 
+    "11_20": Service activities incidental to oil and gas extraction, excluding surveying 
+    "12":  Mining of uranium and thorium ores 
+    "12_0":  Mining of uranium and thorium ores 
+    "12_00": Mining of uranium and thorium ores 
+    "13":  Mining of metal ores 
+    "13_1":  Mining of iron ores
+    "13_10": Mining of iron ores
+    "13_2":  Mining of non-ferrous metal ores, except uranium and thorium ores
+    "13_20": Mining of non-ferrous metal ores, except uranium and thorium ores
+    "14":  Other mining and quarrying 
+    "14_1":  Quarrying of stone 
+    "14_11": Quarrying of ornamental and building stone 
+    "14_12": Quarrying of limestone, gypsum and chalk 
+    "14_13": Quarrying of slate 
+    "14_2":  Quarrying of sand and clay 
+    "14_21": Operation of gravel and sand pits
+    "14_22": Mining of clays and kaolin 
+    "14_3":  Mining of chemical and fertilizer minerals 
+    "14_30": Mining of chemical and fertilizer minerals 
+    "14_4":  Production of salt 
+    "14_40": Production of salt 
+    "14_5":  Other mining and quarrying n.e.c.
+    "14_50": Other mining and quarrying n.e.c.
+    "15":  Manufacture of food products and beverages 
+    "15_1":  Production, processing and preserving of meat and meat products
+    "15_11": Production and preserving of meat
+    "15_12": Production and preserving of poultrymeat 
+    "15_13": Production of meat and poultrymeat products
+    "15_2":  Processing and preserving of fish and fish products
+    "15_20": Processing and preserving of fish and fish products
+    "15_3":  Processing and preserving of fruit and vegetables
+    "15_31": Processing and preserving of potatoes
+    "15_32": Manufacture of fruit and vegetable juice 
+    "15_33": Processing and preserving of fruit and vegetables n.e.c. 
+    "15_4":  Manufacture of vegetable and animal oils and fats
+    "15_41": Manufacture of crude oils and fats 
+    "15_42": Manufacture of refined oils and fats 
+    "15_43": Manufacture of margarine and similar edible fats 
+    "15_5":  Manufacture of dairy products
+    "15_51": Operation of dairies and cheese making 
+    "15_52": Manufacture of ice cream 
+    "15_6":  Manufacture of grain mill products, starches and starch products 
+    "15_61": Manufacture of grain mill products 
+    "15_62": Manufacture of starches and starch products
+    "15_7":  Manufacture of prepared animal feeds 
+    "15_71": Manufacture of prepared feeds for farm animals 
+    "15_72": Manufacture of prepared pet foods
+    "15_8":  Manufacture of other food products 
+    "15_81": Manufacture of bread; manufacture of fresh pastry goods and cakes
+    "15_82": Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes 
+    "15_83": Manufacture of sugar 
+    "15_84": Manufacture of cocoa; chocolate and sugar confectionery
+    "15_85": Manufacture of macaroni, noodles, couscous and similar farinaceous products
+    "15_86": Processing of tea and coffee 
+    "15_87": Manufacture of condiments and seasonings 
+    "15_88": Manufacture of homogenized food preparations and dietetic food 
+    "15_89": Manufacture of other food products n.e.c.
+    "15_9":  Manufacture of beverages 
+    "15_91": Manufacture of distilled potable alcoholic beverages 
+    "15_92": Production of ethyl alcohol from fermented materials 
+    "15_93": Manufacture of wines 
+    "15_94": Manufacture of cider and other fruit wines 
+    "15_95": Manufacture of other non-distilled fermented beverages 
+    "15_96": Manufacture of beer
+    "15_97": Manufacture of malt
+    "15_98": Production of mineral waters and soft drinks 
+    "16":  Manufacture of tobacco products
+    "16_0":  Manufacture of tobacco products
+    "16_00": Manufacture of tobacco products
+    "17":  Manufacture of textiles
+    "17_1":  Preparation and spinning of textile fibres 
+    "17_11": Preparation and spinning of cotton-type fibres 
+    "17_12": Preparation and spinning of woollen-type fibres
+    "17_13": Preparation and spinning of worsted-type fibres
+    "17_14": Preparation and spinning of flax-type fibres 
+    "17_15": Throwing and preparation of silk, including from noils, and throwing and texturing of synthetic or artificial filament yarns 
+    "17_16": Manufacture of sewing threads
+    "17_17": Preparation and spinning of other textile fibres 
+    "17_2":  Textile weaving
+    "17_21": Cotton-type weaving
+    "17_22": Woollen-type weaving 
+    "17_23": Worsted-type weaving 
+    "17_24": Silk-type weaving
+    "17_25": Other textile weaving
+    "17_3":  Finishing of textiles
+    "17_30": Finishing of textiles
+    "17_4":  Manufacture of made-up textile articles, except apparel
+    "17_40": Manufacture of made-up textile articles, except apparel
+    "17_5":  Manufacture of other textiles
+    "17_51": Manufacture of carpets and rugs
+    "17_52": Manufacture of cordage, rope, twine and netting
+    "17_53": Manufacture of non-wovens and articles made from non-wovens, except apparel
+    "17_54": Manufacture of other textiles n.e.c. 
+    "17_6":  Manufacture of knitted and crocheted fabrics 
+    "17_60": Manufacture of knitted and crocheted fabrics 
+    "17_7":  Manufacture of knitted and crocheted articles
+    "17_71": Manufacture of knitted and crocheted hosiery 
+    "17_72": Manufacture of knitted and crocheted pullovers, cardigans and similar articles 
+    "18":  Manufacture of wearing apparel; dressing and dyeing of fur 
+    "18_1":  Manufacture of leather clothes 
+    "18_10": Manufacture of leather clothes 
+    "18_2":  Manufacture of other wearing apparel and accessories 
+    "18_21": Manufacture of workwear
+    "18_22": Manufacture of other outerwear 
+    "18_23": Manufacture of underwear 
+    "18_24": Manufacture of other wearing apparel and accessories n.e.c.
+    "18_3":  Dressing and dyeing of fur; manufacture of articles of fur 
+    "18_30": Dressing and dyeing of fur; manufacture of articles of fur 
+    "19":  Tanning and dressing of leather; manufacture of luggage, handbags, saddlery, harness and footwear
+    "19_1":  Tanning and dressing of leather
+    "19_10": Tanning and dressing of leather
+    "19_2":  Manufacture of luggage, handbags and the like, saddlery and harness
+    "19_20": Manufacture of luggage, handbags and the like, saddlery and harness
+    "19_3":  Manufacture of footwear
+    "19_30": Manufacture of footwear
+    "20":  Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials
+    "20_1":  Sawmilling and planing of wood; impregnation of wood 
+    "20_10": Sawmilling and planing of wood; impregnation of wood 
+    "20_2":  Manufacture of veneer sheets; manufacture of plywood, laminboard, particle board, fibre board and other panels and boards
+    "20_20": Manufacture of veneer sheets; manufacture of plywood, laminboard, particle board, fibre board and other panels and boards
+    "20_3":  Manufacture of builders carpentry and joinery
+    "20_30": Manufacture of builders carpentry and joinery
+    "20_4":  Manufacture of wooden containers 
+    "20_40": Manufacture of wooden containers 
+    "20_5":  Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials 
+    "20_51": Manufacture of other products of wood
+    "20_52": Manufacture of articles of cork, straw and plaiting materials
+    "21":  Manufacture of pulp, paper and paper products
+    "21_1":  Manufacture of pulp, paper and paperboard
+    "21_11": Manufacture of pulp
+    "21_12": Manufacture of paper and paperboard
+    "21_2":  Manufacture of articles of paper and paperboard
+    "21_21": Manufacture of corrugated paper and paperboard and of containers of paper and paperboard 
+    "21_22": Manufacture of household and sanitary goods and of toilet requisites 
+    "21_23": Manufacture of paper stationery
+    "21_24": Manufacture of wallpaper 
+    "21_25": Manufacture of other articles of paper and paperboard n.e.c. 
+    "22":  Publishing, printing and reproduction of recorded media
+    "22_1":  Publishing 
+    "22_11": Publishing of books
+    "22_12": Publishing of newspapers 
+    "22_13": Publishing of journals and periodicals 
+    "22_14": Publishing of sound recordings 
+    "22_15": Other publishing 
+    "22_2":  Printing and service activities related to printing
+    "22_21": Printing of newspapers 
+    "22_22": Printing n.e.c.
+    "22_23": Bookbinding
+    "22_24": Pre-press activities 
+    "22_25": Ancillary activities related to printing 
+    "22_3":  Reproduction of recorded media 
+    "22_31": Reproduction of sound recording
+    "22_32": Reproduction of video recording
+    "22_33": Reproduction of computer media 
+    "23":  Manufacture of coke, refined petroleum products and nuclear fuel 
+    "23_1":  Manufacture of coke oven products
+    "23_10": Manufacture of coke oven products
+    "23_2":  Manufacture of refined petroleum products
+    "23_20": Manufacture of refined petroleum products
+    "23_3":  Processing of nuclear fuel 
+    "23_30": Processing of nuclear fuel 
+    "24":  Manufacture of chemicals and chemical products 
+    "24_1":  Manufacture of basic chemicals 
+    "24_11": Manufacture of industrial gases
+    "24_12": Manufacture of dyes and pigments 
+    "24_13": Manufacture of other inorganic basic chemicals 
+    "24_14": Manufacture of other organic basic chemicals 
+    "24_15": Manufacture of fertilizers and nitrogen compounds
+    "24_16": Manufacture of plastics in primary forms 
+    "24_17": Manufacture of synthetic rubber in primary forms 
+    "24_2":  Manufacture of pesticides and other agro-chemical products 
+    "24_20": Manufacture of pesticides and other agro-chemical products 
+    "24_3":  Manufacture of paints, varnishes and similar coatings, printing ink and mastics
+    "24_30": Manufacture of paints, varnishes and similar coatings, printing ink and mastics
+    "24_4":  Manufacture of pharmaceuticals, medicinal chemicals and botanical products 
+    "24_41": Manufacture of basic pharmaceutical products 
+    "24_42": Manufacture of pharmaceutical preparations 
+    "24_5":  Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations
+    "24_51": Manufacture of soap and detergents, cleaning and polishing preparations
+    "24_52": Manufacture of perfumes and toilet preparations
+    "24_6":  Manufacture of other chemical products 
+    "24_61": Manufacture of explosives
+    "24_62": Manufacture of glues and gelatines 
+    "24_63": Manufacture of essential oils
+    "24_64": Manufacture of photographic chemical material
+    "24_65": Manufacture of prepared unrecorded media 
+    "24_66": Manufacture of other chemical products n.e.c.
+    "24_7":  Manufacture of man-made fibres 
+    "24_70": Manufacture of man-made fibres 
+    "25":  Manufacture of rubber and plastic products 
+    "25_1":  Manufacture of rubber products 
+    "25_11": Manufacture of rubber tyres and tubes
+    "25_12": Retreading and rebuilding of rubber tyres
+    "25_13": Manufacture of other rubber products 
+    "25_2":  Manufacture of plastic products
+    "25_21": Manufacture of plastic plates, sheets, tubes and profiles
+    "25_22": Manufacture of plastic packing goods 
+    "25_23": Manufacture of builders ware of plastic
+    "25_24": Manufacture of other plastic products
+    "26":  Manufacture of other non-metallic mineral products 
+    "26_1":  Manufacture of glass and glass products
+    "26_11": Manufacture of flat glass
+    "26_12": Shaping and processing of flat glass 
+    "26_13": Manufacture of hollow glass
+    "26_14": Manufacture of glass fibres
+    "26_15": Manufacture and processing of other glass, including technical glassware 
+    "26_2":  Manufacture of non-refractory ceramic goods other than for construction purposes; manufacture of refractory ceramic products 
+    "26_21": Manufacture of ceramic household and ornamental articles 
+    "26_22": Manufacture of ceramic sanitary fixtures 
+    "26_23": Manufacture of ceramic insulators and insulating fittings
+    "26_24": Manufacture of other technical ceramic products
+    "26_25": Manufacture of other ceramic products
+    "26_26": Manufacture of refractory ceramic products 
+    "26_3":  Manufacture of ceramic tiles and flags 
+    "26_30": Manufacture of ceramic tiles and flags 
+    "26_4":  Manufacture of bricks, tiles and construction products, in baked clay
+    "26_40": Manufacture of bricks, tiles and construction products, in baked clay
+    "26_5":  Manufacture of cement, lime and plaster
+    "26_51": Manufacture of cement
+    "26_52": Manufacture of lime
+    "26_53": Manufacture of plaster 
+    "26_6":  Manufacture of articles of concrete, plaster and cement
+    "26_61": Manufacture of concrete products for construction purposes 
+    "26_62": Manufacture of plaster products for construction purposes
+    "26_63": Manufacture of ready-mixed concrete
+    "26_64": Manufacture of mortars 
+    "26_65": Manufacture of fibre cement
+    "26_66": Manufacture of other articles of concrete, plaster and cement
+    "26_7":  Cutting, shaping and finishing of ornamental and building stone
+    "26_70": Cutting, shaping and finishing of ornamental and building stone
+    "26_8":  Manufacture of other non-metallic mineral products 
+    "26_81": Production of abrasive products
+    "26_82": Manufacture of other non-metallic mineral products n.e.c.
+    "27":  Manufacture of basic metals
+    "27_1":  Manufacture of basic iron and steel and of ferro-alloys
+    "27_10": Manufacture of basic iron and steel and of ferro-alloys
+    "27_2":  Manufacture of tubes 
+    "27_21": Manufacture of cast iron tubes 
+    "27_22": Manufacture of steel tubes 
+    "27_3":  Other first processing of iron and steel 
+    "27_31": Cold drawing 
+    "27_32": Cold rolling of narrow strip 
+    "27_33": Cold forming or folding
+    "27_34": Wire drawing 
+    "27_4":  Manufacture of basic precious and non-ferrous metals 
+    "27_41": Precious metals production 
+    "27_42": Aluminium production 
+    "27_43": Lead, zinc and tin production
+    "27_44": Copper production
+    "27_45": Other non-ferrous metal production 
+    "27_5":  Casting of metals
+    "27_51": Casting of iron
+    "27_52": Casting of steel 
+    "27_53": Casting of light metals
+    "27_54": Casting of other non-ferrous metals
+    "28":  Manufacture of fabricated metal products, except machinery and equipment 
+    "28_1":  Manufacture of structural metal products 
+    "28_11": Manufacture of metal structures and parts of structures
+    "28_12": Manufacture of builders carpentry and joinery of metal 
+    "28_2":  Manufacture of tanks, reservoirs and containers of metal; manufacture of central heating radiators and boilers 
+    "28_21": Manufacture of tanks, reservoirs and containers of metal 
+    "28_22": Manufacture of central heating radiators and boilers 
+    "28_3":  Manufacture of steam generators, except central heating hot water boilers
+    "28_30": Manufacture of steam generators, except central heating hot water boilers
+    "28_4":  Forging, pressing, stamping and roll forming of metal; powder metallurgy 
+    "28_40": Forging, pressing, stamping and roll forming of metal; powder metallurgy 
+    "28_5":  Treatment and coating of metals; general mechanical engineering
+    "28_51": Treatment and coating of metals
+    "28_52": General mechanical engineering 
+    "28_6":  Manufacture of cutlery, tools and general hardware 
+    "28_61": Manufacture of cutlery 
+    "28_62": Manufacture of tools 
+    "28_63": Manufacture of locks and hinges
+    "28_7":  Manufacture of other fabricated metal products 
+    "28_71": Manufacture of steel drums and similar containers
+    "28_72": Manufacture of light metal packaging 
+    "28_73": Manufacture of wire products 
+    "28_74": Manufacture of fasteners, screw machine products, chain and springs
+    "28_75": Manufacture of other fabricated metal products n.e.c.
+    "29":  Manufacture of machinery and equipment n.e.c.
+    "29_1":  Manufacture of machinery for the production and use of mechanical power, except aircraft, vehicle and cycle engines
+    "29_11": Manufacture of engines and turbines, except aircraft, vehicle and cycle engines
+    "29_12": Manufacture of pumps and compressors 
+    "29_13": Manufacture of taps and valves 
+    "29_14": Manufacture of bearings, gears, gearing and driving elements 
+    "29_2":  Manufacture of other general purpose machinery 
+    "29_21": Manufacture of furnaces and furnace burners
+    "29_22": Manufacture of lifting and handling equipment
+    "29_23": Manufacture of non-domestic cooling and ventilation equipment
+    "29_24": Manufacture of other general purpose machinery n.e.c.
+    "29_3":  Manufacture of agricultural and forestry machinery 
+    "29_31": Manufacture of agricultural tractors 
+    "29_32": Manufacture of other agricultural and forestry machinery 
+    "29_4":  Manufacture of machinetools
+    "29_41": Manufacture of portable hand held power tools
+    "29_42": Manufacture of other metalworking machine tools
+    "29_43": Manufacture of other machine tools n.e.c.
+    "29_5":  Manufacture of other special purpose machinery 
+    "29_51": Manufacture of machinery for metallurgy
+    "29_52": Manufacture of machinery for mining, quarrying and construction
+    "29_53": Manufacture of machinery for food, beverage and tobacco processing 
+    "29_54": Manufacture of machinery for textile, apparel and leather production 
+    "29_55": Manufacture of machinery for paper and paperboard production 
+    "29_56": Manufacture of other special purpose machinery n.e.c.
+    "29_6":  Manufacture of weapons and ammunition
+    "29_60": Manufacture of weapons and ammunition
+    "29_7":  Manufacture of domestic appliances n.e.c.
+    "29_71": Manufacture of electric domestic appliances
+    "29_72": Manufacture of non-electric domestic appliances
+    "30":  Manufacture of office machinery and computers
+    "30_0":  Manufacture of office machinery and computers
+    "30_01": Manufacture of office machinery
+    "30_02": Manufacture of computers and other information processing equipment
+    "31":  Manufacture of electrical machinery and apparatus n.e.c. 
+    "31_1":  Manufacture of electric motors, generators and transformers
+    "31_10": Manufacture of electric motors, generators and transformers
+    "31_2":  Manufacture of electricity distribution and control apparatus
+    "31_20": Manufacture of electricity distribution and control apparatus
+    "31_3":  Manufacture of insulated wire and cable
+    "31_30": Manufacture of insulated wire and cable
+    "31_4":  Manufacture of accumulators, primary cells and primary batteries 
+    "31_40": Manufacture of accumulators, primary cells and primary batteries 
+    "31_5":  Manufacture of lighting equipment and electric lamps 
+    "31_50": Manufacture of lighting equipment and electric lamps 
+    "31_6":  Manufacture of electrical equipment n.e.c. 
+    "31_61": Manufacture of electrical equipment for engines and vehicles n.e.c.
+    "31_62": Manufacture of other electrical equipment n.e.c. 
+    "32":  Manufacture of radio, television and communication equipment and apparatus 
+    "32_1":  Manufacture of electronic valves and tubes and other electronic components 
+    "32_10": Manufacture of electronic valves and tubes and other electronic components 
+    "32_2":  Manufacture of television and radio transmitters and apparatus for line telephony and line telegraphy
+    "32_20": Manufacture of television and radio transmitters and apparatus for line telephony and line telegraphy
+    "32_3":  Manufacture of television and radio receivers, sound or video recording or reproducing apparatus and associated goods
+    "32_30": Manufacture of television and radio receivers, sound or video recording or reproducing apparatus and associated goods
+    "33":  Manufacture of medical, precision and optical instruments, watches and clocks
+    "33_1":  Manufacture of medical and surgical equipment and orthopaedic appliances 
+    "33_10": Manufacture of medical and surgical equipment and orthopaedic appliances 
+    "33_2":  Manufacture of instruments and appliances for measuring, checking, testing, navigating and other purposes, except industrial process control equipment 
+    "33_20": Manufacture of instruments and appliances for measuring, checking, testing, navigating and other purposes, except industrial process control equipment 
+    "33_3":  Manufacture of industrial process control equipment
+    "33_30": Manufacture of industrial process control equipment
+    "33_4":  Manufacture of optical instruments and photographic equipment
+    "33_40": Manufacture of optical instruments and photographic equipment
+    "33_5":  Manufacture of watches and clocks
+    "33_50": Manufacture of watches and clocks
+    "34":  Manufacture of motor vehicles, trailers and semi-trailers
+    "34_1":  Manufacture of motor vehicles
+    "34_10": Manufacture of motor vehicles
+    "34_2":  Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers
+    "34_20": Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers
+    "34_3":  Manufacture of parts and accessories for motor vehicles and their engines
+    "34_30": Manufacture of parts and accessories for motor vehicles and their engines
+    "35":  Manufacture of other transport equipment 
+    "35_1":  Building and repairing of ships and boats
+    "35_11": Building and repairing of ships
+    "35_12": Building and repairing of pleasure and sporting boats
+    "35_2":  Manufacture of railway and tramway locomotives and rolling stock 
+    "35_20": Manufacture of railway and tramway locomotives and rolling stock 
+    "35_3":  Manufacture of aircraft and spacecraft 
+    "35_30": Manufacture of aircraft and spacecraft 
+    "35_4":  Manufacture of motorcycles and bicycles
+    "35_41": Manufacture of motorcycles 
+    "35_42": Manufacture of bicycles
+    "35_43": Manufacture of invalid carriages 
+    "35_5":  Manufacture of other transport equipment n.e.c.
+    "35_50": Manufacture of other transport equipment n.e.c.
+    "36":  Manufacture of furniture; manufacturing n.e.c. 
+    "36_1":  Manufacture of furniture 
+    "36_11": Manufacture of chairs and seats
+    "36_12": Manufacture of other office and shop furniture 
+    "36_13": Manufacture of other kitchen furniture 
+    "36_14": Manufacture of other furniture 
+    "36_15": Manufacture of mattresses
+    "36_2":  Manufacture of jewellery and related articles
+    "36_21": Striking of coins
+    "36_22": Manufacture of jewellery and related articles n.e.c. 
+    "36_3":  Manufacture of musical instruments 
+    "36_30": Manufacture of musical instruments 
+    "36_4":  Manufacture of sports goods
+    "36_40": Manufacture of sports goods
+    "36_5":  Manufacture of games and toys
+    "36_50": Manufacture of games and toys
+    "36_6":  Miscellaneous manufacturing n.e.c. 
+    "36_61": Manufacture of imitation jewellery 
+    "36_62": Manufacture of brooms and brushes
+    "36_63": Other manufacturing n.e.c. 
+    "37":  Recycling
+    "37_1":  Recycling of metal waste and scrap 
+    "37_10": Recycling of metal waste and scrap 
+    "37_2":  Recycling of non-metal waste and scrap 
+    "37_20": Recycling of non-metal waste and scrap 
+    "40":  Electricity, gas, steam and hot water supply 
+    "40_1":  Production and distribution of electricity 
+    "40_11": Production of electricity
+    "40_12": Transmission of electricity
+    "40_13": Distribution and trade of electricity
+    "40_2":  Manufacture of gas; distribution of gaseous fuels through mains
+    "40_21": Manufacture of gas 
+    "40_22": Distribution and trade of gaseous fuels through mains
+    "40_3":  Steam and hot water supply 
+    "40_30": Steam and hot water supply 
+    "41":  Collection, purification and distribution of water 
+    "41_0":  Collection, purification and distribution of water 
+    "41_00": Collection, purification and distribution of water 
+    "45":  Construction 
+    "45_1":  Site preparation 
+    "45_11": Demolition and wrecking of buildings; earth moving 
+    "45_12": Test drilling and boring 
+    "45_2":  Building of complete constructions or parts thereof; civil engineering 
+    "45_21": General construction of buildings and civil engineering works
+    "45_22": Erection of roof covering and frames 
+    "45_23": Construction of motorways, roads, airfields and sport facilities 
+    "45_24": Construction of water projects 
+    "45_25": Other construction work involving special trades 
+    "45_3":  Building installation
+    "45_31": Installation of electrical wiring and fittings 
+    "45_32": Insulation work activities 
+    "45_33": Plumbing 
+    "45_34": Other building installation
+    "45_4":  Building completion
+    "45_41": Plastering 
+    "45_42": Joinery installation 
+    "45_43": Floor and wall covering
+    "45_44": Painting and glazing 
+    "45_45": Other building completion
+    "45_5":  Renting of construction or demolition equipment with operator
+    "45_50": Renting of construction or demolition equipment with operator
+    "50":  Sale, maintenance and repair of motor vehicles and motorcycles; retail sale of automotive fuel 
+    "50_1":  Sale of motor vehicles 
+    "50_10": Sale of motor vehicles 
+    "50_2":  Maintenance and repair of motor vehicles 
+    "50_20": Maintenance and repair of motor vehicles 
+    "50_3":  Sale of motor vehicle parts and accessories
+    "50_30": Sale of motor vehicle parts and accessories
+    "50_4":  Sale, maintenance and repair of motorcycles and related parts and accessories
+    "50_40": Sale, maintenance and repair of motorcycles and related parts and accessories
+    "50_5":  Retail sale of automotive fuel 
+    "50_50": Retail sale of automotive fuel 
+    "51":  Wholesale trade and commission trade, except of motor vehicles and motorcycles 
+    "51_1":  Wholesale on a fee or contract basis 
+    "51_11": Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods 
+    "51_12": Agents involved in the sale of fuels, ores, metals and industrial chemicals
+    "51_13": Agents involved in the sale of timber and building materials 
+    "51_14": Agents involved in the sale of machinery, industrial equipment, ships and aircraft 
+    "51_15": Agents involved in the sale of furniture, household goods, hardware and ironmongery
+    "51_16": Agents involved in the sale of textiles, clothing, footwear and leather goods
+    "51_17": Agents involved in the sale of food, beverages and tobacco 
+    "51_18": Agents specializing in the sale of particular products or ranges of products n.e.c.
+    "51_19": Agents involved in the sale of a variety of goods
+    "51_2":  Wholesale of agricultural raw materials and live animals 
+    "51_21": Wholesale of grain, seeds and animal feeds 
+    "51_22": Wholesale of flowers and plants
+    "51_23": Wholesale of live animals
+    "51_24": Wholesale of hides, skins and leather
+    "51_25": Wholesale of unmanufactured tobacco
+    "51_3":  Wholesale of food, beverages and tobacco 
+    "51_31": Wholesale of fruit and vegetables
+    "51_32": Wholesale of meat and meat products
+    "51_33": Wholesale of dairy produce, eggs and edible oils and fats
+    "51_34": Wholesale of alcoholic and other beverages 
+    "51_35": Wholesale of tobacco products
+    "51_36": Wholesale of sugar and chocolate and sugar confectionery 
+    "51_37": Wholesale of coffee, tea, cocoa and spices 
+    "51_38": Wholesale of other food, including fish, crustaceans and molluscs
+    "51_39": Non-specialized wholesale of food, beverages and tobacco 
+    "51_4":  Wholesale of household goods 
+    "51_41": Wholesale of textiles
+    "51_42": Wholesale of clothing and footwear 
+    "51_43": Wholesale of electrical household appliances and radio and television goods
+    "51_44": Wholesale of china and glassware, wallpaper and cleaning materials 
+    "51_45": Wholesale of perfume and cosmetics 
+    "51_46": Wholesale of pharmaceutical goods
+    "51_47": Wholesale of other household goods 
+    "51_5":  Wholesale of non-agricultural intermediate products, waste and scrap 
+    "51_51": Wholesale of solid, liquid and gaseous fuels and related products
+    "51_52": Wholesale of metals and metal ores 
+    "51_53": Wholesale of wood, construction materials and sanitary equipment 
+    "51_54": Wholesale of hardware, plumbing and heating equipment and supplies 
+    "51_55": Wholesale of chemical products 
+    "51_56": Wholesale of other intermediate products 
+    "51_57": Wholesale of waste and scrap 
+    "51_8":  Wholesale of machinery, equipment and supplies 
+    "51_81": Wholesale of machine-tools 
+    "51_82": Wholesale of mining, construction and civil engineering machinery
+    "51_83": Wholesale of machinery for the textile industry and of sewing and knitting machines
+    "51_84": Wholesale of computers, computer peripheral equipment and software 
+    "51_85": Wholesale of other office machinery and equipment
+    "51_86": Wholesale of other electronic parts and equipment
+    "51_87": Wholesale of other machinery for use in industry, trade and navigation 
+    "51_88": Wholesale of agricultural machinery and accessories and implements, including tractors 
+    "51_9":  Other wholesale
+    "51_90": Other wholesale
+    "52":  Retail trade, except of motor vehicles and motorcycles; repair of personal and household goods 
+    "52_1":  Retail sale in non-specialized stores
+    "52_11": Retail sale in non-specialized stores with food, beverages or tobacco predominating
+    "52_12": Other retail sale in non-specialized stores
+    "52_2":  Retail sale of food, beverages and tobacco in specialized stores 
+    "52_21": Retail sale of fruit and vegetables
+    "52_22": Retail sale of meat and meat products
+    "52_23": Retail sale of fish, crustaceans and molluscs
+    "52_24": Retail sale of bread, cakes, flour confectionery and sugar confectionery 
+    "52_25": Retail sale of alcoholic and other beverages 
+    "52_26": Retail sale of tobacco products
+    "52_27": Other retail sale of food, beverages and tobacco in specialized stores 
+    "52_3":  Retail sale of pharmaceutical and medical goods, cosmetic and toilet articles
+    "52_31": Dispensing chemists
+    "52_32": Retail sale of medical and orthopaedic goods 
+    "52_33": Retail sale of cosmetic and toilet articles
+    "52_4":  Other retail sale of new goods in specialized stores 
+    "52_41": Retail sale of textiles
+    "52_42": Retail sale of clothing
+    "52_43": Retail sale of footwear and leather goods
+    "52_44": Retail sale of furniture, lighting equipment and household articles n.e.c. 
+    "52_45": Retail sale of electrical household appliances and radio and television goods
+    "52_46": Retail sale of hardware, paints and glass
+    "52_47": Retail sale of books, newspapers and stationery
+    "52_48": Other retail sale in specialized stores
+    "52_5":  Retail sale of second-hand goods in stores 
+    "52_50": Retail sale of second-hand goods in stores 
+    "52_6":  Retail sale not in stores
+    "52_61": Retail sale via mail order houses
+    "52_62": Retail sale via stalls and markets 
+    "52_63": Other non-store retail sale
+    "52_7":  Repair of personal and household goods 
+    "52_71": Repair of boots, shoes and other articles of leather 
+    "52_72": Repair of electrical household goods 
+    "52_73": Repair of watches, clocks and jewellery
+    "52_74": Repair n.e.c.
+    "55":  Hotels and restaurants 
+    "55_1":  Hotels 
+    "55_10": Hotels 
+    "55_2":  Camping sites and other provision of short-stay accommodation
+    "55_21": Youth hostels and mountain refuges 
+    "55_22": Camping sites, including caravan sites 
+    "55_23": Other provision of lodgings n.e.c. 
+    "55_3":  Restaurants
+    "55_30": Restaurants
+    "55_4":  Bars 
+    "55_40": Bars 
+    "55_5":  Canteens and catering
+    "55_51": Canteens 
+    "55_52": Catering 
+    "60":  Land transport; transport via pipelines
+    "60_1":  Transport via railways 
+    "60_10": Transport via railways 
+    "60_2":  Other land transport 
+    "60_21": Other scheduled passenger land transport 
+    "60_22": Taxi operation 
+    "60_23": Other land passenger transport 
+    "60_24": Freight transport by road
+    "60_3":  Transport via pipelines
+    "60_30": Transport via pipelines
+    "61":  Water transport
+    "61_1":  Sea and coastal water transport
+    "61_10": Sea and coastal water transport
+    "61_2":  Inland water transport 
+    "61_20": Inland water transport 
+    "62":  Air transport
+    "62_1":  Scheduled air transport
+    "62_10": Scheduled air transport
+    "62_2":  Non-scheduled air transport
+    "62_20": Non-scheduled air transport
+    "62_3":  Space transport
+    "62_30": Space transport
+    "63":  Supporting and auxiliary transport activities; activities of travel agencies 
+    "63_1":  Cargo handling and storage 
+    "63_11": Cargo handling 
+    "63_12": Storage and warehousing
+    "63_2":  Other supporting transport activities
+    "63_21": Other supporting land transport activities 
+    "63_22": Other supporting water transport activities
+    "63_23": Other supporting air transport activities
+    "63_3":  Activities of travel agencies and tour operators; tourist assistance activities n.e.c. 
+    "63_30": Activities of travel agencies and tour operators; tourist assistance activities n.e.c. 
+    "63_4":  Activities of other transport agencies 
+    "63_40": Activities of other transport agencies 
+    "64":  Post and telecommunications
+    "64_1":  Post and courier activities
+    "64_11": National post activities 
+    "64_12": Courier activities other than national post activities 
+    "64_2":  Telecommunications 
+    "64_20": Telecommunications 
+    "65":  Financial intermediation, except insurance and pension funding 
+    "65_1":  Monetary intermediation
+    "65_11": Central banking
+    "65_12": Other monetary intermediation
+    "65_2":  Other financial intermediation 
+    "65_21": Financial leasing
+    "65_22": Other credit granting
+    "65_23": Other financial intermediation n.e.c.
+    "66":  Insurance and pension funding, except compulsory social security 
+    "66_0":  Insurance and pension funding, except compulsory social security 
+    "66_01": Life insurance 
+    "66_02": Pension funding
+    "66_03": Non-life insurance 
+    "67":  Activities auxiliary to financial intermediation 
+    "67_1":  Activities auxiliary to financial intermediation, except insurance and pension funding 
+    "67_11": Administration of financial markets
+    "67_12": Security broking and fund management 
+    "67_13": Activities auxiliary to financial intermediation n.e.c.
+    "67_2":  Activities auxiliary to insurance and pension funding
+    "67_20": Activities auxiliary to insurance and pension funding
+    "70":  Real estate activities 
+    "70_1":  Real estate activities with own property 
+    "70_11": Development and selling of real estate 
+    "70_12": Buying and selling of own real estate
+    "70_2":  Letting of own property
+    "70_20": Letting of own property
+    "70_3":  Real estate activities on a fee or contract basis
+    "70_31": Real estate agencies 
+    "70_32": Management of real estate on a fee or contract basis 
+    "71":  Renting of machinery and equipment without operator and of personal and household goods
+    "71_1":  Renting of automobiles 
+    "71_10": Renting of automobiles 
+    "71_2":  Renting of other transport equipment 
+    "71_21": Renting of other land transport equipment
+    "71_22": Renting of water transport equipment 
+    "71_23": Renting of air transport equipment 
+    "71_3":  Renting of other machinery and equipment 
+    "71_31": Renting of agricultural machinery and equipment
+    "71_32": Renting of construction and civil engineering machinery and equipment
+    "71_33": Renting of office machinery and equipment, including computers 
+    "71_34": Renting of other machinery and equipment n.e.c.
+    "71_4":  Renting of personal and household goods n.e.c. 
+    "71_40": Renting of personal and household goods n.e.c. 
+    "72":  Computer and related activities
+    "72_1":  Hardware consultancy 
+    "72_10": Hardware consultancy 
+    "72_2":  Software consultancy and supply
+    "72_21": Publishing of software 
+    "72_22": Other software consultancy and supply
+    "72_3":  Data processing
+    "72_30": Data processing
+    "72_4":  Database activities
+    "72_40": Database activities
+    "72_5":  Maintenance and repair of office, accounting and computing machinery 
+    "72_50": Maintenance and repair of office, accounting and computing machinery 
+    "72_6":  Other computer related activities
+    "72_60": Other computer related activities
+    "73":  Research and development 
+    "73_1":  Research and experimental development on natural sciences and engineering
+    "73_10": Research and experimental development on natural sciences and engineering
+    "73_2":  Research and experimental development on social sciences and humanities
+    "73_20": Research and experimental development on social sciences and humanities
+    "74":  Other business activities
+    "74_1":  Legal, accounting, book-keeping and auditing activities; tax consultancy; market research and public opinion polling; business and management consultancy; holdings
+    "74_11": Legal activities 
+    "74_12": Accounting, book-keeping and auditing activities; tax consultancy
+    "74_13": Market research and public opinion polling 
+    "74_14": Business and management consultancy activities 
+    "74_15": Management activities of holding companies 
+    "74_2":  Architectural and engineering activities and related technical consultancy 
+    "74_20": Architectural and engineering activities and related technical consultancy 
+    "74_3":  Technical testing and analysis 
+    "74_30": Technical testing and analysis 
+    "74_4":  Advertising
+    "74_40": Advertising
+    "74_5":  Labour recruitment and provision of personnel
+    "74_50": Labour recruitment and provision of personnel
+    "74_6":  Investigation and security activities
+    "74_60": Investigation and security activities
+    "74_7":  Industrial cleaning
+    "74_70": Industrial cleaning
+    "74_8":  Miscellaneous business activities n.e.c. 
+    "74_81": Photographic activities
+    "74_82": Packaging activities 
+    "74_85": Secretarial and translation activities 
+    "74_86": Call centre activities 
+    "74_87": Other business activities n.e.c. 
+    "75":  Public administration and defence; compulsory social security
+    "75_1":  Administration of the State and the economic and social policy of the community
+    "75_11": General (overall) public service activities
+    "75_12": Regulation of the activities of agencies that provide health care, education, cultural services and other social services, excluding social security 
+    "75_13": Regulation of and contribution to more efficient operation of business 
+    "75_14": Supporting service activities for the government as a whole
+    "75_2":  Provision of services to the community as a whole
+    "75_21": Foreign affairs
+    "75_22": Defence activities 
+    "75_23": Justice and judicial activities
+    "75_24": Public security, law and order activities
+    "75_25": Fire service activities
+    "75_3":  Compulsory social security activities
+    "75_30": Compulsory social security activities
+    "80":  Education
+    "80_1":  Primary education
+    "80_10": Primary education
+    "80_2":  Secondary education
+    "80_21": General secondary education
+    "80_22": Technical and vocational secondary education 
+    "80_3":  Higher education 
+    "80_30": Higher education 
+    "80_4":  Adult and other education
+    "80_41": Driving school activities
+    "80_42": Adult and other education n.e.c. 
+    "85":  Health and social work 
+    "85_1":  Human health activities
+    "85_11": Hospital activities
+    "85_12": Medical practice activities
+    "85_13": Dental practice activities 
+    "85_14": Other human health activities
+    "85_2":  Veterinary activities
+    "85_20": Veterinary activities
+    "85_3":  Social work activities 
+    "85_31": Social work activities with accommodation
+    "85_32": Social work activities without accommodation 
+    "90":  Sewage and refuse disposal, sanitation and similar activities
+    "90_0":  Sewage and refuse disposal, sanitation and similar activities
+    "90_01": Collection and treatment of sewage 
+    "90_02": Collection and treatment of other waste
+    "90_03": Sanitation, remediation and similar activities 
+    "91":  Activities of membership organizations n.e.c.
+    "91_1":  Activities of business, employers and professional organizations 
+    "91_11": Activities of business and employers organizations 
+    "91_12": Activities of professional organizations 
+    "91_2":  Activities of trade unions 
+    "91_20": Activities of trade unions 
+    "91_3":  Activities of other membership organizations 
+    "91_31": Activities of religious organizations
+    "91_32": Activities of political organizations
+    "91_33": Activities of other membership organizations n.e.c.
+    "92":  Recreational, cultural and sporting activities 
+    "92_1":  Motion picture and video activities
+    "92_11": Motion picture and video production
+    "92_12": Motion picture and video distribution
+    "92_13": Motion picture projection
+    "92_2":  Radio and television activities
+    "92_20": Radio and television activities
+    "92_3":  Other entertainment activities 
+    "92_31": Artistic and literary creation and interpretation
+    "92_32": Operation of arts facilities 
+    "92_33": Fair and amusement park activities 
+    "92_34": Other entertainment activities n.e.c.
+    "92_4":  News agency activities 
+    "92_40": News agency activities 
+    "92_5":  Library, archives, museums and other cultural activities 
+    "92_51": Library and archives activities
+    "92_52": Museums activities and preservation of historical sites and buildings
+    "92_53": Botanical and zoological gardens and nature reserves activities
+    "92_6":  Sporting activities
+    "92_61": Operation of sports arenas and stadiums
+    "92_62": Other sporting activities
+    "92_7":  Other recreational activities
+    "92_71": Gambling and betting activities
+    "92_72": Other recreational activities n.e.c. 
+    "93":  Other service activities 
+    "93_0":  Other service activities 
+    "93_01": Washing and dry-cleaning of textile and fur products 
+    "93_02": Hairdressing and other beauty treatment
+    "93_03": Funeral and related activities 
+    "93_04": Physical well-being activities 
+    "93_05": Other service activities n.e.c.
+    "95":  Activities of households as employers of domestic staff
+    "95_0":  Activities of households as employers of domestic staff
+    "95_00": Activities of households as employers of domestic staff
+    "96":  Undifferentiated goods producing activities of private households for own use
+    "96_0":  Undifferentiated goods producing activities of private households for own use
+    "96_00": Undifferentiated goods producing activities of private households for own use
+    "97":  Undifferentiated services producing activities of private households for own use 
+    "97_0":  Undifferentiated services producing activities of private households for own use 
+    "97_00": Undifferentiated services producing activities of private households for own use 
+    "99":  Extra-territorial organizations and bodies 
+    "99_0":  Extra-territorial organizations and bodies 
+    "99_00": Extra-territorial organizations and bodies 
+     

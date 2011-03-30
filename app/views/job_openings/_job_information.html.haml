@@ -1,0 +1,123 @@
+%fieldset.job_information
+  %legend 
+    = t(".job_information")
+
+  .job_information_left 
+    - if @job.isco
+      .isco
+        .header
+          = t(".job_category") + ":"
+        .value 
+          = t("isco_code.#{@job.isco}")
+  
+    - if location
+      .location
+        .header
+          = t(".location") + ":"
+        .value
+          = location
+    
+    - if @job.num_positions > 1
+      .num_positions
+        .header
+          = t(".num_positions") + ":" 
+        .value
+          = @job.num_positions
+
+    .separator 
+
+    - if show_duration
+      .duration
+        .section_header
+          = t(".duration")
+    
+        - if @job.duration.length 
+          .length
+            .header
+              = t(".length") + ":"
+            .value
+              = t(".length_type.#{@job.duration.length}")
+    
+        - if @job.duration.starts_on
+          .starts
+            .header
+              = t(".starts") + ":"
+            .value
+              = l @job.duration.starts_on.to_date
+    
+        - if @job.duration.ends_on
+          .ends
+            .header
+              = t(".ends")
+            .value
+              = l @job.duration.ends_on.to_date
+    
+        - if @job.duration.sub
+          .sub
+            = t(".substitute")
+    
+        - if @job.duration.text
+          .text
+            = @job.duration.text
+
+  .job_information_right
+    - if show_worktime
+      .worktime
+        .section_header
+          = t(".worktime")
+  
+        - if worktime_string
+          .worktime_string
+            = worktime_string 
+  
+      .separator
+
+    - if show_salary
+      .salary
+        .section_header
+          = t(".salary")
+  
+        - if @job.salary.minimum
+          .minimum
+            .header
+              = t("minimum") + ":"
+            .value
+              = @job.salary.minimum
+              - if @job.salary.currency
+                = @job.salary.currency
+              - if @job.salary.period
+                = "/ #{t(".salary_period.#{@job.salary.period}")}" 
+        
+        - if @job.salary.maximum
+          .maximum
+            .header
+              = t(".maximum") + ":"
+            .value
+              = @job.salary.maximum
+              - if @job.salary.currency
+                = @job.salary.currency
+              - if @job.salary.period
+                = "/ #{t(".salary_period.#{@job.salary.period}")}" 
+  
+        - if @job.salary.accommodation
+          .accommodation
+            = t(".accommodation_paid_for")
+  
+        - if @job.salary.meals
+          .meals
+            = t(".meal_paid_for")
+  
+        - if @job.salary.travel_expenses
+          .travel_expenses
+            = t(".travel_expenses_paid_for")
+  
+        - if @job.salary.relocation
+          .relocation
+            = t(".reloaction_paid_for")
+  
+        - if @job.salary.text
+          .text
+            = @job.salary.text
+            
+
+

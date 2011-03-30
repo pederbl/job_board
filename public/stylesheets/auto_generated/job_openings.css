@@ -1,0 +1,109 @@
+/* job_openings */
+.job {
+  margin:90px 0 0 70px;
+}
+
+.job legend {
+  font-size:0.8em;
+}
+
+.job fieldset {
+  margin-top:10px;
+  font-size:0.8em;
+}
+
+.job .addthis_share {
+  margin-top:10px;
+}
+
+.job .middle {
+  clear:both;
+}
+
+.job .left {
+  width:600px;
+  float:left;
+}
+
+.job .right {
+  float:left;
+  margin-left: 15px;
+  width: 200px;
+}
+
+.job .employer_name {
+  font-size:1.4em;
+  font-weight:bold;
+}
+
+.job .title { 
+  font-size:1em;
+  margin-top:10px;
+}
+
+.job .publish_at {
+  font-size:0.7em;
+  color: #999;
+}
+
+.job .apply {
+  font-size:1.7em;
+  padding:7px 12px;
+}
+
+.job .contacts {
+
+}
+
+.job .employer .employer_name {
+  font-size:1em;
+  font-weight:normal; 
+}
+
+.job .addthis_like_employer {
+  margin-top:3px;
+}
+
+.job .header {
+  font-size:0.8em;
+  color: #666;
+  float: left;
+  clear: left;
+  width:90px;
+  padding-top:0.25em;
+
+}
+
+.job .job_information .value {
+  float: left;
+  margin-left: 10px;
+  width:180px;
+  padding-bottom:5px;
+}
+
+.job .requirements .value {
+  float: left;
+  margin-left: 10px;
+  padding-bottom:5px;
+}
+
+.job .section_header {
+  font-weight: bold;
+  clear:both;
+  font-size:0.8em;
+  color:#555;
+}
+
+.job .separator {
+  height: 10px;
+}
+
+.job .job_information_left {
+  float:left;
+  width:285px;
+}
+
+.job .job_information_right {
+  float:right;
+  width:285px;
+}

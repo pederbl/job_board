@@ -3,11 +3,12 @@ class JobOpeningsController < ApplicationController
   respond_to :html, :json
 
   def index
-    @job_openings = JobOpening.where(deleted_at: nil).limit(10)
+    @jobs = JobOpening.where(deleted_at: nil).desc(:updated_at).limit(20)
+    @jobs
   end
 
   def show
-    @job_opening = JobOpening.where(slug: params[:id]).first
+    @job = JobOpening.where(slug: params[:id]).first
   end
 
   def create

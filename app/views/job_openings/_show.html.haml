@@ -1,0 +1,29 @@
+.top
+  .left
+    .employer_name
+      = @job.employer.try(:name) || t(".anonymous")
+    
+    .title
+      = @job.t(:title)
+    - if @job.publish_at || @job.published_at
+      .publish_at
+        = "#{t(".published")}: #{l((@job.publish_at || @job.published_at).to_date)}"
+
+    = render partial: 'share_job'
+  
+  .right
+    = render partial: "apply"
+
+.middle
+  .left
+    = render partial: "job_information"
+    = render partial: "requirements"
+    = render partial: "job_description"
+    - if @job.employer and @job.employer.name
+      = render partial: "employer"
+  
+  .right
+    = render partial: "contacts"
+
+
+
