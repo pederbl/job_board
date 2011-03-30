@@ -5,7 +5,7 @@
     
     .title
       = @job.t(:title)
-    - if @job.publish_at || @job.published_at
+    - if @job.publish_at
       .publish_at
         = "#{t(".published")}: #{l((@job.publish_at || @job.published_at).to_date)}"
 
