@@ -39,9 +39,11 @@
   <div class='logo'>
     Jobboteket
   </div> 
+  <% if false %>
   <div class='bbc'>
     <a href="http://www.bbc.co.uk/iplayer/console/radio1" target="_blank">BBC Radio One | Now playing: </a>
   </div>
+  <% end %>
 
   <%= content_for?(:body) ? yield(:body) : yield %>
 
