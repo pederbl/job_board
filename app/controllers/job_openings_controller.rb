@@ -8,6 +8,7 @@ class JobOpeningsController < ApplicationController
   end
 
   def show
+    redirect_to "/" if params[:id][0] == "{"
     @job = JobOpening.where(slug: params[:id]).first
   end
 
