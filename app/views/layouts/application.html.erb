@@ -12,7 +12,9 @@
   <% end %>
   
   <%= csrf_meta_tag %>
+  <% if false %>
   <%= hoptoad_javascript_notifier %>
+  <% end %>
   <%= 
     (Rails.env.production? and File.exists?("#{Rails.root}/public/stylesheets/cached/all.css")) ? 
       stylesheet_link_tag('cached/all') : 
