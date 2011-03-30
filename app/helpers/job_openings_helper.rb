@@ -28,6 +28,7 @@ module JobOpeningsHelper
   end
 
   def location
+    return nil unless @job.location
     return nil unless @job.location.country
     loc = @job.location
     arr = []
