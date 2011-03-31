@@ -8,9 +8,9 @@ class JobOpeningsController < ApplicationController
   end
 
   def show
-    redirect_to "/", status: 301 if params[:id][0] == "{"
+    return redirect_to("/", status: 301) if params[:id][0] == "{"
     @job = JobOpening.where(slug: params[:id]).first
-    redirect_to "/", status: 301 unless @job
+    return redirect_to("/", status: 301) unless @job
   end
 
   def create
