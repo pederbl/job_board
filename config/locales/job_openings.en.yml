@@ -27,6 +27,7 @@ en:
       length: Length
       length_type:
         "-1": Permanent
+        "0": Temporary
       starts: Starts
       ends: Ends
       substitute: Substitute
@@ -54,6 +55,10 @@ en:
       drivers_license: Drivers license
       education: Education
       experience: Experience
+      experience_str: 
+        zero: None
+        one: 1 month
+        other: %{count} months
       must_have_car: Must have car
       minimum_age: Minimum age
       maximum_age: Maximum age
@@ -81,7 +86,7 @@ en:
 
     apply: 
       apply: Apply
-      application_deadline: Deadline
+      deadline: Deadline
     
     contacts:
       contacts: Contacts

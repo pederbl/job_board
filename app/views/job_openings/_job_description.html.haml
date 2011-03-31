@@ -1,4 +1,5 @@
-%fieldset.job_description
-  %legend 
-    = t(".job_description")
-  = @job.t(:body)
+- if @job.body
+  %fieldset.job_description
+    %legend 
+      = t(".job_description")
+    = @job.t(:body)

@@ -23,7 +23,7 @@
         .header
           = t(".experience") + ":" 
         .value
-          = @job.requirements.experience
+          = t(".experience_str", count: @job.requirements.experience)
   
     - if @job.requirements.own_car
       .own_car
@@ -50,7 +50,7 @@
         .value
           - @job.requirements.languages.each do |d|
             .language
-              = t(".language_type.#{d.language}") + ": " + t(".language_proficiency.#{d.proficiency}")
+              = t(".language_type.#{d.language}") + ": " 
     
     - if @job.requirements.text
       .text

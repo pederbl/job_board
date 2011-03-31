@@ -76,7 +76,7 @@
   color: #666;
   float: left;
   clear: left;
-  width:70px;
+  width:75px;
   padding-top:0.25em;
 
 }
@@ -113,6 +113,10 @@
 .job .job_information_right {
   float:right;
   width:285px;
+}
+
+.job .application_deadline {
+  font-size: 0.8em;
 }
 
 .job .union_contacts_title {
