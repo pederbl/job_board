@@ -8,7 +8,7 @@
         .header
           = t(".job_category") + ":"
         .value 
-          = t("isco_code.#{@job.isco}")
+          = t("isco_code.#{@job.isco.to_s.split(".").first}")
   
     - if location
       .location
