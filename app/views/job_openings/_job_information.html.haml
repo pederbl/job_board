@@ -8,7 +8,7 @@
         .header
           = t(".job_category") + ":"
         .value 
-          = t("isco_code.#{@job.isco.to_s.split(".").first.gsub(/0+$/, "")}")
+          = isco_translation
   
     - if location
       .location

@@ -38,6 +38,17 @@ module JobOpeningsHelper
     arr.reverse.join(", ")
   end
 
+  def isco_translation
+    isco = @job.isco.to_s.split(".").first.gsub(/0+$/, "")
+    translation = nil
+    while translation.nil?
+      translation = t("isco_code.#{isco}", default: "MISSING")
+      translation = nil if translation == "MISSING"
+      isco.gsub!(/.$/, "") if translation.nil?
+    end
+    translation
+  end
+
   def worktime_string
     arr = []
     arr << t(".worktime_type.#{@job.worktime.type}") if @job.worktime.type
