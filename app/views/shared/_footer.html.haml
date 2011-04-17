@@ -1,2 +1,12 @@
+
+.separator
 .footer
-  &copy; 2011 Peder Burenstam Linder
+  .menu
+    .left
+      = raw "Jobboteket &copy;" 
+      = Time.now.year
+    .right
+      = link_to t("about"), "http://twitter.com/jobboteket"
+      - if false
+        = " · "
+        = link_to t("terms"), agreement_path("terms")

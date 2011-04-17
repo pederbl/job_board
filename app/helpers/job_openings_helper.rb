@@ -117,7 +117,7 @@ module JobOpeningsHelper
       d.present? and 
       (
         (d.minimum and d.minimum > 0.0) || 
-        (d.maximum and d.minimum > 0.0) || 
+        (d.maximum and d.maximum > 0.0) || 
         d.accommodation.present? || 
         d.meals.present? || 
         d.travel_expenses.present? || 
