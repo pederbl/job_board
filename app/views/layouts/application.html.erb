@@ -53,6 +53,13 @@
         javascript_include_tag('cached/all') : 
         javascript_include_tag(all_javascripts, concat: (true ? false : 'cached/all')) 
   %>
+  <script type="text/javascript">
+    (function() {
+      var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+      uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/8vVBlcEottMLN5cQAkAbA.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+    })();
+  </script>
   <% if Rails.env.production? %>
     <div class='media-creeper'>
       <!-- Begin MediaCreeper tracker code -->

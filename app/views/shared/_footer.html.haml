@@ -7,6 +7,7 @@
       = Time.now.year
     .right
       = link_to t("about"), "http://twitter.com/jobboteket"
+      = " · "
+      = link_to t("feedback"), "http://jobboteket.uservoice.com"
       - if false
-        = " · "
         = link_to t("terms"), agreement_path("terms")
