@@ -1,0 +1,10 @@
+%a{ href: job_opening_path(d.slug) }
+  .item
+    .employer
+      = d.employer.name
+    .title
+      = d.t(:title)
+    .info
+      = info_string(d)
+    .location
+      = location(d)

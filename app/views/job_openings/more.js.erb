@@ -1,0 +1,6 @@
+$(".items").append("<%= escape_javascript(render partial: "items") %>");
+<% if @result[:total] > @result[:matches].length %>
+  from_id = <%= @result[:matches].last[:doc] %>;
+<% else %>
+  $(".more_button").hide();
+<% end %>

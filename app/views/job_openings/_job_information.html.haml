@@ -77,7 +77,7 @@
         .section_header
           = t(".salary")
   
-        - if @job.salary.minimum
+        - if @job.salary.minimum and @job.salary.minimum > 0.0
           .minimum
             .header
               = t("minimum") + ":"
@@ -88,7 +88,7 @@
               - if @job.salary.period
                 = "/ #{t(".salary_period.#{@job.salary.period}")}" 
         
-        - if @job.salary.maximum
+        - if @job.salary.maximum and @job.salary.maximum > 0.0
           .maximum
             .header
               = t("maximum") + ":"

@@ -1,0 +1,24 @@
+.hm
+  .big_logo 
+    = image_tag("jobboteket_logo_big.png")
+  
+  .find_jobs
+    = button_to t(".find_jobs"), job_openings_path, method: :get
+
+  .count
+    = "#{number_with_delimiter(@num_jobs)} #{t(".job_openings")}"
+
+  .lists
+    .left.list
+      .header
+        = t(".most_shared_jobs")
+      .items
+        - @most_shared_jobs.each do |d|
+          = render partial: "job_opening", locals: { d: d }
+          
+    .right.list
+      .header
+        = t(".highest_paid_jobs")
+      .items
+        - @highest_paid_jobs.each do |d|
+          = render partial: "job_opening", locals: { d: d }

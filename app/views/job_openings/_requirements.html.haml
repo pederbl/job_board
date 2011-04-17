@@ -4,7 +4,7 @@
     %legend 
       = t(".requirements")
     
-    - if @job.requirements.drivers_license
+    - if @job.requirements.drivers_license.present?
       .driver_license
         .header
           = t(".drivers_license") + ":" 
@@ -23,7 +23,14 @@
         .header
           = t(".experience") + ":" 
         .value
-          = t(".experience_str", count: @job.requirements.experience)
+          - case @job.requirements.experience
+          - when -1
+            = t(".required")
+          - when 0
+            = t(".none")
+          - else
+            = t(".experience_str", count: @job.requirements.experience)
+            
   
     - if @job.requirements.own_car
       .own_car
@@ -53,6 +60,7 @@
               = t(".language_type.#{d.language}") + ": " 
     
     - if @job.requirements.text
+      .separator
       .text
-        = @job.requirements.text
+        = @job.requirements.t(:text)
 

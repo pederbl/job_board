@@ -11,6 +11,23 @@ en:
   visit_address: Visit address
 
   job_openings:
+    index: 
+      keywords: Keywords
+      employer: Employer
+      location: Location
+      update_search: Update Search
+
+    matches:
+      jobs_match_your_query: 
+        zero: No jobs match your query
+        one: One job matches your query
+        other: %{delimited} jobs match your query 
+      more: More
+
+    items:
+      posted: Posted
+      ago: ago
+
     show:
       anonymous: Anonymous
       published: Published
@@ -52,6 +69,8 @@ en:
 
     requirements:
       requirements: Requirements
+      required: Required
+      none: None
       drivers_license: Drivers license
       education: Education
       experience: Experience

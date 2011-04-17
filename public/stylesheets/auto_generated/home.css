@@ -1,0 +1,84 @@
+/* home */
+
+
+.hm {
+  text-align:center;
+  width: 800px;
+  margin: 0 auto;
+  border:1px;
+}
+
+.hm .find_jobs input {
+  font-size:1.5em;
+  padding:10px 20px;
+  margin-top: 30px;
+}
+
+.hm .lists {
+  margin-top:50px;
+}
+
+.hm .left {
+  float:left;
+  margin-left:100px;
+}
+.hm .right { 
+  float: left;
+  margin-left:20px;
+}
+
+.hm .list {
+  width: 300px;
+  text-align:left;
+}
+
+.hm .list a {
+  color:black;
+}
+.hm .list a:hover {
+  text-decoration:none;
+}
+
+.hm .list .header {
+  color: rgb(108, 0, 54);
+  font-size:1em;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+.hm .item {
+  margin-bottom: 15px;
+  font-size:0.8em;
+}
+
+.hm .item:hover {
+  background:#eee;
+}
+
+.hm .item .employer {
+  float:left;
+  width:300px;
+  font-weight:bold;
+  color: rgb(0,0,128);
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+.hm .item .location {
+  color:rgb(0,84,0);
+  font-size:0.9em;
+}
+
+.hm .item .title {
+  clear:both;
+  color:#333;
+  width:300px;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+.hm .item .info {
+  color: #666;
+  font-size:0.85em;
+}
+

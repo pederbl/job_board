@@ -1,0 +1,11 @@
+- if @result[:matches]
+  .result_title
+    = t(".jobs_match_your_query", count: @result[:total_found], delimited: number_with_delimiter(@result[:total_found]))
+  .items
+    = render partial: "items"
+
+  .more_button
+    - if @result[:total] > @result[:matches].length
+      %input{ value: t(".more"), type: "submit" }
+      :javascript
+        var from_id = #{@result[:matches].last[:doc]};

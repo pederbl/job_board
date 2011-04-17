@@ -1,0 +1,19 @@
+- @result[:matches].each do |match|
+  - attrs = match[:attributes].with_indifferent_access
+  %a{ href: job_opening_path(attrs[:slug]) }
+    .item
+      .title
+        = attrs[:title].force_encoding("utf-8")
+      .item_row
+        .employer.cell
+          = attrs[:employer].force_encoding("utf-8")
+        .location.cell
+          = attrs_location(attrs).force_encoding("utf-8")
+      .item_row
+        .info.cell
+          = attrs_info_string(attrs)
+        .published.cell
+          = t(".posted")
+          = time_ago_in_words(Time.at(attrs[:publish_at]))
+          = t(".ago")
+      .separator

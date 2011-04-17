@@ -1,18 +1,20 @@
 module Addthis
   
   class Client
-    def self.fetch_most_shared_jobs
+    def self.sync_most_shared_jobs
       result = RestClient.get "https://pederbl:hej3hopp@api.addthis.com/analytics/1.0/pub/shares/url.json?period=week", {:accept => :json}
+      list = []
       ActiveSupport::JSON.decode(result).each { |hash| 
-        shares = hash["shares"]
+        num = hash["shares"]
         url = hash["url"]
         next unless url =~ /^http:\/\/jobboteket.se\/jobb\//
         job_slug = url.scan(/[^\/]*$/).first
         job = JobOpening.where(slug: job_slug).first
         next if job.deleted_at
-        puts job.id
+        list << { id: job.id, num: num }
+        break if list.length == 10
       }
-      nil
+      Value.set("most_shared_jobs", list) 
     end
   end
 

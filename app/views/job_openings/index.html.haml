@@ -1,3 +1,23 @@
-- @jobs.each do |job|
-  .line
-    = link_to job.t(:title), job_opening_path(job.slug)
+
+.ji
+  .left
+    = simple_form_for("", html: { method: :get, id: "query_form" }) do |f|
+      .label
+        = t(".keywords")
+      = f.text_field "keywords", value: params[:keywords]
+      .label
+        = t(".employer")
+      = f.text_field "employer", value: params[:employer]
+      .label
+        = t(".location")
+      = f.text_field "location", value: params[:location]
+      = f.submit t(".update_search")
+    
+  .main
+    .matches
+      = render partial: "matches"
+
+
+  .right
+
+  .separator

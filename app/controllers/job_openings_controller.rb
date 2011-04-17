@@ -1,10 +1,9 @@
 class JobOpeningsController < ApplicationController
 
-  respond_to :html, :json
+  respond_to :html, :js, :json
 
   def index
-    @jobs = JobOpening.where(deleted_at: nil).desc(:updated_at).limit(20)
-    @jobs
+    @result = query
   end
 
   def show
@@ -29,6 +28,22 @@ class JobOpeningsController < ApplicationController
   end
 
   def update 
+  end
+
+  def more 
+    @result = query
+  end
+
+  private 
+
+  def query
+    return JobOpening.search(
+      keywords: params[:keywords], 
+      employer: params[:employer],
+      location: params[:location],
+      limit: params[:num] || 10,
+      from_id: params[:from_id].try(:to_i)
+    )
   end
 
 end

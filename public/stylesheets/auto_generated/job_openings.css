@@ -1,4 +1,113 @@
 /* job_openings */
+.ji {
+  margin-top:100px; 
+  margin-left:10px;
+}
+
+.ji .left {
+  width:220px;
+  padding-right:10px;
+  height:240px;
+  float:left;
+}
+
+.ji .main {
+  float:left;
+  margin-left:0px;
+}
+
+.ji .left .label {
+  font-size:0.7em;
+  font-weight:bold;
+  color:#666;
+}
+
+.ji .left input {
+  margin-bottom:8px;
+}
+
+.ji .dimmed {
+  opacity: 0.3;
+}
+
+.ji .matches .result_title {
+  font-size:0.8em;
+  margin-bottom:20px;
+}
+
+.ji .main .items {
+  border-top:1px solid #EBEBEB;
+  border-right:1px solid #EBEBEB;
+  border-left:1px solid #EBEBEB;
+}
+
+.ji .main .item {
+  border-bottom:1px solid #EBEBEB;
+  padding:9px 5px 9px 15px;
+  color:black;
+  width:450px;
+}
+.ji .main a:hover {
+  text-decoration:none;
+}
+.ji .main .item:hover {
+  background:rgba(221, 238, 246, 0.85);
+}
+
+.ji .item .employer {
+  float:left;
+  max-width:450px;
+  overflow:hidden;
+  white-space:nowrap;
+  font-size:0.9em;
+}
+
+.ji .item .title {
+  color: rgb(0,0,128);
+  font-weight:bold;
+  font-size:0.8em;
+  clear:both;
+  color: rgb(0,0,128);
+  width:450px;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+.ji .item .cell {
+  float:left;
+  margin-right:10px;
+}
+
+.ji .item .location {
+  color:rgb(0,84,0);
+  font-size:0.9em;
+}
+
+.ji .item .info {
+  font-size:0.85em;
+}
+
+.ji .item .published {
+  color: #666;
+  font-size:0.7em;
+  padding-top:2px;
+}
+
+
+.ji .item_row {
+  clear:both;
+}
+
+.ji .more_button input {
+  width:100%;
+  margin-top:15px;
+  padding-top:7px;
+  padding-bottom:7px;
+  font-size:1em;
+}
+
+
+
 .job {
   margin:90px 0 0 70px;
 }
