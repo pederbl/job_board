@@ -1,0 +1,13 @@
+- content_for :title do 
+  = t("agreements.#{params[:id]}.title")
+
+- content_for :description do
+  = t("agreements.description")
+
+- content_for :body do 
+  .logo 
+    = link_to image_tag("jobboteket_logo.png", border: 0), "/"
+  .ag
+    = yield
+
+= render file: 'layouts/application'
