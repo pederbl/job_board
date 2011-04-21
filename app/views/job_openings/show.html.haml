@@ -1,5 +1,5 @@
 .job
-  - if @job.deleted_at
+  - if @job.deleted_at and !bot?
     = render partial: 'show_deleted'
   - else
     = render partial: 'show'

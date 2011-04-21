@@ -7,6 +7,7 @@ module Addthis
       ActiveSupport::JSON.decode(result).each { |hash| 
         num = hash["shares"]
         url = hash["url"]
+        puts [url, num].inspect
         next unless url =~ /^http:\/\/jobboteket.se\/jobb\//
         job_slug = url.scan(/[^\/]*$/).first
         job = JobOpening.where(slug: job_slug).first

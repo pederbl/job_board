@@ -40,5 +40,10 @@ module ApplicationHelper
     )
   end
 
+  def bot?
+    return @bot if defined? @bot
+    bot_regex = /(peder|bot|crawler|spider| agent|xx|Mediapartners-Google|slurp|ia_archiver|majestic|yandex|pingdom|mAgent|R \(2\.8\.1\)|Ask Jeeves|ScoutJet)/i 
+    @bot = (request.user_agent and request.user_agent =~ bot_regex)
+  end
 
 end

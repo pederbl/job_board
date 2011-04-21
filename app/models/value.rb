@@ -11,7 +11,9 @@ class Value
   end
 
   def self.get(name)
-    where(name: name).first.attributes["value"] rescue raise(name)
+    d = where(name: name).first
+    return nil unless d
+    d.attributes["value"] 
   end
 
 end
