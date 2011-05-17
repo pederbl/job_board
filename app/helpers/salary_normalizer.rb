@@ -77,7 +77,7 @@ module SalaryNormalizer
         "Hagen Manfred Haustechnik",
         "FRANCK LOIRE M. FRANCK LOIRE",
       ]
-      list = JobOpening.where(deleted_at: nil, "salary.normalized".to_sym.ne => nil, "salary.normalized".to_sym.lt => 500, "employer.name".to_sym.ne => nil)
+      list = JobOpening.where(deleted_at: nil, "salary.normalized".to_sym.ne => nil, "salary.normalized".to_sym.lt => 200, "employer.name".to_sym.ne => nil)
       list = list.not_in("employer.name" => salary_spam_employers)
       list = list.desc("salary.normalized")
       list = list.limit(10)

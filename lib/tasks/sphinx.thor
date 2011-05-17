@@ -22,4 +22,9 @@ class Sphinx < Thor
     JobOpening.delta_xmlpipe_feed
   end
 
+  desc "geonames_locations", "output xmlpipe for geonames_locations"
+  def geonames_locations
+    GeonamesLocation.xmlpipe_main
+  end
+  
 end

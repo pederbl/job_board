@@ -14,7 +14,13 @@ module ApplicationHelper
       }
     }
     (
-      ['/javascripts/jquery/js/jquery-1.4.4.min.js', '/javascripts/jquery/js/jquery-ui-1.8.11.custom.min.js', '/javascripts/prio/rails.js'] +
+      [
+        '/javascripts/jquery/js/jquery-1.4.4.min.js', 
+        '/javascripts/jquery/js/jquery-ui-1.8.11.custom.min.js', 
+        '/javascripts/prio/rails.js', 
+        '/javascripts/prio/jquery.dynatree.js',
+        '/javascripts/prio/jquery.ui_tools.min.js'
+      ] +
       Dir.glob("#{Rails.root}/public/javascripts/*.js").entries.map { |path| File.basename(path).gsub(/.js$/,'') } +
       Dir.glob("#{Rails.root}/public/javascripts/auto_generated/*.js").map { |path| 'auto_generated/' + File.basename(path).gsub(/.js$/,'') }
     )
@@ -45,5 +51,6 @@ module ApplicationHelper
     bot_regex = /(peder|bot|crawler|spider| agent|xx|Mediapartners-Google|slurp|ia_archiver|majestic|yandex|pingdom|mAgent|R \(2\.8\.1\)|Ask Jeeves|ScoutJet)/i 
     @bot = (request.user_agent and request.user_agent =~ bot_regex)
   end
+
 
 end

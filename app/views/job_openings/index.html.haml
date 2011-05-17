@@ -1,18 +1,61 @@
+:javascript
+  var locations_tree_data = #{
+    Value.get(:countries).map { |country| 
+      { 
+        title: t("iso_3166_1_alpha_2." + country["code"]), 
+        key: "PCL:#{country["geonameid"]}",
+        isLazy: country["has_children"]
+      } 
+    }.sort { |x, y| 
+      x[:title] <=> y[:title] 
+    }.to_json
+  };
+  
 
 .ji
   .left
-    = simple_form_for("", html: { method: :get, id: "query_form" }) do |f|
-      .label
-        = t(".keywords")
-      = f.text_field "keywords", value: params[:keywords]
-      .label
-        = t(".employer")
-      = f.text_field "employer", value: params[:employer]
-      .label
-        = t(".location")
-      = f.text_field "location", value: params[:location]
+    = simple_form_for(:q, html: { method: :get, id: "query_form" }) do |f|
+      
+      .item
+        .label
+          = t(".keywords")
+        = f.text_field "keywords", value: params[:keywords]
+
+      .item.job_categories
+        .label
+          = t(".job_categories") + ":"
+          .edit.job_categories_picker_link
+            %a{ rel: "#job_categories_picker" } 
+              = t("choose").downcase
+        .selected_list
+          = "Chef, Cleaner, Waste Manager"
+        .separator
+
+        .overlay#job_categories_picker
+          = "Job Categories Picker"
+          
+
+      .item
+        .label
+          = t(".locations") + ":"
+          .edit.locations_picker_link
+            %a{ rel: "#locations_picker" } 
+              = t("choose").downcase
+        .selected_list
+          = "All"
+        .separator
+
+        .overlay#locations_picker
+          .locations_tree
+
+      .item
+        .label
+          = t(".employer")
+        = f.text_field "employer", value: params[:employer]
+
       = f.submit t(".update_search")
     
+
   .main
     .matches
       = render partial: "matches"
@@ -21,3 +64,4 @@
   .right
 
   .separator
+

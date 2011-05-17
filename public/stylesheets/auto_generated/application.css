@@ -51,25 +51,3 @@ fieldset {
    text-align:center;
 }
 
-.logo {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-.big_logo {
-  margin-top: 70px;
-  text-align:center;
-}
-
-
-.bbc {
-  position:absolute;
-  top: 55px;
-  left: 10px;
-  font-size:0.7em;
-}
-
-  .bbc a {
-    color: #333;
-  }
-

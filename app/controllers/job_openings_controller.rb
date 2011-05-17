@@ -34,15 +34,24 @@ class JobOpeningsController < ApplicationController
     @result = query
   end
 
+  def location_picker_node_children
+    geoname_location = GeonamesLocation.where(geonameid: params[:key].split(":").last).first
+    children = geoname_location.children
+    children.map! { |d| { title: d.name, isLazy: d.has_children, key: "#{d.feature_code}:#{d.geonameid}" } } 
+    children.sort! { |x, y| x[:title] <=> y[:title] } 
+    render json: children
+  end
+
   private 
 
   def query
+    q = params[:q] || {}
     return JobOpening.search(
-      keywords: params[:keywords], 
-      employer: params[:employer],
-      location: params[:location],
-      limit: params[:num] || 10,
-      from_id: params[:from_id].try(:to_i)
+      keywords: q[:keywords], 
+      employer: q[:employer],
+      locations: q[:locations],
+      limit: q[:num] || 10,
+      from_id: q[:from_id].try(:to_i)
     )
   end
 

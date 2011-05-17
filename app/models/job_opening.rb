@@ -10,13 +10,28 @@ class JobOpening
   index :deleted_at
   index "salary.normalized_salary"
   index :publish_at
-  index :sphinx_id
+  index :sphinx_id, unique: true
+
+  def set_geonameid
+    return if location.nil?
+    arr = [] 
+    arr << "country_code=#{location.country}"
+    arr << "admin1=#{location.region}" if location.region
+    arr << "admin2=#{location.city}" if location.city
+    query = arr.join("&")
+
+    require 'open-uri'
+    geonameid = open("http://ec2-46-137-107-116.eu-west-1.compute.amazonaws.com/geonames_locations/search?#{query}") { |f|  
+      ActiveSupport::JSON.decode(f.read).first["geonameid"] 
+    }.inspect   
+    update_attribute("location.geonameid", geonameid)
+  end
 
   def self.search(attrs)
     attrs = {
       limit: 10,
-      sort_by: "publish_at",
-      sort_mode: :attr_desc,
+      sort_by: "@id DESC",
+      sort_mode: :extended,
       match_mode: :extended
     }.merge(attrs)
 
@@ -33,41 +48,80 @@ class JobOpening
     client.limit = attrs[:limit]
     client.filters << Riddle::Client::Filter.new("deleted_at", [0])
     client.id_range = (attrs[:from_id] + 1)..0 if attrs[:from_id]
-    results = client.query(query)
+    results = client.query(query, "job_openings,job_openings_delta")
   end
 
   def self.reindex_main
-    system("cd /home/ec2-user/sphinx-1.10-beta; sudo /usr/local/bin/indexer job_openings --rotate")
-    main_max_id = Value.get("sphinx_job_openings_main_max_id")
-    Value.set("sphinx_job_openings_delta_min_id", main_max_id + 1)
+    system("cd /home/ec2-user/sphinx-1.10-beta; sudo /usr/local/bin/indexer job_openings --rotate >> /home/ec2-user/log/indexer_main.log 2>&1")
+    puts "old delta_min_id: #{delta_min_id}"
+    self.delta_min_id = main_max_id + 1
+    puts "new delta_min_id: #{delta_min_id}"
   end
   
   def self.reindex_delta
-    system("cd /home/ec2-user/sphinx-1.10-beta; sudo /usr/local/bin/indexer job_openings_delta --rotate")
+    puts "delta_min_id: #{delta_min_id}"
+    set_sphinx_ids
+    system("cd /home/ec2-user/sphinx-1.10-beta; sudo /usr/local/bin/indexer job_openings_delta --rotate >> /home/ec2-user/log/indexer_delta.log 2>&1")
   end
 
   def self.main_xmlpipe_feed
-    next_id = (Value.get("sphinx_job_openings_next_id") || 1)
-    ids = JobOpening.where(deleted_at: nil, :sphinx_id.ne => nil, :sphinx_id.lt => next_id).desc(:sphinx_id).map(&:id) #exclude ids of crashed delta indexing
-    Value.set("sphinx_job_openings_main_max_id", ids.first || 0)
-    create_job_openings_feed(ids)
+    job_openings = JobOpening.where(
+      deleted_at: nil, 
+      :sphinx_id.ne => nil, 
+      :sphinx_id.lt => next_id # exclude ids of crashed set_sphinx_ids
+    ).desc(:sphinx_id) 
+    self.main_max_id = job_openings.first.sphinx_id if job_openings.count > 0
+    create_job_openings_feed(job_openings.map(&:id))
   end
 
   def self.delta_xmlpipe_feed
-    delta_min_id = Value.get("sphinx_job_openings_delta_min_id") || 1
-    original_last_id = last_id = (Value.get("sphinx_job_openings_next_id") || 1) - 1
-    ids = JobOpening.where(deleted_at: nil).any_of({ sphinx_id: nil }, { :sphinx_id.gte => delta_min_id }).desc(:publish_at).map { |d| 
-      d.update_attribute(:sphinx_id, last_id += 1) if (d.sphinx_id.nil? or d.sphinx_id > original_last_id) # must reset ids if this process crashed
-      d.id
-    }
-    Value.set("sphinx_job_openings_next_id", last_id + 1)
-    create_job_openings_feed(ids)
+    job_openings = JobOpening.where(deleted_at: nil, :sphinx_id.ne => nil, :sphinx_id.gte => delta_min_id).desc(:sphinx_id)
+    create_job_openings_feed(job_openings.map(&:id))
   end
+
 
   private
 
+  DELTA_MIN_ID = "sphinx_job_openings_delta_min_id"
+  def self.delta_min_id
+    Value.get(DELTA_MIN_ID) || 1
+  end
+  
+  def self.delta_min_id=(val)
+    Value.set(DELTA_MIN_ID, val)
+  end
+
+  MAIN_MAX_ID = "sphinx_job_openings_main_max_id"
+  def self.main_max_id
+    Value.get(MAIN_MAX_ID) || 0
+  end
+
+  def self.main_max_id=(val)
+    Value.set(MAIN_MAX_ID, val)
+  end
+
+  NEXT_ID = "sphinx_job_openings_next_id"
+  def self.next_id
+    Value.get(NEXT_ID) || 1
+  end
+
+  def self.next_id=(val)
+    Value.set(NEXT_ID, val)
+  end
+  
+  def self.set_sphinx_ids
+    last_id = next_id - 1
+    jobs = JobOpening.where(deleted_at: nil).any_of({sphinx_id: nil}, {:sphinx_id.gt => last_id}).asc(:publish_at)
+    puts jobs.count.inspect
+    jobs.each { |d| 
+      puts last_id.inspect if last_id.modulo(1000) == 0 
+      d.update_attribute(:sphinx_id, last_id += 1) 
+    }
+    self.next_id = last_id + 1
+  end
+  
   def self.create_job_openings_feed(ids)
-    xml = Builder::XmlMarkup.new(:target=>STDOUT, :indent=>2)
+    xml = ::Builder::XmlMarkup.new(:target=>STDOUT, :indent=>2)
     xml.instruct!
     xml.sphinx:docset do |docset| 
       xml.sphinx:schema do |schema|
@@ -80,6 +134,9 @@ class JobOpening
         schema.send("sphinx:field", name: "salary_currency", attr: "string")
         schema.send("sphinx:field", name: "salary_period", attr: "string")
         schema.send("sphinx:field", name: "isco", attr: "string")
+        schema.send("sphinx:field", name: "country_code", attr: "string")
+        schema.send("sphinx:field", name: "region_geonameid")
+        schema.send("sphinx:field", name: "city_geonameid")
 
         schema.send("sphinx:attr", name: "_id", type: "string")
         schema.send("sphinx:attr", name: "slug", type: "string")
@@ -91,11 +148,14 @@ class JobOpening
         schema.send("sphinx:attr", name: "duration", type: "string")
         schema.send("sphinx:attr", name: "hours_per_week", type: "float")
       end
-
+      
+      prev_id = nil
       ids.each { |id|
         d = JobOpening.find(id)
         next if d.deleted_at
         raise "no sphinx_id" if d.sphinx_id.nil?
+        raise d.sphinx_id.inspect if prev_id.present? and prev_id <= d.sphinx_id 
+        prev_id = d.sphinx_id
         docset.send("sphinx:document", id: d.sphinx_id) do |doc|
           doc.title(d.t(:title))
           doc.body(d.t(:body))
@@ -105,14 +165,24 @@ class JobOpening
           doc.city(d.location.try(:city))
           doc.salary_currency(d.salary.try(:currency))
           doc.salary_period(d.salary.try(:period))
+          doc.country_code(d.location.country) if d.location.country
+          doc.region_geonameid(d.location.region_geonameid)
+          doc.city_geonameid(d.location.city_geonameid)
 
           if d.isco
             isco = d.isco.to_s.split(".").first.gsub(/0+$/, "")
-            translation = nil
-            while translation.nil?
+            begin
               translation = I18n.t("isco_code.#{isco}", default: "MISSING")
-              translation = nil if translation == "MISSING"
-              isco.gsub!(/.$/, "") if translation.nil?
+              if translation == "MISSING" or translation.nil? 
+                raise(I18n::MissingTranslationData.new(I18n.locale, isco, {})) 
+              end
+            rescue I18n::MissingTranslationData
+              if isco.length > 2
+                isco.gsub!(/.$/, "") 
+                retry
+              else 
+                isco = nil
+              end
             end
             doc.isco(I18n.t("isco_code.#{isco}").singularize) if isco.present?
           end
@@ -131,8 +201,6 @@ class JobOpening
     end
     xml.target! 
   end
-
-
 
   private
 

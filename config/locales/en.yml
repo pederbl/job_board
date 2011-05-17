@@ -1,7 +1,18 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  terms: Terms
   about: About
+  description: Description
+  email: Email
+  fax: Fax
   feedback: Feedback
+  i18n:
+    language:
+      name: English
+  maximum: Maximum
+  minimum: Minimum
+  phone: Phone
+  postal_address: "Postal address"
+  terms: Terms
+  type: Type
+  visit_address: "Visit address"
+  website: Website
+  choose: Choose

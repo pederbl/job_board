@@ -1,7 +1,8 @@
 module JobOpeningsHelper
 
   def title
-    if params[:action] == 'show'
+    case params[:action] 
+    when 'show'
       arr = []
       arr << @job.t(:title) if @job.title
       at = []
@@ -9,21 +10,29 @@ module JobOpeningsHelper
       at << @job.location.region if @job.location.try(:region)
       at << @job.location.country if @job.location.try(:country)
       arr << at.join(", ") if at.present?
-      "Jobb: #{arr.join(" @ ")}"
-    else
-      "Lediga jobb"
+      return "#{arr.join(" @ ")}"
+
+    when "index"
+      keywords = params[:keywords].nil_if_blank
+      employer = params[:employer].nil_if_blank
+      location = params[:location].nil_if_blank
+      at = [employer, location].compact.join(", ").nil_if_blank
+      title = [keywords, at].compact.join(" @ ")
+      return title.present? ? title : "Jobboteket"
+
+    else nil
     end
   end
 
   def description
-    str = "Ledigt jobb: #{@job.t(:body)}"
+    str = "#{@job.t(:body)}"
     str = str[0..250] + "..." if str.length > 250
     str
   end
 
   def keywords
-    arr = ["lediga jobb", "jobb"]
-    arr += title.gsub(/(jobb:|[@,])/i, "").split(" ")
+    arr = []
+    arr += title.gsub(/([@,])/i, "").split(" ")
     arr.join(", ")
   end
 

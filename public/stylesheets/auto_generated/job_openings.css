@@ -1,6 +1,6 @@
 /* job_openings */
 .ji {
-  margin-top:100px; 
+  margin-top:20px; 
   margin-left:10px;
 }
 
@@ -16,14 +16,54 @@
   margin-left:0px;
 }
 
+.ji .left .item {
+  clear:both;
+  margin-bottom:12px;
+}
+
 .ji .left .label {
   font-size:0.7em;
   font-weight:bold;
   color:#666;
 }
-
-.ji .left input {
-  margin-bottom:8px;
+.ji .left .edit { 
+  display: inline;
+  text-decoration: underline;
+  color:navy;
+  cursor: pointer;
+  font-weight: normal;
+}
+.ji .left .selected_list { 
+  font-size:0.8em;
+}
+.ji .left ul.dynatree-container {
+  margin: 0;
+}
+.ji .left #job_categories_picker {
+  display:none;
+  width:310px;
+  background-image:url(/images/transparent.png);
+  padding:25px;
+  font-size: 0.8em;
+}
+.ji .left #locations_picker {
+  display:none;
+  width:350px;
+  background-image:url(/images/transparent.png);
+  padding:25px;
+  font-size: 0.8em;
+}
+.ji .left #locations_picker a, 
+.ji .left #locations_picker a:hover 
+{
+}
+.ji .left .locations_tree {
+  height:270px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+.ji .left .dynatree-icon { 
+  display:none;
 }
 
 .ji .dimmed {
@@ -109,7 +149,7 @@
 
 
 .job {
-  margin:90px 0 0 70px;
+  margin:20px 0 0 70px;
 }
 
 .job legend {

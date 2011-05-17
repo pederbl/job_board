@@ -5,13 +5,10 @@
   - content_for :description do
     = description
 
-- if params[:action] == 'show'
-  - content_for :keywords do
-    = keywords
+- content_for :keywords do
+  = keywords
 
 - content_for :body do 
-  .logo 
-    = link_to image_tag("jobboteket_logo.png", border: 0), "/"
   = yield
 
 = render file: 'layouts/application'

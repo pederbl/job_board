@@ -2,8 +2,8 @@ set :output, "/home/ec2-user/log/whenever.log"
 job_type :thor, "cd :path && RAILS_ENV=:environment thor :task :output"
 
 every 1.day, at: "4am" do 
-  rake "sitemap:refresh"
-  thor "sphinx:index_job_openings_main"
+#  rake "sitemap:refresh"
+#  thor "sphinx:index_job_openings_main"
 end
 
 every 1.day, at: "4pm" do 

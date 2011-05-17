@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= content_for?(:title) ? yield(:title) : "Jobboteket: Lediga Jobb" %></title>
+  <title><%= content_for?(:title) ? yield(:title) : "Jobboteket" %></title>
 
   <% if content_for?(:description) %>
     <meta name="description" content="<%= yield(:description) %>"/>
@@ -37,6 +37,8 @@
   <% end %>
 </head>
 <body>
+
+  <%= render partial: "shared/header" %>
 
   <% if false %>
   <div class='bbc'>

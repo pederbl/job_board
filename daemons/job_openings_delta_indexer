@@ -2,6 +2,5 @@
 require 'angels' 
 
 Angels.run_loop('job_openings_delta_indexer', :load_rails => true, :exception_handler => :hoptoad) do 
-  sleep 3600 if Time.now.hour == 4 # don't run main and delta indexer at the same time because it kills www performance. 
   JobOpening.reindex_delta
 end
