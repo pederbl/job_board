@@ -1,0 +1,88 @@
+? "no"
+:
+  job_openings:
+    apply:
+      apply: Påfør
+      deadline: Deadline
+    contacts:
+      contacts: Kontakter
+      union_contacts: "Union Kontakter"
+    employer:
+      employer: Arbeidsgiver
+      national_id: "Nasjonalt ID"
+    index:
+      employer: Arbeidsgiver
+      job_categories: ~
+      keywords: Nøkkelord
+      location: Beliggenhet
+      locations: ~
+      update_search: "Oppdater Søk"
+    items:
+      ago: siden
+      posted: Postet
+    job_description:
+      job_description: "Job Description"
+    job_information:
+      accommodation_paid_for: "Overnatting betalt for"
+      duration: Varighet
+      ends: Slutter
+      hours_per_week: "t / uke"
+      industry: Industri
+      job_category: Jobbkategori
+      job_information: "Job Informasjon"
+      length: Lengde
+      length_type:
+        "0": Midlertidig
+        "-1": Permanent
+      location: Beliggenhet
+      meals_paid_for: "Måltider betalt for"
+      num_positions: Posisjoner
+      relocation_paid_for: "Flytting betalt for"
+      salary: Lønn
+      salary_period:
+        D: dag
+        H: h
+        M: måned
+        W: uke
+        "Y": år
+      see_map: "Se kart"
+      starts: Starter
+      substitute: Substitute
+      travel_expenses_paid_for: "Reiseutgifter betalt for"
+      worktime: Arbeidstid
+      worktime_type:
+        FULL_TIME: Full-time
+        PART_TIME: Deltid
+    matches:
+      jobs_match_your_query: "En jobb samsvarer med søket"
+      more: Mer
+    requirements:
+      drivers_license: Førerkort
+      education: Utdanning
+      experience: Opplev
+      experience_str: "1 måned"
+      language_proficiency:
+        "true": "Elementary kompetanse"
+        "2": "Begrenset arbeider ferdigheter"
+        "3": "Profesjonell arbeider ferdigheter"
+        "4": "Full profesjonell kompetanse"
+        "5": "Native eller tospråklig kompetanse"
+      language_type:
+        cs: Tsjekkisk
+        de: Tysk
+        en: English
+        es: Spansk
+        fr: Fransk
+        it: Italiensk
+        nl: Nederlandsk
+        ro: Rumensk
+      languages: Språk
+      maximum_age: "Maksimal alder"
+      minimum_age: "Minimum alder"
+      must_have_car: "Må ha bil"
+      none: Ingen
+      required: Påkrevd
+      requirements: Krav
+    show:
+      anonymous: Anonym
+      published: Publisert

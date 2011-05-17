@@ -1,0 +1,18 @@
+fi:
+  about: Tietoja
+  choose: ~
+  description: Kuvaus
+  email: Sähköposti
+  fax: Faksi
+  feedback: Palaute
+  i18n:
+    language:
+      name: Suomi
+  maximum: Suurin
+  minimum: Vähimmäismäärä
+  phone: Puhelin
+  postal_address: Postiosoite
+  terms: Ehdot
+  type: Tyyppi
+  visit_address: Käyntiosoite
+  website: Verkkosivujen

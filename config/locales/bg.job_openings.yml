@@ -1,0 +1,87 @@
+bg:
+  job_openings:
+    apply:
+      apply: Нанесете
+      deadline: "Краен срок"
+    contacts:
+      contacts: Контакти
+      union_contacts: "Съюз Контакти"
+    employer:
+      employer: Работодател
+      national_id: "Лична карта"
+    index:
+      employer: Работодател
+      job_categories: ~
+      keywords: "Ключови думи"
+      location: Местоположение
+      locations: ~
+      update_search: "Актуализация Търсене"
+    items:
+      ago: преди
+      posted: Публикувано
+    job_description:
+      job_description: "Описание на длъжността"
+    job_information:
+      accommodation_paid_for: "Настаняване, платена за"
+      duration: Продължителност
+      ends: Завършва
+      hours_per_week: "з / седмица"
+      industry: Промишленост
+      job_category: "Работа категория"
+      job_information: "Работа Информация"
+      length: Дължина
+      length_type:
+        "0": Временно
+        "-1": Постоянно
+      location: Местоположение
+      meals_paid_for: "Храна, платена за"
+      num_positions: Позиции
+      relocation_paid_for: "Преместване, платена за"
+      salary: Заплата
+      salary_period:
+        D: ден
+        H: з
+        M: месец
+        W: седмица
+        "Y": година
+      see_map: "Виж картата"
+      starts: Започва
+      substitute: Заместител
+      travel_expenses_paid_for: "Пътните разходи, платени за"
+      worktime: "На работното време"
+      worktime_type:
+        FULL_TIME: "Пълен работен ден"
+        PART_TIME: "Непълен работен ден"
+    matches:
+      jobs_match_your_query: "Само една работа отговаря на вашите заявки"
+      more: Още
+    requirements:
+      drivers_license: "Шофьорска книжка"
+      education: Образование
+      experience: Опит
+      experience_str: "1 месец"
+      language_proficiency:
+        "true": "Елементарни умения"
+        "2": "Limited работни умения"
+        "3": "Професионални работни умения"
+        "4": "Пълен професионалните умения"
+        "5": "Собствена или два квалификационни"
+      language_type:
+        cs: Чешката
+        de: Немски
+        en: "Английски език"
+        es: Испански
+        fr: Френски
+        it: Италиански
+        nl: Холандски
+        ro: Румънски
+      languages: Език
+      maximum_age: "Максимална възраст"
+      minimum_age: "Минималната възраст"
+      must_have_car: "Трябва да има кола"
+      none: Никой
+      required: Задължително
+      requirements: Изисквания
+    show:
+      anonymous: Анонимен
+      published: Публикувано

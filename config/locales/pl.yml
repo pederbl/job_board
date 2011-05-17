@@ -1,0 +1,18 @@
+pl:
+  about: O
+  choose: ~
+  description: Opis
+  email: E-mail
+  fax: Fax
+  feedback: Wynik
+  i18n:
+    language:
+      name: Polski
+  maximum: Maksymalna
+  minimum: Minimalny
+  phone: Telefon
+  postal_address: "Adres pocztowy"
+  terms: Warunki
+  type: Typ
+  visit_address: "Odwiedź adres"
+  website: "Strona internetowa"

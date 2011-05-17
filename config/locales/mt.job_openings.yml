@@ -1,0 +1,87 @@
+mt:
+  job_openings:
+    apply:
+      apply: Applika
+      deadline: Skadenza
+    contacts:
+      contacts: Kuntatti
+      union_contacts: "Kuntatti Unjoni"
+    employer:
+      employer: "Min iħaddem"
+      national_id: "Identità nazzjonali"
+    index:
+      employer: "Min iħaddem"
+      job_categories: ~
+      keywords: Keywords
+      location: Location
+      locations: ~
+      update_search: "Aġġornament Fittex"
+    items:
+      ago: ilu
+      posted: Posted
+    job_description:
+      job_description: "Deskrizzjoni tax-xogħol"
+    job_information:
+      accommodation_paid_for: "Alloġġ imħallas għall-"
+      duration: Tul
+      ends: Tispiċċa
+      hours_per_week: "h / ġimgħa"
+      industry: Industrija
+      job_category: "kategorija Job"
+      job_information: "Job Information"
+      length: Tul
+      length_type:
+        "0": Temporanju
+        "-1": Permanenti
+      location: Location
+      meals_paid_for: "Ikliet mħallsa għal"
+      num_positions: Pożizzjonijiet
+      relocation_paid_for: "Rilokazzjoni mħallsa għal"
+      salary: Salarju
+      salary_period:
+        D: jum
+        H: h
+        M: xahar
+        W: ġimgħa
+        "Y": sena
+      see_map: "Ara l-mappa"
+      starts: Tibda
+      substitute: Sostitut
+      travel_expenses_paid_for: "Spejjeż għall-ivvjaġġar imħallsa"
+      worktime: Worktime
+      worktime_type:
+        FULL_TIME: Full-time
+        PART_TIME: Part-time
+    matches:
+      jobs_match_your_query: "Biċċa xogħol waħda għal logħbiet mistoqsija tiegħek"
+      more: Aktar
+    requirements:
+      drivers_license: "liċenzja Sewwieqa"
+      education: Edukazzjoni
+      experience: Esperjenza
+      experience_str: "1 xahar"
+      language_proficiency:
+        "true": "profiċjenza Elementari"
+        "2": "Limited xogħol profiċjenza"
+        "3": "Professjonali li jaħdmu profiċjenza"
+        "4": "profiċjenza professjonali sħiħ"
+        "5": "Nattivi jew bilingwali profiċjenza"
+      language_type:
+        cs: Ċeka
+        de: German
+        en: Ingliż
+        es: Spanjol
+        fr: Franċiż
+        it: Italian
+        nl: Olandiż
+        ro: Rumen
+      languages: Lingwi
+      maximum_age: "Età massima"
+      minimum_age: "Età minima"
+      must_have_car: "Għandu jkollu karozza"
+      none: Xejn
+      required: Meħtieġa
+      requirements: Rekwiżiti
+    show:
+      anonymous: Anonymous
+      published: Ippubblikat

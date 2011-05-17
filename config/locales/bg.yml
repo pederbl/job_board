@@ -1,0 +1,18 @@
+bg:
+  about: За
+  choose: ~
+  description: Описание
+  email: Email
+  fax: Факс
+  feedback: "Обратна връзка"
+  i18n:
+    language:
+      name: Български
+  maximum: Максимален
+  minimum: Минималните
+  phone: Телефон
+  postal_address: "Пощенски адрес"
+  terms: Условия
+  type: Тип
+  visit_address: "Посетете адрес"
+  website: Сайт

@@ -1,0 +1,87 @@
+et:
+  job_openings:
+    apply:
+      apply: Kohaldatakse
+      deadline: Tähtaeg
+    contacts:
+      contacts: Kontaktid
+      union_contacts: "Liidu Kontaktid"
+    employer:
+      employer: Tööandja
+      national_id: "National ID"
+    index:
+      employer: Tööandja
+      job_categories: ~
+      keywords: Märksõnad
+      location: Asukoht
+      locations: ~
+      update_search: "Update Otsi"
+    items:
+      ago: tagasi
+      posted: Posted
+    job_description:
+      job_description: "Töö kirjeldus"
+    job_information:
+      accommodation_paid_for: "Majutus eest"
+      duration: Kestus
+      ends: Lõpeb
+      hours_per_week: "h / nädalas"
+      industry: Tööstus
+      job_category: "Töö kategooria"
+      job_information: "Töö Info"
+      length: Pikkus
+      length_type:
+        "0": Ajutine
+        "-1": Alaline
+      location: Asukoht
+      meals_paid_for: "Toitlustamine eest"
+      num_positions: Positsioonid
+      relocation_paid_for: "Ümberpaigutamine eest"
+      salary: Palk
+      salary_period:
+        D: päev
+        H: h
+        M: kuu
+        W: nädal
+        "Y": aasta
+      see_map: "Vaata kaardil"
+      starts: Alustab
+      substitute: Asendaja
+      travel_expenses_paid_for: "Sõidukulud maksta"
+      worktime: Worktime
+      worktime_type:
+        FULL_TIME: Täiskohaga
+        PART_TIME: Osa-aeg
+    matches:
+      jobs_match_your_query: "Üks töö vastab teie päringule"
+      more: Veel
+    requirements:
+      drivers_license: Juhiluba
+      education: Haridus
+      experience: Kogemus
+      experience_str: "1 kuu"
+      language_proficiency:
+        "true": "Elementaarsed oskuse"
+        "2": "Limited töö oskuse"
+        "3": "Professional töö oskuse"
+        "4": "Terve erialaseid oskusi"
+        "5": "Native või kakskeelne oskuse"
+      language_type:
+        cs: Tšehhi
+        de: Saksa
+        en: Inglise
+        es: Hispaania
+        fr: Prantsuse
+        it: Itaalia
+        nl: Hollandi
+        ro: Rumeenia
+      languages: Keeled
+      maximum_age: "Vanuse ülempiir"
+      minimum_age: "Minimaalne vanus"
+      must_have_car: "Peab olema auto"
+      none: "Mitte ükski"
+      required: Nõutav
+      requirements: Nõuded
+    show:
+      anonymous: Anonüümne
+      published: Published

@@ -1,0 +1,18 @@
+lt:
+  about: Apie
+  choose: ~
+  description: Aprašymas
+  email: Paštas
+  fax: Faksas
+  feedback: Atsiliepimai
+  i18n:
+    language:
+      name: Lietuvių
+  maximum: Didžiausias
+  minimum: Minimalus
+  phone: Telefonas
+  postal_address: "Pašto adresas"
+  terms: Taisyklės
+  type: Tipas
+  visit_address: "Aplankykite adresas"
+  website: "Interneto svetainė"

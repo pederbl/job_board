@@ -1,0 +1,532 @@
+--- 
+nl: 
+  isco_code: 
+    "11": Leden van wetgevende lichamen, beleidvoerende functies
+    "111": Leden van wetgevende lichamen
+    "1120": Ambtenaren in beleidvoerende functies
+    "113": Traditionele dorpshoofden
+    "1130": Traditionele dorpshoofden
+    "114": Beleidvoerende medewerkers van belangenorganisaties
+    "1141": Beleidvoerende medewerkers van politieke partijen
+    "1142": Beleidvoerende medewerkers van werkgevers-, werknemers- en andere sociaal-economische belangenorgani...
+    "1143": Beleidvoerende medewerkers van humanitaire en andere belangenorganisaties
+    "12": Hogere leidinggevende functies
+    "121": Directeuren van grote ondernemingen
+    "1210": Directeuren van grote ondernemingen
+    "122": Hoofden van operationele en productieafdelingen
+    "1221": "Hoofden van operationele en productieafdelingen: landbouw, jacht, bosbouw, visserij"
+    "1222": "Hoofden van operationele en productieafdelingen: industrie"
+    "1223": "Hoofden van operationele en productieafdelingen: bouwnijverheid"
+    "1224": "Hoofden van operationele en productieafdelingen: groot- en detaihandel"
+    "1225": "Hoofden van operationele en productieafdelingen: hotels en restaurants"
+    "1226": "Hoofden van operationele en productieafdelingen: vervoer, opslag en communicatie"
+    "1227": "Hoofden van operationele en productieafdelingen: zakelijke dienstverlening"
+    "1228": "Hoofden van operationele en productieafdelingen: zorg, reiniging e.d."
+    "1229": Hoofden van operationele en productieafdelingen, niet elders ingedeeld
+    "123": Hoofden van andere afdelingen
+    "1231": "Hoofden van financi\xC3\xABle en administratieve afdelingen"
+    "1232": Hoofden van afdelingen personeelszaken en arbeidsverhoudingen
+    "1233": Hoofden van verkoop- en marketingafdelingen
+    "1234": Hoofden van advertentie- en pr-afdelingen
+    "1235": Hoofden van inkoop- en distributieafdelingen
+    "1236": Hoofden van informatica-afdelingen
+    "1237": Hoofden van o&o-afdelingen
+    "1239": Hoofden van andere afdelingen, niet elders ingedeeld
+    "13": Algemeen directeuren
+    "131": Algemeen directeuren
+    "1311": "Algemeen directeuren: landbouw, jacht, bosbouw, visserij"
+    "1312": "Algemeen directeuren: industrie"
+    "1313": "Algemeen directeuren: bouwnijverheid"
+    "1314": "Algemeen directeuren: groot- en detailhandel"
+    "1315": "Algemeen directeuren: hotels en restaurants"
+    "1316": "Algemeen directeuren: vervoer, opslag en communicatie"
+    "1317": "Algemeen directeuren: zakelijke dienstverlening"
+    "1318": "Algemeen directeuren: zorg, reiniging e.d."
+    "1319": Algemeen directeuren, niet elders ingedeeld
+    "21": Informatici, ingenieurs en wetenschappers
+    "211": Natuurkundigen, chemici e.d.
+    "2111": Natuurkundigen en astronomen
+    "2112": Meteorologen
+    "2113": Chemici
+    "2114": Geologen en geofysici
+    "212": Wiskundigen, statistici e.d.
+    "2121": Wiskundigen e.d.
+    "2122": Statistici
+    "213": Informatici
+    "2131": Systeemontwerpers en -analisten
+    "2132": Programmeurs
+    "2139": Informatici, niet elders ingedeeld
+    "214": Architecten, ingenieurs e.d.
+    "2141": Architecten, stedenbouwkundigen en verkeersplanologen
+    "2142": Civiel-ingenieurs
+    "2143": Elektrotechnisch ingenieurs
+    "2144": Ingenieurs elektronica en telecommunicatie
+    "2145": Werktuigbouwkundig ingenieurs
+    "2146": Chemisch ingenieurs
+    "2147": Mijnbouwingenieurs, metallurgisch ingenieurs e.d.
+    "2148": Cartografen en landmeetkundigen
+    "2149": Architecten, ingenieurs e.d., niet elders ingedeeld
+    "22": Specialisten op het gebied van de gezondheidszorg en de biowetenschappen
+    "221": Specialisten op het gebied van de biowetenschappen
+    "2211": "Biologen, botanici, zo\xC3\xB6logen e.d."
+    "2212": Farmacologen, pathologen e.d.
+    "2213": Agronomen e.d.
+    "222": Specialisten op het gebied van de gezondheidszorg (m.u.v. verpleegkundigen)
+    "2221": Artsen
+    "2222": Tandartsen
+    "2223": Dierenartsen
+    "2224": Apothekers
+    "2229": Specialisten op het gebied van de gezondheidszorg (m.u.v. verpleegkundigen), niet elders ingedeeld
+    "223": Verpleeg- en verloskundigen
+    "2230": Verpleeg- en verloskundigen
+    "23": Onderwijsgevenden
+    "231": Professoren en andere onderwijsgevenden in het hoger onderwijs
+    "2310": Professoren en andere onderwijsgevenden in het hoger onderwijs
+    "232": Onderwijsgevenden in het middelbaar onderwijs
+    "2320": Onderwijsgevenden in het middelbaar onderwijs
+    "233": Onderwijsgevenden in het basisonderwijs
+    "2331": Onderwijsgevenden in het lager onderwijs
+    "2332": Onderwijsgevenden in het kleuteronderwijs
+    "234": Onderwijsgevenden in het speciaal onderwijs
+    "2340": Onderwijsgevenden in het speciaal onderwijs
+    "235": Andere onderwijsgevenden
+    "2351": Specialisten op het gebied van onderwijsmethoden
+    "2352": Onderwijsinspecteurs
+    "2359": Andere onderwijsgevenden, niet elders ingedeeld
+    "24": Accountants, juristen, sociaal-wetenschappers en kunstenaars
+    "241": Specialisten op het gebied van bedrijfsbeheer
+    "2411": Accountants
+    "2412": Specialisten op het gebied van personeelszaken en loopbaanbeheer
+    "2419": Specialisten op het gebied van bedrijfsbeheer, niet elders ingedeeld
+    "242": Juristen
+    "2421": Advocaten
+    "2422": Rechters
+    "2429": Juristen, niet elders ingedeeld
+    "243": Archivarissen, bibliothecarissen e.d.
+    "2431": Archivarissen en curatoren
+    "2432": Bibliothecarissen e.d.
+    "244": Sociaal-wetenschappers e.d.
+    "2441": Economen
+    "2442": Sociologen, antropologen e.d.
+    "2443": Filosofen, historici en politicologen
+    "2444": Taalkundigen, vertalers en tolken
+    "2445": Psychologen
+    "2446": Sociaal werkers
+    "245": Schrijvers en scheppende of uitvoerende kunstenaars
+    "2451": Auteurs, journalisten en andere schrijvers
+    "2452": Beeldhouwers, schilders e.d.
+    "2453": Componisten, musici en zangers
+    "2454": Choreografen en dansers
+    "2455": Filmacteurs, toneelspelers e.d, regisseurs
+    "246": Theologen, bedienaars van de eredienst
+    "2460": Theologen, bedienaars van de eredienst
+    "31": Vakspecialisten op het gebied van informatica, ingenieurs- en andere wetenschappen
+    "311": Technici op het gebied van natuurkunde en ingenieurswetenschappen
+    "3111": Technici op chemisch en natuurkundig gebied
+    "3112": Technici op het gebied van weg- en waterbouw
+    "3113": "Technici op het gebied van de ingenieurswetenschappen: elektrotechniek"
+    "3114": "Technici op het gebied van de ingenieurswetenschappen: elektronica en telecommunicatie"
+    "3115": Technici op het gebied van de werktuigbouwkunde
+    "3116": Technici op het gebied van de chemische ingenieurswetenschappen
+    "3117": Mijntechnici en technici op metallurgisch gebied
+    "3118": Technisch tekenaars
+    "3119": Technici op het gebied van natuurkunde en ingenieurswetenschappen, niet elders ingedeeld
+    "312": Vakspecialisten op informaticagebied
+    "3121": Softwaretechnici
+    "3122": Hardwaretechnici
+    "3123": "Programmeurs van industri\xC3\xABle robots"
+    "313": Bedieningspersoneel optische en elektronische apparatuur
+    "3131": Fotografen, beeld- en geluidstechnici
+    "3132": Bedieningspersoneel zend- en telecommunicatieapparatuur
+    "3133": Bedieningspersoneel medische apparatuur
+    "3139": Bedieningspersoneel optische en elektronische apparatuur, niet elders ingedeeld
+    "314": Bestuurders en technici van schepen en luchtvaartuigen
+    "3141": Scheepswerktuigkundigen
+    "3142": Dekofficieren en loodsen
+    "3143": Piloten e.d.
+    "3144": Luchtverkeersleiders
+    "3145": Veiligheidstechnici luchtvaart
+    "315": Veiligheidsinspecteurs en kwaliteitsbewakers
+    "3151": Inspecteurs gebouwen en brandveiligheid
+    "3152": Kwaliteitsbewakers
+    "32": Vakspecialisten gezondheidszorg en biowetenschappen
+    "321": Technici en vakspecialisten biowetenschappen
+    "3211": Technici op het gebied van de biowetenschappen
+    "3212": Technici op het gebied van landbouwkunde en bosbouw
+    "3213": Land- en bosbouwconsulenten
+    "322": Vakspecialisten moderne gezondheidszorg (m.u.v. verpleegkundigen)
+    "3221": Medisch assistenten
+    "3222": "Hygi\xC3\xABnisten"
+    "3223": "Di\xC3\xABtisten en voedingsdeskundigen"
+    "3224": "Optometristen en optici\xC3\xABns"
+    "3225": Tandartsassistenten
+    "3226": Fysiotherapeuten e.d.
+    "3227": Dierenartsassistenten
+    "3228": Apothekersassistenten
+    "3229": Vakspecialisten moderne gezondheidszorg (m.u.v. verpleegkundigen), niet elders ingedeeld
+    "323": Ziekenverzorgers en assistent-verloskundigen
+    "3231": Ziekenverzorgers
+    "3232": Assistent-verloskundigen
+    "324": Beoefenaren traditionele geneeskunst en gebedsgenezers
+    "3241": Beoefenaren traditionele geneeskunst
+    "3242": Gebedsgenezers
+    "33": Onderwijsassistenten
+    "331": Onderwijsassistenten lager onderwijs
+    "3310": Onderwijsassistenten lager onderwijs
+    "332": Onderwijsassistenten kleuteronderwijs
+    "3320": Onderwijsassistenten kleuteronderwijs
+    "333": Onderwijsassistenten speciaal onderwijs
+    "3330": Onderwijsassistenten speciaal onderwijs
+    "334": Andere onderwijsassistenten
+    "3340": Andere onderwijsassistenten
+    "34": Vakspecialisten op financieel, verkoop- en administratief gebied
+    "341": Vakspecialisten op financieel en verkoopgebied
+    "3411": Effecten- en valutahandelaren en -makelaars
+    "3412": Verzekeringsagenten
+    "3413": Vastgoedmakelaars
+    "3414": Reisconsulenten en -organisatoren
+    "3415": "Technische en commerci\xC3\xABle handelsvertegenwoordigers"
+    "3416": Inkopers
+    "3417": Taxateurs en veilinghouders
+    "3419": Vakspecialisten op financieel en verkoopgebied, niet elders ingedeeld
+    "342": Zakelijke dienstverleners en handelsagenten
+    "3421": Handelsagenten
+    "3422": Inklaringsagenten en expediteurs
+    "3423": Arbeidsbemiddelaars en koppelbazen
+    "3429": Zakelijke dienstverleners en handelsagenten, niet elders ingedeeld
+    "343": Vakspecialisten op administratief gebied
+    "3431": Administratief secretarissen e.d.
+    "3432": Vakspecialisten op juridisch gebied e.d.
+    "3433": Boekhouders
+    "3434": Vakspecialisten op statistisch en wiskundig gebied e.d.
+    "3439": Vakspecialisten op administratief gebied, niet elders ingedeeld
+    "344": Vakspecialisten op het gebied van douane, belastingen e.d.
+    "3441": Douane-inspecteurs en grenspolitie
+    "3442": "Ambtenaren: douane en accijnzen"
+    "3443": "Ambtenaren: sociale diensten"
+    "3444": "Ambtenaren: vergunningen"
+    "3449": Vakspecialisten op het gebied van douane, belastingen e.d., niet elders ingedeeld
+    "345": Inspecteurs van politie en rechercheurs
+    "3450": Inspecteurs van politie en rechercheurs
+    "346": Vakspecialisten maatschappelijk werk
+    "3460": Vakspecialisten maatschappelijk werk
+    "347": Artiesten en sportlieden
+    "3471": Decorateurs en commercieel ontwerpers
+    "3472": Omroepers bij radio, televisie e.d.
+    "3473": Straat- en nachtclubmusici e.d., zangers en dansers
+    "3474": Clowns, goochelaars, acrobaten e.d.
+    "3475": Atleten en andere sportlieden
+    "348": Lagere functies op religieus gebied
+    "3480": Lagere functies op religieus gebied
+    "41": Kantoorpersoneel
+    "411": Secretariaatsmedewerkers en toetsenbordwerkers
+    "4111": Stenografen en typisten
+    "4112": Bedieningspersoneel tekstverwerkingsapparatuur e.d.
+    "4113": Gegevensinvoerders
+    "4114": Bedieningspersoneel rekenmachines
+    "4115": Secretariaatsmedewerkers
+    "412": Boekhoudkundige medewerkers e.d.
+    "4121": Boekhoudkundige medewerkers
+    "4122": "Medewerkers statistische of financi\xC3\xABle afdeling"
+    "413": Administratief magazijn-, productie- en transportpersoneel
+    "4131": Administratief magazijnpersoneel
+    "4132": Administratief productiepersoneel
+    "4133": Administratief transportpersoneel
+    "414": Bibliotheekmedewerkers, postbeambten e.d.
+    "4141": Bibliotheek- en archiefmedewerkers
+    "4142": Postboden en postsorteerders
+    "4143": Codeurs, correctoren e.d.
+    "4144": Klerken e.d.
+    "419": Ander kantoorpersoneel
+    "4190": Ander kantoorpersoneel
+    "42": Klanten bedienend personeel
+    "421": Kassabedienden, bankbedienden e.d.
+    "4211": Kassabedienden en kaartverkopers
+    "4212": Bankbedienden e.d.
+    "4213": Bookmakers en croupiers
+    "4214": Lommerdhouders en geldschieters
+    "4215": Incasseerders e.d.
+    "422": Klantenvoorlichters
+    "4221": Reisbureaumedewerkers e.d.
+    "4222": Receptionisten en klantenvoorlichters
+    "4223": Telefonisten
+    "51": Horecapersoneel en verleners persoonlijke diensten
+    "511": Stewards, conducteurs, reisgidsen e.d.
+    "5111": Stewards, stewardessen
+    "5112": Conducteurs
+    "5113": Reisgidsen
+    "512": Huishoudelijk en restaurantpersoneel
+    "5121": Huishoudelijk personeel e.d.
+    "5122": Koks
+    "5123": Kelners en barpersoneel
+    "513": Verzorgend personeel
+    "5131": Kinderverzorgers
+    "5132": Verzorgend personeel in instellingen
+    "5133": Thuishulpwerkers
+    "5139": Verzorgend personeel, niet elders ingedeeld
+    "514": Andere verleners persoonlijke diensten
+    "5141": Kappers, schoonheidsspecialisten e.d.
+    "5142": Gezelschapsdames en persoonlijke bedienden
+    "5143": Begrafenisondernemers en balsemers
+    "5149": Andere verleners persoonlijke diensten, niet elders ingedeeld
+    "515": Astrologen, waarzeggers e.d.
+    "5151": Astrologen e.d.
+    "5152": Waarzeggers, handlezers e.d.
+    "516": Beschermende beroepen
+    "5161": Brandweerlieden
+    "5162": Politiepersoneel
+    "5163": Gevangenbewaarders
+    "5169": Beschermende beroepen, niet elders ingedeeld
+    "52": Verkopers en modellen
+    "521": Modellen in de modebranche en andere modellen
+    "5210": Modellen in de modebranche en andere modellen
+    "522": Verkopers en demonstrateurs in winkels
+    "5220": Verkopers en demonstrateurs in winkels
+    "523": Verkopers in kramen en op markten
+    "5230": Verkopers in kramen en op markten
+    "61": Geschoolde landbouwers, vissers en bosbouwers
+    "611": Tuinders en akkerbouwers
+    "6111": Telers van groenten en akkerbouwgewassen
+    "6112": Fruittelers
+    "6113": Tuinders en kwekers
+    "6114": Telers van diverse gewassen
+    "612": Voor de markt producerende veetelers e.d.
+    "6121": Melkveehouders en rundveehouders
+    "6122": Pluimveehouders
+    "6123": Bijenhouders en zijderupstelers
+    "6124": Houders van diverse diersoorten
+    "6129": Voor de markt producerende veetelers e.d., niet elders ingedeeld
+    "613": "Voor de markt producerende producenten: gemengd bedrijf"
+    "6130": "Voor de markt producerende producenten: gemengd bedrijf"
+    "614": Bosbouwers e.d.
+    "6141": Bosbouwers en houthakkers
+    "6142": Houtskoolproducenten e.d.
+    "615": Vissers, jagers en vallenzetters
+    "6151": Viskwekers e.d.
+    "6152": Vissers, binnen- en kustwateren
+    "6153": Vissers, volle zee
+    "6154": Jagers en vallenzetters
+    "62": Landbouwers en vissers, voor zelfvoorziening
+    "621": Landbouwers en vissers, voor zelfvoorziening
+    "6210": Landbouwers en vissers, voor zelfvoorziening
+    "71": Bouwarbeiders, mijnwerkers
+    "711": Mijnwerkers, schietmeesters, steenhouwers en steensnijders
+    "7111": Mijnwerkers
+    "7112": Schietmeesters en schiethouwers
+    "7113": Steensplijters, -houwers en -snijders
+    "712": Bouwarbeiders ruwbouw, e.d.
+    "7121": Bouwarbeiders, traditionele materialen
+    "7122": Metselaars
+    "7123": Betonwerkers
+    "7124": Timmerlieden
+    "7129": Bouwvakarbeiders ruwbouw, e.d., niet elders ingedeeld
+    "713": Bouwarbeiders afwerking, e.d.
+    "7131": Dakdekkers
+    "7132": Vloerleggers en tegelzetters
+    "7133": Stukadoors
+    "7134": Isoleerders
+    "7135": Glazenmakers
+    "7136": Loodgieters
+    "7137": Elektriciens
+    "714": Schilders, schoonmakers bouwwerken e.d.
+    "7141": Schilders e.d.
+    "7142": Lakspuiters e.d.
+    "7143": Schoonmakers bouwwerken
+    "72": Metaalarbeiders, bedieningspersoneel machines en elektronische apparatur
+    "721": Metaalgieters, lassers, plaat- en constructiewerkers e.d.
+    "7211": Metaalgieters en kernmakers
+    "7212": Lassers en snijders
+    "7213": Plaatwerkers
+    "7214": Constructiewerkers
+    "7215": Kraanmonteurs en kabellassers
+    "7216": Onderwaterwerkers
+    "722": Smeden, gereedschapsmakers e.d.
+    "7221": Smeden en smeedperswerkers
+    "7222": Gereedschapsmakers e.d.
+    "7223": Bedieningspersoneel gereedschapswerktuigen
+    "7224": Metaalslijpers, polijsters, gereedschapslijpers
+    "723": Monteurs
+    "7231": Automonteurs
+    "7232": Vliegtuigmonteurs
+    "7233": "Monteurs industri\xC3\xABle en landbouwwerktuigen"
+    "724": Monteurs elektrische en elektronische apparatuur
+    "7241": Monteurs elektrische apparatuur
+    "7242": Elektronicamonteurs
+    "7243": Onderhoudsmonteurs elektronica
+    "7244": Telefoon- en telegraafinstallateurs en -monteurs
+    "7245": Installateurs en reparateurs van elektriciteitsleidingen, kabelmonteurs
+    "73": Vervaardigers van precisie-instrumenten, ambachtslieden, drukkers e.d.
+    "731": Vervaardigers van precisie-instrumenten van metaal e.d.
+    "7311": Vervaardigers en reparateurs van precisie-instrumenten
+    "7312": Vervaardigers en stemmers van muziekinstrumenten
+    "7313": Juweliers en bewerkers van edele metalen
+    "732": Pottenbakkers, glasblazers e.d.
+    "7321": Vormgevers met slijpschijf, pottenbakkers e.d.
+    "7322": Glasblazers, -snijders, -slijpers en -polijsters
+    "7323": Glasgraveurs en -etsers
+    "7324": Glazeniers, aardewerkschilders e.d.
+    "733": Ambachtslieden werkend met hout, textiel, leer e.d.
+    "7331": Ambachtslieden werkend met hout e.d.
+    "7332": Ambachtslieden werkend met textiel, leer e.d.
+    "734": Drukkers e.d.
+    "7341": Letterzetters e.d.
+    "7342": "Stereotypeurs en clich\xC3\xA9makers"
+    "7343": Graveurs en etsers voor drukwerk
+    "7344": Fotolaboranten e.d.
+    "7345": Boekbinders e.d.
+    "7346": Zeefdrukkers, blok- en textieldrukkers
+    "74": Andere ambachtsberoepen
+    "741": Beroepen in de levensmiddelenbereiding
+    "7411": Slagers, vishandelaren e.d.
+    "7412": Bakkers en banketbakkers
+    "7413": Vervaardigers van zuivelproducten
+    "7414": Bereiders van groente- en fruitconserven
+    "7415": Proevers en classeerders van voedingsmiddelen en dranken
+    "7416": Tabaksbereiders  en vervaardigers van tabaksproducten
+    "742": Houtbehandelaars, meubelmakers e.d.
+    "7421": Houtbehandelaars
+    "7422": Meubelmakers e.d.
+    "7423": Instellers en bedieningspersoneel houtbewerkingsmachines
+    "7424": Mandenmakers, borstelmakers e.d.
+    "743": Beroepen in de textiel- en kledingindustrie e.d.
+    "7431": Vezelbereiders
+    "7432": Wevers, breiers e.d
+    "7433": Kleermakers en hoedenmakers
+    "7434": Bontwerkers e.d.
+    "7435": Patroonmakers en snijders (textiel, leer e.d.)
+    "7436": Naaisters, borduursters e.d.
+    "7437": Stoffeerders e.d.
+    "744": Beroepen in de leer- en schoenindustrie
+    "7441": Pelsbereiders en leerlooiers
+    "7442": Schoenmakers e.d.
+    "81": Bedieningspersoneel van stationaire installaties e.d.
+    "811": Bedieningspersoneel van mijninstallaties en installaties voor de verwerking van mineralen
+    "8111": Bedieningspersoneel van mijninstallaties
+    "8112": Bedieningspersoneel van installaties voor de verwerking van ertsen en steen
+    "8113": Boorders van bronnen e.d.
+    "812": Bedieningspersoneel van metaalbe- en -verwerkingsinstallaties
+    "8121": Bedieningspersoneel van erts- en metaalovens
+    "8122": Bedieningspersoneel van metaalsmelt- en -gietinstallaties en van walsen
+    "8123": Bedieningspersoneel van installaties voor de warmtebehandeling van metaal
+    "8124": Bedieningspersoneel van metaaltrek- en -persinstallaties
+    "813": Bedieningspersoneel van installaties voor de vervaardiging van glas, aardewerk e.d.
+    "8131": Bedieningspersoneel van glas- en aardewerkovens e.d.
+    "8139": Bedieningspersoneel van installaties voor de vervaardiging van glas, aarddewerk e.d., niet elders in...
+    "814": Bedieningspersoneel van installaties voor houtbewerking en de vervaardiging van papier
+    "8141": Bedieningspersoneel van installaties voor houtbewerking
+    "8142": Bedieningspersoneel van installaties voor de vervaardiging van papierpulp
+    "8143": Bedieningspersoneel van installaties voor de vervaardiging van papier
+    "815": Bedieningspersoneel van installaties voor de chemische industrie
+    "8151": Bedieningspersoneel van installaties voor het vergruizen, malen en mengen van chemische stoffen
+    "8152": Bedieningspersoneel van installaties voor chemische warmtebehandeling
+    "8153": Bedieningspersoneel van installaties voor het filteren en scheiden van chemische stoffen
+    "8154": Bedieningspersoneel van distilleer- en reageerinstallaties voor de chemische industrie (behalve voor...
+    "8155": Bedieningspersoneel van aardolie- en aardgasraffinaderijen
+    "8159": Bedieningspersoneel van installaties voor de chemische industrie, niet elders ingedeeld
+    "816": Bedieningspersoneel van elektriciteitscentrales e.d.
+    "8161": Bedieningspersoneel van elektriciteitscentrales
+    "8162": Bedieningspersoneel van stoommachines en stoomketels
+    "8163": Bedieningspersoneel van verbrandingsovens, waterzuiveringsinstallaties e.d.
+    "817": "Bedieningspersoneel van geautomatiseerde assemblagelijnen en industri\xC3\xABle robots"
+    "8171": Bedieningspersoneel van geautomatiseerde assemblagelijnen
+    "8172": "Bedieningspersoneel van industri\xC3\xABle robots"
+    "82": Bedieningspersoneel en assembleurs van machines
+    "821": Bedieningspersoneel van machines voor de vervaardiging van  producten van metaal of van mineralen
+    "8211": Bedieningspersoneel van gereedschapswerktuigen
+    "8212": Bedieningspersoneel van machines voor de productie van cement en andere minerale producten
+    "822": Bedieningspersoneel van machines voor de vervaardiging van chemische producten
+    "8221": Bedieningspersoneel van machines voor de vervaardiging van farmaceutische en toiletartikelen
+    "8222": Bedieningspersoneel van machines voor de vervaardiging van munitie en explosieven
+    "8223": Bedieningspersoneel van machines voor het afwerken, plateren en bekleden van metaal
+    "8224": Bedieningspersoneel van machines voor de vervaardiging van fotografische producten
+    "8229": Bedieningspersoneel van machines voor de vervaardiging van chemische producten, niet elders ingedeel...
+    "823": Bedieningspersoneel van machines voor de vervaardiging van producten van rubber of van kunststof
+    "8231": Bedieningspersoneel van machines voor de vervaardiging van producten van rubber
+    "8232": Bedieningspersoneel van machines voor de vervaardiging van producten van kunststof
+    "824": Bedieningspersoneel van machines voor de vervaardiging van houtproducten
+    "8240": Bedieningspersoneel van machines voor de vervaardiging van houtproducten
+    "825": Bedieningspersoneel van machines voor het drukken, het boekbinden en de vervaardiging van producten ...
+    "8251": Bedieningspersoneel van machines voor het drukken
+    "8252": Bedieningspersoneel van machines voor het boekbinden
+    "8253": Bedieningspersoneel van machines voor de vervaardiging van producten van papier
+    "826": Bedieningspersoneel van machines voor de vervaardiging van producten van textiel, bont en leer
+    "8261": Bedieningspersoneel van machines voor het bereiden van spinvezels, het spinnen en het opwinden
+    "8262": Bedieningspersoneel van weefgetouwen en breimachines
+    "8263": Bedieningspersoneel van naaimachines
+    "8264": Bedieningspersoneel van machines voor het bleken, het verven en het reinigen
+    "8265": Bedieningspersoneel van machines voor het bereiden van bont en leer
+    "8266": Bedieningspersoneel van machines voor de vervaardiging van schoeisel e.d.
+    "8269": Bedieningspersoneel van machines voor de vervaardiging van producten van textiel, bont en leer, niet...
+    "827": Bedieningspersoneel van machines voor de vervaardiging van voedingsmiddelen e.d.
+    "8271": Bedieningspersoneel van machines voor de verwerking van vlees en vis
+    "8272": Bedieningspersoneel van machines voor de vervaardiging van zuivelproducten
+    "8273": Bedieningspersoneel van machines voor het malen van granen en specerijen
+    "8274": Bedieningspersoneel van bakkerijmachines en van machines voor de vervaardiging van graanproducten en...
+    "8275": Bedieningspersoneel van machines voor de verwerking van groente en fruit
+    "8276": Bedieningspersoneel van machines voor de vervaardiging van suiker
+    "8277": Bedieningspersoneel van machines voor de verwerking van thee, koffie en cacao
+    "8278": Bedieningspersoneel van brouwerijmachines en van machines voor de bereiding of vervaardiging van wij...
+    "8279": Bedieningspersoneel van machines voor de bereiding van tabak
+    "828": Assembleurs
+    "8281": Assembleurs van mechanische werktuigen
+    "8282": Assembleurs van elektrische apparatuur
+    "8283": Assembleurs van elektronische apparatuur
+    "8284": Assembleurs van producten van metaal, rubber en kunststof
+    "8285": Assembleurs van producten van hout e.d.
+    "8286": Assembleurs van producten van karton, textiel e.d.
+    "829": Ander bedieningspersoneel van machines en andere assembleurs
+    "8290": Ander bedieningspersoneel van machines en andere assembleurs
+    "83": Bestuurders van voertuigen en bedieningspersoneel van mobiele installaties
+    "831": Treinmachinisten e.d.
+    "8311": Treinmachinisten
+    "8312": Remmers, wisselwachters en rangeerders
+    "832": Bestuurders van wegvoertuigen
+    "8321": Bestuurders van motorrijwielen
+    "8322": Chauffeurs van auto's, taxi's en bestelwagens
+    "8323": Buschauffeurs en trambestuurders
+    "8324": Vrachtwagenchauffeurs
+    "833": Bedieningspersoneel van landbouwmachines en andere mobiele installaties
+    "8331": Bedieningspersoneel van gemotoriseerde land- en bosbouwmachines
+    "8332": Bedieningspersoneel van grondverzetmachines e.d.
+    "8333": Kraandrijvers en bedieningspersoneel van takels e.d.
+    "8334": Heftruckbestuurders
+    "834": Dekpersoneel op schepen e.d.
+    "8340": Dekpersoneel op schepen e.d.
+    "91": Elementaire beroepen op het gebied van verkoop, dienstverlening en reiniging
+    "911": Straatverkopers e.d.
+    "9111": Straatverkopers, voedsel
+    "9112": Straatverkopers, non-food
+    "9113": Huis-aan-huisverkopers, verkopers via telefoon
+    "912": Schoenpoetsers en andere op straat utgeoefende dienstverlenende beroepen
+    "9120": Schoenpoetsers en andere op straat uitgeoefende dienstverlenende beroepen
+    "913": Huishoudelijke hulpen, schoonmakers en wasserijpersoneel
+    "9131": Huishoudelijke hulpen en schoonmakers in huishoudens
+    "9132": Huishoudelijke hulpen en schoonmakers in kantoren, hotels e.d.
+    "9133": Handwassers en strijkers
+    "914": "Conci\xC3\xABrges, glazenwassers e.d."
+    "9141": "Conci\xC3\xABrges"
+    "9142": Autowassers, glazenwassers e.d.
+    "915": Boden, kruiers, portiers e.d.
+    "9151": Boden, kruiers en bestellers
+    "9152": Portiers, bewakingspersoneel e.d.
+    "9153": Geldophalers verkoopautomaten, meterlezers e.d.
+    "916": Vuilnisophalers e.d.
+    "9161": Vuilnisophalers e.d.
+    "9162": Straatvegers e.d.
+    "92": Ongeschoolde arbeiders in de landbouw, de visserij e.d.
+    "921": Ongeschoolde arbeiders in de landouw, de visserij e.d.
+    "9211": Ongeschoolde arbeiders in de landbouw
+    "9212": Ongeschoolde arbeiders in de bosbouw
+    "9213": Ongeschoolde arbeiders in de visserij, bij de jacht en bij het zetten van vallen
+    "93": Ongeschoolde arbeiders in de mijnbouw, de bouwnijverheid, de industrie en het vervoer
+    "931": Ongeschoolde arbeiders in de mijnbouw en de bouwnijverheid
+    "9311": Ongeschoolde arbeiders in de mijnbouw
+    "9312": Ongeschoolde arbeiders bij de bouw en het onderhoud van wegen, dammen e.d.
+    "9313": Ongeschoolde arbeiders in de bouwnijverheid
+    "932": Ongeschoolde arbeiders in de industrie
+    "9321": Ongeschoolde assemblagearbeiders
+    "9322": Inpakkers en andere ongeschoolde arbeiders in de industrie
+    "933": Ongeschoolde transportarbeiders, laders en lossers
+    "9331": Bestuurders van (bak)fietsen en handkarren
+    "9332": Bestuurders van door dieren getrokken voertuigen
+    "9333": Laders en lossers

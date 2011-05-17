@@ -1,0 +1,87 @@
+pt:
+  job_openings:
+    apply:
+      apply: Aplicar
+      deadline: Prazo
+    contacts:
+      contacts: Contactos
+      union_contacts: "União Contactos"
+    employer:
+      employer: Empregador
+      national_id: "Identidade nacional"
+    index:
+      employer: Empregador
+      job_categories: ~
+      keywords: Palavras-chave
+      location: Localização
+      locations: ~
+      update_search: "Atualize Pesquisa"
+    items:
+      ago: atrás
+      posted: Postado
+    job_description:
+      job_description: "Descrição da ocupação"
+    job_information:
+      accommodation_paid_for: "Alojamento pago"
+      duration: Duração
+      ends: Termina
+      hours_per_week: "h / semana"
+      industry: Indústria
+      job_category: "categoria de emprego"
+      job_information: "Informações sobre o Trabalho"
+      length: Comprimento
+      length_type:
+        "0": Temporários
+        "-1": Permanente
+      location: Localização
+      meals_paid_for: "Refeições pagas"
+      num_positions: Posições
+      relocation_paid_for: "Deslocalização pago"
+      salary: Salário
+      salary_period:
+        D: dia
+        H: h
+        M: Mês
+        W: semana
+        "Y": ano
+      see_map: "Veja o mapa"
+      starts: Inicia
+      substitute: Suplente
+      travel_expenses_paid_for: "As despesas de viagem pagas"
+      worktime: Worktime
+      worktime_type:
+        FULL_TIME: "Tempo integral"
+        PART_TIME: Parte-tempo
+    matches:
+      jobs_match_your_query: "Um trabalho corresponde à sua consulta"
+      more: Mais
+    requirements:
+      drivers_license: "carteira de motorista"
+      education: Educação
+      experience: Experiência
+      experience_str: "1 mês"
+      language_proficiency:
+        "true": "proficiência elementar"
+        "2": "De trabalho limitada proficiência"
+        "3": "Profissionais que trabalham de proficiência"
+        "4": "Proficiência Profissional Plena"
+        "5": "Proficiência Nativa ou Bilíngüe"
+      language_type:
+        cs: Checa
+        de: Alemão
+        en: Inglês
+        es: Espanhol
+        fr: Francês
+        it: Italiano
+        nl: Holandês
+        ro: Romeno
+      languages: Línguas
+      maximum_age: "A idade máxima"
+      minimum_age: "A idade mínima"
+      must_have_car: "Deve ter carro"
+      none: Nenhum
+      required: Obrigatório
+      requirements: Requisitos
+    show:
+      anonymous: Anónimo
+      published: Publicação

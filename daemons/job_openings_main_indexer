@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'angels' 
+
+Angels.run_loop('job_openings_main_indexer', :load_rails => true, :exception_handler => :hoptoad) do 
+  JobOpening.reindex_main
+end

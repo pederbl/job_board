@@ -1,0 +1,18 @@
+cs:
+  about: O
+  choose: ~
+  description: Popis
+  email: E-mail
+  fax: Fax
+  feedback: "Zpětná vazba"
+  i18n:
+    language:
+      name: Čeština
+  maximum: Maximální
+  minimum: Minimální
+  phone: Telefon
+  postal_address: "Poštovní adresa"
+  terms: Podmínky
+  type: Typ
+  visit_address: "Navštivte adresu"
+  website: "Internetové stránky"

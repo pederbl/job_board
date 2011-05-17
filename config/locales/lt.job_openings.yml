@@ -1,0 +1,87 @@
+lt:
+  job_openings:
+    apply:
+      apply: Taikyti
+      deadline: Galutinis
+    contacts:
+      contacts: Kontaktai
+      union_contacts: "Sąjungos Kontaktai"
+    employer:
+      employer: Darbdavys
+      national_id: "Nacionalinės asmens tapatybės"
+    index:
+      employer: Darbdavys
+      job_categories: ~
+      keywords: "Raktiniai žodžiai"
+      location: Vieta
+      locations: ~
+      update_search: "Atnaujinti Paieška"
+    items:
+      ago: prieš
+      posted: Paskelbta
+    job_description:
+      job_description: "Darbo aprašymas"
+    job_information:
+      accommodation_paid_for: "Apgyvendinimas už"
+      duration: Trukmė
+      ends: Baigiasi
+      hours_per_week: "h / savaitę"
+      industry: Pramonė
+      job_category: "Darbo kategorija"
+      job_information: "Darbo Informacija"
+      length: Ilgis
+      length_type:
+        "0": Laikinas
+        "-1": Nuolatinis
+      location: Vieta
+      meals_paid_for: "Maitinimas už"
+      num_positions: Pozicijos
+      relocation_paid_for: "Perkėlimas už"
+      salary: Atlyginimas
+      salary_period:
+        D: dieną
+        H: h
+        M: mėnesį
+        W: savaitę
+        "Y": metų
+      see_map: "Žiūrėti žemėlapį"
+      starts: Paleidžia
+      substitute: Pakaitalas
+      travel_expenses_paid_for: "Kelionės išlaidų atlyginimas"
+      worktime: Worktime
+      worktime_type:
+        FULL_TIME: Dieninės
+        PART_TIME: Neakivaizdinės
+    matches:
+      jobs_match_your_query: "Vienas darbas atitinka jūsų užklausą"
+      more: Daugiau
+    requirements:
+      drivers_license: "Vairuotojo pažymėjimą"
+      education: Švietimas
+      experience: Patirtis
+      experience_str: "1 mėnesio"
+      language_proficiency:
+        "true": "Elementarus kvalifikacijos"
+        "2": "Ribotas darbo kvalifikacijos"
+        "3": "Profesionali darbo kvalifikacijos"
+        "4": "Visas profesinės kvalifikacijos"
+        "5": "Gimtoji arba dvikalbį kvalifikacijos"
+      language_type:
+        cs: Čekijos
+        de: Vokiečių
+        en: Anglų
+        es: Ispanijos
+        fr: Prancūzijos
+        it: Italijos
+        nl: Olandų
+        ro: Rumunijos
+      languages: Kalbos
+      maximum_age: "Didžiausias amžius"
+      minimum_age: "Minimalus amžius"
+      must_have_car: "Turi turėti automobilį"
+      none: Nėra
+      required: Reikalinga
+      requirements: Reikalavimai
+    show:
+      anonymous: Anoniminis
+      published: Paskelbta

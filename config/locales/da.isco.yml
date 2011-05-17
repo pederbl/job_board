@@ -1,0 +1,532 @@
+--- 
+da: 
+  isco_code: 
+    "11": Lovgivningsarbejde samt ledelse i offentlig administration og interesseorganisationer
+    "111": Lovgivning
+    "1120": Ledere i offentlig administration
+    "113": Traditionelle overhoveder og overhoveder for landsbyer
+    "1130": Traditionelle overhoveder og overhoveder for landsbyer
+    "114": Ledelse i interesseorganisationer
+    "1141": Ledere i politiske partiorganisationer
+    "1142": "Ledere i \xC3\xB8konomiske interesseorganisationer, fx arbejdsgiverforeninger, brancheorganisationer og fag..."
+    "1143": "Ledere i humanit\xC3\xA6re organisationer, fx milj\xC3\xB8- og idr\xC3\xA6tsorganisationer"
+    "12": "Ledelse i virksomheder med ti eller flere besk\xC3\xA6ftigede"
+    "121": "Overordnede og/eller tv\xC3\xA6rg\xC3\xA5ende ledelse i virksomheder med ti eller flere besk\xC3\xA6ftigede"
+    "1210": "Overordnede og/eller tv\xC3\xA6rg\xC3\xA5ende ledere i virksomheder med ti eller flere besk\xC3\xA6ftigede"
+    "122": "Ledelse af hovedaktiviteten i virksomheder med ti eller flere besk\xC3\xA6ftigede"
+    "1221": Ledere af bedriften inden for landbrug, skovbrug og fiskeri
+    "1222": "Ledere af produktionen i h\xC3\xA5ndv\xC3\xA6rks- og industrivirksomheder"
+    "1223": "Ledere af produktionen i bygge- og anl\xC3\xA6gssektoren"
+    "1224": Ledere af salget i engros- og detailhandelsvirksomheder
+    "1225": Ledere af hovedaktiviteten i hotel- og restaurationsvirksomheder
+    "1226": Ledere af hovedaktiviteten i virksomheder inden for transport og kommunikation
+    "1227": Ledere af hovedaktiviteten i virksomheder inden for forretningsservice
+    "1228": Ledere af hovedaktiviteten i virksomheder inden for sektoren 'personlige tjenesteydelser'
+    "1229": "Ledere af hovedaktiviteten i \xC3\xB8vrige virksomheder"
+    "123": "Ledelse af specialomr\xC3\xA5der i virksomheder med ti eller flere besk\xC3\xA6ftigede"
+    "1231": "Ledere vedr\xC3\xB8rende administration og finansiering i ikke-finansielle virksomheder"
+    "1232": Personaleledere
+    "1233": "Salgs- og afs\xC3\xA6tningsledere, ekskl. salgsvirksomheder"
+    "1234": "Informations- og markedsf\xC3\xB8ringsledere"
+    "1235": "Indk\xC3\xB8bs- og forsyningsledere"
+    "1236": Edb-ledere, eksklusive edb-virksomheder
+    "1237": Forsknings- og udviklingsledere
+    "1239": "Ledere af andre specialomr\xC3\xA5der i virksomheder"
+    "13": "Ledelse af virksomheder med f\xC3\xA6rre end ti besk\xC3\xA6ftigede"
+    "131": "Ledelse af virksomheder med f\xC3\xA6rre end ti besk\xC3\xA6ftigede"
+    "1311": Ledere af virksomheder inden for landbrug, jagt, skovbrug og fiskeri
+    "1312": "Ledere af h\xC3\xA5ndv\xC3\xA6rks- og industrivirksomheder"
+    "1313": "Ledere af virksomheder i bygge- og anl\xC3\xA6gssektoren"
+    "1314": Ledere af engros- og detailhandelsvirksomheder
+    "1315": Ledere af hotel- og restaurationsvirksomheder
+    "1316": Ledere af virksomheder inden for transport og kommunikation
+    "1317": Ledere af virksomheder inden for forretningsservice
+    "1318": Ledere af virksomheder inden for sektoren 'personlige tjenesteydelser'
+    "1319": "Ledere af \xC3\xB8vrige virksomheder"
+    "21": "Forskning og/eller anvendelse af f\xC3\xA6rdigheder inden for de ikke-biologiske grene af naturvidenskab sa..."
+    "211": Arbejde med emner inden for fysik, kemi, astronomi, meteorologi, geologi og geofysik
+    "2111": Astronomer og fysikere
+    "2112": Meteorologer
+    "2113": Kemikere
+    "2114": Geologer og geofysikere
+    "212": Arbejde med matematiske og statistiske begreber, teorier og metoder
+    "2121": Matematikere
+    "2122": Statistikere
+    "213": "Edb-planl\xC3\xA6gning og systemudvikling"
+    "2131": Databaseadministratorer, edb-konsulenter og systemanalytikere
+    "2132": "Systemprogramm\xC3\xB8rer"
+    "2139": "Personer, der udf\xC3\xB8rer andet edb-arbejde p\xC3\xA5 h\xC3\xB8jeste faglige niveau"
+    "214": "Arkitekt- og ingeni\xC3\xB8rarbejde med videre"
+    "2141": "Arkitekter og planl\xC3\xA6ggere af anl\xC3\xA6gsarbejder"
+    "2142": "Bygge og anl\xC3\xA6gsingeni\xC3\xB8rer"
+    "2143": "St\xC3\xA6rkstr\xC3\xB8msingeni\xC3\xB8rer"
+    "2144": "Svagstr\xC3\xB8msingeni\xC3\xB8rer"
+    "2145": "Maskiningeni\xC3\xB8rer"
+    "2146": "Kemiingeni\xC3\xB8rer"
+    "2147": "Boreingeni\xC3\xB8rer, metallurger o.l."
+    "2148": "Geometrikere og landinspekt\xC3\xB8rer"
+    "2149": "Personer, der udf\xC3\xB8rer andet arkitekt- og ingeni\xC3\xB8rarbejde eller lignende"
+    "22": "Forskning og/eller anvendelse af f\xC3\xA6rdigheder inden for medicin, farmaci og de biologiske grene af na..."
+    "221": Arbejde med emner inden for de biologiske grene af naturvidenskab
+    "2211": Biologer, botanikere, zoologer o.l.
+    "2212": Farmakologer, patologer, biokemikere o.l.
+    "2213": Hortonomer, landbrugskandidater, planteavlskonsulenter og skovridere
+    "222": "Arbejde med emner inden for medicin, odontologi, veterin\xC3\xA6rvidenskab og farmaci"
+    "2221": "L\xC3\xA6ger"
+    "2222": "Tandl\xC3\xA6ger"
+    "2223": "Dyrl\xC3\xA6ger"
+    "2224": Apotekere og farmaceuter
+    "2229": "Personer, der arbejder med emner inden for medicin, odontologi, veterin\xC3\xA6rvidenskab og farmaci i \xC3\xB8vri..."
+    "223": Jordmoderarbejde og overordnet sygeplejearbejde med videre
+    "2230": "Afdelingssygeplejersker, hjemmesygeplejersker, jordem\xC3\xB8dre og sundhedsplejersker"
+    "23": Undervisning
+    "231": "Undervisning p\xC3\xA5 universiteter og andre h\xC3\xB8jere l\xC3\xA6reanstalter"
+    "2310": "Undervisere p\xC3\xA5 universiteter og andre h\xC3\xB8jere l\xC3\xA6reanstalter"
+    "232": "Undervisning p\xC3\xA5 gymnasier, erhvervsskoler med videre"
+    "2320": "Undervisere p\xC3\xA5 gymnasier, erhvervsskoler mv."
+    "233": Undervisning i folkeskoler og lignende
+    "2331": Undervisere i folkeskoler o.l.
+    "2332": Undervisere i forskoler
+    "234": Undervisning af handicappede
+    "2340": Undervisere af handicappede
+    "235": "Arbejde vedr\xC3\xB8rende undervisning i \xC3\xB8vrigt"
+    "2351": Undervisningskonsulenter
+    "2352": "Skoleinspekt\xC3\xB8rer"
+    "2359": "Personer, der udf\xC3\xB8rer andet arbejde vedr\xC3\xB8rende undervisning"
+    "24": "Forskning og/eller anvendelse af f\xC3\xA6rdigheder inden for samfundsvidenskab og humaniora"
+    "241": "Arbejde med emner veddr\xC3\xB8rende virksomheders organisation og \xC3\xB8konomi"
+    "2411": Revisorer
+    "2412": "Besk\xC3\xA6ftigelseskonsulenter, erhvervsvejledere og personalekonsulenter"
+    "2419": "Personer med specialfunktioner vedr\xC3\xB8rende organisation"
+    "242": "Juridisk pr\xC3\xA6get arbejde"
+    "2421": "Advokater og sagf\xC3\xB8rere"
+    "2422": Dommere
+    "2429": "Jurister i \xC3\xB8vrigt"
+    "243": Kulturformidling og informationsarbejde
+    "2431": "Arkivarer og museumsinspekt\xC3\xB8rer"
+    "2432": Bibliotekarer o.l.
+    "244": "Arbejde med emner inden for samfunds\xC3\xB8konomi, samfundsfag og humaniora samt overordnet socialr\xC3\xA5dgivni..."
+    "2441": "\xC3\x98konomer"
+    "2442": Antropologer, etnologer og sociologer
+    "2443": Filosoffer, historikere og politologer
+    "2444": "Filologer, overs\xC3\xA6ttere og tolke"
+    "2445": Psykologer
+    "2446": "Personer, der besk\xC3\xA6ftiger sig med overordnet socialr\xC3\xA5dgivningsarbejde"
+    "245": Journalist-, kunst- og skribentarbejde
+    "2451": Forfattere, journalister og andre skribenter
+    "2452": Billedhuggere, kunstmalere o.l.
+    "2453": Komponister, musikere og sangere
+    "2454": Koreografer og dansere
+    "2455": "Skuespillere og film- og teaterinstrukt\xC3\xB8rer, entertainere"
+    "246": Arbejde inden for religion
+    "2460": "Provster og pr\xC3\xA6ster"
+    "31": Teknikerarbejde inden for ikke-biologiske emner
+    "311": Teknikerarbejde inden for fysik, kemi, mekanik med videre
+    "3111": Teknikere inden for fysik, kemi, astronomi, meteorologi, geologi mv.
+    "3112": "Teknikere inden for bygninger og anl\xC3\xA6g"
+    "3113": "Teknikere inden for elektriske anl\xC3\xA6g mv."
+    "3114": "Teknikere inden for elektroniske anl\xC3\xA6g mv."
+    "3115": "Teknikere inden for maskiner og r\xC3\xB8ranl\xC3\xA6g"
+    "3116": Kemoteknikere
+    "3117": "Teknikere inden for industrielle udvindingsanl\xC3\xA6g"
+    "3118": Tekniske tegnere
+    "3119": "Teknikere i \xC3\xB8vrigt inden for fysik, kemi, mekanik mv."
+    "312": Edb-teknisk arbejde
+    "3121": Edb-assistenter
+    "3122": Edb-driftsassistenter
+    "3123": "Personer, der besk\xC3\xA6ftiger sig med industrielle robotprogrammer"
+    "313": Arbejde med lyd, lys og billeder ved film- og teaterforestillinger samt betjening af medicinsk udsty...
+    "3131": Personer, der arbejder med lyd, lys og billeder ved fotografering, optagelse, film- og teaterforesti...
+    "3132": Personer, der betjener maskiner ved udsendelse af radio- og fjernsynsudsendelser samt ekspedition af...
+    "3133": "Personer, der betjener medicinsk udstyr s\xC3\xA5som scannings- og narkoseapparatur samt maskiner til optag..."
+    "3139": "Personer, der arbejder med lyd, lys og billeder i \xC3\xB8vrigt"
+    "314": Arbejde inden for skibs- og luftfart
+    "3141": Maskinofficerer, skibsmaskinister
+    "3142": "Kaptajner, lodser, skibsf\xC3\xB8rere"
+    "3143": "Flyvenavigat\xC3\xB8rer, piloter, trafikflyvere"
+    "3144": Flyveledere, flyvelederassistenter
+    "3145": Flymaskinister, flyveteknikere
+    "315": "Arbejde vedr\xC3\xB8rende sikkerhed og kvalitet"
+    "3151": "Personer, der besk\xC3\xA6ftiger sig med bygnings- og brandsikkerhed"
+    "3152": "Personer, der besk\xC3\xA6ftiger sig med kontrol af milj\xC3\xB8, sikkerhed og kvalitet"
+    "32": Teknikerarbejde inden for biologiske emner
+    "321": Teknikerarbejde inden for biologi, medicin, landbrug med videre
+    "3211": Teknikere inden for biologi, medicin mv.
+    "3212": Teknikere inden for landbrug og skovbrug
+    "3213": "R\xC3\xA5dgivere inden for landbrug og skovbrug"
+    "322": Assistentarbejde inden for sundhedssektoren mv., ekskl. sygeplejearbejde
+    "3221": "Assistenter og r\xC3\xA5dgivere inden for sundhed, f\xC3\xB8dsel mv."
+    "3222": "Assistenter og r\xC3\xA5dgivere inden for hygiejne"
+    "3223": "Assistenter og r\xC3\xA5dgivere inden for kostforplejning"
+    "3224": Optikere og optometrister
+    "3225": Tandklinikassistenter og tandplejere
+    "3226": Fysioterapeuter, fodplejere, kiropraktorer
+    "3227": "Veterin\xC3\xA6rsygeplejersker"
+    "3228": Apotekerassistenter
+    "3229": Personer, der arbejder inden for ergoterapi, zoneterapi, yoga mv.
+    "323": Sygeplejearbejde
+    "3231": Sygeplejerske, narkoseassistent
+    "3232": Jordemoderassistenter o.l.
+    "324": Alternative behandlere
+    "3241": "Naturl\xC3\xA6ger"
+    "3242": Healere
+    "33": Undervisning og omsorgsarbejde
+    "331": "Skoleundervisning af b\xC3\xB8rn under den undervisningspligtige alder"
+    "3310": "B\xC3\xB8rnehaveklassel\xC3\xA6rere, legestueledere"
+    "332": "P\xC3\xA6dagogisk arbejde med b\xC3\xB8rn under den undvisningspligtige alder"
+    "3320": "P\xC3\xA6dagoger, der arbejder med b\xC3\xB8rn under den undervisningspligtige alder"
+    "333": Omsorgsarbejde med handicappede mennesker
+    "3330": "Forsorgsassistenter, omsorgsassistenter, socialp\xC3\xA6dagoger"
+    "334": "Undervisnings- og omsorgsarbejde i \xC3\xB8vrigt"
+    "3340": "Aftenskolel\xC3\xA6rere, klubmedarbejdere, k\xC3\xB8rel\xC3\xA6rere, ungdomsledere o.l."
+    "34": Arbejde med salg, finansiering, forretningsservice, administration mv.
+    "341": Salgs- og finansieringsarbejde
+    "3411": Bankierer, valutahandlere, vekselerer
+    "3412": "Assurand\xC3\xB8rer, forsikringskonsulenter"
+    "3413": "Ejendomsm\xC3\xA6glere"
+    "3414": Rejsekonsulenter
+    "3415": "Personer, der udf\xC3\xB8rer ops\xC3\xB8gende salgsarbejde"
+    "3416": "Personer, der udf\xC3\xB8rer indk\xC3\xB8bsarbejde i virksomheder og organisationer"
+    "3417": "Personer, der udf\xC3\xB8rer vurderings- og takseringsarbejde"
+    "3419": "Personer, der udf\xC3\xB8rer salgs- og finansieringsarbejde i \xC3\xB8vrigt"
+    "342": Agentarbejde og forretningsservice
+    "3421": "Varem\xC3\xA6glere"
+    "3422": "Personer, der udf\xC3\xB8rer speditionsarbejde"
+    "3423": Arbejdsformidlere
+    "3429": "Personer, der udf\xC3\xB8rer agentarbejde og forretningsservice i \xC3\xB8vrigt"
+    "343": Administrationsarbejde
+    "3431": "Personer, der udf\xC3\xB8rer administrativt arbejde i sekretariat o.l."
+    "3432": "Advokatsekret\xC3\xA6rer"
+    "3433": Bogholdere, revisorassistenter
+    "3434": "Personer, der udf\xC3\xB8rer assistentarbejde ved matematiske beregninger og udarbejdelse af statistik"
+    "3439": "Personer, der udf\xC3\xB8rer administrationsarbejde i \xC3\xB8vrigt"
+    "344": "Administrativt arbejde vedr\xC3\xB8rende offentlige ydelser og afgifter"
+    "3441": Toldbetjente, toldvagtmestre
+    "3442": "Ligningssekret\xC3\xA6rer, skattekontroll\xC3\xB8rer, toldassistenter"
+    "3443": "Bistandsr\xC3\xA5dgivere, socialformidlere"
+    "3444": "Personer, der udf\xC3\xB8rer arbejde vedr\xC3\xB8rende udstedelse af pas, licens mv."
+    "3449": "Personer, der udf\xC3\xB8rer andet administrativt arbejde vedr\xC3\xB8rende offentlige ydelser og afgifter"
+    "345": "Politim\xC3\xA6ssigt unders\xC3\xB8gelsesarbejde"
+    "3450": "Detektiver, kriminalkommiss\xC3\xA6rer, politiinspekt\xC3\xB8rer"
+    "346": Socialt vejlednings- og omsorgsarbejde
+    "3460": "Socialr\xC3\xA5dgivere, familievejledere mv."
+    "347": Arbejde inden for kunst, underholdning og sport
+    "3471": "Dekorat\xC3\xB8rer, designere, indretningsarkitekter mv."
+    "3472": "Speakere, suffl\xC3\xB8rer mv."
+    "3473": "Personer, der arbejder med dans og musik, der ikke foruds\xC3\xA6tter f\xC3\xA6rdigheder p\xC3\xA5 h\xC3\xB8jeste niveau"
+    "3474": "Artister, dress\xC3\xB8rer, g\xC3\xB8glere, statister"
+    "3475": "Sportsud\xC3\xB8vere og tr\xC3\xA6nere"
+    "348": Arbejde med tilknytning til religion
+    "3480": "Personer, der udf\xC3\xB8rer arbejde med tilknytning til religion"
+    "41": Internt kontorarbejde
+    "411": Indtastning og alment kontorarbejde
+    "4111": Maskinskrivere, stenografer
+    "4112": Personer, der betjener teleprintere, telefax og lignende maskiner
+    "4113": "Dataassistenter, tasteoperat\xC3\xB8rer"
+    "4114": Faktureringsassistenter
+    "4115": "Sekret\xC3\xA6rer"
+    "412": Beregningsarbejde
+    "4121": Bogholderiassistenter, regnskabsassistenter
+    "4122": "Personer, der udf\xC3\xB8rer beregningsarbejde i forbindelse med finansielle transaktioner, statistik mv."
+    "413": "Registreringsarbejde vedr\xC3\xB8rende lagerf\xC3\xB8ring, vareforbrug og transport"
+    "4131": Lagerforvaltere, depotassistenter, magasinforvaltere
+    "4132": "Personer, der udf\xC3\xB8rer registreringsarbejde vedr\xC3\xB8rende ordrer, forbrug o.l. samt kontrol med overhold..."
+    "4133": "Personer, der udf\xC3\xB8rer registreringsarbejde vedr\xC3\xB8rende transport og transporttilrettel\xC3\xA6ggelse"
+    "414": "Post- og betjentarbejde, korrekturl\xC3\xA6sning mv. samt registreringsarbejde vedr\xC3\xB8rende diverse samlinger"
+    "4141": "Arkivsekret\xC3\xA6rer, biblioteksassistenter, registratorer"
+    "4142": "Personer, der udf\xC3\xB8rer post- og betjentarbejde"
+    "4143": "Kodeassistenter, korrekturl\xC3\xA6sere o.l."
+    "4144": Skrivere o.l.
+    "419": "Internt kontorarbejde i \xC3\xB8vrigt"
+    "4190": "Personer, der udf\xC3\xB8rer internt kontorarbejde i \xC3\xB8vrigt"
+    "42": Kontorarbejde med kundebetjening
+    "421": "Arbejde vedr\xC3\xB8rende pengetransaktioner"
+    "4211": Billetassistenter, kasserer
+    "4212": Bankassistenter, valutaassistenter
+    "4213": "Croupierer, kollekt\xC3\xB8rer"
+    "4214": "Personer, der udf\xC3\xB8rer pantel\xC3\xA5nerarbejde"
+    "4215": Inkassatorer
+    "422": "Kundebetjening i \xC3\xB8vrigt"
+    "4221": Bookingassistenter, rejsebureauassistenter
+    "4222": Portierer, receptionister, skrankeassistenter
+    "4223": "Centraloperat\xC3\xB8rer, telefonvagter"
+    "51": Service- og omsorgsarbejde
+    "511": Servicearbejde i forbindelse med transport og rejser
+    "5111": "Personer, der betjener passagerer og bes\xC3\xA6tning"
+    "5112": "Personer, der udf\xC3\xB8rer kontrol- og informationsvirksomhed under rejser"
+    "5113": Guider, rejseledere
+    "512": Arbejde i restaurant, cafeteria og husholdning
+    "5121": Hovmestre, husbestyrere, oldfruer
+    "5122": Kokke
+    "5123": Bartendere, servitricer, tjenere
+    "513": Omsorgs- og plejearbejde
+    "5131": "Barnepiger, dagplejem\xC3\xB8dre"
+    "5132": "Personer, der udf\xC3\xB8rer plejearbejde p\xC3\xA5 institutioner"
+    "5133": "Personer, der udf\xC3\xB8rer omsorgsarbejde i private hjem"
+    "5139": "Personer, der udf\xC3\xB8rer omsorgs- og plejearbejde i \xC3\xB8vrigt"
+    "514": Andet servicearbejde for privatpersoner
+    "5141": "Fris\xC3\xB8rer, kosmetologer, mass\xC3\xB8rer o.l."
+    "5142": "Personer, der udf\xC3\xB8rer kammertjenerarbejde"
+    "5143": "Bedem\xC3\xA6nd"
+    "5149": "Personer, der udf\xC3\xB8rer servicearbejde for privatpersoner i \xC3\xB8vrigt"
+    "515": "Astrologer, sp\xC3\xA5koner o.l."
+    "5151": Astrologer o.l.
+    "5152": "Sp\xC3\xA5koner, h\xC3\xA5ndl\xC3\xA6sere o.l."
+    "516": "Overv\xC3\xA5gnings- og redningsarbejde"
+    "5161": "Brandm\xC3\xA6nd, r\xC3\xB8gdykkere"
+    "5162": Fiskeribetjente, havnebetjente, politibetjente
+    "5163": "Arrestforvarere, f\xC3\xA6ngselsbetjente"
+    "5169": "Personer, der udf\xC3\xB8rer overv\xC3\xA5gnings- og redningsarbejde i \xC3\xB8vrigt"
+    "52": Salgs- og modelarbejde
+    "521": Modelarbejde
+    "5210": Mannequiner, modeller
+    "522": Ekspedient-, kasse- og demonstrationsarbejde
+    "5220": "Personer, der udf\xC3\xB8rer ekspedient-, kasse- og demonstrationsarbejde"
+    "523": Salg fra boder og markeder
+    "5230": "Personer, der s\xC3\xA6lger fra boder og markeder"
+    "61": "Arbejde inden for landbrug, gartneri, skovbrug, jagt og fiskeri, der foruds\xC3\xA6tter f\xC3\xA6rdigheder p\xC3\xA5 grun..."
+    "611": "Arbejde vedr\xC3\xB8rende plantev\xC3\xA6kst"
+    "6111": "Personer, der arbejder med markafgr\xC3\xB8der inden for landbrug"
+    "6112": Frugtavlere
+    "6113": Gartnere
+    "6114": "Planteavlere i \xC3\xB8vrigt"
+    "612": Arbejde med dyr
+    "6121": "Opdr\xC3\xA6ttere af husdyr"
+    "6122": "Fjerkr\xC3\xA6avlere"
+    "6123": Biavlere, silkeavlere
+    "6124": "Personer, der opdr\xC3\xA6tter forskellige dyrearter i \xC3\xB8vrigt"
+    "6129": "Personer, der arbejder med dyr i \xC3\xB8vrigt"
+    "613": "Arbejde med s\xC3\xA5vel markafgr\xC3\xB8der som husdyr"
+    "6130": "Landbrugsmedhj\xC3\xA6lpere, landm\xC3\xA6nd"
+    "614": Arbejde inden for skovbrug med videre
+    "6141": Skovbrugsarbejdere
+    "6142": Kulsvierarbejdere
+    "615": Arbejde inden for fiskeri og jagt
+    "6151": "Dambrugere, fiskeopdr\xC3\xA6ttere"
+    "6152": Bundgarnsfiskere, kystfiskere
+    "6153": Havfiskere
+    "6154": "J\xC3\xA6gere, skytter"
+    "62": Arbejde inden for subsistenslandbrug og -fiskeri
+    "621": Arbejde inden for subsistenslandbrug og -fiskeri
+    "6210": Personer, der arbejder inden for subsistenslandbrug og -fiskeri
+    "71": "Arbejde med r\xC3\xA5stofudvinding og bygningsh\xC3\xA5ndv\xC3\xA6rk"
+    "711": Mine-og stenhuggerarbejde med videre
+    "7111": Minearbejdere
+    "7112": "Personer, der arbejder med miner, fyrv\xC3\xA6rkeri mv."
+    "7113": Stenhuggere, skrifthuggere
+    "712": Bygningsarbejde (basis)
+    "7121": Bygningsarbejdere, der arbejder med naturmaterialer
+    "7122": "Brol\xC3\xA6ggere, murere"
+    "7123": "Personer, der udf\xC3\xB8rer beton-, cement- og terazzoarbejde"
+    "7124": "Snedkere, t\xC3\xB8mrere"
+    "7129": "Personer, der udf\xC3\xB8rer bygningsarbejde (basis) i \xC3\xB8vrigt"
+    "713": Bygningsarbejde (finish)
+    "7131": "Tagd\xC3\xA6kkere"
+    "7132": "Gulvl\xC3\xA6ggere"
+    "7133": "Stukkat\xC3\xB8rer"
+    "7134": "Isolat\xC3\xB8rer"
+    "7135": Glarmestre
+    "7136": "Blikkenslagere, r\xC3\xB8rl\xC3\xA6ggere"
+    "7137": Elektrikere
+    "714": Maler- og tapetsererarbejde med videre
+    "7141": Malere, tapetserere o.l.
+    "7142": Lakerer o.l.
+    "7143": "Personer, der arbejder med bygningsreng\xC3\xB8ring, skorstensfejere"
+    "72": Metal- og maskinarbejde
+    "721": Svejsearbejde
+    "7211": "Formere, g\xC3\xB8rtlere, st\xC3\xB8bere"
+    "7212": Svejsere
+    "7213": "Personer, der udf\xC3\xB8rer tyndpladearbejde"
+    "7214": "Personer, der udf\xC3\xB8rer st\xC3\xA5lkonstruktionsarbejde"
+    "7215": "Riggere og personer, der udf\xC3\xB8rer kabelsplejsningsarbejde"
+    "7216": "Dykkere, fr\xC3\xB8m\xC3\xA6nd"
+    "722": "Grovsmede-, v\xC3\xA6rkst\xC3\xB8jsmagerarbejde o.l."
+    "7221": Grovsmede, smede
+    "7222": "L\xC3\xA5sesmede, v\xC3\xA6rkt\xC3\xB8jsmagere"
+    "7223": "Personer, der udf\xC3\xB8rer maskinelt pr\xC3\xA6cisionsarbejde i metal og indstiller metalforarbejdningsmaskiner"
+    "7224": "Personer, der udf\xC3\xB8rer polerings- og slibearbejde i metal"
+    "723": "Mekaniker- og mont\xC3\xB8rarbejde"
+    "7231": "Automekanikere, automont\xC3\xB8rer"
+    "7232": "Flymekanikere, flymont\xC3\xB8rer"
+    "7233": "Personer, der udf\xC3\xB8rer mont\xC3\xB8rarbejde med andre motorer og mekaniske maskiner"
+    "724": Elektro- og elektronikmekanikerarbejde med videre
+    "7241": Elektromekanikere og specialelektrikere
+    "7242": "Elektronikmont\xC3\xB8rer"
+    "7243": "Personer, der udf\xC3\xB8rer service- og reparationsarbejde vedr\xC3\xB8rende elektronik"
+    "7244": "Personer, der udf\xC3\xB8rer telefon- og telegrafmekanikerarbejde"
+    "7245": "Personer, der udf\xC3\xB8rer kabelmont\xC3\xB8rarbejde"
+    "73": "Pr\xC3\xA6cisionsh\xC3\xA5ndv\xC3\xA6rk, grafisk arbejde o.l."
+    "731": "Pr\xC3\xA6cisionsarbejde i metal"
+    "7311": "Fremstillere og reparat\xC3\xB8rer af pr\xC3\xA6cisionsinstrumenter"
+    "7312": Musikinstrumentbyggere og -stemmere
+    "7313": "Juvelerer, guld- og s\xC3\xB8lvsmede"
+    "732": Glas-, keramik- og teglarbejde
+    "7321": Pottemagere, keramikere o.l.
+    "7322": "Personer, der udf\xC3\xB8rer glasbl\xC3\xA6searbejde"
+    "7323": "Personer, der udf\xC3\xB8rer glas\xC3\xA6tsnings- og sandbl\xC3\xA6sningsarbejde"
+    "7324": "Glasmalere, porcel\xC3\xA6nsmalere"
+    "733": "H\xC3\xA5ndarbejde i tr\xC3\xA6, tekstil, l\xC3\xA6der og lignende materialer"
+    "7331": "H\xC3\xA5ndarbejdere i tr\xC3\xA6 og lignende materialer"
+    "7332": "H\xC3\xA5ndarbejdere i tekstil, l\xC3\xA6der og lignende materialer"
+    "734": "Formfremstilling, h\xC3\xA5ndbogbinding og serigrafi"
+    "7341": Bogtrykkere, faktorer, typeteknikere o.l.
+    "7342": "Stereotyp\xC3\xB8rer o.l."
+    "7343": Kemigrafer, litografer
+    "7344": Fotolaboranter
+    "7345": Bogbindere
+    "7346": Serigrafer
+    "74": "Andet h\xC3\xA5ndv\xC3\xA6rkspr\xC3\xA6get arbejde"
+    "741": "Arbejde inden for n\xC3\xA6rings- og nydelsesmiddelindustrien"
+    "7411": Slagtere, fiskehandlere o.l.
+    "7412": Bagere, konditorer, dropskogere, chokolademestre
+    "7413": Mejerister
+    "7414": "Personer, der konserverer frugt og gr\xC3\xB8nt samt fremstiller juice"
+    "7415": "Pr\xC3\xB8vesmagere"
+    "7416": Personer, der arbejder med produktion af tobaksvarer
+    "742": "Arbejde inden for tr\xC3\xA6industrien"
+    "7421": "Personer, der impr\xC3\xA6gnerer tr\xC3\xA6"
+    "7422": "B\xC3\xB8dkere, m\xC3\xB8belsnedkere o.l."
+    "7423": "Personer, der opstiller og betjener maskiner inden for tr\xC3\xA6industrien"
+    "7424": "Kurvemagere, b\xC3\xB8rstenbindere o.l."
+    "743": "Tekstil- og bekl\xC3\xA6dningsarbejde"
+    "7431": "Personer, der udf\xC3\xB8rer garnforberedende arbejde"
+    "7432": "V\xC3\xA6vere, strikkere o.l."
+    "7433": "Skr\xC3\xA6ddere, modister, hattemagere"
+    "7434": Buntmagere
+    "7435": "Modelklippere, tilsk\xC3\xA6rere"
+    "7436": Syersker, broderersker o.l.
+    "7437": "M\xC3\xB8belpolstrere o.l."
+    "744": "Skind,- l\xC3\xA6der- og  skot\xC3\xB8jsarbejde"
+    "7441": Garvere
+    "7442": Skomagere o.l.
+    "81": "Arbejde med station\xC3\xA6re procesanl\xC3\xA6g"
+    "811": Mine- og mineraludvindingsarbejde
+    "8111": "Personer, der udf\xC3\xB8rer mineanl\xC3\xA6gsarbejde"
+    "8112": "Personer, der udf\xC3\xB8rer mineral- og stenbrudsanl\xC3\xA6gsarbejde"
+    "8113": "Personer, der udf\xC3\xB8rer boreanl\xC3\xA6gsarbejde, olie, gas mv."
+    "812": "Jern-, metalv\xC3\xA6rks- og st\xC3\xB8berianl\xC3\xA6gsarbejde"
+    "8121": Smelteovnsarbejdere
+    "8122": "St\xC3\xA5lv\xC3\xA6rksarbejdere"
+    "8123": "St\xC3\xB8beriarbejdere"
+    "8124": "Personer, der arbejder med tr\xC3\xA5d- og r\xC3\xB8rtr\xC3\xA6kning"
+    "813": "Glas-, keramik og teglprocesanl\xC3\xA6gsarbejde"
+    "8131": "Operat\xC3\xB8rer ved glas- og keramikovne"
+    "8139": "Glas-, keramik- og teglprocesanl\xC3\xA6gsoperat\xC3\xB8rer i \xC3\xB8vrigt"
+    "814": "Tr\xC3\xA6- og papirprocesanl\xC3\xA6gsarbejde"
+    "8141": "Operat\xC3\xB8rer ved tr\xC3\xA6procesanl\xC3\xA6g"
+    "8142": "Operat\xC3\xB8rer ved papirmasseprocesanl\xC3\xA6g"
+    "8143": "Operat\xC3\xB8rer ved papirfremstillingsanl\xC3\xA6g"
+    "815": "Kemisk procesanl\xC3\xA6gsarbejde"
+    "8151": "Operat\xC3\xB8rer ved knuse- og blandingsanl\xC3\xA6g mv."
+    "8152": "Operat\xC3\xB8r ved varmebehandlingsanl\xC3\xA6g inden for den kemiske industri og mineralindustrien"
+    "8153": "Operat\xC3\xB8rer ved filtrerings- og separeringsanl\xC3\xA6g"
+    "8154": Destilleringsarbejdere
+    "8155": Raffinaderiarbejdere
+    "8159": "Operat\xC3\xB8rer ved kemiske procesanl\xC3\xA6g i \xC3\xB8vrigt"
+    "816": "Energi- og vandforsyningsanl\xC3\xA6gsarbejde"
+    "8161": "Operat\xC3\xB8rer ved elv\xC3\xA6rk"
+    "8162": "Fyrb\xC3\xB8dere, kedelpassere"
+    "8163": "Operat\xC3\xB8rer ved forbr\xC3\xA6ndings- og vandforsyningsanl\xC3\xA6g"
+    "817": "Industrielt robotoperat\xC3\xB8rarbejde"
+    "8171": "Operat\xC3\xB8rer ved automatiserede samleb\xC3\xA5nd"
+    "8172": "Operat\xC3\xB8rer ved industrielle robotter"
+    "82": Betjening af industrimaskiner
+    "821": Betjening af maskiner inden for metal- og mineralindustrien
+    "8211": "Maskinoperat\xC3\xB8rer inden for metalindustrien"
+    "8212": "Maskinoperat\xC3\xB8rer inden for mineralindustrien"
+    "822": "Betjening af maskiner inden for den kemiske industri, eksl. procesanl\xC3\xA6gsarbejde"
+    "8221": "Maskinoperat\xC3\xB8rer inden for medicinalvare-, s\xC3\xA6be- og kosmetikindustrien"
+    "8222": "Maskinoperat\xC3\xB8rer ved produktion af ammunition og krudtv\xC3\xA6rk"
+    "8223": "Maskinoperat\xC3\xB8rer ved galvanisering"
+    "8224": "Maskinoperat\xC3\xB8rer ved produktion af fotografiske artikler"
+    "8229": "Maskinoperat\xC3\xB8rer inden for den kemiske industri i \xC3\xB8vrigt"
+    "823": Betjening af maskiner inden for gummi- og plastindustrien
+    "8231": "Maskinoperat\xC3\xB8rer inden for gummivareindustrien"
+    "8232": "Maskinoperat\xC3\xB8rer inden for plastindustrien"
+    "824": "Betjening af maskiner inden for tr\xC3\xA6industrien"
+    "8240": "Maskinoperat\xC3\xB8rer inden for tr\xC3\xA6industrien"
+    "825": Betjening af maskiner inden for den grafiske industri og papirvareindustrien
+    "8251": "Operat\xC3\xB8rer af trykkerimaskiner"
+    "8252": "Operat\xC3\xB8rer af bogbinderimaskiner"
+    "8253": "Operat\xC3\xB8rer af papirbearbejdningsmaskiner"
+    "826": "Betjening af maskiner inden for tekstil-, skind- og l\xC3\xA6dervareindustrien"
+    "8261": "Operat\xC3\xB8rer af maskiner i garnforberedende arbejde, spinderiarbejde"
+    "8262": "Operat\xC3\xB8rer af v\xC3\xA6ve- og strikkemaskiner"
+    "8263": "Symaskineoperat\xC3\xB8rer"
+    "8264": "Operat\xC3\xB8rer af maskiner til efterbehandling"
+    "8265": "Operat\xC3\xB8rer af maskiner til garvning og pelsberedning"
+    "8266": "Operat\xC3\xB8rer af maskiner ved produktion af sko"
+    "8269": "Operat\xC3\xB8rer af andre maskiner inden for tekstil-. skind- og l\xC3\xA6dervareindustrien"
+    "827": "Betjening af maskiner inden for n\xC3\xA6rings- og nydelsesmiddelindustrien"
+    "8271": "Maskinoperat\xC3\xB8rer inden for slagte- og fiskeindustrien"
+    "8272": "Maskinoperat\xC3\xB8rer ved produktion af mejeriprodukter"
+    "8273": "Maskinoperat\xC3\xB8rer p\xC3\xA5 m\xC3\xB8llerier"
+    "8274": "Maskinoperat\xC3\xB8rer ved produktion af bage- og sukkervarer"
+    "8275": "Maskinoperat\xC3\xB8rer ved produktion af frugt- og gr\xC3\xB8ntkonserves"
+    "8276": "Maskinoperat\xC3\xB8rer ved produktion af sukker"
+    "8277": "Maskinoperat\xC3\xB8rer ved produktion af te, kaffe og kakaoristningsprodukter"
+    "8278": "Maskinoperat\xC3\xB8rer ved produktion af drikkevarer"
+    "8279": "Maskinoperat\xC3\xB8rer inden for tobaksindustrien"
+    "828": "Monterings- og samleb\xC3\xA5ndsarbejde"
+    "8281": "Mont\xC3\xB8rer af mekaniske maskiner"
+    "8282": "Mont\xC3\xB8rer af elektrisk udstyr"
+    "8283": "Mont\xC3\xB8rer af elektronisk udstyr"
+    "8284": "Mont\xC3\xB8rer og samleb\xC3\xA5ndsarbejdere ved produktion af metal-, gummi- og plastvarer"
+    "8285": "Mont\xC3\xB8rer og samleb\xC3\xA5ndsarbejdere ved produktion af tr\xC3\xA6varer"
+    "8286": "Samleb\xC3\xA5ndsarbejdere ved produktion af papir- og tekstilvarer o.l."
+    "829": "Monterings- og samleb\xC3\xA5ndsarbejde i \xC3\xB8vrigt"
+    "8290": "Industrimaskinoperat\xC3\xB8rer i \xC3\xB8vrigt"
+    "83": "Transport og anl\xC3\xA6gsarbejde"
+    "831": Jernbanedrift
+    "8311": "Elektrof\xC3\xB8rere, lokomotivf\xC3\xB8rere"
+    "8312": Stationsbetjente samt personer, der arbejder med rangering og styring af togtrafik
+    "832": Lastbil- og bustransportarbejde
+    "8321": "Bude p\xC3\xA5 motorcykler"
+    "8322": "Hyre- og varevognschauff\xC3\xB8rer"
+    "8323": "Buschauff\xC3\xB8rer, rutebilf\xC3\xB8rere"
+    "8324": "Last- og tankbilchauff\xC3\xB8rer mv."
+    "833": "Arbejde med andre mobile maskiner og k\xC3\xB8ret\xC3\xB8jer"
+    "8331": "Landbrugsmaskinf\xC3\xB8rere"
+    "8332": "Entrepren\xC3\xB8rmaskinf\xC3\xB8rere"
+    "8333": "Kran- og liftf\xC3\xB8rere"
+    "8334": "Truckf\xC3\xB8rere"
+    "834": Skibstransportarbejde
+    "8340": "Personer, der udf\xC3\xB8rer skibstransportarbejde"
+    "91": "Reng\xC3\xB8rings- og renovationsarbejde, bud- og vagttjeneste samt telefon- og d\xC3\xB8rsalg mv."
+    "911": "Gades\xC3\xA6lgere og lignende"
+    "9111": "Gades\xC3\xA6lgere (f\xC3\xB8devarer)"
+    "9112": "Gades\xC3\xA6lgere (ikke f\xC3\xB8devarer)"
+    "9113": "D\xC3\xB8rs\xC3\xA6lgere, telefons\xC3\xA6lgere"
+    "912": Arbejde med skopudsning og lignende former for gadeservice
+    "9120": Skopudsning og lignende former for gadeservice
+    "913": "Reng\xC3\xB8rings- og k\xC3\xB8kkenhj\xC3\xA6lpsabejde"
+    "9131": "Reng\xC3\xB8ringsassistenter og k\xC3\xB8kkenmedhj\xC3\xA6lpere i private hjem"
+    "9132": "Reng\xC3\xB8ringsassistenter og k\xC3\xB8kkenmedhj\xC3\xA6lpere i \xC3\xB8vrigt"
+    "9133": Vaskeri- og renseriarbejdere
+    "914": "Arbejde med bygningsreng\xC3\xB8ringog vinduespolering"
+    "9141": "Personer, der udf\xC3\xB8rer, tilsyns-, vicev\xC3\xA6rt- og pedelarbejde"
+    "9142": "Personer, der udf\xC3\xB8rer bil- og vinduespolerarbejde"
+    "915": "Budtjeneste, vagtarbejde samt arbejde med m\xC3\xA5lerafl\xC3\xA6sning mv."
+    "9151": Bude o.l.
+    "9152": "D\xC3\xB8rvogtere, nattevagter, portnere o.l."
+    "9153": "Personer, der besk\xC3\xA6ftiger sig med m\xC3\xA5lerafl\xC3\xA6sning, automatt\xC3\xB8mning mv."
+    "916": "Renovations- og gadefejningsarbejde o.l. eksl. k\xC3\xB8rsel af renovationsvogne"
+    "9161": Renovationsarbejdere
+    "9162": Gadefejere, sneryddere o.l.
+    "92": "Medhj\xC3\xA6lp inden for landbrug, gartneri, fiskeri og skovbrug"
+    "921": "Medhj\xC3\xA6lp inden for landbrug, gartneri, fiskeri og skovbrug"
+    "9211": "Landbrugs- og gartnerimedhj\xC3\xA6lpere"
+    "9212": "Medhj\xC3\xA6lp ved skovbrug"
+    "9213": "Medhj\xC3\xA6lpere i fiskerierhverv (p\xC3\xA5 land) samt medhj\xC3\xA6lpere ved jagt o.l."
+    "93": "Manuelt arbejde inden for bygge- og anl\xC3\xA6gssektoren, transportsektoren samt fremstillingsvirksomhed"
+    "931": "Manuelt arbejde inden for bygge- og anl\xC3\xA6gssektoren"
+    "9311": "Personer, der udf\xC3\xB8rer manuelt arbejde med grus og sten"
+    "9312": "Personer, der udf\xC3\xB8rer jord- og kloakarbejde samt andet anl\xC3\xA6gsarbejde"
+    "9313": "Medhj\xC3\xA6lpere ved bygningsarbejde"
+    "932": Manuelt arbejde inden for fremstillingsvirksomhed
+    "9321": "Montagemedhj\xC3\xA6lpere"
+    "9322": "H\xC3\xA5ndpakningsmedhj\xC3\xA6lpere o.l."
+    "933": Manuelt transport- og lagerarbejde
+    "9331": "F\xC3\xB8rere af h\xC3\xA5nd- eller foddrevne k\xC3\xB8ret\xC3\xB8jer"
+    "9332": "F\xC3\xB8rere af dyretrukne k\xC3\xB8ret\xC3\xB8jer og maskiner"
+    "9333": Lagerarbejdere

@@ -1,0 +1,18 @@
+et:
+  about: Andmeid
+  choose: ~
+  description: Kirjeldus
+  email: Email
+  fax: Faks
+  feedback: Tagasiside
+  i18n:
+    language:
+      name: Eesti
+  maximum: Maksimaalne
+  minimum: Minimaalne
+  phone: Telefon
+  postal_address: Postiaadress
+  terms: Tingimused
+  type: Tüüp
+  visit_address: "Visit address"
+  website: Veebilehel

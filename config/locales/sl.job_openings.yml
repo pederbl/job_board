@@ -1,0 +1,87 @@
+sl:
+  job_openings:
+    apply:
+      apply: Uporabi
+      deadline: Rok
+    contacts:
+      contacts: Imenik
+      union_contacts: "Imenik unije"
+    employer:
+      employer: Delodajalec
+      national_id: "National ID"
+    index:
+      employer: Delodajalec
+      job_categories: ~
+      keywords: "Ključne besede"
+      location: Kraj
+      locations: ~
+      update_search: "Update Iskanje"
+    items:
+      ago: nazaj
+      posted: Objavljeno
+    job_description:
+      job_description: "Job Opis"
+    job_information:
+      accommodation_paid_for: "Prenočišče plača"
+      duration: Trajanje
+      ends: Ends
+      hours_per_week: "h / teden"
+      industry: Industrija
+      job_category: "Job kategorijo"
+      job_information: "Informacije o poslu"
+      length: Dolžina
+      length_type:
+        "0": Začasni
+        "-1": Stalno
+      location: Kraj
+      meals_paid_for: "Prehrana, plačano za"
+      num_positions: Pozicije
+      relocation_paid_for: "Premestitev plača"
+      salary: Plača
+      salary_period:
+        D: dan
+        H: h
+        M: mesec
+        W: teden
+        "Y": leto
+      see_map: "Oglejte si zemljevid"
+      starts: Začne
+      substitute: Namestnik
+      travel_expenses_paid_for: "Potni stroški za"
+      worktime: "Prikaz delovnega časa"
+      worktime_type:
+        FULL_TIME: "Polni delovni čas"
+        PART_TIME: "S krajšim delovnim časom"
+    matches:
+      jobs_match_your_query: "Eno delovno mesto ustreza vaši poizvedbi"
+      more: Več
+    requirements:
+      drivers_license: "Vozniško dovoljenje"
+      education: Izobraževanje
+      experience: Izkušnje
+      experience_str: "1 mesec"
+      language_proficiency:
+        "true": "Osnovna znanja"
+        "2": "Limited delovne usposobljenosti"
+        "3": "Strokovno delo strokovne usposobljenosti"
+        "4": "Full strokovni usposobljenosti"
+        "5": "Native ali dvojezično znanja"
+      language_type:
+        cs: Češka
+        de: Nemški
+        en: Angleščina
+        es: Špansko
+        fr: Francoski
+        it: Italijanski
+        nl: Nizozemski
+        ro: Romunski
+      languages: Jeziki
+      maximum_age: "Največja starost"
+      minimum_age: "Minimalna starost"
+      must_have_car: "Mora imeti avto"
+      none: Noben
+      required: Zahtevana
+      requirements: Zahteve
+    show:
+      anonymous: Anonymous
+      published: Objavljeno

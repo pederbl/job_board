@@ -1,0 +1,91 @@
+fr:
+  job_openings:
+    apply:
+      apply: Postulez
+      deadline: "Date limite"
+    contacts:
+      contacts: Contacts
+      union_contacts: "Contacts des syndicats"
+    employer:
+      employer: Employeur
+      national_id: "Numéro d'identité national"
+    index:
+      employer: Employeur
+      job_categories: ~
+      keywords: Mots-clés
+      location: Lieu
+      locations: ~
+      update_search: "Mettre à jour de la recherche"
+    items:
+      ago: "il y a "
+      posted: Publié
+    job_description:
+      job_description: "Description du poste"
+    job_information:
+      accommodation_paid_for: "Hébergement remboursé"
+      duration: Durée
+      ends: Fini
+      hours_per_week: "h / semaine"
+      industry: Industrie
+      job_category: "Catégorie d'emploi"
+      job_information: "Informations à propos de l'emploi"
+      length: Durée
+      length_type:
+        "0": Temporaire
+        "-1": Permanent
+      location: Lieu
+      meals_paid_for: "Repas remboursés"
+      num_positions: Positions
+      relocation_paid_for: "Déménagement remboursé"
+      salary: Salaire
+      salary_period:
+        D: jour
+        H: h
+        M: mois
+        W: semaine
+        "Y": année
+      see_map: "Voir la carte"
+      starts: Commence
+      substitute: Suppléant
+      travel_expenses_paid_for: "Frais de déplacement remboursés"
+      worktime: "Temps de travail"
+      worktime_type:
+        FULL_TIME: "À temps plein"
+        PART_TIME: "À temps partiel"
+    matches:
+      jobs_match_your_query:
+        one: "Un emploi correspond à votre recherche "
+        other: "%{delimited} emplois correspondent à votre recherche"
+      more: Plus
+    requirements:
+      drivers_license: "Permis de conduire"
+      education: Études
+      experience: Expérience
+      experience_str:
+        one: "1 mois"
+        other: "%{count} mois"
+      language_proficiency:
+        "true": "Connaissance élémentaire"
+        "2": "Connaissance de travail limitée"
+        "3": "Connaissance de travail fonctionnelle"
+        "4": "Connaissance de travail complète"
+        "5": "Langue maternelle ou bilingue"
+      language_type:
+        cs: Tchèque
+        de: Allemand
+        en: Anglais
+        es: Espagnol
+        fr: Français
+        it: Italien
+        nl: Néerlandais
+        ro: Roumain
+      languages: Langues
+      maximum_age: "Âge limite"
+      minimum_age: "Âge minimum"
+      must_have_car: "Voiture requise"
+      none: Aucun
+      required: Requis
+      requirements: "Conditions requises"
+    show:
+      anonymous: Anonyme
+      published: Publié

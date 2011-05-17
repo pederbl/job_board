@@ -1,0 +1,18 @@
+fr:
+  about: "À propos"
+  choose: ~
+  description: Description
+  email: Email
+  fax: Fax
+  feedback: Suggestions
+  i18n:
+    language:
+      name: Français
+  maximum: Maximum
+  minimum: Minimum
+  phone: Tel
+  postal_address: "Adresse postale"
+  terms: Conditions
+  type: Type
+  visit_address: "Adresse des bureaux"
+  website: "Site Web"

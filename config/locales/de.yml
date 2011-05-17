@@ -1,0 +1,18 @@
+de:
+  about: Über
+  choose: ~
+  description: Beschreibung
+  email: E-Mail
+  fax: Fax
+  feedback: "Ihre Meinung"
+  i18n:
+    language:
+      name: Deutsch
+  maximum: Maximale
+  minimum: Minimale
+  phone: Telefon
+  postal_address: "Postleitzahl/Adresse:"
+  terms: Typ
+  type: Typ
+  visit_address: "Besuchen Adresse"
+  website: Website

@@ -1,0 +1,18 @@
+da:
+  about: Om
+  choose: ~
+  description: Beskrivelse
+  email: E-mail
+  fax: Fax
+  feedback: Feedback
+  i18n:
+    language:
+      name: Dansk
+  maximum: Maksimal
+  minimum: Minimum
+  phone: Telefon
+  postal_address: Postadresse
+  terms: Vilkår
+  type: Type
+  visit_address: "Besøg adresse"
+  website: Website

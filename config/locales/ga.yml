@@ -1,0 +1,18 @@
+ga:
+  about: Eolas
+  choose: ~
+  description: "Cur Síos"
+  email: Ríomhphost
+  fax: Facs
+  feedback: Aiseolas
+  i18n:
+    language:
+      name: Gaeilge
+  maximum: Uasmhéid
+  minimum: Íosta
+  phone: Fón
+  postal_address: "Seoladh poist"
+  terms: Téarmaí
+  type: Cineál
+  visit_address: "Tabhair cuairt ar aghaidh"
+  website: "Suíomh Gréasáin"

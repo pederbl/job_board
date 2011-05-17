@@ -1,0 +1,532 @@
+--- 
+sv: 
+  isco_code: 
+    "11": Politiskt arbete m.m.
+    "111": Politiker
+    "1120": "H\xC3\xB6gre \xC3\xA4mbetsm\xC3\xA4n"
+    "113": "Traditionella h\xC3\xB6vdingar och by\xC3\xA4ldste"
+    "1130": "Traditionella h\xC3\xB6vdingar och by\xC3\xA4ldste"
+    "114": "Chefstj\xC3\xA4nstem\xC3\xA4n i  intresseorganisationer"
+    "1141": "Chefstj\xC3\xA4nstem\xC3\xA4n i politiska organisationer"
+    "1142": "Chefstj\xC3\xA4nstem\xC3\xA4n i arbetsgivarorganisationer, arbetstagarorganisationer och andra ekonomiska intresse..."
+    "1143": "Chefstj\xC3\xA4nstem\xC3\xA4n i humanit\xC3\xA4ra och andra intresseorganisationer"
+    "12": "Ledningsarbete i stora och medelstora f\xC3\xB6retag, myndigheter m.m."
+    "121": "Verkst\xC3\xA4llande direkt\xC3\xB6rer, verkschefer m.fl."
+    "1210": "Verkst\xC3\xA4llande direkt\xC3\xB6rer, verkschefer m.fl."
+    "122": Drift- och verksamhetschefer
+    "1221": "Driftchefer inom jordbruk, tr\xC3\xA4dg\xC3\xA5rd, skogsbruk och fiske"
+    "1222": "Driftchefer inom tillverkning, el-, v\xC3\xA4rme- och vattenf\xC3\xB6rs\xC3\xB6rjning m.m."
+    "1223": Driftchefer inom byggverksamhet
+    "1224": Driftchefer inom handel
+    "1225": Driftchefer inom hotell och restaurang.
+    "1226": Driftchefer inom transport, lager och kommunikation
+    "1227": "Driftchefer inom finansiell verksamhet, fastighetsbolag, f\xC3\xB6retagstj\xC3\xA4nster m.m."
+    "1228": "Driftchefer inom v\xC3\xA5rd och omsorg, st\xC3\xA4dning m.m."
+    "1229": "\xC3\x96vriga drift- och verksamhetschefer"
+    "123": "Chefer f\xC3\xB6r s\xC3\xA4rskilda funktioner"
+    "1231": Ekonomichefer och administrativa chefer
+    "1232": Personalchefer
+    "1233": "F\xC3\xB6rs\xC3\xA4ljnings- och marknadschefer"
+    "1234": Reklam- och pr-chefer
+    "1235": "Ink\xC3\xB6ps- och distributionschefer"
+    "1236": It-chefer
+    "1237": Forsknings- och utvecklingschefer
+    "1239": "\xC3\x96vriga chefer f\xC3\xB6r s\xC3\xA4rskilda funktioner"
+    "13": "Ledningsarbete i mindre f\xC3\xB6retag, myndigheter m.m."
+    "131": "Chefer f\xC3\xB6r mindre f\xC3\xB6retag och enheter"
+    "1311": "Chefer f\xC3\xB6r mindre f\xC3\xB6retag inom jordbruk, tr\xC3\xA4dg\xC3\xA5rd, skogsbruk och fiske"
+    "1312": "Chefer f\xC3\xB6r mindre f\xC3\xB6retag inom tillverkning, el-, v\xC3\xA4rme- och vattenf\xC3\xB6rs\xC3\xB6rjning m.m."
+    "1313": "Chefer f\xC3\xB6r mindre byggf\xC3\xB6retag"
+    "1314": "Chefer f\xC3\xB6r mindre f\xC3\xB6retag inom handel"
+    "1315": "Chefer f\xC3\xB6r mindre f\xC3\xB6retag inom hotell och restaurang"
+    "1316": "Chefer f\xC3\xB6r mindre f\xC3\xB6retag inom transport, lager och kommunikation"
+    "1317": "Chefer f\xC3\xB6r mindre f\xC3\xB6retag inom finansiell verksamhet, fastighetsbolag, f\xC3\xB6retagstj\xC3\xA4nster m.m."
+    "1318": "Chefer f\xC3\xB6r mindre enheter inom v\xC3\xA5rd och omsorg, st\xC3\xA4dning m.m."
+    "1319": "Chefer f\xC3\xB6r \xC3\xB6vriga mindre f\xC3\xB6retag och enheter"
+    "21": "Arbete som kr\xC3\xA4ver teoretisk specialistkompetens inom teknik och datavetenskap m.m."
+    "211": Fysiker, kemister m.fl.
+    "2111": Fysiker och astronomer
+    "2112": Meteorologer
+    "2113": Kemister
+    "2114": Geologer, geofysiker m.fl.
+    "212": Matematiker och statistiker m.fl.
+    "2121": Matematiker m.fl.
+    "2122": Statistiker
+    "213": Dataspecialister
+    "2131": Systemerare
+    "2132": Programmerare
+    "2139": "\xC3\x96vriga dataspecialister"
+    "214": "Civilingenj\xC3\xB6rer, arkitekter m.fl."
+    "2141": Arkitekter och stadsplanerare
+    "2142": "Civilingenj\xC3\xB6rer m.fl., bygg och anl\xC3\xA4ggning"
+    "2143": "Civilingenj\xC3\xB6rer m.fl., elkraft"
+    "2144": "Civilingenj\xC3\xB6rer m.fl., elektronik och teleteknik"
+    "2145": "Civilingenj\xC3\xB6rer m.fl., maskin"
+    "2146": "Civilingenj\xC3\xB6rer m.fl., kemi"
+    "2147": "Civilingenj\xC3\xB6rer m.fl., gruvteknik och metallurgi"
+    "2148": "Lantm\xC3\xA4tare"
+    "2149": "\xC3\x96vriga civilingenj\xC3\xB6rer, arkitekter m.fl."
+    "22": "Arbete som kr\xC3\xA4ver teoretisk specialistkompetens inom biologi, h\xC3\xA4lso- och sjukv\xC3\xA5rd"
+    "221": Specialister inom biologi, jord- och skogsbruk m.m.
+    "2211": Biologer, botanister, zoologer m.fl.
+    "2212": Farmakologer, patologer m.fl.
+    "2213": Agronomer m.fl.
+    "222": "H\xC3\xA4lso- och sjukv\xC3\xA5rdsspecialister"
+    "2221": "L\xC3\xA4kare"
+    "2222": "Tandl\xC3\xA4kare"
+    "2223": "Veterin\xC3\xA4rer"
+    "2224": Apotekare
+    "2229": "\xC3\x96vriga h\xC3\xA4lso- och sjukv\xC3\xA5rdsspecialister"
+    "223": "Barnmorskor och sjuksk\xC3\xB6terskor med s\xC3\xA4rskild kompetens"
+    "2230": "Barnmorskor och sjuksk\xC3\xB6terskor med s\xC3\xA4rskild kompetens"
+    "23": "L\xC3\xA4rararbete inom universitet, gymnasie- och grundskola"
+    "231": "Universitets- och h\xC3\xB6gskolel\xC3\xA4rare"
+    "2310": "Universitets- och h\xC3\xB6gskolel\xC3\xA4rare"
+    "232": "Gymnasiel\xC3\xA4rare m.fl."
+    "2320": "Gymnasiel\xC3\xA4rare m.fl."
+    "233": "F\xC3\xB6rskole- och grundskoll\xC3\xA4rare"
+    "2331": "Grundskoll\xC3\xA4rare"
+    "2332": "F\xC3\xB6rskolel\xC3\xA4rare"
+    "234": "Speciall\xC3\xA4rare"
+    "2340": "Speciall\xC3\xA4rare"
+    "235": Andra pedagoger med teoretisk specialistkompetens
+    "2351": Skol- och utbildningskonsulenter m.fl.
+    "2352": "Skolinspekt\xC3\xB6rer"
+    "2359": "\xC3\x96vriga pedagoger med teoretisk specialistkompetens"
+    "24": "Annat arbete som kr\xC3\xA4ver teoretisk specialistkompetens"
+    "241": "F\xC3\xB6retagsekonomer, marknadsf\xC3\xB6rare och personaltj\xC3\xA4nstem\xC3\xA4n"
+    "2411": Revisorer m.fl.
+    "2412": "Personaltj\xC3\xA4nstem\xC3\xA4n och yrkesv\xC3\xA4gledare"
+    "2419": "\xC3\x96vriga f\xC3\xB6retagsekonomer"
+    "242": Jurister
+    "2421": "Advokater och \xC3\xA5klagare"
+    "2422": Domare
+    "2429": "\xC3\x96vriga jurister"
+    "243": Arkivarier, bibliotekarier m.fl.
+    "2431": "Arkivarier, museitj\xC3\xA4nstem\xC3\xA4n m.fl."
+    "2432": Bibliotekarier m.fl.
+    "244": "Samh\xC3\xA4lls- och spr\xC3\xA5kvetare"
+    "2441": Nationalekonomer
+    "2442": Sociologer, antropologer m.fl.
+    "2443": Filosofer, historiker och statsvetare
+    "2444": "Spr\xC3\xA5kvetare, \xC3\xB6vers\xC3\xA4ttare och tolkar"
+    "2445": Psykologer
+    "2446": Socialsekreterare och kuratorer
+    "245": "Journalister, konstn\xC3\xA4rer, sk\xC3\xA5despelare m.fl."
+    "2451": "Journalister, f\xC3\xB6rfattare, informat\xC3\xB6rer m.fl."
+    "2452": "Skulpt\xC3\xB6rer, m\xC3\xA5lare m.fl."
+    "2453": "Komposit\xC3\xB6rer, musiker och s\xC3\xA5ngare"
+    "2454": Koreografer och dansare
+    "2455": "Regiss\xC3\xB6rer och sk\xC3\xA5despelare"
+    "246": "Pr\xC3\xA4ster"
+    "2460": "Pr\xC3\xA4ster"
+    "31": "Tekniker- och ingenj\xC3\xB6rsarbete m.m."
+    "311": "Ingenj\xC3\xB6rer och tekniker"
+    "3111": "Laboratorieingenj\xC3\xB6rer"
+    "3112": "Byggnadsingenj\xC3\xB6rer och byggnadstekniker"
+    "3113": "Elingenj\xC3\xB6rer och eltekniker"
+    "3114": "Ingenj\xC3\xB6rer och tekniker inom elektronik och teleteknik"
+    "3115": "Maskiningenj\xC3\xB6rer och maskintekniker"
+    "3116": "Kemiingenj\xC3\xB6rer och kemitekniker"
+    "3117": "Ingenj\xC3\xB6rer och tekniker inom gruvteknik och metallurgi"
+    "3118": "Kartingenj\xC3\xB6rer m.fl."
+    "3119": "\xC3\x96vriga ingenj\xC3\xB6rer och tekniker"
+    "312": "Datatekniker och dataoperat\xC3\xB6rer"
+    "3121": Datatekniker
+    "3122": "Dataoperat\xC3\xB6rer"
+    "3123": Industrirobottekniker
+    "313": Fotografer, ljud- och bildtekniker, sjukhustekniker m.fl.
+    "3131": Fotografer, ljud- och bildtekniker
+    "3132": Kopplingstekniker, radioassistenter m.fl.
+    "3133": "Sjukhusingenj\xC3\xB6rer och sjukhustekniker"
+    "3139": "\xC3\x96vriga fotografer, ljud- och bildtekniker, sjukhustekniker m.fl."
+    "314": "Piloter, fartygsbef\xC3\xA4l m.fl."
+    "3141": "Maskinbef\xC3\xA4l"
+    "3142": "Fartygsbef\xC3\xA4l m.fl."
+    "3143": Piloter m.fl.
+    "3144": Flygledare
+    "3145": Flygtekniker
+    "315": "S\xC3\xA4kerhets- och kvalitetsinspekt\xC3\xB6rer"
+    "3151": "Byggnads- och brandinspekt\xC3\xB6rer"
+    "3152": "Kvalitetsinspekt\xC3\xB6rer"
+    "32": "Arbete inom biologi, h\xC3\xA4lso- och sjukv\xC3\xA5rd som kr\xC3\xA4ver kortare h\xC3\xB6gskoleutbildning"
+    "321": Biomedicinska analytiker m.fl.
+    "3211": Biomedicinska analytiker
+    "3212": "Lantm\xC3\xA4stare, skogsm\xC3\xA4stare m.fl."
+    "3213": "Jord- och skogsbruksr\xC3\xA5dgivare"
+    "322": "H\xC3\xA4lso- och sjukv\xC3\xA5rdspersonal (utom sjuksk\xC3\xB6terskor)"
+    "3221": "Sjukv\xC3\xA5rdsassistenter"
+    "3222": Hygienister
+    "3223": Dietister och nutritionister
+    "3224": Optiker
+    "3225": "Tandv\xC3\xA5rdsassistenter"
+    "3226": Sjukgymnaster m.fl.
+    "3227": "Djursjukv\xC3\xA5rdare"
+    "3228": Receptarier
+    "3229": "\xC3\x96vrig h\xC3\xA4lso- och sjukv\xC3\xA5rdspersonal (utom sjuksk\xC3\xB6terskor)"
+    "323": "Sjuksk\xC3\xB6terskor och barnmorskor"
+    "3231": "Sjuksk\xC3\xB6terskor, medicin/kirurgi"
+    "3232": Barnmorskor
+    "324": "Ut\xC3\xB6vare av traditionell, komplement\xC3\xA4r och alternativ medicin samt helbr\xC3\xA4dgag\xC3\xB6rare"
+    "3241": "Ut\xC3\xB6vare av traditionell, komplement\xC3\xA4r och alternativ medicin"
+    "3242": "Helbr\xC3\xA4dgag\xC3\xB6rare"
+    "33": "L\xC3\xA4rararbete som kr\xC3\xA4ver kortare h\xC3\xB6gskoleutbildning"
+    "331": "Grundskoll\xC3\xA4rare med kortare h\xC3\xB6gskoleutbildning"
+    "3310": "Grundskoll\xC3\xA4rare med kortare h\xC3\xB6gskoleutbildning"
+    "332": "F\xC3\xB6rskoll\xC3\xA4rare och fritidspedagoger"
+    "3320": "F\xC3\xB6rskoll\xC3\xA4rare och fritidspedagoger"
+    "333": "Speciall\xC3\xA4rare med kortare h\xC3\xB6gskoleutbildning"
+    "3330": "Speciall\xC3\xA4rare med kortare h\xC3\xB6gskoleutbildning"
+    "334": "Andra l\xC3\xA4rare och instrukt\xC3\xB6rer"
+    "3340": "Andra l\xC3\xA4rare och instrukt\xC3\xB6rer"
+    "34": "Annat arbete som kr\xC3\xA4ver kortare h\xC3\xB6gskoleutbildning"
+    "341": "S\xC3\xA4ljare, ink\xC3\xB6pare, m\xC3\xA4klare m.fl."
+    "3411": "V\xC3\xA4rdepappersm\xC3\xA4klare"
+    "3412": "F\xC3\xB6rs\xC3\xA4kringsrepresentanter"
+    "3413": "Fastighetsm\xC3\xA4klare, fastighetsf\xC3\xB6rvaltare m.fl."
+    "3414": Reseproducenter
+    "3415": "F\xC3\xB6retagss\xC3\xA4ljare"
+    "3416": "Ink\xC3\xB6pare"
+    "3417": "V\xC3\xA4rderare och auktionister"
+    "3419": "\xC3\x96vriga s\xC3\xA4ljare, ink\xC3\xB6pare, m\xC3\xA4klare m.fl."
+    "342": "Agenter, f\xC3\xB6rmedlare m.fl."
+    "3421": Agenter
+    "3422": "Spedit\xC3\xB6rer"
+    "3423": "Platsf\xC3\xB6rmedlare och arbetsv\xC3\xA4gledare"
+    "3429": "\xC3\x96vriga agenter m.fl."
+    "343": Redovisningsekonomer, administrativa assistenter m.fl.
+    "3431": Administrativa assistenter
+    "3432": Boutredare
+    "3433": Redovisningsekonomer m.fl.
+    "3434": "Statistiker, matematiker m.fl. med kortare h\xC3\xB6gskoleutbildning"
+    "3439": "\xC3\x96vriga redovisningsekonomer, administrativa assistenter m.fl."
+    "344": "Tull-, taxerings- och socialf\xC3\xB6rs\xC3\xA4kringstj\xC3\xA4nstem\xC3\xA4n"
+    "3441": "Tulltj\xC3\xA4nstem\xC3\xA4n"
+    "3442": "Taxeringstj\xC3\xA4nstem\xC3\xA4n"
+    "3443": "Socialf\xC3\xB6rs\xC3\xA4kringstj\xC3\xA4nstem\xC3\xA4n"
+    "3444": "Tillst\xC3\xA5ndsinspekt\xC3\xB6rer"
+    "3449": "\xC3\x96vriga tull-, taxerings- och socialf\xC3\xB6rs\xC3\xA4kringstj\xC3\xA4nstem\xC3\xA4n"
+    "345": Poliser
+    "3450": Poliser
+    "346": Behandlingsassistenter, fritidsledare m.fl.
+    "3460": Behandlingsassistenter, fritidsledare m.fl.
+    "347": "Tecknare, underh\xC3\xA5llare, professionella idrottsut\xC3\xB6vare m.fl."
+    "3471": "Tecknare, illustrat\xC3\xB6rer, dekorat\xC3\xB6rer m.fl."
+    "3472": "Presentat\xC3\xB6rer i radio, tv m.m."
+    "3473": "Musiker, s\xC3\xA5ngare, dansare m.fl. inom underh\xC3\xA5llning"
+    "3474": "Cirkus- och variet\xC3\xA9artister m.fl."
+    "3475": "Idrottstr\xC3\xA4nare, professionella idrottsut\xC3\xB6vare m.fl."
+    "348": Pastorer
+    "3480": Pastorer
+    "41": Kontorsarbete m.m.
+    "411": Sekreterare och textbehandlare
+    "4111": Stenografer och maskinskrivare
+    "4112": Textbehandlare m.fl.
+    "4113": Dataregistrerare
+    "4114": Fakturerare
+    "4115": Sekreterare
+    "412": "Bokf\xC3\xB6rings- och redovisningsassistenter"
+    "4121": "Bokf\xC3\xB6rings- och redovisningsassistenter"
+    "4122": Statistik- och ekonomiassistenter
+    "413": "Materialf\xC3\xB6rvaltnings- och transportassistenter"
+    "4131": Lagerassistenter
+    "4132": Produktionsassistenter
+    "4133": Transportassistenter
+    "414": Biblioteksassistenter, postassistenter m.fl.
+    "4141": Biblioteksassistenter och arkivassistenter
+    "4142": "Brevb\xC3\xA4rare och brevsorterare"
+    "4143": "Inkodare, korrekturl\xC3\xA4sare m.fl."
+    "4144": "Skriftst\xC3\xA4llare m.fl."
+    "419": "\xC3\x96vrig kontorspersonal"
+    "4190": "\xC3\x96vrig kontorspersonal"
+    "42": Kundservicearbete
+    "421": Kassapersonal m.fl.
+    "4211": "Butikskass\xC3\xB6rer, biljettf\xC3\xB6rs\xC3\xA4ljare m.fl."
+    "4212": "Bank- och postkass\xC3\xB6rer"
+    "4213": "Vadf\xC3\xB6rmedlare, croupierer m.fl."
+    "4214": "Pantl\xC3\xA5nare"
+    "4215": Inkasserare m.fl.
+    "422": "Kundinformat\xC3\xB6rer"
+    "4221": "Resebyr\xC3\xA5- och turistbyr\xC3\xA5tj\xC3\xA4nstem\xC3\xA4n"
+    "4222": Receptionister m.fl.
+    "4223": Telefonister
+    "51": "Service-, omsorgs- och s\xC3\xA4kerhetsarbete"
+    "511": "Resev\xC3\xA4rdar m.fl."
+    "5111": "Flygv\xC3\xA4rdinnor m.fl."
+    "5112": "T\xC3\xA5gm\xC3\xA4stare m.fl."
+    "5113": Guider och reseledare
+    "512": "Storhush\xC3\xA5lls- och restaurangpersonal"
+    "5121": "Storhush\xC3\xA5llsf\xC3\xB6rest\xC3\xA5ndare m.fl."
+    "5122": Kockar och kokerskor
+    "5123": "Hovm\xC3\xA4stare, servit\xC3\xB6rer och bartendrar"
+    "513": "V\xC3\xA5rd- och omsorgspersonal"
+    "5131": "Barnsk\xC3\xB6tare m.fl."
+    "5132": "Undersk\xC3\xB6terskor, sjukv\xC3\xA5rdsbitr\xC3\xA4den m.fl."
+    "5133": "V\xC3\xA5rdbitr\xC3\xA4den, personliga assistenter m.fl."
+    "5139": "\xC3\x96vrig v\xC3\xA5rd- och omsorgspersonal"
+    "514": "Fris\xC3\xB6rer och annan servicepersonal, personliga tj\xC3\xA4nster"
+    "5141": "Fris\xC3\xB6rer, hudterapeuter m.fl."
+    "5142": "S\xC3\xA4llskapsdamer och betj\xC3\xA4nter"
+    "5143": "Begravningsentrepren\xC3\xB6rer"
+    "5149": "\xC3\x96vrig servicepersonal, personliga tj\xC3\xA4nster"
+    "515": Astrologer, siare m.fl.
+    "5151": Astrologer m.fl.
+    "5152": Siare m.fl.
+    "516": "S\xC3\xA4kerhetspersonal"
+    "5161": "Brandm\xC3\xA4n"
+    "5162": Poliser
+    "5163": "Kriminalv\xC3\xA5rdare"
+    "5169": "\xC3\x96vrig s\xC3\xA4kerhetspersonal"
+    "52": "F\xC3\xB6rs\xC3\xA4ljningsarbete inom detaljhandeln m.m."
+    "521": Fotomodeller m.fl.
+    "5210": Fotomodeller m.fl.
+    "522": "F\xC3\xB6rs\xC3\xA4ljare, detaljhandel; demonstrat\xC3\xB6rer m.fl."
+    "5220": "F\xC3\xB6rs\xC3\xA4ljare, detaljhandel; demonstrat\xC3\xB6rer m.fl."
+    "523": "Torg- och marknadsf\xC3\xB6rs\xC3\xA4ljare"
+    "5230": "Torg- och marknadsf\xC3\xB6rs\xC3\xA4ljare"
+    "61": "Arbete inom jordbruk, tr\xC3\xA4dg\xC3\xA5rd, skogsbruk och fiske"
+    "611": "V\xC3\xA4xtodlare inom jordbruk och tr\xC3\xA4dg\xC3\xA5rd"
+    "6111": "Odlare av jordbruksv\xC3\xA4xter, frukt- och b\xC3\xA4rodlare"
+    "6112": "Odlare av tr\xC3\xA4d och buskar"
+    "6113": "Tr\xC3\xA4dg\xC3\xA5rdsodlare, tr\xC3\xA4dg\xC3\xA5rdsanl\xC3\xA4ggare m.fl."
+    "6114": "Odlare av blandade v\xC3\xA4xter"
+    "612": "Djuruppf\xC3\xB6dare och djursk\xC3\xB6tare"
+    "6121": "Husdjursuppf\xC3\xB6dare och husdjurssk\xC3\xB6tare"
+    "6122": "Fj\xC3\xA4derf\xC3\xA4uppf\xC3\xB6dare"
+    "6123": Biodlare och silkesodlare
+    "6124": "Uppf\xC3\xB6dare av olika djur"
+    "6129": "\xC3\x96vriga djuruppf\xC3\xB6dare och djursk\xC3\xB6tare"
+    "613": "V\xC3\xA4xtodlare och djuruppf\xC3\xB6dare, blandad drift"
+    "6130": "V\xC3\xA4xtodlare och djuruppf\xC3\xB6dare, blandad drift"
+    "614": Skogsbrukare m.fl.
+    "6141": Skogsbrukare och skogsarbetare
+    "6142": Kolare m.fl.
+    "615": "Fiskare och j\xC3\xA4gare"
+    "6151": Fiskodlare
+    "6152": "Fiskare (kustfiske och insj\xC3\xB6fiske)"
+    "6153": Fiskare (havsfiske)
+    "6154": "J\xC3\xA4gare"
+    "62": "Jordbrukare och fiskare (sj\xC3\xA4lvhush\xC3\xA5llning)"
+    "621": "Jordbrukare och fiskare (sj\xC3\xA4lvhush\xC3\xA5llning)"
+    "6210": "Jordbrukare och fiskare (sj\xC3\xA4lvhush\xC3\xA5llning)"
+    "71": "Gruv-, bygg- och anl\xC3\xA4ggningsarbete"
+    "711": Gruv- och bergarbetare, stenhuggare
+    "7111": Gruv- och bergarbetare
+    "7112": "Skjutare, bergspr\xC3\xA4ngning"
+    "7113": Stenhuggare m.fl.
+    "712": "Byggnads- och anl\xC3\xA4ggningsarbetare"
+    "7121": Byggarbetare, traditionella material
+    "7122": Murare m.fl.
+    "7123": Betongarbetare
+    "7124": "Byggnadstr\xC3\xA4arbetare, inredningssnickare m.fl."
+    "7129": "\xC3\x96vriga byggnads- och anl\xC3\xA4ggningsarbetare"
+    "713": Byggnadshantverkare
+    "7131": "Takmont\xC3\xB6rer"
+    "7132": "Golvl\xC3\xA4ggare och plattl\xC3\xA4ggare"
+    "7133": Gipsarbetare
+    "7134": "Isoleringsmont\xC3\xB6rer"
+    "7135": "Glasm\xC3\xA4stare"
+    "7136": "Vvs-mont\xC3\xB6rer m.fl."
+    "7137": Installationselektriker
+    "714": "M\xC3\xA5lare, lackerare, skorstensfejare m.fl."
+    "7141": "M\xC3\xA5lare"
+    "7142": Lackerare
+    "7143": Skorstensfejare och saneringsarbetare
+    "72": "Metallhantverk, reparat\xC3\xB6rsarbete m.m."
+    "721": "Gjutare, svetsare, pl\xC3\xA5tslagare m.fl."
+    "7211": Gjutare m.fl.
+    "7212": "Svetsare och glassk\xC3\xA4rare"
+    "7213": "Tunnpl\xC3\xA5tslagare"
+    "7214": "St\xC3\xA5lkonstruktionsmont\xC3\xB6rer och grovpl\xC3\xA5tslagare"
+    "7215": Riggare och kabelsplitsare
+    "7216": Dykare
+    "722": Smeder, verktygsmakare m.fl.
+    "7221": Smeder
+    "7222": Verktygsmakare m.fl.
+    "7223": "Verktygsupps\xC3\xA4ttare"
+    "7224": Slipare m.fl.
+    "723": "Maskin- och motorreparat\xC3\xB6rer"
+    "7231": "Motorfordonsmekaniker och motorfordonsreparat\xC3\xB6rer"
+    "7232": "Flygmekaniker och flygreparat\xC3\xB6rer"
+    "7233": "Maskinmekaniker, maskinmont\xC3\xB6rer och maskinreparat\xC3\xB6rer"
+    "724": "Elmont\xC3\xB6rer, tele- och elektronikreparat\xC3\xB6rer m.fl."
+    "7241": "Elmont\xC3\xB6rer och elreparat\xC3\xB6rer"
+    "7242": "Elektronikmont\xC3\xB6rer"
+    "7243": "Elektronikreparat\xC3\xB6rer"
+    "7244": "Telemont\xC3\xB6rer och telereparat\xC3\xB6rer"
+    "7245": Distributionselektriker
+    "73": Finmekaniskt och grafiskt hantverk, konsthantverk m.m.
+    "731": Finmekaniker m.fl.
+    "7311": Finmekaniker
+    "7312": Musikinstrumentmakare m.fl.
+    "7313": Guld- och silversmeder
+    "732": "Drejare, glashyttearbetare, dekorationsm\xC3\xA5lare m.fl."
+    "7321": Drejare m.fl.
+    "7322": Glashyttearbetare m.fl.
+    "7323": "Glasgrav\xC3\xB6rer"
+    "7324": "Dekorationsm\xC3\xA5lare"
+    "733": "Konsthantverkare i tr\xC3\xA4, textil, l\xC3\xA4der m.m."
+    "7331": "Konsthantverkare i tr\xC3\xA4 m.m."
+    "7332": "Konsthantverkare i textil, l\xC3\xA4der m.m."
+    "734": Grafiker m.fl.
+    "7341": "Text- och bildoperat\xC3\xB6rer m.fl."
+    "7342": "Stereotyp\xC3\xB6rer m.fl."
+    "7343": "Etsare och grav\xC3\xB6rer, tryckmedier"
+    "7344": Reprofotografer m.fl.
+    "7345": Privatbokbindare
+    "7346": Screen- och schablontryckare
+    "74": Annat hantverksarbete
+    "741": Slaktare, bagare, konditorer m.fl.
+    "7411": Slaktare, styckare m.fl.
+    "7412": Bagare och konditorer
+    "7413": Livsmedelsarbetare, mejeriprodukter
+    "7414": "Frukt- och gr\xC3\xB6nsaksberedare"
+    "7415": "Provsmakare och kvalitetsbed\xC3\xB6mare"
+    "7416": Tobaksberedare och tillverkare av tobaksvaror
+    "742": "M\xC3\xB6belsnickare, modellsnickare m.fl."
+    "7421": "Ytbehandlare, tr\xC3\xA4"
+    "7422": "M\xC3\xB6belsnickare m.fl."
+    "7423": "Tr\xC3\xA4maskinst\xC3\xA4llare och tr\xC3\xA4maskinsk\xC3\xB6tare"
+    "7424": Korgmakare och borstbindare
+    "743": "Skr\xC3\xA4ddare, tillsk\xC3\xA4rare, tapetserare m.fl."
+    "7431": Garnberedning
+    "7432": "V\xC3\xA4vare, stickare m.fl."
+    "7433": "Skr\xC3\xA4ddare, modister och atelj\xC3\xA9s\xC3\xB6mmerskor"
+    "7434": "K\xC3\xB6rsn\xC3\xA4rer"
+    "7435": "Tillsk\xC3\xA4rare"
+    "7436": "S\xC3\xB6mmare"
+    "7437": Tapetserare
+    "744": Garvare, skinnberedare och skomakare
+    "7441": Garvare och skinnberedare
+    "7442": Skomakare m.fl.
+    "81": "Processoperat\xC3\xB6rsarbete"
+    "811": "Malmf\xC3\xB6r\xC3\xA4dlingsoperat\xC3\xB6rer, brunnsborrare m.fl."
+    "8111": "Operat\xC3\xB6rer, gruva"
+    "8112": "Operat\xC3\xB6rer, stenkross- och malmf\xC3\xB6r\xC3\xA4dlingsanl\xC3\xA4ggning"
+    "8113": Brunnsborrare m.fl.
+    "812": "Processoperat\xC3\xB6rer vid st\xC3\xA5l- och metallverk"
+    "8121": "Ugnsoperat\xC3\xB6rer m.fl."
+    "8122": "Valsverksoperat\xC3\xB6rer"
+    "8123": "V\xC3\xA4rmebehandlingsoperat\xC3\xB6rer"
+    "8124": "Tr\xC3\xA5ddragare m.fl."
+    "813": "Processoperat\xC3\xB6rer, glas och keramiska produkter"
+    "8131": "Ugns- och maskinoperat\xC3\xB6rer, glas och keramiska produkter"
+    "8139": "\xC3\x96vriga processoperat\xC3\xB6rer, glas och keramiska produkter"
+    "814": "Processoperat\xC3\xB6rer, tr\xC3\xA4- och pappersindustri"
+    "8141": "S\xC3\xA5gverksoperat\xC3\xB6rer"
+    "8142": "Processoperat\xC3\xB6rer, pappersmassa"
+    "8143": "Processoperat\xC3\xB6rer, papper"
+    "815": "Processoperat\xC3\xB6rer, kemisk basindustri"
+    "8151": "Processoperat\xC3\xB6r, krossning och blandning"
+    "8152": "Processoperat\xC3\xB6r, upphettning"
+    "8153": "Processoperat\xC3\xB6r, filtrering"
+    "8154": "Processoperat\xC3\xB6r, destillering och reaktork\xC3\xA4rl (utom petroleum och naturgas)"
+    "8155": "Processoperat\xC3\xB6r, raffering av petroleum och naturgas"
+    "8159": "\xC3\x96vriga processoperat\xC3\xB6rer, kemisk basindustri"
+    "816": Driftmaskinister m.fl.
+    "8161": Driftsmaskinister m.fl.
+    "8162": "\xC3\x85ngmaskinister"
+    "8163": "Driftspersonal, f\xC3\xB6rbr\xC3\xA4nningsstation, vattenrening"
+    "817": "Operat\xC3\xB6rer av monteringsband, industrirobotoperat\xC3\xB6rer"
+    "8171": "Operat\xC3\xB6rer av monteringsband"
+    "8172": "Industrirobotoperat\xC3\xB6rer"
+    "82": "Maskinoperat\xC3\xB6rs- och monteringsarbete"
+    "821": "Maskinoperat\xC3\xB6rer, metall- och mineralbehandling"
+    "8211": "Verktygsmaskinoperat\xC3\xB6rer"
+    "8212": "Maskinoperat\xC3\xB6rer, sten-, cement- och betongvaror"
+    "822": "Maskinoperat\xC3\xB6rer, kemisk-teknisk industri"
+    "8221": "Maskinoperat\xC3\xB6rer, l\xC3\xA4kemedelsindustri och hygienteknisk industri"
+    "8222": "Maskinoperat\xC3\xB6rer, ammunitions- och spr\xC3\xA4ng\xC3\xA4mnesindustri"
+    "8223": "Maskinoperat\xC3\xB6rer, ytbehandling"
+    "8224": "Maskinoperat\xC3\xB6rer, fotografiska produkter"
+    "8229": "\xC3\x96vriga maskinoperat\xC3\xB6rer, kemisk-teknisk industri"
+    "823": "Maskinoperat\xC3\xB6rer, gummi- och plastindustri"
+    "8231": "Maskinoperat\xC3\xB6rer, gummiindustri"
+    "8232": "Maskinoperat\xC3\xB6rer, plastindustri"
+    "824": "Maskinoperat\xC3\xB6rer, tr\xC3\xA4varuindustri"
+    "8240": "Maskinoperat\xC3\xB6rer, tr\xC3\xA4varuindustri"
+    "825": "Maskinoperat\xC3\xB6rer, grafisk industri, pappersvaruindustri"
+    "8251": "Maskinoperat\xC3\xB6rer, tryckeri"
+    "8252": "Maskinoperat\xC3\xB6rer, bokbinderi"
+    "8253": "Maskinoperat\xC3\xB6rer, pappersvaruindustri"
+    "826": "Maskinoperat\xC3\xB6rer, textil-, skinn- och l\xC3\xA4derindustri"
+    "8261": "Maskinoperat\xC3\xB6rer, garnberedning"
+    "8262": "Maskinoperat\xC3\xB6rer, v\xC3\xA4vning och stickning"
+    "8263": "Symaskinoperat\xC3\xB6rer"
+    "8264": "Maskinoperat\xC3\xB6rer, blekning, f\xC3\xA4rgning och tv\xC3\xA4ttning"
+    "8265": "Maskinoperat\xC3\xB6rer, p\xC3\xA4lsskinnsberedning, garvning"
+    "8266": "Maskinoperat\xC3\xB6rer, skoindustri m.m."
+    "8269": "\xC3\x96vriga maskinoperat\xC3\xB6rer, textil-, skinn- och l\xC3\xA4derindustri"
+    "827": "Maskinoperat\xC3\xB6rer, livsmedelsindustri m.m."
+    "8271": "Maskinoperat\xC3\xB6rer, k\xC3\xB6tt- och fiskberedning"
+    "8272": "Maskinoperat\xC3\xB6rer, mejeri"
+    "8273": "Maskinoperat\xC3\xB6rer, kvarnindustri"
+    "8274": "Maskinoperat\xC3\xB6rer, bageri och konfektyrindustri"
+    "8275": "Maskinoperat\xC3\xB6rer, frukt- och gr\xC3\xB6nsaksberedning"
+    "8276": "Maskinoperat\xC3\xB6rer, sockerindustri"
+    "8277": "Maskinoperat\xC3\xB6rer, te-, kaffe- och kakaoberedning"
+    "8278": "Maskinoperat\xC3\xB6rer, bryggeri m.m."
+    "8279": "Maskinoperat\xC3\xB6rer, tobaksindustri"
+    "828": "Mont\xC3\xB6rer"
+    "8281": "Fordonsmont\xC3\xB6rer m.fl."
+    "8282": "Mont\xC3\xB6rer, elektrisk utrustning"
+    "8283": "Mont\xC3\xB6rer, elektronisk utrustning"
+    "8284": "Mont\xC3\xB6rer, metall-, gummi- och plastprodukter"
+    "8285": "Mont\xC3\xB6rer, tr\xC3\xA4produkter"
+    "8286": "Mont\xC3\xB6rer, papp- och textilprodukter m.m."
+    "829": "\xC3\x96vriga maskinoperat\xC3\xB6rer och mont\xC3\xB6rer"
+    "8290": "\xC3\x96vriga maskinoperat\xC3\xB6rer och mont\xC3\xB6rer"
+    "83": "Transport- och maskinf\xC3\xB6rararbete"
+    "831": "Lokf\xC3\xB6rare m.fl."
+    "8311": "Lokf\xC3\xB6rare"
+    "8312": "Bang\xC3\xA5rdspersonal"
+    "832": "Fordonsf\xC3\xB6rare"
+    "8321": "Motorcykelf\xC3\xB6rare"
+    "8322": "Bil- och taxif\xC3\xB6rare"
+    "8323": "Buss- och sp\xC3\xA5rvagnsf\xC3\xB6rare"
+    "8324": "Lastbils- och l\xC3\xA5ngtradarf\xC3\xB6rare"
+    "833": "Maskinf\xC3\xB6rare"
+    "8331": "F\xC3\xB6rare av jordbruks- och skogsmaskiner"
+    "8332": "Anl\xC3\xA4ggningsmaskinf\xC3\xB6rare m.fl."
+    "8333": "Kranf\xC3\xB6rare m.fl."
+    "8334": "Truckf\xC3\xB6rare"
+    "834": "D\xC3\xA4ckspersonal"
+    "8340": "D\xC3\xA4ckspersonal"
+    "91": "Servicearbete utan krav p\xC3\xA5 s\xC3\xA4rskild yrkesutbildning"
+    "911": "Gatuf\xC3\xB6rs\xC3\xA4ljare m.fl."
+    "9111": "Gatuf\xC3\xB6rs\xC3\xA4ljare, livsmedel"
+    "9112": "Gatuf\xC3\xB6rs\xC3\xA4ljare, andra produkter \xC3\xA4n livsmedel"
+    "9113": "Hem- och telefonf\xC3\xB6rs\xC3\xA4ljare"
+    "912": "Skoputsning och liknande tj\xC3\xA4nster som inte kr\xC3\xA4ver s\xC3\xA4rskild yrkesutbildning"
+    "9120": "Skoputsning och liknande tj\xC3\xA4nster som inte kr\xC3\xA4ver s\xC3\xA4rskild yrkesutbildning"
+    "913": "Hembitr\xC3\xA4den, st\xC3\xA4dare m.fl."
+    "9131": "Hembitr\xC3\xA4den m.fl."
+    "9132": "Hotell- och kontorsst\xC3\xA4dare m.fl."
+    "9133": "Tv\xC3\xA4ttare och strykare"
+    "914": "Fastighetssk\xC3\xB6tare, f\xC3\xB6nsterputsare m.fl. st\xC3\xA4dare"
+    "9141": "Fastighetssk\xC3\xB6tare"
+    "9142": "Biltv\xC3\xA4ttare, f\xC3\xB6nsterputsare m.f."
+    "915": "Bud, b\xC3\xA4rare, portvakter, vaktm\xC3\xA4stare m.fl."
+    "9151": "Bud, kurirer, b\xC3\xA4rare"
+    "9152": "Portvakter, vaktm\xC3\xA4stare m.fl."
+    "9153": "M\xC3\xA4tavl\xC3\xA4sare"
+    "916": "Renh\xC3\xA5llnings- och \xC3\xA5tervinningsarbetare"
+    "9161": "Renh\xC3\xA5llningsarbetare"
+    "9162": Gatusopare m.fl.
+    "92": "Arbete inom lantbruk m.m. utan krav p\xC3\xA5 s\xC3\xA4rskild yrkesutbildning"
+    "921": "Medhj\xC3\xA4lpare inom jordbruk, tr\xC3\xA4dg\xC3\xA5rd, skogsbruk och fiske"
+    "9211": Lantbruksarbetare
+    "9212": Skogsbruksarbetare
+    "9213": Jakt- och fiskearbetare
+    "93": "Annat arbete utan krav p\xC3\xA5 s\xC3\xA4rskild yrkesutbildning"
+    "931": "Grovarbetare inom bygg och anl\xC3\xA4ggning"
+    "9311": Gruvarbetare
+    "9312": "V\xC3\xA4garbetare m.fl."
+    "9313": Byggarbetare
+    "932": Handpaketerare och andra fabriksarbetare
+    "9321": Monteringsarbetare
+    "9322": Handpaketerare och andra fabriksarbetare
+    "933": Godshanterare och expressbud
+    "9331": "F\xC3\xB6rare av manuella fordon (hand- eller fotdrift)"
+    "9332": "F\xC3\xB6rare av djurdragna fordon eller maskiner"
+    "9333": Godshanterare

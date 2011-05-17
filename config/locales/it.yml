@@ -1,0 +1,18 @@
+it:
+  about: "Informazioni su"
+  choose: ~
+  description: Descrizione
+  email: E-mail
+  fax: Fax
+  feedback: Feedback
+  i18n:
+    language:
+      name: Italiano
+  maximum: Massimo
+  minimum: Minimo
+  phone: Telefono
+  postal_address: "Indirizzo postale"
+  terms: Termini
+  type: Tipo
+  visit_address: "Visita indirizzo"
+  website: Sito

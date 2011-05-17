@@ -1,0 +1,87 @@
+es:
+  job_openings:
+    apply:
+      apply: Aplicar
+      deadline: Plazo
+    contacts:
+      contacts: Contactos
+      union_contacts: "Unión Contactos"
+    employer:
+      employer: Empleador
+      national_id: "Documento nacional de identidad"
+    index:
+      employer: Empleador
+      job_categories: ~
+      keywords: "Palabras clave"
+      location: Localización
+      locations: ~
+      update_search: "Actualización de la búsqueda"
+    items:
+      ago: Hace
+      posted: "Publicado el"
+    job_description:
+      job_description: "Descripción del puesto"
+    job_information:
+      accommodation_paid_for: "Alojamiento pagado"
+      duration: Duración
+      ends: Finaliza
+      hours_per_week: "h / semana"
+      industry: Industria
+      job_category: "Categoría del empleo"
+      job_information: "Información sobre el trabajo"
+      length: Longitud
+      length_type:
+        "0": Temporal
+        "-1": Permanente
+      location: Localización
+      meals_paid_for: "Las comidas pagadas"
+      num_positions: Posiciones
+      relocation_paid_for: "Reubicación pagado"
+      salary: Salario
+      salary_period:
+        D: día
+        H: h
+        M: mes
+        W: Semana
+        "Y": año
+      see_map: "Ver en el mapa"
+      starts: Inicia
+      substitute: Suplente
+      travel_expenses_paid_for: "Gastos de viaje pagados por"
+      worktime: "Tiempo de trabajo"
+      worktime_type:
+        FULL_TIME: "A tiempo completo"
+        PART_TIME: "A tiempo parcial"
+    matches:
+      jobs_match_your_query: "Un puesto de trabajo coincide con la consulta"
+      more: "Más información"
+    requirements:
+      drivers_license: "Licencia de conducir"
+      education: Educación
+      experience: Experiencia
+      experience_str: "1 mes"
+      language_proficiency:
+        "true": "Primaria de competencia"
+        "2": "Limitada capacidad de trabajo"
+        "3": "Profesionales que trabajan dominio"
+        "4": "capacitación profesional completa"
+        "5": "dominio nativo o bilingüe"
+      language_type:
+        cs: Checa
+        de: Alemán
+        en: Inglés
+        es: Español
+        fr: Francés
+        it: Italiano
+        nl: Holandés
+        ro: Rumano
+      languages: Idiomas
+      maximum_age: "Edad máxima"
+      minimum_age: "Edad mínima"
+      must_have_car: "Debe tener coche"
+      none: Ninguno
+      required: Requerido
+      requirements: Requisitos
+    show:
+      anonymous: Anónimo
+      published: Publicado

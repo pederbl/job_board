@@ -1,0 +1,87 @@
+ro:
+  job_openings:
+    apply:
+      apply: "Se aplică"
+      deadline: Termen
+    contacts:
+      contacts: Contacte
+      union_contacts: "Uniunea Contacte"
+    employer:
+      employer: Angajator
+      national_id: "Naţionale de identitate"
+    index:
+      employer: Angajator
+      job_categories: ~
+      keywords: "Cuvinte cheie"
+      location: Locaţie
+      locations: ~
+      update_search: "Update Search"
+    items:
+      ago: "în urmă"
+      posted: Postat
+    job_description:
+      job_description: "Descriere loc de muncă"
+    job_information:
+      accommodation_paid_for: "Cazare plătit pentru"
+      duration: Durata
+      ends: Ends
+      hours_per_week: "h / săptămână"
+      industry: Industrie
+      job_category: "Categoria de locuri de muncă"
+      job_information: "Informaţii de locuri de muncă"
+      length: Lungime
+      length_type:
+        "0": Temporare
+        "-1": Permanente
+      location: Locaţie
+      meals_paid_for: "Masa plătit pentru"
+      num_positions: Pozitii
+      relocation_paid_for: "Relocare plătit pentru"
+      salary: Salariu
+      salary_period:
+        D: zi
+        H: h
+        M: lună
+        W: săptămână
+        "Y": an
+      see_map: "Vezi harta"
+      starts: Începe
+      substitute: Substitut
+      travel_expenses_paid_for: "cheltuielile de deplasare plătite pentru"
+      worktime: Worktime
+      worktime_type:
+        FULL_TIME: Full-time
+        PART_TIME: Part-time
+    matches:
+      jobs_match_your_query: "Un loc de muncă se potriveşte interogare"
+      more: "Mai mult"
+    requirements:
+      drivers_license: "Permisului de conducere"
+      education: Educaţie
+      experience: Experienţă
+      experience_str: "1 luna"
+      language_proficiency:
+        "true": "Elementare de competenţă"
+        "2": "Limitat de lucru de competenţă"
+        "3": "Competenţă profesională de lucru"
+        "4": "Full de competenţă profesională"
+        "5": "Native sau bilingv de competenţă"
+      language_type:
+        cs: Cehă
+        de: Germană
+        en: Engleză
+        es: Spaniolă
+        fr: Franceză
+        it: Italiană
+        nl: Olandez
+        ro: Română
+      languages: Limbi
+      maximum_age: "Maxime de vârstă"
+      minimum_age: "Vârsta minimă"
+      must_have_car: "Trebuie să aibă maşină"
+      none: "Nici unul"
+      required: Necesare
+      requirements: Cerinţe
+    show:
+      anonymous: Anonim
+      published: Publicat

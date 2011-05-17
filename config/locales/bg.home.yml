@@ -1,0 +1,7 @@
+bg:
+  home:
+    index:
+      find_jobs: "Си намерят работа"
+      highest_paid_jobs: "Най-висока платени работни места"
+      job_openings: "работни места"
+      most_shared_jobs: "Най-общо Работа"

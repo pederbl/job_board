@@ -1,0 +1,93 @@
+sv:
+  job_openings:
+    apply:
+      apply: Ansök
+      deadline: "Sista ansökningsdag"
+    contacts:
+      contacts: Kontakter
+      union_contacts: "Fackliga kontakter"
+    employer:
+      employer: Arbetsgivare
+      national_id: "Nationellt ID"
+    index:
+      employer: Arbetsgivare
+      job_categories: ~
+      keywords: Sökord
+      location: Ort
+      locations: ~
+      update_search: "Uppdatera Sök"
+    items:
+      ago: sedan
+      posted: Inlagd
+    job_description:
+      job_description: Jobbbeskrivning
+    job_information:
+      accommodation_paid_for: "Boende betalas för"
+      duration: Varaktighet
+      ends: Slut
+      hours_per_week: "h / vecka"
+      industry: Branch
+      job_category: Jobbkategori
+      job_information: Jobbinformation
+      length: Längd
+      length_type:
+        "0": Temporär
+        "-1": Tillsvidare
+      location: Ort
+      meals_paid_for: "Måltider betalas för"
+      num_positions: Positioner
+      relocation_paid_for: "Flytt betalas för"
+      salary: Lön
+      salary_period:
+        D: dag
+        H: h
+        M: månad
+        W: vecka
+        "Y": år
+      see_map: "Se karta"
+      starts: Startar
+      substitute: Vikarie
+      travel_expenses_paid_for: "Resekostnader betalas för"
+      worktime: Arbetstid
+      worktime_type:
+        FULL_TIME: Heltid
+        PART_TIME: Deltid
+    matches:
+      jobs_match_your_query:
+        one: "Ett jobb matchar din sökning"
+        other: "%{delimited} jobb matchar din sökning"
+        zero: "Inga jobb matchar din sökning"
+      more: Fler
+    requirements:
+      drivers_license: Körkort
+      education: Utbildning
+      experience: Erfarenhet
+      experience_str:
+        one: "1 månad"
+        other: "%{count} månader"
+        zero: Inga
+      language_proficiency:
+        "true": "Elementär kompetens"
+        "2": "Begränsad yrkesmässig kompetens"
+        "3": "Yrkesmässig kompetens"
+        "4": "Full yrkesmässig kompetens"
+        "5": "Modersmål eller tvåspråkig "
+      language_type:
+        cs: Tjeckiska
+        de: Tyska
+        en: Engelska
+        es: Spanska
+        fr: Franska
+        it: Italienska
+        nl: Holländska
+        ro: Rumänska
+      languages: Språk
+      maximum_age: "Högsta ålder"
+      minimum_age: Minimiålder
+      must_have_car: "Måste ha bil"
+      none: Inga
+      required: Obligatorisk
+      requirements: Krav
+    show:
+      anonymous: Anonym
+      published: Publicerad

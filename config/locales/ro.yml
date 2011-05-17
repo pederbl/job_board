@@ -1,0 +1,18 @@
+ro:
+  about: Despre
+  choose: ~
+  description: Descriere
+  email: E-mail
+  fax: Fax
+  feedback: Feedback
+  i18n:
+    language:
+      name: Română
+  maximum: Maximă
+  minimum: Minim
+  phone: Telefon
+  postal_address: "Adresa poştală"
+  terms: Termeni
+  type: Tip
+  visit_address: "Vizitaţi adresa"
+  website: Website

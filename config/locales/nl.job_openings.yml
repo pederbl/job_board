@@ -1,0 +1,87 @@
+nl:
+  job_openings:
+    apply:
+      apply: "Van toepassing"
+      deadline: Termijn
+    contacts:
+      contacts: Contacten
+      union_contacts: "Unie Contacten"
+    employer:
+      employer: Werkgever
+      national_id: "Nationale ID"
+    index:
+      employer: Werkgever
+      job_categories: ~
+      keywords: Trefwoorden
+      location: Locatie
+      locations: ~
+      update_search: "Update zoeken"
+    items:
+      ago: geleden
+      posted: Geplaatst
+    job_description:
+      job_description: "Job Description"
+    job_information:
+      accommodation_paid_for: "Accommodatie betaald voor"
+      duration: Duur
+      ends: Eindigt
+      hours_per_week: "h / week"
+      industry: Industrie
+      job_category: Functiecategorie
+      job_information: Taakinformatie
+      length: Lengte
+      length_type:
+        "0": Tijdelijke
+        "-1": Permanente
+      location: Locatie
+      meals_paid_for: "Maaltijden betaald voor"
+      num_positions: Posities
+      relocation_paid_for: "Verhuizing betaald voor"
+      salary: Salaris
+      salary_period:
+        D: dag
+        H: h
+        M: maand
+        W: week
+        "Y": jaar
+      see_map: "Zie kaart"
+      starts: Begint
+      substitute: Substituut
+      travel_expenses_paid_for: "Reiskosten betaald voor"
+      worktime: Worktime
+      worktime_type:
+        FULL_TIME: Full-time
+        PART_TIME: Deeltijds
+    matches:
+      jobs_match_your_query: "Een baan komt overeen met uw zoekopdracht"
+      more: Meer
+    requirements:
+      drivers_license: Rijbewijs
+      education: Onderwijs
+      experience: Ervaring
+      experience_str: "1 maand"
+      language_proficiency:
+        "true": "Elementaire vaardigheid"
+        "2": "Beperkte taalvaardigheid werken"
+        "3": "Professioneel werkende taalvaardigheid"
+        "4": "Volledige vakbekwaamheid"
+        "5": "Native of tweetalig vaardigheid"
+      language_type:
+        cs: Tsjechische
+        de: Duitse
+        en: Engels
+        es: Spaanse
+        fr: Franse
+        it: Italiaanse
+        nl: Nederlandse
+        ro: Roemeense
+      languages: Talen
+      maximum_age: "Maximale leeftijd"
+      minimum_age: "Minimum leeftijd"
+      must_have_car: "Moet de auto"
+      none: Geen
+      required: Vereist
+      requirements: Eisen
+    show:
+      anonymous: Anoniem
+      published: Gepubliceerd

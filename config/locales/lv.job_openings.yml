@@ -1,0 +1,87 @@
+lv:
+  job_openings:
+    apply:
+      apply: Pieteikties
+      deadline: Termiņš
+    contacts:
+      contacts: Kontakti
+      union_contacts: "Savienība Kontakti"
+    employer:
+      employer: "Darba devējs"
+      national_id: "Valsts identifikācijas"
+    index:
+      employer: "Darba devējs"
+      job_categories: ~
+      keywords: "Atslēgas vārdi"
+      location: "Atrašanās vieta"
+      locations: ~
+      update_search: "Update Meklēšana"
+    items:
+      ago: pirms
+      posted: Ievietojis
+    job_description:
+      job_description: "Darba apraksts"
+    job_information:
+      accommodation_paid_for: "Izmitināšanu maksā"
+      duration: Ilgums
+      ends: Beidzas
+      hours_per_week: "h / nedēļā"
+      industry: Nozare
+      job_category: "Amata kategoriju"
+      job_information: "Darba informācija"
+      length: Garums
+      length_type:
+        "0": Pagaidu
+        "-1": Pastāvīgu
+      location: "Atrašanās vieta"
+      meals_paid_for: "Maltītes maksā"
+      num_positions: Pozīcijas
+      relocation_paid_for: "Pārvietošana maksā"
+      salary: Alga
+      salary_period:
+        D: dienas
+        H: h
+        M: mēnesī
+        W: nedēļā
+        "Y": gadā
+      see_map: "Skatīt karti"
+      starts: Starts
+      substitute: Aizstāt
+      travel_expenses_paid_for: "Ceļa izdevumi jāmaksā"
+      worktime: Worktime
+      worktime_type:
+        FULL_TIME: "Pilna laika"
+        PART_TIME: "Nepilna laika"
+    matches:
+      jobs_match_your_query: "Viena darba atbilst Jūsu pieprasījumam"
+      more: Vairāk
+    requirements:
+      drivers_license: "Vadītāja apliecība"
+      education: Izglītības
+      experience: Pieredze
+      experience_str: "1 mēnesis"
+      language_proficiency:
+        "true": "Elementary prasmes"
+        "2": "Limited darba prasmes"
+        "3": "Profesionālu darba prasmi"
+        "4": "Pilna profesionālo"
+        "5": "Vietējās vai bilingvālā prasmes"
+      language_type:
+        cs: Čehijas
+        de: Vācu
+        en: Angļu
+        es: Spānijas
+        fr: Franču
+        it: Itālijas
+        nl: Holandiešu
+        ro: Rumānijas
+      languages: Valodas
+      maximum_age: "Maksimālo vecumu"
+      minimum_age: "Minimālais vecums"
+      must_have_car: "Jābūt automašīnas"
+      none: Neviens
+      required: Nepieciešams
+      requirements: Prasības
+    show:
+      anonymous: Anonīms
+      published: Publicēts

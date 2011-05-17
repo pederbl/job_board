@@ -1,0 +1,87 @@
+da:
+  job_openings:
+    apply:
+      apply: Påfør
+      deadline: Deadline
+    contacts:
+      contacts: Kontakter
+      union_contacts: "Union Kontakter"
+    employer:
+      employer: Arbejdsgiver
+      national_id: "Nationale id"
+    index:
+      employer: Arbejdsgiver
+      job_categories: ~
+      keywords: Søgeord
+      location: Beliggenhed
+      locations: ~
+      update_search: Opdat.søgning
+    items:
+      ago: siden
+      posted: Sendt
+    job_description:
+      job_description: Jobbeskrivelse
+    job_information:
+      accommodation_paid_for: "Overnatning betales for"
+      duration: Varighed
+      ends: Slutter
+      hours_per_week: "t / uge"
+      industry: Industri
+      job_category: Jobkategori
+      job_information: "Job Information"
+      length: Længde
+      length_type:
+        "0": Midlertidig
+        "-1": Permanent
+      location: Beliggenhed
+      meals_paid_for: "Måltider betalt for"
+      num_positions: Positioner
+      relocation_paid_for: "Flytning betalt for"
+      salary: Løn
+      salary_period:
+        D: dag
+        H: h
+        M: måned
+        W: uge
+        "Y": år
+      see_map: "Se kort"
+      starts: Starter
+      substitute: Stedfortræder
+      travel_expenses_paid_for: "Rejseudgifter betales for"
+      worktime: "Normal arbejdstid"
+      worktime_type:
+        FULL_TIME: "Fuld tid"
+        PART_TIME: Deltid
+    matches:
+      jobs_match_your_query: "Et job matcher din forespørgsel"
+      more: Mere
+    requirements:
+      drivers_license: Kørekort
+      education: Uddannelse
+      experience: Erfaring
+      experience_str: "1 måned"
+      language_proficiency:
+        "true": "Elementære færdigheder"
+        "2": "Begrænset arbejder færdighed"
+        "3": "Professionelle der arbejder færdighed"
+        "4": "Fuld faglig kompetence"
+        "5": "Native eller tosproget præstationsprøvning"
+      language_type:
+        cs: Tjekkisk
+        de: Tysk
+        en: Engelsk
+        es: Spansk
+        fr: Fransk
+        it: Italiensk
+        nl: Hollandsk
+        ro: Rumænsk
+      languages: Sprog
+      maximum_age: "Øvre aldersgrænse"
+      minimum_age: Minimumsalder
+      must_have_car: "Skal have bil"
+      none: Ingen
+      required: Påkrævet
+      requirements: Krav
+    show:
+      anonymous: Anonym
+      published: Udgivet

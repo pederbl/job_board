@@ -1,0 +1,532 @@
+--- 
+et: 
+  isco_code: 
+    "11": "Seadusandjad ja k\xC3\xB5rgemad ametnikud"
+    "111": Seadusandjad
+    "1120": "K\xC3\xB5rgemad valitsusametnikud"
+    "113": "Traditsioonilised vanemad ja k\xC3\xBClavanemad"
+    "1130": "Traditsioonilised vanemad ja k\xC3\xBClavanemad"
+    "114": "K\xC3\xB5rgemad ametnikud \xC3\xBChiskondlikes organisatsioonides"
+    "1141": "K\xC3\xB5rgemad ametnikud erakondades"
+    "1142": "K\xC3\xB5rgemad ametnikud t\xC3\xB6\xC3\xB6andjate, t\xC3\xB6\xC3\xB6tajate jm majandushuvidel p\xC3\xB5hinevates organisatsioonides"
+    "1143": "K\xC3\xB5rgemad ametnikud humanitaar- jm \xC3\xBChiskondlikes huviorganisatsioonides"
+    "12": Juhid
+    "121": Direktorid ja juhatajad
+    "1210": Direktorid ja juhatajad
+    "122": "P\xC3\xB5hitegevuse juhid"
+    "1221": "P\xC3\xB5hitegevuse juhid p\xC3\xB5llumajanduses, jahinduses, metsanduses ja kalanduses"
+    "1222": "P\xC3\xB5hitegevuse juhid t\xC3\xB6\xC3\xB6stuses"
+    "1223": "P\xC3\xB5hitegevuse juhid ehituses"
+    "1224": "P\xC3\xB5hitegevuse juhid hulgi- ja jaekaubanduses"
+    "1225": "P\xC3\xB5hitegevuse juhid toitlustuses ja majutuses"
+    "1226": "P\xC3\xB5hitegevuse juhid transpordis, laomajanduses ja sides"
+    "1227": "P\xC3\xB5hitegevuse juhid \xC3\xA4riteeninduses"
+    "1228": "P\xC3\xB5hitegevuse juhid hoolekandes, koristusteeninduses ja nendega seotud valdkondades"
+    "1229": "Mujal liigitamata p\xC3\xB5hitegevuse juhid"
+    "123": Muude alade juhid
+    "1231": Finants- ja haldusjuhid
+    "1232": "Personali ja t\xC3\xB6\xC3\xB6suhete juhid"
+    "1233": "M\xC3\xBC\xC3\xBCgi- ja turundusjuhid"
+    "1234": Reklaami- ja suhtekorraldusjuhid
+    "1235": Varustusjuhid
+    "1236": Informaatikajuhid
+    "1237": Teadus- ja arendusjuhid
+    "1239": Mujal liigitamata muude alade juhid
+    "13": "V\xC3\xA4ikeettev\xC3\xB5tete juhid"
+    "131": "V\xC3\xA4ikeettev\xC3\xB5tete juhid"
+    "1311": "V\xC3\xA4ikeettev\xC3\xB5tete juhid p\xC3\xB5llumajanduses, jahinduses, metsanduses ja kalanduses"
+    "1312": "V\xC3\xA4ikeettev\xC3\xB5tete juhid t\xC3\xB6\xC3\xB6stuses"
+    "1313": "V\xC3\xA4ikeettev\xC3\xB5tete juhid ehituses"
+    "1314": "V\xC3\xA4ikeettev\xC3\xB5tete juhid hulgi- ja jaekaubanduses"
+    "1315": "V\xC3\xA4ikeettev\xC3\xB5tete juhid toitlustuses ja majutuses"
+    "1316": "V\xC3\xA4ikeettev\xC3\xB5tete juhid transpordis, laomajanduses ja sides"
+    "1317": "V\xC3\xA4ikeettev\xC3\xB5tete juhid \xC3\xA4riteeninduses"
+    "1318": "V\xC3\xA4ikeettev\xC3\xB5tete juhid hoolekandes, koristusteeninduses ja nendega soetud valdkondades"
+    "1319": "Mujal liigitamata v\xC3\xA4ikeettev\xC3\xB5tete juhid"
+    "21": "F\xC3\xBC\xC3\xBCsika, keemia, matemaatika ja inseneriteaduse tippseptsialistid"
+    "211": "F\xC3\xBC\xC3\xBCsikud, keemikud jms alade tippspetsialistid"
+    "2111": "F\xC3\xBC\xC3\xBCsikud ja astronoomid"
+    "2112": Meteoroloogid
+    "2113": Keemikud
+    "2114": "Geoloogid ja geof\xC3\xBC\xC3\xBCsikud"
+    "212": Matemaatikud, statistikud jms alade tippspetsialistid
+    "2121": Matemaatikud ja matemaatikaga seotud alade tippspetsialistid
+    "2122": Statistikud
+    "213": Informaatikud
+    "2131": "Infos\xC3\xBCsteemide projekteerijad ja s\xC3\xBCsteemianal\xC3\xBC\xC3\xBCtikud"
+    "2132": Programmeerijad
+    "2139": Mujal liigitamata informaatikud
+    "214": Inseneriteaduse tippspetsialistid
+    "2141": Arhitektid, linna- ja liiklusplaneerijad
+    "2142": Ehitusinsenerid
+    "2143": Elektriinsenerid
+    "2144": Elektroonika- ja sideinsenerid
+    "2145": Mehaanikainsenerid
+    "2146": Keemiainsenerid
+    "2147": "M\xC3\xA4einsenerid jms alade tippspetsialistid"
+    "2148": "Kaardistajad, maam\xC3\xB5\xC3\xB5tjad ja maakorraldajad"
+    "2149": Mujal liigitamata inseneriteaduse tippspetsialistid
+    "22": Loodusteaduse ja tervishoiu tippspetsialistid
+    "221": Loodusteaduse tippspetsialistid
+    "2211": Bioloogid, botaanikud, zooloogid jms alade spetsialistid
+    "2212": Farmakoloogid, patoloogid jms alade spetsialistid
+    "2213": Taime- ja loomakasvatuse spetsialistid
+    "222": "Tervishoiu tippspetsialistid (v.a p\xC3\xB5etamine)"
+    "2221": Arstid
+    "2222": Hambaarstid
+    "2223": Loomarstid
+    "2224": Farmatseudid
+    "2229": Mujal liigitamata tervishoiu tippspetsialistid
+    "223": "P\xC3\xB5etamis- ja s\xC3\xBCnnitusabispetsialistid"
+    "2230": "P\xC3\xB5etamis- ja s\xC3\xBCnnitusabispetsialistid"
+    "23": Pedagoogika tippspetsialistid
+    "231": "K\xC3\xB5rgkoolide \xC3\xB5ppej\xC3\xB5ud"
+    "2310": "K\xC3\xB5rgkoolide \xC3\xB5ppej\xC3\xB5ud"
+    "232": "\xC3\x9Cld- ja kutsehariduse spetisalistid - \xC3\xB5petajad"
+    "2320": "\xC3\x9Cld- ja kutsehariduse spetsialistid - \xC3\xB5petajad"
+    "233": "Alushariduse ja alg\xC3\xB5petuse spetsialistid - \xC3\xB5petajad"
+    "2331": "Alg\xC3\xB5petuse spetsialistid - \xC3\xB5petajad"
+    "2332": "Alushariduse spetsialistid - \xC3\xB5petajad"
+    "234": "Eripedagoogika spetisalistid - \xC3\xB5petajad"
+    "2340": "Eripedagoogika spetsialistid - \xC3\xB5petajad"
+    "235": "Muud \xC3\xB5ppespetsialistid"
+    "2351": "\xC3\x95ppemetoodika spetsialistid"
+    "2352": Kooliinspektorid
+    "2359": "Mujal liigitamata \xC3\xB5ppespetsialistid"
+    "24": Muud tippspetsialistid
+    "241": "\xC3\x84rispetsialistid"
+    "2411": Finantsspetsialistid
+    "2412": Personali- ja kutsespetsialistid
+    "2419": "Mujal liigitamata \xC3\xA4rispetsialistid"
+    "242": "\xC3\x95igusspetsialistid"
+    "2421": "Juristid, asjaajajad jms \xC3\xB5igust\xC3\xB6\xC3\xB6tajad"
+    "2422": Kohtunikud
+    "2429": "Mujal liigitamata \xC3\xB5igusspetsialistid"
+    "243": Teabespetsialistid
+    "2431": Arhivaarid ja kuraatorid
+    "2432": "Raamatukogut\xC3\xB6\xC3\xB6tajad jms teabespetsialistid"
+    "244": Sotsiaal- ja humanitaarteaduste tippspetsialistid
+    "2441": Majandusteadlased
+    "2442": Sotsioloogid, antropoloogid jms
+    "2443": Filosoofid, ajaloolased ja politoloogid
+    "2444": "Keeleteadlased, t\xC3\xB5lkijad ja t\xC3\xB5lgid"
+    "2445": "Ps\xC3\xBChholoogid"
+    "2446": "Sotsiaalt\xC3\xB6\xC3\xB6tajad"
+    "245": "Loomingulised t\xC3\xB6\xC3\xB6tajad"
+    "2451": Kirjanikud, ajakirjanikud jms
+    "2452": Skulptorid, maalikunstnikud jm kunstnikud
+    "2453": Heliloojad ja interpreedid
+    "2454": Ballettmeistrid ja tantsijad
+    "2455": "Filmi-, teatri- jm n\xC3\xA4itlejad ja lavastajad"
+    "246": Ususpetsialistid
+    "2460": Ususpetsialistid
+    "31": "F\xC3\xBC\xC3\xBCsika, keemia ja inseneriteaduse keskastme spetsialistid"
+    "311": "F\xC3\xBC\xC3\xBCsika, keemia, inseneriteaduse jms alade tehnikud"
+    "3111": "Keemia-, f\xC3\xBC\xC3\xBCsika- jms tehnikud"
+    "3112": Ehitustehnikud
+    "3113": Elektrotehniliste alade tehnikud
+    "3114": Elektroonika- ja sidetehnikud
+    "3115": Masinaehitustehnikud
+    "3116": "Keemiat\xC3\xB6\xC3\xB6stuse tehnikud"
+    "3117": "M\xC3\xA4etehnikud"
+    "3118": Joonestajad
+    "3119": "Mujal liigitamata f\xC3\xBC\xC3\xBCsika, keemia, inseneriteaduse jms alade tehnikud"
+    "312": Arvutispetsialistid
+    "3121": Arvutitehnikud
+    "3122": Arvutiseadmete operaatorid
+    "3123": Robotitehnikud
+    "313": Optika- ja elektroonikaseadmete tehnikud ja operaatorid
+    "3131": Fotograafid, pildi- ja helisalvestuse tehnikud ja operaatorid
+    "3132": Raadio- ja teleseadmete tehnikud ja operaatorid
+    "3133": Meditsiiniseadmete tehnikud ja operaatorid
+    "3139": Mujal liigitamata optika- ja elektroonikaseadmete tehnikud ja operaatorid
+    "314": "Laevade ja \xC3\xB5hus\xC3\xB5idukite juhid ja tehnikud"
+    "3141": Laevamehaanikud
+    "3142": Laeva tekiohvitserid ja lootsid
+    "3143": "\xC3\x95hus\xC3\xB5iduki piloodid ja teised meeskonna liikmed"
+    "3144": "Lennuliikluse dispet\xC5\xA1erid"
+    "3145": Lennuliikluse tehnikud
+    "315": "T\xC3\xB6\xC3\xB6kaitse- ja kvaliteediinspektorid"
+    "3151": Ehitus- ja tuleohutusinspektorid
+    "3152": "T\xC3\xB6\xC3\xB6kaitse-, tervisekaitse-, kvaliteedi- jm inspektorid"
+    "32": Looduseaduse ja tervishoiu abispetsialistid
+    "321": Bioloogia, aianduse, metsanduse jms abispetsialistid
+    "3211": Bioloogiatehnikud
+    "3212": Agronoomia- ja metsamajandustehnikud
+    "3213": "P\xC3\xB5llumajanduse ja metsanduse n\xC3\xB5uandjad"
+    "322": "Tervishoiu abispetsialistid (v.a p\xC3\xB5etamine)"
+    "3221": Abiarstid (velskrid)
+    "3222": Sanitaariaspetsialistid
+    "3223": Dieedi- ja toitlustusspetsialistid
+    "3224": Optometristid ja optikud
+    "3225": Abihambaarstid
+    "3226": "F\xC3\xBCsioterapistid jms abispetsialistid"
+    "3227": Abiloomaarstid (loomavelskrid)
+    "3228": Abifarmatseudid
+    "3229": "Mujal liigitamata tervishoiu abispetsialistid (v.a p\xC3\xB5etamine)"
+    "323": "P\xC3\xB5etamise ja s\xC3\xBCnnitusabi abispetsialistid"
+    "3231": "P\xC3\xB5etamise abispetsialistid"
+    "3232": "S\xC3\xBCnnitusabi abispetsialistid"
+    "324": Rahvameditsiiniga tegelejad ja usuga ravitsejad
+    "3241": Rahvameditsiiniga tegelejad
+    "3242": Usuga ravitsejad
+    "33": Pedagoogika abispetsialistid
+    "331": "Alg\xC3\xB5petuse abispetsialistid"
+    "3310": "Alg\xC3\xB5petuse abispetsialistid"
+    "332": Alushariduse abispetsialistid
+    "3320": Alushariduse abispetsialistid
+    "333": Eripedagoogika abispetsialistid
+    "3330": Eripedagoogika abispetsialistid
+    "334": "Muud abi\xC3\xB5ppespetsialistid"
+    "3340": "Muud abi\xC3\xB5ppespetsialistid"
+    "34": Muud keskastme spetsialistid
+    "341": "Rahandus-, kaubandus- jms alade t\xC3\xB6\xC3\xB6tajad"
+    "3411": "V\xC3\xA4\xC3\xA4rtpaberi- ja valuutamaaklerid ning -vahendajad"
+    "3412": Kindlustusagendid
+    "3413": Kinnisvaramaaklerid
+    "3414": Reisikonsultandid ja -korraldajad
+    "3415": "M\xC3\xBC\xC3\xBCgiesindajad ja -konsultandid"
+    "3416": Varustajad
+    "3417": Hindajad ja oksjonipidajad
+    "3419": "Mujal liigitamata rahandus-, kaubandus- jms alade t\xC3\xB6\xC3\xB6tajad"
+    "342": "\xC3\x84riteenuste agendid, kaubamaaklerid"
+    "3421": Kaubamaaklerid
+    "3422": "Tolliametnikud jms t\xC3\xB6\xC3\xB6tajad"
+    "3423": "T\xC3\xB6\xC3\xB6h\xC3\xB5iveametnikud ja t\xC3\xB6\xC3\xB6lepingute s\xC3\xB5lmijad"
+    "3429": "Mujal liigitamata \xC3\xA4riteenuste agendid ja kaubamaaklerid"
+    "343": Haldusametnikud
+    "3431": "Sekret\xC3\xA4rid-asjaajajad jms sekret\xC3\xA4rid"
+    "3432": "Juristid-asjaajajad jms \xC3\xB5igust\xC3\xB6\xC3\xB6tajad"
+    "3433": Raamatupidajad
+    "3434": "Statistika, matemaatika jms alade t\xC3\xB6\xC3\xB6tajad"
+    "3439": Mujal liigitamata haldusametnikud
+    "344": Tolli-, maksu- jms haldusametnikud
+    "3441": Tolli- ja piiriinspektorid
+    "3442": Maksu- ja aktsiisiametnikud
+    "3443": Sotsiaalkindlustusametnikud
+    "3444": Litsentsi- ja passiametnikud
+    "3449": Mujal liigitamata tolli-, maksu- jms haldusametnikud
+    "345": Politseiinspektorid ja detektiivid
+    "3450": Politseiinspektorid ja detektiivid
+    "346": "Sotsiaalt\xC3\xB6\xC3\xB6tajad"
+    "3460": "Sotsiaalt\xC3\xB6\xC3\xB6tajad"
+    "347": "Kunsti-, l\xC3\xB5bustus- ja spordit\xC3\xB6\xC3\xB6tajad"
+    "3471": Dekoraatorid ja disainerid
+    "3472": "Ringh\xC3\xA4\xC3\xA4lingu-, televisiooni- jm teadustajad"
+    "3473": "Varietee-, restorani-, t\xC3\xA4nava- jm muusikud, lauljad ja tantsijad"
+    "3474": Tsirkuseartistid
+    "3475": "Sportlased ja spordit\xC3\xB6\xC3\xB6tajad"
+    "348": "Usut\xC3\xB6\xC3\xB6tajad"
+    "3480": "Usut\xC3\xB6\xC3\xB6tajad"
+    "41": Kontoriametnikud
+    "411": "Sekret\xC3\xA4rid ja kontorimasinatel t\xC3\xB6\xC3\xB6tajad"
+    "4111": Stenografistid ja masinakirjutajad
+    "4112": Faksi- jm operaatorid
+    "4113": Andmesisestajad
+    "4114": Arvutus-, postitus- jms masinate operaatorid
+    "4115": "Sekret\xC3\xA4rid"
+    "412": Arvestusametnikud
+    "4121": Arvepidamis- ja raamatupidamisametnikud
+    "4122": Statistika- ja rahandusametnikud
+    "413": Varustus- ja transpordiametnikud
+    "4131": Laoametnikud
+    "4132": Tootmisega seotud ametnikud
+    "4133": Transpordiametnikud
+    "414": Raamatukogu-, posti- jms ametnikud
+    "4141": "Raamatukoguametnikud ja kartoteegi- v\xC3\xB5i registripidajad"
+    "4142": "Posti sorteerijad ja k\xC3\xA4ttetoimetajad"
+    "4143": Korrektorid, kodeerijad jms ametnikud
+    "4144": Kirjaabilised
+    "419": Muud kontoriametnikud
+    "4190": Muud kontoriametnikud
+    "42": Klienditeenindajad
+    "421": Kassapidajad, laekurid jms ametnikud
+    "4211": "Kassapidajad ja piletim\xC3\xBC\xC3\xBCjad"
+    "4212": Laekurid pangas ja postkontoris
+    "4213": Kihlvedude vahendajad ja krupjeed
+    "4214": Pandimajapidajad ja rahalaenajad
+    "4215": "V\xC3\xB5lgade sissen\xC3\xB5udjad, maksukogujad jms ametnikud"
+    "422": Teabeteenistuse ametnikud
+    "4221": "Reisib\xC3\xBCroo ametnikud ja s\xC3\xB5idupiletite m\xC3\xBC\xC3\xBCjad"
+    "4222": Registraatorid ja teabeametnikud
+    "4223": Telefonioperaatorid
+    "51": Isiku- ja kaitseteenindajad
+    "511": Reisiteenindajad
+    "5111": Reisijate teenindajad, stjuuardid, stjuardessid
+    "5112": "Kontrol\xC3\xB6rid ja konduktorid"
+    "5113": Giidid
+    "512": Majapidajad ja toitlustusteenindajad
+    "5121": Majapidajad jms teenindajad
+    "5122": Kokad
+    "5123": Kelnerid, ettekandjad ja baarmenid
+    "513": "Isikuhooldust\xC3\xB6\xC3\xB6tajad"
+    "5131": "Lapsehoidjad ja kasvatajaabid kodus v\xC3\xB5i lasteasutustes"
+    "5132": "Hooldust\xC3\xB6\xC3\xB6tajad meditsiiniasutustes"
+    "5133": "Hooldust\xC3\xB6\xC3\xB6tajad kodus"
+    "5139": "Mujal liigitamata isikuhooldust\xC3\xB6\xC3\xB6tajad"
+    "514": Muud isikuteenindajad
+    "5141": Iluteenindajad
+    "5142": Ajaviiteseltsilised ja teenrid
+    "5143": Surnumatjad ja kremeerijad
+    "5149": Mujal liigitamata isikuteenindajad
+    "515": "Astroloogid, ennustajad jms t\xC3\xB6\xC3\xB6tajad"
+    "5151": "Astroloogid jms t\xC3\xB6\xC3\xB6tajad"
+    "5152": "Ennustajad, hiromandid jms t\xC3\xB6\xC3\xB6tajad"
+    "516": Kaitseteenindajad
+    "5161": "Tulet\xC3\xB5rjujad ja p\xC3\xA4\xC3\xA4stjad"
+    "5162": Politseinikud
+    "5163": Vangivalvurid
+    "5169": Mujal liigitamata kaitseteenindajad
+    "52": "Modellid, m\xC3\xBC\xC3\xBCjad ja demonstraatorid"
+    "521": Modellid
+    "5210": Modellid
+    "522": "M\xC3\xBC\xC3\xBCjad ja demonstraatorid"
+    "5220": "M\xC3\xBC\xC3\xBCjad ja demonstraatorid"
+    "523": "Kioski- ja v\xC3\xA4lim\xC3\xBC\xC3\xBCjad"
+    "5230": "Kioski- ja v\xC3\xA4lim\xC3\xBC\xC3\xBCjad"
+    "61": "Turule orienteeritud p\xC3\xB5llumajanduse ja kalanduse oskust\xC3\xB6\xC3\xB6lised"
+    "611": "Turule orienteeritud aia- ja p\xC3\xB5llusaaduste kasvatajad"
+    "6111": "P\xC3\xB5llusaaduste ja k\xC3\xB6\xC3\xB6givilja kasvatajad"
+    "6112": Puuvilja- ja marjakasvatajad
+    "6113": Aednikud
+    "6114": Segakultuuride kasvatajad
+    "612": Turule orienteeritud loomakasvatajad ja mesinikud
+    "6121": Loomakasvatajad
+    "6122": Linnukasvatajad
+    "6123": Mesinikud
+    "6124": Segaloomakasvatajad
+    "6129": Mujal liigitamata turule orienteeritud loomakasvatajad
+    "613": "Turule orienteeritud p\xC3\xB5llusaaduste ja loomakasvatajad"
+    "6130": "P\xC3\xB5llusaaduste ja loomakasvatajad"
+    "614": "Metsanduse oskust\xC3\xB6\xC3\xB6lised"
+    "6141": "Metsanduse oskust\xC3\xB6\xC3\xB6lised"
+    "6142": "Puus\xC3\xB6ep\xC3\xB5letajad ja t\xC3\xA4rpentinidestilleerijad"
+    "615": "Kalandust\xC3\xB6\xC3\xB6tajad ja jahimehed"
+    "6151": Veeloomade ja -taimede kasvatajad
+    "6152": "Sisevete- ja rannap\xC3\xBC\xC3\xBCgikalurid"
+    "6153": Avamerekalurid
+    "6154": Jahimehed
+    "62": "Talunikud ja kalap\xC3\xBC\xC3\xBCdjad ainult elatuseks"
+    "621": "Talunikud ja kalap\xC3\xBC\xC3\xBCdjad ainult elatuseks"
+    "6210": "Talunikud ja kalap\xC3\xBC\xC3\xBCdjad ainult elatuseks"
+    "71": "Kaevanduse ja ehituse oskust\xC3\xB6\xC3\xB6lised"
+    "711": "Kaevurid, l\xC3\xB5hkajad, kivil\xC3\xB5ikajad ja kiviraidurid"
+    "7111": "Kaevurid ja kivimurrut\xC3\xB6\xC3\xB6lised"
+    "7112": "L\xC3\xB5hkajad ja \xC3\xB5hkijad"
+    "7113": "Kiviraidurid ja -l\xC3\xB5ikajad"
+    "712": "\xC3\x9Cldehitust\xC3\xB6\xC3\xB6lised"
+    "7121": Kohalikust materjalist ehitajad
+    "7122": "M\xC3\xBC\xC3\xBCrsepad"
+    "7123": Betoonijad ja betoonpindade viimistlejad
+    "7124": Puusepad
+    "7129": "Mujal liigitamata \xC3\xBCldehitust\xC3\xB6\xC3\xB6lised"
+    "713": "P\xC3\xB5hiehitust\xC3\xB6id tegevad ehitust\xC3\xB6\xC3\xB6lised"
+    "7131": Katusekatjad
+    "7132": "P\xC3\xB5randategijad ja plaatijad"
+    "7133": Krohvijad
+    "7134": Isoleerijad
+    "7135": Klaasijad
+    "7136": Torulukksepad
+    "7137": Elektrikud
+    "714": Maalrid ja ehitustarindite puhastajad
+    "7141": "Maalrid jms t\xC3\xB6\xC3\xB6lised"
+    "7142": "T\xC3\xB6\xC3\xB6stustoodete v\xC3\xA4rvijad"
+    "7143": Ehitustarindite puhastajad
+    "72": "Metallit\xC3\xB6\xC3\xB6tluse, masinaehituse jms oskust\xC3\xB6\xC3\xB6lised"
+    "721": "Metallivaluvormide valmistajad, keevitajad, lehtmetalli t\xC3\xB6\xC3\xB6tlejad, metallkonstruktsioonide valmistaj..."
+    "7211": "Valuvormide ja k\xC3\xA4rnide valmistajad"
+    "7212": "Keevitajad ja leekl\xC3\xB5ikajad"
+    "7213": "Lehtmetalli t\xC3\xB6\xC3\xB6tlejad"
+    "7214": Metallikonstruktsioonide valmistajad
+    "7215": "Troppijad ja trossij\xC3\xA4tkajad"
+    "7216": "Allveet\xC3\xB6\xC3\xB6lised"
+    "722": "Sepad, t\xC3\xB6\xC3\xB6riistavalmistajad jms t\xC3\xB6\xC3\xB6lised"
+    "7221": Sepad, vasara- ja stantsisepad
+    "7222": "T\xC3\xB6\xC3\xB6riistavalmistajad jms t\xC3\xB6\xC3\xB6lised"
+    "7223": "T\xC3\xB6\xC3\xB6pinkide seadistajad"
+    "7224": "Metallilihvijad ja -poleerijad, t\xC3\xB6\xC3\xB6riistateritajad"
+    "723": Masinate mehaanikud ja lukksepad
+    "7231": "Mootors\xC3\xB5idukite mehaanikud ja lukksepad"
+    "7232": "\xC3\x95hus\xC3\xB5idukite mehaanikud ja lukksepad"
+    "7233": "P\xC3\xB5llumajandus- ja t\xC3\xB6\xC3\xB6stusmasinate ning vees\xC3\xB5idukite mehaanikud ja lukksepad"
+    "724": Elektri- ja elektroonikaseadmete mehaanikud ja koostajad
+    "7241": Elektrikud ja elektrimehaanikud
+    "7242": Elektroonikaseadmete koostajad
+    "7243": Elektroonikaseadmete mehaanikud ja hooldajad
+    "7244": Telegraafi- ja telefoniseadmete paigaldajad ja hooldajad
+    "7245": "Elektriliini paigaldajad, remontijad ja kaablimont\xC3\xB6\xC3\xB6rid"
+    "73": "T\xC3\xA4ppis-, k\xC3\xA4si-, tr\xC3\xBCki- jms oskust\xC3\xB6\xC3\xB6lised"
+    "731": "Metalli jms materjalide t\xC3\xA4ppist\xC3\xB6\xC3\xB6lised"
+    "7311": "T\xC3\xA4ppisriistade valmistajad ja parandajad"
+    "7312": "Muusikariistade valmistajad ja h\xC3\xA4\xC3\xA4lestajad"
+    "7313": "Juveeli- ja v\xC3\xA4\xC3\xA4rismetallit\xC3\xB6\xC3\xB6lised"
+    "732": "Savi-, portselani- ja klaasimeistrid jms t\xC3\xB6\xC3\xB6lised"
+    "7321": Savi- ja portselanimeistrid
+    "7322": "Klaasil\xC3\xB5ikajad, -lihvijad ja -viimistlejad"
+    "7323": "Klaasigraveerijad ja -s\xC3\xB6\xC3\xB6vitajad"
+    "7324": Klaasi, keraamika jms materjalide dekoratiivmaalijad
+    "733": "K\xC3\xA4sit\xC3\xB6\xC3\xB6lised, kes kasutavad puitu, tekstiili, nahka jms materjale"
+    "7331": "K\xC3\xA4sit\xC3\xB6\xC3\xB6lised, kes kasutavad puitu jms materjale"
+    "7332": "K\xC3\xA4sit\xC3\xB6\xC3\xB6lised, kes kasutavad tekstiili, nahka jms materjale"
+    "734": "Tr\xC3\xBCki-, foto-, k\xC3\xB6ite- jms t\xC3\xB6\xC3\xB6lised"
+    "7341": "Ladujad, k\xC3\xBCljendajad jms t\xC3\xB6\xC3\xB6lised"
+    "7342": "Stereot\xC3\xBCpistid ja elektrot\xC3\xBCpistid"
+    "7343": "Graveerijad ja s\xC3\xB6\xC3\xB6vitajad"
+    "7344": "Fotograafid ja fotograafiaga seotud t\xC3\xB6\xC3\xB6lised"
+    "7345": "K\xC3\xB6itjad ja k\xC3\xB6itmisega seotud t\xC3\xB6\xC3\xB6lised"
+    "7346": "Siidtr\xC3\xBCki- ploki- ja tekstiilitr\xC3\xBCkkijad"
+    "74": "Muud oskust\xC3\xB6\xC3\xB6lised"
+    "741": "Toiduainete t\xC3\xB6\xC3\xB6tlejad"
+    "7411": "Liha - ja kalat\xC3\xB6\xC3\xB6tlejad"
+    "7412": Pagarid, kondiitrid ja maiustusevalmistajad
+    "7413": "Piimat\xC3\xB6\xC3\xB6tlejad"
+    "7414": "Puu- ja k\xC3\xB6\xC3\xB6givilja ning marjade t\xC3\xB6\xC3\xB6tlejad"
+    "7415": Toidu ja jookide degusteerijad ja hindajad
+    "7416": Tubakatootjad ja tubakatoodete valmistajad
+    "742": "Puidut\xC3\xB6\xC3\xB6tlejad, tislerid jms t\xC3\xB6\xC3\xB6lised"
+    "7421": "Puidut\xC3\xB6\xC3\xB6tlejad"
+    "7422": "Tislerid jms t\xC3\xB6\xC3\xB6lised"
+    "7423": "Puidut\xC3\xB6\xC3\xB6tluspinkide seadistajad ja operaatorid"
+    "7424": "Punujad, harjategijad  jms t\xC3\xB6\xC3\xB6lised"
+    "743": "Tekstiilit\xC3\xB6\xC3\xB6lised, \xC3\xB5mblejad, polsterdajad jms t\xC3\xB6\xC3\xB6lised"
+    "7431": Tekstiilikiu ettevalmistajad
+    "7432": "Kangrud, kudujad jms t\xC3\xB6\xC3\xB6lised"
+    "7433": "R\xC3\xA4tsepad \xC3\xB5mblejad ja k\xC3\xBCbarategijad"
+    "7434": "K\xC3\xB6\xC3\xB6snerid jms t\xC3\xB6\xC3\xB6lised"
+    "7435": "Tekstiil-, nahk- jms toodete lekaalitegijad ja juurdel\xC3\xB5ikajad"
+    "7436": "\xC3\x95mblejad, tikkijad jms"
+    "7437": "Polsterdajad jms t\xC3\xB6\xC3\xB6lised"
+    "744": "Toorkarusnaha-, naha- ja jalatsit\xC3\xB6\xC3\xB6lised"
+    "7441": Toorkarusnaha ettevalmistajad ja parkijad
+    "7442": Jalatsivalmistajad
+    "81": Seadmeoperaatorid
+    "811": "M\xC3\xA4eseadmete operaatorid"
+    "8111": "M\xC3\xA4emasinate operaatorid"
+    "8112": "Kivit\xC3\xB6\xC3\xB6tlusmasinate operaatorid"
+    "8113": Puurimismasinate operaatorid
+    "812": "Metalli tootmise ja t\xC3\xB6\xC3\xB6tlemise operaatorid"
+    "8121": Maagi- ja metallisulatusahjude operaatorid
+    "8122": Metallisulatajad, -valajad ja -valtsijad
+    "8123": "Metalli termot\xC3\xB6\xC3\xB6tluse operaatorid"
+    "8124": "Profiilmetalli t\xC3\xB5mbajad ja pressijad"
+    "813": Klaasi-, keraamika- jms tootmise operaatorid
+    "8131": Klaasi - ja keraamikaahjude jms masinate operaatorid
+    "8139": Mujal liigitamata klaasi-, keraamika- jms tootmise operaatorid
+    "814": "Puidut\xC3\xB6\xC3\xB6tlemise ja paberitootmise operaatorid"
+    "8141": "Puidu esmat\xC3\xB6\xC3\xB6tlemsie operaatorid"
+    "8142": Tselluloosi- ja paberitootmise operaatorid
+    "8143": Paberivabriku operaatorid
+    "815": Keemiaseadmete operaatorid
+    "8151": Kemikaalipurustuse, -jahvatuse ja -segamise operaatorid
+    "8152": "Keemiatoodete termot\xC3\xB6\xC3\xB6tluse operaatorid"
+    "8153": Kemikaalide filtreerijad ja separeerijad
+    "8154": Kemikaalide destilleerijad ja rektifitseerijad
+    "8155": "Naftasaaduste, \xC3\xB5lide ja maagaasi t\xC3\xB6\xC3\xB6tlemise operaatorid"
+    "8159": Muud keemiaseadmete operaatorid
+    "816": "Energiatootmise, j\xC3\xA4\xC3\xA4tme- ja veet\xC3\xB6\xC3\xB6tluse operaatorid"
+    "8161": Energiatootmise operaatorid
+    "8162": Katlaoperaatorid
+    "8163": "J\xC3\xA4\xC3\xA4tme- ja veet\xC3\xB6\xC3\xB6tluse jms operaatorid"
+    "817": "Automaatkoosteliinide ja t\xC3\xB6\xC3\xB6stusrobitote operaatorid"
+    "8171": Automaatkoosteliinide operaatorid
+    "8172": "T\xC3\xB6\xC3\xB6stusrobotite operaatorid"
+    "82": Masinaoperaatorid ja koostajad
+    "821": Metall- ja mineraaltoodete operaatorid
+    "8211": "Metallil\xC3\xB5ikepinkide operaatorid"
+    "8212": Mineraalainesegust toodete operaatorid
+    "822": Keemiatoodete operaatorid
+    "8221": "Ravimite ja h\xC3\xBCgieenivahendite tootmise operaatorid"
+    "8222": "Laskemoona, tuletikkude ja l\xC3\xB5hkeainete tootmise operaatorid"
+    "8223": Metalli viimistlus-, plateerimis- ja galvaanimismasinate operaatorid
+    "8224": Fotomaterjali tootmise operaatorid
+    "8229": Mujal liigitamata keemiatoodete operaatorid
+    "823": Kummi- ja plasttoodete operaatorid
+    "8231": Kummitoodete operaatorid
+    "8232": Plasttoodete operaatorid
+    "824": Puittoodete operaatorid
+    "8240": Puittoodete operaatorid
+    "825": "Tr\xC3\xBCki-, k\xC3\xB6ite- ja pabertoodete operaatorid"
+    "8251": "Tr\xC3\xBCkioperaatorid"
+    "8252": "K\xC3\xB6iteoperaatorid"
+    "8253": Pabertoodete operaatorid
+    "826": Tekstiil-, karusnaha- ja nahktoodete operaatorid
+    "8261": Ettevalmistus-, ketrus- ja poolimisoperaatorid
+    "8262": Riide- ja silmkudumismasinate operaatorid
+    "8263": "Masin\xC3\xB5mblejad"
+    "8264": "Pleegitus-, v\xC3\xA4rvimis- ja keemilise puhastuse operaatorid"
+    "8265": Karusnaha ja naha ettevalmistuse operaatorid
+    "8266": Jalatsitootmise operaatorid
+    "8269": Muud tekstiil-, karusnaha- ja nahktoodete operaatorid
+    "827": Toiduainete jms toodete operaatorid
+    "8271": "Liha- ja kalat\xC3\xB6\xC3\xB6tluse operaatorid"
+    "8272": "Piimat\xC3\xB6\xC3\xB6tluse operaatorid"
+    "8273": "Teravilja- ja v\xC3\xBCrtsiveskite operaatorid"
+    "8274": "Pagari-, teravilja- ja \xC5\xA1okolaaditoodete ning maiustuste operaatorid"
+    "8275": "Puu- ja k\xC3\xB6\xC3\xB6givilja, marjade, p\xC3\xA4hklite t\xC3\xB6\xC3\xB6tlemise operaatorid"
+    "8276": Suhkrutootmise operaatorid
+    "8277": "Tee-, kohvi- ja kakaot\xC3\xB6\xC3\xB6tluse operaatorid"
+    "8278": Alkoholi ja karastusjookide operaatorid
+    "8279": "Tubakat\xC3\xB6\xC3\xB6tluse operaatorid"
+    "828": Koostajad
+    "8281": Mehaaniliste seadmete koostajad
+    "8282": Elektriseadmete koostajad
+    "8283": Elektroonikaseadmete koostajad
+    "8284": Metall-, kummi- ja plasttoodete koostajad
+    "8285": Puit- vms toodete kootajad
+    "8286": Nahk-,  papp- ja tekstiiltoodete koostajad
+    "829": Muud operaatorid
+    "8290": Muud operaatorid
+    "83": "Mootors\xC3\xB5idukite ja liikurmasinate juhid"
+    "831": "Veduri- ja rongijuhid ning raudtee liiklust\xC3\xB6\xC3\xB6tajad"
+    "8311": Veduri- ja rongijuhid
+    "8312": "Raudtee liiklust\xC3\xB6\xC3\xB6tajad"
+    "832": "Mootors\xC3\xB5idukijuhid"
+    "8321": Mootorrattajuhid
+    "8322": "S\xC3\xB5idu- ja paketiautojuhid"
+    "8323": Bussi- ja trammijuhid
+    "8324": Veoautojuhid
+    "833": "P\xC3\xB5llumajandus- jm liikurmasinate juhid"
+    "8331": "P\xC3\xB5llumajandus- ja metsat\xC3\xB6\xC3\xB6seadmete juhid"
+    "8332": Maaparandus-, tee- jms masinate juhid
+    "8333": "Kraana-, t\xC3\xB5stuki- jm t\xC3\xB5steseadmete juhid"
+    "8334": "Autot\xC3\xB5stukijuhid"
+    "834": "Laeva tekimeeskond jms t\xC3\xB6\xC3\xB6tajad"
+    "8340": "Laeva tekimeeskond jms t\xC3\xB6\xC3\xB6tajad"
+    "91": "V\xC3\xA4lim\xC3\xBC\xC3\xBCjad, koristajad, majahoidjad jms."
+    "911": "V\xC3\xA4lim\xC3\xBC\xC3\xBCjad"
+    "9111": "Toidukaupade kandem\xC3\xBC\xC3\xBCjad"
+    "9112": "Mittetoidukaupade kandem\xC3\xBC\xC3\xBCjad"
+    "9113": "L\xC3\xA4vem\xC3\xBC\xC3\xBCgi ja telefonim\xC3\xBC\xC3\xBCgi agendid"
+    "912": "Saapapuhastajad jm t\xC3\xA4navateenindajad"
+    "9120": "Saapapuhastajad jm t\xC3\xA4navateenindajad"
+    "913": Kodu- jms abilised, koristajad ja pesupesijad
+    "9131": Koduabilised ja korterikoristajad
+    "9132": Abilised ja koristajad kontoris, hotellis jms asutustes
+    "9133": Pesupesijad ja triikijad
+    "914": "Majahoidjad, k\xC3\xBCtjad, pesijad"
+    "9141": Majahoidjad
+    "9142": "S\xC3\xB5idukite, akende jms pesijad"
+    "915": "K\xC3\xA4skjalad, pakikandjad, uksehoidjad jms t\xC3\xB6\xC3\xB6lised"
+    "9151": "K\xC3\xA4skjalad, pakikandjad ja teadete k\xC3\xA4ttetoimetajad"
+    "9152": "Uksehoidjad, valvurid jms t\xC3\xB6\xC3\xB6lised"
+    "9153": "M\xC3\xBC\xC3\xBCgi- ja parkimisautomaatide rahakogujad, arvestikontrol\xC3\xB6rid jms"
+    "916": "Pr\xC3\xBCgivedajad ja tootmishoonete koristajad"
+    "9161": "Pr\xC3\xBCgivedajad"
+    "9162": "P\xC3\xBChkijad jms t\xC3\xB6\xC3\xB6lised"
+    "92": "Lihtt\xC3\xB6\xC3\xB6lised p\xC3\xB5llumajanduses, kalanduses jms aladel"
+    "921": "Lihtt\xC3\xB6\xC3\xB6lised p\xC3\xB5llumajanduses, kalanduses jms aladel"
+    "9211": "P\xC3\xB5llumajanduse lihtt\xC3\xB6\xC3\xB6lised"
+    "9212": "Metsanduse lihtt\xC3\xB6\xC3\xB6lised"
+    "9213": "Kalanduse ja jahinduse lihtt\xC3\xB6\xC3\xB6lised"
+    "93": "M\xC3\xA4e-, ehitus-, tootmis- ja veolihtt\xC3\xB6\xC3\xB6lised"
+    "931": "M\xC3\xA4e- ja ehituslihtt\xC3\xB6\xC3\xB6lised"
+    "9311": "Kaevanduse ja karj\xC3\xA4\xC3\xA4ri lihtt\xC3\xB6\xC3\xB6lised"
+    "9312": "Teede, tammide jms ehitamise ja korrashoiu lihtt\xC3\xB6\xC3\xB6lised"
+    "9313": "Ehituslihtt\xC3\xB6\xC3\xB6lised"
+    "932": "Tootmislihtt\xC3\xB6\xC3\xB6lised"
+    "9321": "Koostamise ja sorteerimise lihtt\xC3\xB6\xC3\xB6line"
+    "9322": "K\xC3\xA4sitsipakkijad, pesijad jms lihtt\xC3\xB6\xC3\xB6lised"
+    "933": "Veolihtt\xC3\xB6\xC3\xB6lised"
+    "9331": "K\xC3\xA4si- v\xC3\xB5i pedaals\xC3\xB5idukijuhid"
+    "9332": Loomveokijuhid
+    "9333": "Transpordit\xC3\xB6\xC3\xB6lised ja laadijad"

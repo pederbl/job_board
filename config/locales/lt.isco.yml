@@ -1,0 +1,532 @@
+--- 
+lt: 
+  isco_code: 
+    "11": "\xC4\xAEstatym\xC5\xB3 leid\xC4\x97jai ir vyresnieji pareig\xC5\xABnai"
+    "111": "\xC4\xAEstatym\xC5\xB3 leid\xC4\x97jai"
+    "1120": "Vyresnieji pareig\xC5\xABnai"
+    "113": "Seni\xC5\xABnai"
+    "1130": "Miesto [kaimo] seni\xC5\xABnij\xC5\xB3 seni\xC5\xABnai"
+    "114": "Vyresnieji speciali\xC5\xB3j\xC5\xB3 organizacij\xC5\xB3 pareig\xC5\xABnai"
+    "1141": "Vyresnieji politini\xC5\xB3 partij\xC5\xB3 pareig\xC5\xABnai"
+    "1142": "Vyresnieji darbdavi\xC5\xB3, darbuotoj\xC5\xB3 ir kit\xC5\xB3 ekonomini\xC5\xB3 organizacij\xC5\xB3 pareig\xC5\xABnai"
+    "1143": "Vyresnieji humanitarini\xC5\xB3 ir kit\xC5\xB3 speciali\xC5\xB3j\xC5\xB3 organizacij\xC5\xB3 pareig\xC5\xABnai"
+    "12": Direktoriai ir vyriausieji valdytojai
+    "121": Direktoriai ir vyriausieji valdytojai
+    "1210": Direktoriai ir vyriausieji valdytojai
+    "122": "Produkt\xC5\xB3 gamybos ir paslaug\xC5\xB3 padalini\xC5\xB3 [skyri\xC5\xB3] vadovai"
+    "1221": "\xC5\xBDem\xC4\x97s \xC5\xABkio, med\xC5\xBEiokl\xC4\x97s, mi\xC5\xA1kininkyst\xC4\x97s, \xC5\xBEvejybos ir \xC5\xBEuvininkyst\xC4\x97s produkt\xC5\xB3 gamybos ir paslaug\xC5\xB3 padal..."
+    "1222": "Produkt\xC5\xB3 gamybos ir paslaug\xC5\xB3 padalini\xC5\xB3 vadovai"
+    "1223": "Statybos gamini\xC5\xB3 ir paslaug\xC5\xB3 padalini\xC5\xB3 vadovai"
+    "1224": "Didmenin\xC4\x97s ir ma\xC5\xBEmenin\xC4\x97s prekybos ir paslaug\xC5\xB3 padalini\xC5\xB3 vadovai"
+    "1225": "Maitinimo \xC4\xAFmoni\xC5\xB3 ir vie\xC5\xA1bu\xC4\x8Di\xC5\xB3 paslaug\xC5\xB3 padalini\xC5\xB3 vadovai"
+    "1226": "Transporto, sand\xC4\x97liavimo ir ry\xC5\xA1i\xC5\xB3 paslaug\xC5\xB3 padalini\xC5\xB3 vadovai"
+    "1227": "Verslo paslaug\xC5\xB3 padalini\xC5\xB3 vadovai"
+    "1228": "Asmens prie\xC5\xBEi\xC5\xABros, valymo ir susijusi\xC5\xB3 paslaug\xC5\xB3 padalini\xC5\xB3 vadovai"
+    "1229": "Kiti, niekur kitur nepriskirti, produkt\xC5\xB3 gamybos ir paslaug\xC5\xB3 padalini\xC5\xB3 vadovai"
+    "123": "Kit\xC5\xB3 padalini\xC5\xB3 [skyri\xC5\xB3] vadovai"
+    "1231": "Finans\xC5\xB3 ir valdymo padalini\xC5\xB3 vadovai"
+    "1232": "Personalo ir gamybini\xC5\xB3 ry\xC5\xA1i\xC5\xB3 padalini\xC5\xB3 vadovai"
+    "1233": "Pardavimo ir rinkotyros padalini\xC5\xB3 vadovai"
+    "1234": "Reklamos ir ry\xC5\xA1i\xC5\xB3 su visuomene padalini\xC5\xB3 vadovai"
+    "1235": "Tiekimo ir paskirstymo padalini\xC5\xB3 vadovai"
+    "1236": "Skai\xC4\x8Diavimo centro paslaug\xC5\xB3 padalini\xC5\xB3 vadovai"
+    "1237": "Tyrimo ir pl\xC4\x97tros padalini\xC5\xB3 vadovai"
+    "1239": "Kiti, niekur itur nepriskirti padalini\xC5\xB3 vadovai"
+    "13": "Individuali\xC5\xB3 (personalini\xC5\xB3) \xC4\xAFmoni\xC5\xB3 savininkai (direktoriai)"
+    "131": "Individuali\xC5\xB3 [personalini\xC5\xB3] \xC4\xAFmoni\xC5\xB3 savininkai [direktoriai]"
+    "1311": "Individuali\xC5\xB3 [personalini\xC5\xB3] \xC5\xBEem\xC4\x97s \xC5\xABkio, med\xC5\xBEiokl\xC4\x97s, mi\xC5\xA1kininkyst\xC4\x97s, \xC5\xBEvejybos ir \xC5\xBEuvininkyst\xC4\x97s \xC4\xAFmoni\xC5\xB3..."
+    "1312": "Individuali\xC5\xB3 [personalini\xC5\xB3] gamybos \xC4\xAFmoni\xC5\xB3 savininkai [direktoriai]"
+    "1313": "Individuali\xC5\xB3 [personalini\xC5\xB3] statybos \xC4\xAFmoni\xC5\xB3 savininkai [direktoriai]"
+    "1314": "Individuali\xC5\xB3 [personalini\xC5\xB3] didmenin\xC4\x97s ir ma\xC5\xBEmenin\xC4\x97s prekybos \xC4\xAFmoni\xC5\xB3 savininkai [direktoriai]"
+    "1315": "Individuali\xC5\xB3 [personalini\xC5\xB3] maitinimo \xC4\xAFmoni\xC5\xB3 ir vie\xC5\xA1bu\xC4\x8Di\xC5\xB3 \xC4\xAFmoni\xC5\xB3 savininkai [direktoriai]"
+    "1316": "Individuali\xC5\xB3 [personalini\xC5\xB3] transporto, ry\xC5\xA1i\xC5\xB3 ir sand\xC4\x97liavimo \xC4\xAFmoni\xC5\xB3 savininkai [direktoriai]"
+    "1317": "Individuali\xC5\xB3 [personalini\xC5\xB3] verslo paslaug\xC5\xB3 \xC4\xAFmoni\xC5\xB3 savininkai [direktoriai]"
+    "1318": "Individuali\xC5\xB3 [personalini\xC5\xB3] asmens prie\xC5\xBEi\xC5\xABros, valymo ir susijusi\xC5\xB3 paslaug\xC5\xB3 \xC4\xAFmoni\xC5\xB3 savininkai [direk..."
+    "1319": "Kiti, niekur kitur nepriskirti, individuali\xC5\xB3 [personalini\xC5\xB3] \xC4\xAFmoni\xC5\xB3 savininkai [\xC4\xAFmoni\xC5\xB3 savininkai [di..."
+    "21": "Fizini\xC5\xB3 moksl\xC5\xB3 ir in\xC5\xBEinierijos specialistai"
+    "211": "Fizikai, chemikai ir pana\xC5\xA1i\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "2111": Fizikai ir astronomai
+    "2112": Meteorologai
+    "2113": Chemikai
+    "2114": Geologai ir geofizikai
+    "212": "Matematikai, statistikai ir pana\xC5\xA1i\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "2121": "Matematikai ir susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "2122": Statistikai
+    "213": Kompiuterijos specialistai
+    "2131": "Kompiuteri\xC5\xB3 sistem\xC5\xB3 projektuotojai ir analitikai"
+    "2132": "Kompiuteri\xC5\xB3 programuotojai"
+    "2139": Kiti, niekur kitur nepriskirti, kompiuterijos specialistai
+    "214": "Architektai, in\xC5\xBEinieriai ir pana\xC5\xA1i\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "2141": "Architektai, miest\xC5\xB3 ir keli\xC5\xB3 projektuotojai"
+    "2142": "Civilin\xC4\x97s statybos in\xC5\xBEinieriai"
+    "2143": "In\xC5\xBEinieriai elektrikai"
+    "2144": "Elektronikos ir nuotolini\xC5\xB3 ry\xC5\xA1i\xC5\xB3 (telekomunikacij\xC5\xB3) in\xC5\xBEinieriai"
+    "2145": "In\xC5\xBEinieriai mechanikai"
+    "2146": "Chemikai in\xC5\xBEinieriai"
+    "2147": "Kasybos in\xC5\xBEinieriai, in\xC5\xBEinieriai metalurgai ir susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "2148": Kartografai ir topografai
+    "2149": "Kiti, niekur kitur nepriskirti, architektai, in\xC5\xBEinieriai ir ir susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "22": "Gyvosios gamtos moksl\xC5\xB3, sveikatos prie\xC5\xBEi\xC5\xABros, farmacijos ir veterinarijos specialistai"
+    "221": "Gyvosios gamtos moksl\xC5\xB3 specialistai"
+    "2211": "Biologai, botanikai, zoologai ir susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "2212": "Farmakologai, patologai ir susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "2213": "Agronomai ir susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "222": "Sveikatos prie\xC5\xBEi\xC5\xABros, farmacijos ir veterinarijos specialistai (i\xC5\xA1skyrus slaugos)"
+    "2221": Gydytojai
+    "2222": Gydytojai odontologai
+    "2223": Veterinarai
+    "2224": Vaistininkai
+    "2229": "Kiti, niekur kitur nepriskirti, sveikatos prie\xC5\xBEi\xC5\xABros, farmacijos ir veterinarijos specialistai (i\xC5\xA1sk..."
+    "223": "Slaugos ir aku\xC5\xA1erijos specialistai"
+    "2230": Slaugos specialistai
+    "23": Mokymo specialistai
+    "231": "Universitet\xC5\xB3, kolegij\xC5\xB3 ir kit\xC5\xB3 auk\xC5\xA1tojo mokslo \xC4\xAFstaig\xC5\xB3 d\xC4\x97stytojai"
+    "2310": "Universitet\xC5\xB3, kolegij\xC5\xB3 ir kit\xC5\xB3 auk\xC5\xA1tojo mokslo \xC4\xAFstaig\xC5\xB3 d\xC4\x97stytojai"
+    "232": Vidurinio ir papildomojo ugdymo bei profesijos mokytojai
+    "2320": Vidurinio ugdymo mokytojai
+    "233": Pradinio ir ikimokyklinio ugdymo mokytojai
+    "2331": Pradinio ugdymo mokytojai
+    "2332": Ikimokyklinio ugdymo mokytojai
+    "234": Specialiojo ugdymo mokytojai
+    "2340": Specialiojo ugdymo mokytojai
+    "235": Kiti mokymo specialistai
+    "2351": Metodininkai
+    "2352": "Mokykl\xC5\xB3 inspektoriai"
+    "2359": Kiti, niekur kitur nepriskirti, mokymo specialistai
+    "24": Kiti specialistai
+    "241": Verslo specialistai
+    "2411": Buhalteriai
+    "2412": Personalo ir profesinio orientavimo specialistai
+    "2419": Kiti, niekur kitur nepriskirti, verslo specialistai
+    "242": "Teis\xC4\x97s specialistai"
+    "2421": Teisininkai
+    "2422": "Teis\xC4\x97jai"
+    "2429": "Kiti, niekur kitur nepriskirti, teis\xC4\x97s specialistai"
+    "243": "Archyvarai, bibliotininkai ir pana\xC5\xA1\xC5\xABs informacijos specialistai"
+    "2431": "Archyv\xC5\xB3 ir muziej\xC5\xB3 specialistai"
+    "2432": "Bibliotekininkai ir pana\xC5\xA1\xC5\xABs informacijos specialistai"
+    "244": "Socialini\xC5\xB3 moksl\xC5\xB3 ir pana\xC5\xA1\xC5\xABs specialistai"
+    "2441": Ekonomistai
+    "2442": "Sociologai, antropologai ir susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "2443": Filosofai, istorikai ir politologai
+    "2444": "Filologai ir vert\xC4\x97jai"
+    "2445": Psichologai
+    "2446": Socialiniai darbuotojai
+    "245": "Ra\xC5\xA1ytojai ir k\xC5\xABrybiniai darbuotojai ar atlik\xC4\x97jai"
+    "2451": "Ra\xC5\xA1ytojai, \xC5\xBEurnalistai ir susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "2452": "Skulptoriai, dailininkai ir susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "2453": Kompozitoriai, muzikantai ir dainininkai
+    "2454": "Choreografai ir \xC5\xA1ok\xC4\x97jai"
+    "2455": "Kino, teatro ir pana\xC5\xA1\xC5\xABs aktoriai bei re\xC5\xBEisieriai"
+    "246": "Religij\xC5\xB3 specialistai"
+    "2460": "Religij\xC5\xB3 specialistai"
+    "31": "Fizini\xC5\xB3 moksl\xC5\xB3 ir in\xC5\xBEinerijos jaunesnieji specialistai"
+    "311": "Fizini\xC5\xB3 mosl\xC5\xB3 ir in\xC5\xBEinierijos technikai"
+    "3111": "Chemijos ir fizini\xC5\xB3 moksl\xC5\xB3 technikai"
+    "3112": "Statybos in\xC5\xBEinerijos technikai"
+    "3113": Elektrotechnikai
+    "3114": "Elektronikos ir nuotolini\xC5\xB3 ry\xC5\xA1i\xC5\xB3 (telekomunikacij\xC5\xB3) technikai"
+    "3115": "Ma\xC5\xA1in\xC5\xB3 gamybos technikai"
+    "3116": "Chemin\xC4\x97s technologijos technikai"
+    "3117": Gavybos ir metalurgijos technikai
+    "3118": "Brai\xC5\xBEytojai"
+    "3119": "Kiti, niekur kitur nepriskirti, fizini\xC5\xB3 moksl\xC5\xB3 ir in\xC5\xBEinerijos technikai"
+    "312": Jaunesnieji kompiuterijos specialistai
+    "3121": Kompiuterijos asistentai
+    "3122": "Kompiuteri\xC5\xB3 \xC4\xAFrangos operatoriai"
+    "3123": "Pramonini\xC5\xB3 robot\xC5\xB3 kontrolieriai"
+    "313": "Optin\xC4\x97s ir elektronin\xC4\x97s \xC4\xAFrangos operatoriai"
+    "3131": "Fotografai ir vaizdo bei garso \xC4\xAFra\xC5\xA1ymo \xC4\xAFrangos operatoriai"
+    "3132": "Radijo ir televizijos transliacijos ir telekomunikacij\xC5\xB3 (nuotolini\xC5\xB3 ry\xC5\xA1i\xC5\xB3) \xC4\xAFrangos operatoriai"
+    "3133": "Medicinin\xC4\x97s \xC4\xAFrangos operatoriai"
+    "3139": "Kiti, niekur nepriskirti optin\xC4\x97s ir elektronin\xC4\x97s \xC4\xAFrangos operatoriai"
+    "314": "Laiv\xC5\xB3 ir aviacijos valdymo vadovai ir technikai"
+    "3141": "Laiv\xC5\xB3 mechanikai"
+    "3142": "Laivaved\xC5\xBEiai ir kapitonai"
+    "3143": "Aviacijos pilotai ir jaunesnieji susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "3144": "Skryd\xC5\xBEi\xC5\xB3 valdymo vadovai"
+    "3145": Oro eismo saugumo technikai
+    "315": "Saugos ir kokyb\xC4\x97s inspektoriai"
+    "3151": "Pastat\xC5\xB3 ir prie\xC5\xA1gaisrin\xC4\x97s saugos inspektoriai"
+    "3152": "Darb\xC5\xB3 saugos, sveikatos apsaugos ir kokyb\xC4\x97s inspektoriai"
+    "32": "Jaunesnieji gyvosios gamtos moksl\xC5\xB3 ir sveikatos prie\xC5\xBEi\xC5\xABros specialistai"
+    "321": "Gyvosios gamtos moksl\xC5\xB3 technikai ir jaunesnieji susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "3211": "Gyvosios gamtos moksl\xC5\xB3 technikai (laborantai)"
+    "3212": "Agronomijos ir mi\xC5\xA1kininkyst\xC4\x97s technikai"
+    "3213": "\xC5\xAAkininkavimo ir mi\xC5\xA1kininkyst\xC4\x97s konsultantai"
+    "322": "Jaunesnieji sveikatos prie\xC5\xBEi\xC5\xABros specialistai"
+    "3221": Slaugos specialistai
+    "3222": Sanitarijos inspektoriai
+    "3223": Dietos specialistai
+    "3224": Optometrijos specialistai ir optikai
+    "3225": "Burnos prie\xC5\xBEi\xC5\xABros specialistai"
+    "3226": "Fizioterapeutai ir susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "3227": Veterinarai asistentai
+    "3228": Farmakotechnikai
+    "3229": "Kiti, niekur kitur nepriskirti, jaunesnieji sveikatos prie\xC5\xBEi\xC5\xABros specialistai"
+    "323": "Jaunesnieji slaugos ir aku\xC5\xA1erijos specialistai"
+    "3231": Jaunesnieji slaugos specialistai
+    "3232": "Aku\xC5\xA1erijos specialistai"
+    "324": "Liaudies medicinos praktikai ir u\xC5\xBEkalb\xC4\x97tojai"
+    "3241": Liaudies medicinos praktikai
+    "3242": "U\xC5\xBEkalb\xC4\x97tojai"
+    "33": Mokymo jaunesnieji specialistai
+    "331": Jaunesnieji ikimokykinio ugdymo specialistai
+    "3310": Jaunesnieji ikimokyklinio ugdymo specialistai
+    "332": Jaunesnieji kito mokymo specialistai
+    "3320": Jaunesnieji kito mokymo specialistai
+    "333": Jaunesnieji specialaus ugdymo specialistai
+    "3330": Jaunesnieji specialaus ugdymo specialistai
+    "334": Kiti jaunesnieji mokymo specialistai
+    "3340": Kiti jaunesnieji mokymo specialistai
+    "34": Kiti jaunesnieji specialistai
+    "341": "Jaunesnieji finans\xC5\xB3 ir pardavimo darbuotojai"
+    "3411": "Vertybini\xC5\xB3 popieri\xC5\xB3 ir finans\xC5\xB3 makleriai ir brokeriai"
+    "3412": Draudimo agentai
+    "3413": Nekilnojamojo turto agentai
+    "3414": "Kelioni\xC5\xB3 konsultantai ir organizatoriai"
+    "3415": Technikos pardavimo atstovai
+    "3416": "Tiek\xC4\x97jai"
+    "3417": "Vertintojai ir aukciono ved\xC4\x97jai"
+    "3419": "Kiti, niekur nepriskirti jaunesnieji finans\xC5\xB3 ir pardavimo darbuotojai"
+    "342": "Verslo paslaug\xC5\xB3 agentai ir prekybos brokeriai"
+    "3421": Prekybos brokeriai
+    "3422": "Muitin\xC4\x97s ir preki\xC5\xB3 persiuntimo agentai"
+    "3423": "\xC4\xAEdarbinimo agentai ir darbo rangovai"
+    "3429": "Kiti, niekur kitur nepriskirti, verslo paslaug\xC5\xB3 agentai ir prekybos brokeriai"
+    "343": Jaunesnieji administravimo darbuotojai
+    "3431": "Administracijos sekretoriai ir jaunesnieji susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "3432": "Teis\xC4\x97s ir susij\xC4\x99 jaunesnieji specialistai"
+    "3433": Jaunesnieji apskaitos specialistai
+    "3434": "Statistikai, matematikai ir jaunesnieji susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "3439": Kiti, niekur kitur nepriskirti, jaunesnieji administravimo specialistai
+    "344": "Jaunesnieji muitini\xC5\xB3, mokes\xC4\x8Di\xC5\xB3 ir susijusi\xC5\xB3 valstybini\xC5\xB3 tarnyb\xC5\xB3 darbuotojai"
+    "3441": "Muitin\xC4\x97s ir sienos inspektoriai"
+    "3442": "Mokes\xC4\x8Di\xC5\xB3 ir akcizo pareig\xC5\xABnai"
+    "3443": "Valstybinio socialinio apr\xC5\xABpinimo pareig\xC5\xABnai"
+    "3444": "Licencij\xC5\xB3 i\xC5\xA1davimo pareig\xC5\xABnai"
+    "3449": "Kiti, niekur kitur nepriskirti, jaunesnieji muitini\xC5\xB3, mokes\xC4\x8Di\xC5\xB3 ir pana\xC5\xA1i\xC5\xB3 valstybini\xC5\xB3 tarnyb\xC5\xB3 specia..."
+    "345": Policijos inspektoriai ir sekliai
+    "3450": Policijos inspektoriai ir sekliai
+    "346": Jaunesnieji socialiniai darbuotojai
+    "3460": Jaunesnieji socialiniai darbuotojai
+    "347": "Jaunesnieji meno, pramog\xC5\xB3 ir sporto specialistai"
+    "3471": "Dailininkai dekoratoriai ir komercijos produkt\xC5\xB3 dizaineriai"
+    "3472": Radijo, televizijos ir kiti diktoriai
+    "3473": "Gatv\xC4\x97s, naktini\xC5\xB3 klub\xC5\xB3 ir pana\xC5\xA1\xC5\xABs muzikantai, dainininkai ir \xC5\xA1ok\xC4\x97jai"
+    "3474": "Cirko artistai ir jaunesnieji susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "3475": "Sportininkai ir jaunesnieji susijusi\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "348": "Jaunesnieji religini\xC5\xB3 profesij\xC5\xB3 darbuotojai"
+    "3480": "Jaunesnieji religini\xC5\xB3 profesij\xC5\xB3 specialistai"
+    "41": "\xC4\xAEstaig\xC5\xB3 tarnautojai"
+    "411": "Sekretor\xC4\x97s ir su klaviat\xC5\xABriniais \xC4\xAFtaisais dirbantys tarnautojai"
+    "4111": "Stenografist\xC4\x97s ir ma\xC5\xA1inink\xC4\x97s"
+    "4112": "Tekst\xC5\xB3 redagavimo ir pana\xC5\xA1\xC5\xABs operatoriai"
+    "4113": "Duomen\xC5\xB3 \xC4\xAFvesties operatoriai"
+    "4114": "Skai\xC4\x8Diavimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "4115": "Sekretor\xC4\x97s"
+    "412": "Apskaitos, statistikos ir finans\xC5\xB3 tarnautojai"
+    "4121": Apskaitos ir buhalterijos tarnautojai
+    "4122": "Statistikos ir finans\xC5\xB3 tarnautojai"
+    "413": "Materialini\xC5\xB3 vertybi\xC5\xB3 apskaitos ir transporto tarnautojai"
+    "4131": "Sand\xC4\x97liavimo tarnautojai"
+    "4132": Tiekimo tarnautojai
+    "4133": Transporto tarnautojai
+    "414": "Bibliotek\xC5\xB3, pa\xC5\xA1to ir susijusi\xC5\xB3 profesij\xC5\xB3 tarnautojai"
+    "4141": "Bibliotek\xC5\xB3 ir kartotek\xC5\xB3 tarnautojai"
+    "4142": "Pa\xC5\xA1tininkai ir pana\xC5\xA1i\xC5\xB3 profesij\xC5\xB3 tarnautojai"
+    "4143": "Informacijos kodavimo, korekt\xC5\xABros ir pana\xC5\xA1aus tvarkymo tarnautojai"
+    "4144": "Ra\xC5\xA1tininkai ir susijusi\xC5\xB3 profesij\xC5\xB3 tarnautojai"
+    "419": "Kiti \xC4\xAFstaig\xC5\xB3 tarnautojai"
+    "4190": "Kiti \xC4\xAFstaig\xC5\xB3 tarnautojai"
+    "42": "Klient\xC5\xB3 aptarnavimo tarnautojai"
+    "421": "Kasininkai ir susijusi\xC5\xB3 profesij\xC5\xB3 tarnautojai"
+    "4211": "Kasininkai ir biliet\xC5\xB3 pardav\xC4\x97jai"
+    "4212": "Bank\xC5\xB3 kasininkai ir pana\xC5\xA1\xC5\xABs klient\xC5\xB3 aptarnavimo tarnautojai"
+    "4213": "Bukmeikeriai ir krupj\xC4\x97"
+    "4214": "Lombard\xC5\xB3 tarnautojai ir pinig\xC5\xB3 skolintojai"
+    "4215": "Skol\xC5\xB3 i\xC5\xA1ie\xC5\xA1kotojai ir susijusi\xC5\xB3 profesij\xC5\xB3 tarnautojai"
+    "422": "Klient\xC5\xB3 informavimo tarnautojai"
+    "4221": "Kelioni\xC5\xB3 agent\xC5\xABr\xC5\xB3 ir susijusi\xC5\xB3 profesij\xC5\xB3 tarnautojai"
+    "4222": "Klient\xC5\xB3 pri\xC4\x97mimo ir informavimo tarnautojai"
+    "4223": "Telefon\xC5\xB3 stoties operatoriai"
+    "51": "Paslaug\xC5\xB3 asmenims ir apsaugos darbuotojai"
+    "511": "Kelioni\xC5\xB3 palydovai ir pana\xC5\xA1\xC5\xABs darbuotojai"
+    "5111": "Kelioni\xC5\xB3 palydovai"
+    "5112": Transporto konduktoriai
+    "5113": "Kelioni\xC5\xB3 gidai"
+    "512": "\xC5\xAAkved\xC5\xBEiai ir maitinimo \xC4\xAFmoni\xC5\xB3 darbuotojai"
+    "5121": "\xC5\xAAkved\xC5\xBEiai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbuotojai"
+    "5122": "Vir\xC4\x97jai"
+    "5123": "Padav\xC4\x97jai ir bufetininkai"
+    "513": "Asmens prie\xC5\xBEi\xC5\xABros ir susijusi\xC5\xB3 profesij\xC5\xB3 darbuotojai"
+    "5131": "Vaik\xC5\xB3 prie\xC5\xBEi\xC5\xABros darbuotojai"
+    "5132": "Gydymo ir socialin\xC4\x97s r\xC5\xABpybos \xC4\xAFstaig\xC5\xB3 asmens prie\xC5\xBEi\xC5\xABros darbuotojai"
+    "5133": "Asmens prie\xC5\xBEi\xC5\xABros namuose darbuotojai"
+    "5139": "Kiti, niekur kitur nepriskirti, asmens prie\xC5\xBEi\xC5\xABros ir susijusi\xC5\xB3 profesij\xC5\xB3 darbuotojai"
+    "514": "Kiti paslaug\xC5\xB3 asmenims darbuotojai"
+    "5141": "Kirp\xC4\x97jai, kosmetologai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbuotojai"
+    "5142": Tarnai ir palydovai
+    "5143": "Laidojimo paslaug\xC5\xB3 darbuotojai ir balzamuotojai"
+    "5149": "Kiti, niekur kitur nepriskirti, paslaug\xC5\xB3 asmenims darbuotojai"
+    "515": "Astrologai, b\xC5\xABr\xC4\x97jai ir pana\xC5\xA1\xC5\xABs darbuotojai"
+    "5151": "Astrologai ir pana\xC5\xA1\xC5\xABs darbuotojai"
+    "5152": "B\xC5\xABr\xC4\x97jai, chiromantai ir pana\xC5\xA1\xC5\xABs darbuotojai"
+    "516": Apsaugos darbuotojai
+    "5161": Ugniagesiai
+    "5162": "Policijos pareig\xC5\xABnai"
+    "5163": "\xC4\xAEkalinimo \xC4\xAFstaig\xC5\xB3 sargybiniai"
+    "5169": Kiti, niekur kitur nepriskirti, apsaugos darbuotojai
+    "52": "Pardav\xC4\x97jai, mad\xC5\xB3 ir preki\xC5\xB3 demonstruotojai"
+    "521": "Mad\xC5\xB3 ir pana\xC5\xA1\xC5\xABs demonstruotojai"
+    "5210": "Mad\xC5\xB3 ir pana\xC5\xA1\xC5\xABs demonstruotojai"
+    "522": "Parduotuvi\xC5\xB3 pardav\xC4\x97jai ir preki\xC5\xB3 demonstruotojai"
+    "5220": "Parduotuvi\xC5\xB3 pardav\xC4\x97jai ir preki\xC5\xB3 demonstruotojai"
+    "523": "Kiosk\xC5\xB3 ir turgaus pardav\xC4\x97jai"
+    "5230": "Kiosk\xC5\xB3 ir turgaus pardav\xC4\x97jai"
+    "61": "Kvalifikuoti prekinio \xC5\xBEem\xC4\x97s \xC5\xABkio ir \xC5\xBEuvininkyst\xC4\x97s darbininkai"
+    "611": "Sodininkai ir lauko kult\xC5\xABr\xC5\xB3 augintojai"
+    "6111": "Lauko kult\xC5\xABr\xC5\xB3 ir dar\xC5\xBEovi\xC5\xB3 augintojai"
+    "6112": "Vaismed\xC5\xBEi\xC5\xB3 ir vaiskr\xC5\xABmi\xC5\xB3 augintojai"
+    "6113": "Sodininkai ir medelyn\xC5\xB3 bei daigyn\xC5\xB3 augintojai"
+    "6114": "Mi\xC5\xA1ri\xC5\xB3 kult\xC5\xABr\xC5\xB3 augintojai"
+    "612": "Gyvulininkyst\xC4\x97s produkt\xC5\xB3 gamintojai ir pana\xC5\xA1\xC5\xABs darbininkai"
+    "6121": "Pienininkyst\xC4\x97s ir gyvulininkyst\xC4\x97s produkt\xC5\xB3 gamintojai ir darbininkai"
+    "6122": "Pauk\xC5\xA1tininkyst\xC4\x97s produkt\xC5\xB3 gamintojai ir darbininkai"
+    "6123": Bitininkai
+    "6124": "Mi\xC5\xA1rios gyvulininkyst\xC4\x97s produkt\xC5\xB3 gamintojai ir darbininkai"
+    "6129": "Kiti, niekur kitur nepriskirti, gyvulininkyst\xC4\x97s produkt\xC5\xB3 gamintojai ir pana\xC5\xA1\xC5\xABs dabininkai"
+    "613": "Augalininkyst\xC4\x97s ir gyvulininkyst\xC4\x97s produkt\xC5\xB3 gamintojai ir darbininkai"
+    "6130": "Augalininkyst\xC4\x97s bei gyvulininkyst\xC4\x97s produkt\xC5\xB3 gamintojai ir darbininkai"
+    "614": "Mi\xC5\xA1kininkyst\xC4\x97s ir pana\xC5\xA1i\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "6141": "Mi\xC5\xA1kininkyst\xC4\x97s ir medienos ruo\xC5\xA1os darbininkai"
+    "6142": "Med\xC5\xBEio anglies gamintojai ir pana\xC5\xA1\xC5\xABs darbininkai"
+    "615": "\xC5\xBDuvininkyst\xC4\x97s darbininkai ir med\xC5\xBEiotojai"
+    "6151": "Vandens gyv\xC5\xABn\xC5\xB3 augintojai ir darbininkai"
+    "6152": "Vidaus vanden\xC5\xB3 ir pakrant\xC4\x97s \xC5\xBEvejai"
+    "6153": "Giliavanden\xC4\x97s \xC5\xBEvejybos \xC5\xBEvejai"
+    "6154": "Med\xC5\xBEiotojai"
+    "62": "\xC5\xBDem\xC4\x97s \xC5\xABkio ir \xC5\xBEuvininkyst\xC4\x97s darbininkai, patys save i\xC5\xA1laikantys"
+    "621": "\xC5\xBDem\xC4\x97s \xC5\xABkio ir \xC5\xBEuvininkyst\xC4\x97s darbininkai, patys save i\xC5\xA1silaikantys"
+    "6210": "\xC5\xBDem\xC4\x97s \xC5\xABkio ir \xC5\xBEuvininkyst\xC4\x97s darbininkai, patys save i\xC5\xA1silaikantys"
+    "71": Gavybos ir statybos darbininkai
+    "711": "Sprogdintojai, akmens ta\xC5\xA1ytojai ir rai\xC5\xBEytojai"
+    "7111": "Karjer\xC5\xB3 darbininkai"
+    "7112": Sprogdintojai
+    "7113": "Akmenskald\xC5\xBEiai, akmenta\xC5\xA1iai ir rai\xC5\xBEytojai"
+    "712": "Statybininkai - montuotojai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7121": "Statybininkai, dirbantys su \xC4\xAFprastin\xC4\x97mis med\xC5\xBEiagomis"
+    "7122": "M\xC5\xABrininkai"
+    "7123": "Betonuotojai, tinkuotojai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7124": "Dailid\xC4\x97s statybininkai ir staliai"
+    "7129": "Kiti, niekur kitur nepriskirti, statybininkai-montuotojai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "713": "Statybininkai apdailininkai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7131": Stogdengiai
+    "7132": "Grind\xC5\xB3 ir plyteli\xC5\xB3 kloj\xC4\x97jai"
+    "7133": Tinkuotojai
+    "7134": Darbininkai izoliuotojai
+    "7135": Stikliai
+    "7136": "Vandentiekininkai ir vamzdyn\xC5\xB3 montuotojai"
+    "7137": "Pastat\xC5\xB3 ir kitokie elektrikai"
+    "714": "Da\xC5\xBEytojai, statybos konstrukcij\xC5\xB3 valytojai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7141": "Da\xC5\xBEytojai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7142": "Lakuotojai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7143": "Statybos konstrukcij\xC5\xB3 valytojai"
+    "72": "Metalo apdirbimo, ma\xC5\xA1in\xC5\xB3 gamybos ir dinami\xC5\xA1k\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "721": "Metalo liejikai, formuotojai, suvirintojai, skardininkai, metalo konstrukcij\xC5\xB3 paruo\xC5\xA1\xC4\x97jai, montuotoja..."
+    "7211": "Metalo liejikai ir liejimo form\xC5\xB3 gamintojai"
+    "7212": Suvirintojai
+    "7213": "Valcuotojai, skardininkai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7214": "Metalo konstrukcij\xC5\xB3 paruo\xC5\xA1\xC4\x97jai ir montuotojai"
+    "7215": "Takela\xC5\xBEininkai ir lyn\xC5\xB3 pri\xC5\xBEi\xC5\xABr\xC4\x97tojai"
+    "7216": Narai ir darbininkai povandenininkai
+    "722": "Kalviai, \xC4\xAFrankininkai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7221": "Kalviai ir kalimo bei presavimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "7222": "\xC4\xAErankininkai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7223": "Stakli\xC5\xB3 derintojai ir derintojai operatoriai"
+    "7224": "Metalo \xC5\xA1lifuotojai, poliruotojai ir \xC4\xAFranki\xC5\xB3 gal\xC4\x85stojai"
+    "723": "Ma\xC5\xA1in\xC5\xB3 mechanikai ir derintojai"
+    "7231": "Variklini\xC5\xB3 transporto priemoni\xC5\xB3 mechanikai ir derintojai"
+    "7232": "Orlaivi\xC5\xB3 varikli\xC5\xB3 mechanikai ir derintojai"
+    "7233": "Pramon\xC4\x97s ir \xC5\xBEem\xC4\x97s \xC5\xABkio ma\xC5\xA1in\xC5\xB3 mechanikai ir derintojai"
+    "724": "Elektromechanini\xC5\xB3 ir elektronini\xC5\xB3 \xC4\xAFrengini\xC5\xB3 mechanikai ir derintojai"
+    "7241": Elektromechanikai ir monteriai
+    "7242": "Elektronin\xC4\x97s \xC4\xAFrangos montuotojai"
+    "7243": "Elektronin\xC4\x97s \xC4\xAFrangos mechanikai ir remontininkai"
+    "7244": "Telegrafo ir telefono \xC4\xAFrengini\xC5\xB3 montuotojai"
+    "7245": "Elektros linij\xC5\xB3 montuotojai ir remontininkai"
+    "73": "Tiksli\xC5\xB3j\xC5\xB3 prietais\xC5\xB3, rank\xC5\xB3 darbo gamini\xC5\xB3, spausdinimo ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "731": "Metalo ir kit\xC5\xB3 med\xC5\xBEiag\xC5\xB3 tiksliojo apdirbimo darbininkai"
+    "7311": "Tiksli\xC5\xB3j\xC5\xB3 prietais\xC5\xB3 ir instrument\xC5\xB3 meistrai bei remontininkai"
+    "7312": "Muzikos instrument\xC5\xB3 meistrai ir derintojai"
+    "7313": "Juvelyrai ir brangi\xC5\xB3j\xC5\xB3 metal\xC5\xB3 meistrai"
+    "732": "Keramikai, puod\xC5\xBEiai, stiklo dirbini\xC5\xB3 meistrai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7321": "Keramikai, puod\xC5\xBEiai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7322": "Stiklo dirbini\xC5\xB3 meistrai, pjaustytojai ir \xC5\xA1lifuotojai"
+    "7323": "Stiklo graveriai ir \xC4\x97sdintojai"
+    "7324": "Pie\xC5\xA1\xC4\x97jai ant stiklo, keramikos ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "733": "Amatininkai, gaminantys dirbinius i\xC5\xA1 medienos, tekstil\xC4\x97s, odos ir pana\xC5\xA1i\xC5\xB3 med\xC5\xBEiag\xC5\xB3"
+    "7331": "Amatininkai, gaminantys dirbinius i\xC5\xA1 medienos ir pana\xC5\xA1i\xC5\xB3 med\xC5\xBEiag\xC5\xB3"
+    "7332": "Amatininkai, gaminantys dirbinius i\xC5\xA1 tekstil\xC4\x97s, odos ir pana\xC5\xA1i\xC5\xB3 med\xC5\xBEiag\xC5\xB3"
+    "734": "Spausdinimo ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7341": "Raid\xC5\xBEi\xC5\xB3 rink\xC4\x97jai, linotipininkai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7342": Stereotipininkai ir elektrotipininkai
+    "7343": Spausdinimo graveriai
+    "7344": "Fotografijos ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7345": "Knygri\xC5\xA1iai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7346": "\xC5\xA0ilkografai, ksilografai ir spaud\xC4\x97jai ant audini\xC5\xB3"
+    "74": "Kiti amatininkai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "741": "Maisto gamintojai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7411": "M\xC4\x97sininkai, \xC5\xBEuvininkai ir pana\xC5\xA1i\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7412": "Kep\xC4\x97jai ir konditeriai"
+    "7413": "Pieno produkt\xC5\xB3 gamintojai"
+    "7414": "Vaisi\xC5\xB3, dar\xC5\xBEovi\xC5\xB3 ir pana\xC5\xA1i\xC5\xB3 produkt\xC5\xB3 konservuotojai"
+    "7415": "Maisto produkt\xC5\xB3 ir g\xC4\x97rim\xC5\xB3 degustatoriai ir r\xC5\xAB\xC5\xA1iuotojai"
+    "7416": "Tabako produkt\xC5\xB3 gamintojai"
+    "742": "Medienos meistrai, bald\xC5\xBEiai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7421": Medienos meistrai
+    "7422": "Bald\xC5\xBEiai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7423": "Medienos apdirbimo stakli\xC5\xB3 derintojai ir derintojai operatoriai"
+    "7424": "Pyn\xC4\x97jai, \xC5\xA1epe\xC4\x8Di\xC5\xB3 gamintojai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "743": "Tekstilininkai, siuv\xC4\x97jai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7431": "Pluo\xC5\xA1to ruo\xC5\xA1\xC4\x97jai"
+    "7432": "Aud\xC4\x97jai, mezg\xC4\x97jai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7433": "Siuv\xC4\x97jai ir kepurininkai"
+    "7434": "Kailininkai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7435": "Tekstil\xC4\x97s, odos ir kit\xC5\xB3 med\xC5\xBEiag\xC5\xB3 sukirp\xC4\x97jai"
+    "7436": "Siuv\xC4\x97jai, siuvin\xC4\x97tojai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7437": "Bald\xC5\xB3 apmu\xC5\xA1\xC4\x97jai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "744": "Kailiadirbiai, odininkai, batsiuviai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "7441": Kailiadirbiai ir odininkai
+    "7442": "Batsiuviai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "81": "Pramonini\xC5\xB3 \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "811": "Gavybos ir mineral\xC5\xB3 apdirbimo operatoriai"
+    "8111": "Gavybos \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8112": "Mineral\xC5\xB3 ir akmens apdirbimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8113": "Gr\xC4\x99\xC5\xBEini\xC5\xB3 gr\xC4\x99\xC5\xBE\xC4\x97jai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "812": "Metalo apdirbimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8121": "R\xC5\xABdos ir metalo auk\xC5\xA1takrosni\xC5\xB3 operatoriai"
+    "8122": "Metalo lydymo, liejimo ir valcavimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8123": "Metalo \xC5\xA1iluminio apdorojimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8124": "Metalo temp\xC4\x97jai ir ekstruderi\xC5\xB3 operatoriai"
+    "813": "Stiklo, keramikos ir kitoki\xC5\xB3 \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8131": "Stiklo ir keramikos degimo krosni\xC5\xB3 bei kitoki\xC5\xB3 \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8139": "Kiti, niekur kitur nepriskirti, stiklo ir keramikos gamybos kit\xC5\xB3 \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "814": "Medienos apdirbimo ir popieriaus gamybos \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8141": "Medienos apdirbimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8142": "Popieriaus mas\xC4\x97s paruo\xC5\xA1imo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8143": "Popieriaus gamybos \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "815": "Cheminio perdirbimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8151": "Chemini\xC5\xB3 med\xC5\xBEiag\xC5\xB3 smulkinimo, malimo ir mai\xC5\xA1ymo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8152": "Cheminio \xC5\xA1iluminio apdorojimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8153": "Cheminio filtravimo ir separavimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8154": "Cheminio distiliavimo \xC4\xAFrengini\xC5\xB3 ir reaktori\xC5\xB3 operatoriai (i\xC5\xA1skyrus naftos ir gamtini\xC5\xB3 duj\xC5\xB3 perdirbim..."
+    "8155": "Naftos ir gamtini\xC5\xB3 duj\xC5\xB3 valymo bei perdirbimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8159": "Kiti, niekur kitur nepriskirti, cheminio \xC5\xBEaliav\xC5\xB3 perdirbimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "816": "Energetini\xC5\xB3 j\xC4\x97gaini\xC5\xB3 operatoriai"
+    "8161": "Energijos gamybos j\xC4\x97gaini\xC5\xB3 operatoriai"
+    "8162": "Garo varikli\xC5\xB3 ir katil\xC5\xB3 operatoriai"
+    "8163": "Atliek\xC5\xB3 deginimo, vandens valymo ir kitoki\xC5\xB3 \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "817": "Automatini\xC5\xB3 surinkimo linij\xC5\xB3 ir pramonini\xC5\xB3 robot\xC5\xB3 operatoriai"
+    "8171": "Automatini\xC5\xB3 surinkimo linij\xC5\xB3 operatoriai"
+    "8172": "Pramonini\xC5\xB3 robot\xC5\xB3 operatoriai"
+    "82": "Ma\xC5\xA1in\xC5\xB3 operatoriai ir surink\xC4\x97jai"
+    "821": "Metalo ir mineral\xC5\xB3 apdirbimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8211": "Metalo apdirbimo stakli\xC5\xB3 operatoriai"
+    "8212": "Cemento gamybos ir kitos mineralin\xC4\x97s \xC5\xBEaliavos apdirbimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "822": "Chemijos gamini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8221": "Farmacijos ir parfumerijos gamini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8222": "\xC5\xA0audmen\xC5\xB3 ir sprogstam\xC5\xB3j\xC5\xB3 med\xC5\xBEiag\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8223": "Metal\xC5\xB3 poliravimo, galvanizavimo ir pavir\xC5\xA1iaus padengimo \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8224": "Fotografijos gamini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8229": "Kiti, niekur kitur nepriskirti, chemini\xC5\xB3 gamini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "823": "Gumos ir plastiko gamini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8231": "Gumini\xC5\xB3 gamini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8232": "Plastiko gamini\xC5\xB3 gamybos ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "824": "Medienos gamini\xC5\xB3 apdirbimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8240": "Medienos apdirbimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "825": "Spausdinimo, \xC4\xAFri\xC5\xA1imo, popieriaus ir kartono gamybos ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8251": "Spausdinimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8252": "Knyg\xC5\xB3 \xC4\xAFri\xC5\xA1imo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8253": "Popieriaus ir kartono gamini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "826": "Tekstil\xC4\x97s, kaili\xC5\xB3 ir odos gamini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8261": "Pluo\xC5\xA1to ruo\xC5\xA1imo, verpimo ir vyniojimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8262": "Audimo ir mezgimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8263": "Siuvimo ir siuvin\xC4\x97jimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8264": "Balinimo, da\xC5\xBEymo ir valymo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8265": "Kaili\xC5\xB3 ir odos i\xC5\xA1dirbimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8266": "Avalyn\xC4\x97s ir kitoki\xC5\xB3 gamini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8269": "Kiti, niekur kitur nepriskirti, tekstil\xC4\x97s, kaili\xC5\xB3 ir odos gamini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "827": "Maisto ir pana\xC5\xA1i\xC5\xB3 produkt\xC5\xB3 apdorojimo ir perdirbimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8271": "M\xC4\x97sos ir \xC5\xBEuvies apdorojimo ir perdirbimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8272": "Pieno produkt\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8273": "Gr\xC5\xABd\xC5\xB3 ir prieskoni\xC5\xB3 malimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8274": "Kepini\xC5\xB3, gr\xC5\xABdini\xC5\xB3 ir \xC5\xA1okoladini\xC5\xB3 produkt\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8275": "Vaisi\xC5\xB3, dar\xC5\xBEovi\xC5\xB3 ir rie\xC5\xA1ut\xC5\xB3 perdirbimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8276": "Cukraus gamybos ir rafinavimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8277": "Arbatos, kavos bei kakavos apdorojimo ir perdirbimo ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8278": "Alaus, vyno ir kit\xC5\xB3 g\xC4\x97rim\xC5\xB3 gamybos ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8279": "Tabako gamini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "828": "Surink\xC4\x97jai"
+    "8281": "Mechanini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 surink\xC4\x97jai"
+    "8282": "Elektrin\xC4\x97s \xC4\xAFrangos surink\xC4\x97jai"
+    "8283": "Elektronin\xC4\x97s \xC4\xAFrangos surink\xC4\x97jai"
+    "8284": "Metalo, gumos ir plastiko gamini\xC5\xB3 surink\xC4\x97jai"
+    "8285": "Medini\xC5\xB3 ir pana\xC5\xA1i\xC5\xB3 gamini\xC5\xB3 surink\xC4\x97jai"
+    "8286": "Kartono, tekstil\xC4\x97s ir pana\xC5\xA1i\xC5\xB3 gamini\xC5\xB3 surink\xC4\x97jai"
+    "829": "Kiti ma\xC5\xA1in\xC5\xB3 operatoriai ir surink\xC4\x97jai"
+    "8290": "Kiti ma\xC5\xA1in\xC5\xB3 operatoriai ir surink\xC4\x97jai"
+    "83": "Vairuotojai ir kilnojam\xC5\xB3j\xC5\xB3 \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "831": "Lokomotyv\xC5\xB3 ma\xC5\xA1inistai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "8311": "Lokomotyv\xC5\xB3 ma\xC5\xA1inistai"
+    "8312": "Gele\xC5\xBEinkelio stabdytojai, signalizuotojai, ie\xC5\xA1mininkai ir sukabin\xC4\x97tojai"
+    "832": "Variklini\xC5\xB3 keli\xC5\xB3 transporto priemoni\xC5\xB3 vairuotojai"
+    "8321": "Motocikl\xC5\xB3 vairuotojai"
+    "8322": "Lengv\xC5\xB3j\xC5\xB3 automobili\xC5\xB3, taksi ir furgon\xC5\xB3 vairuotojai"
+    "8323": "Autobus\xC5\xB3 ir troleibus\xC5\xB3 vairuotojai"
+    "8324": "Sunkiasvori\xC5\xB3 sunkve\xC5\xBEimi\xC5\xB3 ir krovinini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 vairuotojai"
+    "833": "\xC5\xBDem\xC4\x97s \xC5\xABkio ir kit\xC5\xB3 kilnojam\xC5\xB3j\xC5\xB3 \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8331": "\xC5\xBDem\xC4\x97s ir mi\xC5\xA1k\xC5\xB3 \xC5\xABkio variklini\xC5\xB3 ma\xC5\xA1in\xC5\xB3 ir \xC4\xAFrengini\xC5\xB3 operatoriai"
+    "8332": "\xC5\xBDem\xC4\x97s kasimo ir pana\xC5\xA1i\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8333": "Kran\xC5\xB3, k\xC4\x97limo \xC4\xAFrengini\xC5\xB3 ir pana\xC5\xA1i\xC5\xB3 ma\xC5\xA1in\xC5\xB3 operatoriai"
+    "8334": "Krovinini\xC5\xB3 platform\xC5\xB3 ir krautuv\xC5\xB3 operatoriai"
+    "834": "Laiv\xC5\xB3 \xC4\xAFgul\xC5\xB3 nariai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "8340": "Laiv\xC5\xB3 \xC4\xAFgul\xC5\xB3 nariai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbininkai"
+    "91": Prekybos ir aptarnavimo sferos nekvalifikuoti darbuotoai
+    "911": "Gatv\xC4\x97s pardav\xC4\x97jai ir susij\xC4\x99 darbuotojai"
+    "9111": "Gatv\xC4\x97s pardav\xC4\x97jai prekiaujantys maistu"
+    "9112": "Gatv\xC4\x97s pardav\xC4\x97jai, prekiaujantys ne maisto produktais"
+    "9113": "I\xC5\xA1ne\xC5\xA1iojamosios prekybos ir prekybos telefonu agentai"
+    "912": "Bat\xC5\xB3 valytojai ir kit\xC5\xB3 gatv\xC4\x97je teikiam\xC5\xB3 paslaug\xC5\xB3 darbuotojai"
+    "9120": "Bat\xC5\xB3 valytojai ir kit\xC5\xB3 gatv\xC4\x97je teikiam\xC5\xB3 paslaug\xC5\xB3 darbuotojai"
+    "913": "Nam\xC5\xB3 ruo\xC5\xA1os ir kitokie pagalbininkai, valytojai ir skalb\xC4\x97jai"
+    "9131": "Nam\xC5\xB3 ruo\xC5\xA1os pagalbininkai ir valytojai"
+    "9132": "Vie\xC5\xA1bu\xC4\x8Di\xC5\xB3, biur\xC5\xB3 ir kit\xC5\xB3 \xC4\xAFstaig\xC5\xB3 pagalbiniai darbininkai, valytojai ir kambarin\xC4\x97s"
+    "9133": "Skalb\xC4\x97jai ir lygintojai rankiniu b\xC5\xABdu"
+    "914": "Pastat\xC5\xB3 sargai, lang\xC5\xB3 valytojai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbuotojai"
+    "9141": "Pastat\xC5\xB3 sargai ir pri\xC5\xBEi\xC5\xABr\xC4\x97tojai"
+    "9142": "Transporto priemoni\xC5\xB3, lang\xC5\xB3 ir kitokie plov\xC4\x97jai"
+    "915": "Kurjeriai, pasiuntiniai, baga\xC5\xBEo ne\xC5\xA1ikai, durininkai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbuotojai"
+    "9151": "Kurjeriai, pasiuntiniai ir baga\xC5\xBEo ne\xC5\xA1ikai"
+    "9152": "Durininkai, sargai, bud\xC4\x97tojai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbuotojai"
+    "9153": "Pinig\xC5\xB3 i\xC5\xA1 automat\xC5\xB3 surink\xC4\x97jai, skaitikli\xC5\xB3 rodmen\xC5\xB3 kontrolieriai ir susijusi\xC5\xB3 profesij\xC5\xB3 darbuotojai"
+    "916": `iukalis jai, kiemsargiai ir susijusis profesijs darbuotojai
+    "9161": "\xC5\xA0iuk\xC5\xA1li\xC5\xB3 surink\xC4\x97jai"
+    "9162": "Kiemsargiai ir susij\xC4\x99 darbininkai"
+    "92": "Nekvalifikuoti \xC5\xBEem\xC4\x97s \xC5\xABkio, \xC5\xBEuvininkyst\xC4\x97s ir susij\xC4\x99 darbininkai"
+    "921": "Nekvalifikuoti \xC5\xBEem\xC4\x97s \xC5\xABkio, \xC5\xBEuvininkyst\xC4\x97s ir susij\xC4\x99 darbininkai"
+    "9211": "Nekvalifikuoti \xC5\xBEem\xC4\x97s \xC5\xABkio darbininkai ir samdiniai"
+    "9212": "Nekvalifikuoti mi\xC5\xA1kininkyst\xC4\x97s darbininkai"
+    "9213": "Nekvalifikuoti \xC5\xBEuvininkyst\xC4\x97s, med\xC5\xBEiokl\xC4\x97s ir sp\xC4\x85st\xC5\xB3 spendimo darbininkai"
+    "93": "Nekvalifikuoti gavybos, statybos, pramon\xC4\x97s ir transporto darbininkai"
+    "931": Nekvalifikuoti gavybos ir statybos darbininkai
+    "9311": Nekvalifikuoti gavybos ir statybos darbininkai
+    "9312": "Nekvalifikuoti keli\xC5\xB3, u\xC5\xBEtvank\xC5\xB3 ir pana\xC5\xA1i\xC5\xB3 statini\xC5\xB3 statybos bei eksploatavimo darbininkai"
+    "9313": "Nekvalifikuoti pastat\xC5\xB3 statybos darbininkai"
+    "932": "Nekvalifikuoti apdirbimo pramon\xC4\x97s darbininkai"
+    "9321": Nekvalifikuoti surinkimo darbininkai
+    "9322": "Pakuotojai rankiniu b\xC5\xABdu ir kiti nekvalifikuoti apdirbimo pramon\xC4\x97s darbininkai"
+    "933": Nekvalifikuoti transporto darbininkai ir krovikai
+    "9331": "Rankomis ar pedalais varom\xC5\xB3 transporto priemoni\xC5\xB3 ve\xC5\xBE\xC4\x97jai"
+    "9332": "Gyvuli\xC5\xB3 traukiam\xC5\xB3 transporto priemoni\xC5\xB3 ir mechanizm\xC5\xB3 vadeliotojai"
+    "9333": Krovikai

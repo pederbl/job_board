@@ -1,0 +1,18 @@
+sl:
+  about: O
+  choose: ~
+  description: Opis
+  email: E-pošta
+  fax: Fax
+  feedback: Feedback
+  i18n:
+    language:
+      name: Slovenščina
+  maximum: Največja
+  minimum: Najmanjša
+  phone: Telefon
+  postal_address: "Poštni naslov"
+  terms: Pogoji
+  type: Vrsta
+  visit_address: "Obiščite naslov"
+  website: "Spletna stran"

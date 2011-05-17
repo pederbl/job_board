@@ -1,0 +1,532 @@
+--- 
+mt: 
+  isco_code: 
+    "11": "Le\xC4\xA1i\xC5\xBClaturi u uffi\xC4\x8Bjali g\xC4\xA7olja"
+    "111": "Le\xC4\xA1i\xC5\xBClaturi"
+    "1120": "Uffi\xC4\x8Bjali g\xC4\xA7olja tal-gvern"
+    "113": "Kapijiet tradizzjonali u kapijiet ta' l-ir\xC4\xA7ula"
+    "1130": "Kapijiet tradizzjonali u kapijiet ta' l-ir\xC4\xA7ula"
+    "114": "Uffi\xC4\x8Bjali g\xC4\xA7olja ta' organizzazzjonijiet ta' interess spe\xC4\x8Bjali"
+    "1141": "Uffi\xC4\x8Bjali g\xC4\xA7olja ta' organizzazzjonijiet ta' partiti politi\xC4\x8Bi"
+    "1142": "Uffi\xC4\x8Bjali g\xC4\xA7olja ta' organizzazzjonijiet ta' min i\xC4\xA7addem, tal-\xC4\xA7addiema u ta' o\xC4\xA7rajn ta' interess eko..."
+    "1143": "Uffi\xC4\x8Bjali g\xC4\xA7olja ta' organizzazzjonijiet umanitarji u o\xC4\xA7rajn ta' interess spe\xC4\x8Bjali"
+    "12": "Mani\xC4\xA1ers ta' livell g\xC4\xA7oli"
+    "121": "Diretturi u kapijiet e\xC5\xBCekuttivi"
+    "1210": "Diretturi u kapijiet e\xC5\xBCekuttivi"
+    "122": "Mani\xC4\xA1ers tad-dipartiment tal-produzzjoni u l-operat"
+    "1221": "Mani\xC4\xA1ers tad-dipartiment tal-produzzjoni u l-operat ta' l-agrikoltura, il-ka\xC4\x8B\xC4\x8Ba, il-forestrija u s-s..."
+    "1222": "Mani\xC4\xA1ers tad-dipartiment tal-produzzjoni u l-operat fil-manifattura"
+    "1223": "Mani\xC4\xA1ers tad-dipartiment tal-produzzjoni u l-operat fil-bini"
+    "1224": "Mani\xC4\xA1ers tad-dipartiment tal-produzzjoni fil-kummer\xC4\x8B bl-ingrossa u bl-imnut"
+    "1225": "Mani\xC4\xA1ers tad-dipartiment tal-produzzjoni u l-operat tar-restoranti u l-lukandi"
+    "1226": "Mani\xC4\xA1ers tad-dipartiment tal-produzzjoni u l-operat tat-trasport, il-\xC4\xA7a\xC5\xBCna u l-komunikazzjonijiet"
+    "1227": "Mani\xC4\xA1ers tad-dipartiment tal-produzzjoni u l-operat fis-servizzi tal-kummer\xC4\x8B"
+    "1228": "Mani\xC4\xA1ers tad-dipartiment tal-produzzjoni u l-operat fil-kura personali, it-tindif u fis-servizzi rel..."
+    "1229": "Mani\xC4\xA1ers tad-dipartiment tal-produzzjoni u l-operat li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "123": "Mani\xC4\xA1ers ta' dipartimenti (o\xC4\xA7rajn)"
+    "1231": "Mani\xC4\xA1ers tad-dipartiment tal-finanzi u l-amministrazzjoni"
+    "1232": "Mani\xC4\xA1ers tad-dipartiment tar-relazzjonijiet industrijali u tal-personal"
+    "1233": "Mani\xC4\xA1ers tad-dipartiment tal-bejg\xC4\xA7 u l-markiting"
+    "1234": "Mani\xC4\xA1ers tad-dipartiment tar-reklamar u r-relazzjonijiet pubbli\xC4\x8Bi"
+    "1235": "Mani\xC4\xA1ers tad-dipartiment tal-forniment u d-distribuzzjoni"
+    "1236": "Mani\xC4\xA1ers tad-dipartiment tas-servizzi tal-kompjuter"
+    "1237": "Mani\xC4\xA1ers tad-dipartiment tar-ri\xC4\x8Berka u l-i\xC5\xBCvilupp"
+    "1239": "Mani\xC4\xA1ers ta' dipartimenti o\xC4\xA7ra li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "13": "Mani\xC4\xA1ers \xC4\xA1enerali"
+    "131": "Mani\xC4\xA1ers \xC4\xA1enerali"
+    "1311": "Mani\xC4\xA1ers \xC4\xA1enerali fl-agrikoltura, il-ka\xC4\x8B\xC4\x8Ba, il-forestrija u s-sajd"
+    "1312": "Mani\xC4\xA1ers \xC4\xA1enerali fil-manifattura"
+    "1313": "Mani\xC4\xA1ers \xC4\xA1enerali fil-bini"
+    "1314": "Mani\xC4\xA1ers \xC4\xA1enerali fil-kummer\xC4\x8B bl-ingrossa u bl-imnut"
+    "1315": "Mani\xC4\xA1ers \xC4\xA1enerali tar-ristoranti u l-lukandi"
+    "1316": "Mani\xC4\xA1ers \xC4\xA1enerali fit-trasport, tal-\xC4\xA7a\xC5\xBCna u l-komunikazzjonijiet"
+    "1317": "Mani\xC4\xA1ers \xC4\xA1enerali tas-servizzi tal-kummer\xC4\x8B"
+    "1318": "Mani\xC4\xA1ers \xC4\xA1enerali fil-kura personali, it-tindif u s-servizzi relatati"
+    "1319": "Mani\xC4\xA1ers \xC4\xA1enerali li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "21": "Professjonisti ta' l-informatika, l-in\xC4\xA1inerija u x-xjenza"
+    "211": "Fi\xC5\xBCi\xC4\x8Bi, spi\xC5\xBCjara u professjonisti relatati o\xC4\xA7ra"
+    "2111": "Fi\xC5\xBCi\xC4\x8Bi u astronomi"
+    "2112": Meteorologi
+    "2113": "Spi\xC5\xBCjara"
+    "2114": "\xC4\xA0eologi u \xC4\xA1eofi\xC5\xBCi\xC4\x8Bi"
+    "212": "Matemati\xC4\x8Bi, statisti\xC4\x8Bi u professjonisti relatati o\xC4\xA7ra"
+    "2121": "Matemati\xC4\x8Bi u professjonisti relatati"
+    "2122": "Statisti\xC4\x8Bi"
+    "213": Professjonisti ta' l-informatika
+    "2131": Disinjaturi u analisti tas-sistemi ta' l-informatika
+    "2132": Programmaturi tal-kompjuter
+    "2139": "Professjonisti ta' l-informatika li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "214": "Periti, in\xC4\xA1iniera u professjonisti relatati"
+    "2141": Periti, u min jippjana l-bliet u t-traffiku
+    "2142": "In\xC4\xA1iniera \xC4\x8Bivili"
+    "2143": "In\xC4\xA1iniera ta' l-elettriku"
+    "2144": "In\xC4\xA1iniera ta' l-elettronika u t-telekomunikazzjonijiet"
+    "2145": "In\xC4\xA1iniera mekkani\xC4\x8Bi"
+    "2146": "In\xC4\xA1iniera kimi\xC4\x8Bi"
+    "2147": "In\xC4\xA1iniera tal-minjieri, metallur\xC4\xA1i\xC4\x8Bi u professjonisti relatati"
+    "2148": Kartografi u servejers
+    "2149": "Periti, in\xC4\xA1iniera u professjonisti relatati li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "22": "Professjonisti tal-kura tas-sa\xC4\xA7\xC4\xA7a u tax-xjenza tal-\xC4\xA7ajja"
+    "221": "Professjonisti tax-xjenza tal-\xC4\xA7ajja"
+    "2211": "Bijologi, botani\xC4\x8Bi, \xC5\xBCoologi u professjonisti relatati"
+    "2212": Farmakologi, patologi u professjonisti relatati
+    "2213": Agronomi u professjonisti rrelatati
+    "222": "Professjonisti tas-sa\xC4\xA7\xC4\xA7a (g\xC4\xA7ajr infermiera)"
+    "2221": "Tobba medi\xC4\x8Bi"
+    "2222": Dentisti
+    "2223": Veterinarji
+    "2224": "Spi\xC5\xBCjara"
+    "2229": "Professjonisti tas-sa\xC4\xA7\xC4\xA7a (g\xC4\xA7ajr infermiera) li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "223": Infermiera u qwiebel
+    "2230": Infermiera u qwiebel
+    "23": "G\xC4\xA7alliema"
+    "231": "G\xC4\xA7alliema tal-kulle\xC4\xA1\xC4\xA1, ta' l-universit\xC3\xA0, u ta' l-edukazzjoni og\xC4\xA7la"
+    "2310": "G\xC4\xA7alliema tal-kulle\xC4\xA1\xC4\xA1, ta' l-universit\xC3\xA0 u ta' l-edukazzjoni og\xC4\xA7la"
+    "232": "G\xC4\xA7alliema ta' l-edukazzjoni sekondarja"
+    "2320": "G\xC4\xA7alliema ta' l-edukazzjoni sekondarja"
+    "233": "G\xC4\xA7alliema ta' l-edukazzjoni primarja u ta' qabel il-primarja"
+    "2331": "G\xC4\xA7alliema ta' l-edukazzjoni primarja"
+    "2332": "G\xC4\xA7alliema ta' l-edukazzjoni ta' qabel il-primarja"
+    "234": "G\xC4\xA7alliema ta' l-edukazzjoni spe\xC4\x8Bjali"
+    "2340": "G\xC4\xA7alliema ta' l-edukazzjoni spe\xC4\x8Bjali"
+    "235": "G\xC4\xA7alliema o\xC4\xA7ra"
+    "2351": "Spe\xC4\x8Bjalisti fil-metodi ta' l-edukazzjoni"
+    "2352": Spetturi ta' l-iskola
+    "2359": "G\xC4\xA7alliema o\xC4\xA7ra li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "24": "Professjonisti fil-kontabilit\xC3\xA0, legali, fix-xjenzi so\xC4\x8Bjali u artisti\xC4\x8Bi"
+    "241": "Professjonisti tan-negozju u l-kummer\xC4\x8B"
+    "2411": Accountants
+    "2412": Professjonisti fil-qasam tal-karrieri u tal-personal
+    "2419": "Professjonisti tal-kummer\xC4\x8B u n-negozju li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "242": Professjonisti legali
+    "2421": Avukati
+    "2422": "Im\xC4\xA7allfin"
+    "2429": "Professjonisti legali li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "243": "Arkivisti, librara u professjonisti o\xC4\xA7ra fil-qasam ta' l informazzjoni"
+    "2431": Arkivisti u kuraturi
+    "2432": Librara u professjonisti ta' informazzjoni relatata
+    "244": "Xjenza so\xC4\x8Bjali u professjonisti relatati"
+    "2441": Ekonomisti
+    "2442": "So\xC4\x8Bjologi, antropologi u professjonisti relatati"
+    "2443": "Filosofi, stori\xC4\x8Bi u xjenzati tal-politika"
+    "2444": Filologi, tradutturi u interpreti
+    "2445": Psikologi
+    "2446": "Professjonisti tal-\xC4\xA7idma so\xC4\x8Bjali"
+    "245": "Kittieba u artisti kreattivi jew li jag\xC4\xA7tu wirjiet"
+    "2451": "Awturi, \xC4\xA1urnalisti u kittieba o\xC4\xA7ra"
+    "2452": Skulturi, pitturi u artisti relatati
+    "2453": "Kompo\xC5\xBCituri, mu\xC5\xBCi\xC4\x8Bisti u kantanti"
+    "2454": "Koreografi u \xC5\xBCeffiena"
+    "2455": "Atturi u diretturi tal-films, ta' fuq il-palk u o\xC4\xA7rajn relatati"
+    "246": "Professjonisti reli\xC4\xA1ju\xC5\xBCi"
+    "2460": "Professjonisti reli\xC4\xA1juzi"
+    "31": "Professjonisti ta' l-informatika, l-in\xC4\xA1inerija u professjonisti asso\xC4\x8Bjati tax-xjenza"
+    "311": "Tekni\xC4\x8Bi tax-xjenza fi\xC5\xBCika u tax-xjenza ta' l-in\xC4\xA1inerija"
+    "3111": "Tekni\xC4\x8Bi tax-xjenza kimika u fi\xC5\xBCika"
+    "3112": "Tekni\xC4\x8Bi ta' l-in\xC4\xA1inerija \xC4\x8Bivili"
+    "3113": "Tekni\xC4\x8Bi ta' l-in\xC4\xA1inerija elettrika"
+    "3114": "Tekni\xC4\x8Bi ta' l-in\xC4\xA1inerija ta' l-elettronika u t-telekomunikazzjonijiet"
+    "3115": "Tekni\xC4\x8Bi ta' l-in\xC4\xA1inerija mekkanika"
+    "3116": "Tekni\xC4\x8Bi ta' l-in\xC4\xA1inerija kimika"
+    "3117": "Tekni\xC4\x8Bi metallur\xC4\xA1i\xC4\x8Bi u tal-minjieri"
+    "3118": Draughts persons
+    "3119": "Tekni\xC4\x8Bi tax-xjenza fi\xC5\xBCika u tax-xjenza ta' l-in\xC4\xA1inerija li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "312": "Professjonisti asso\xC4\x8Bjati tal-kompjuter"
+    "3121": Assistenti tal-kompjuter
+    "3122": "Operaturi tat-tag\xC4\xA7mir tal-kompjuter"
+    "3123": Kontrolluri tar-rowbots industrijali
+    "313": "Operaturi tat-tag\xC4\xA7mir ottiku u elettroniku"
+    "3131": "Fotografi u operaturi ta' tag\xC4\xA7mir li jirre\xC4\xA1istra l-imma\xC4\xA1ini u l-\xC4\xA7oss"
+    "3132": "Operturi tat-tag\xC4\xA7mir g\xC4\xA7ax-xandir u t-telekomunikazzjonijiet"
+    "3133": "Operaturi tat-tag\xC4\xA7mir mediku"
+    "3139": "Operaturi tat-tag\xC4\xA7mir ottiku u elettroniku mhux ikklassifikati x'imkien ie\xC4\xA7or"
+    "314": "Kontrolluri u tekni\xC4\x8Bi  tal-bastimenti u l-ajruplani"
+    "3141": "In\xC4\xA1iniera tal-bastimenti"
+    "3142": "Uffi\xC4\x8Bjali tal-gverta u piloti tal-bastimenti"
+    "3143": "Piloti ta' vetturi ta' l-ajru u professjonisti asso\xC4\x8Bjati relatati"
+    "3144": Kontrolluri tat-traffiku ta' l-ajru
+    "3145": "Tekni\xC4\x8Bi tas-sikurezza tat-traffiku ta' l-ajru"
+    "315": "Spetturi tas-sikurezza u tal-kwalit\xC3\xA0"
+    "3151": Spetturi tal-bini u tat-tifi tan-nar
+    "3152": "Kontroll tal-kwalit\xC3\xA0"
+    "32": "Professjonisti asso\xC4\x8Bjati tal-kura tas-sa\xC4\xA7\xC4\xA7a u tax-xjenza tal-\xC4\xA7ajja"
+    "321": "Tekni\xC4\x8Bi tax-xjenza tal-\xC4\xA7ajja u professjonisti asso\xC4\x8Bjati relatati"
+    "3211": "Tekni\xC4\x8Bi tax-xjenza tal-\xC4\xA7ajja"
+    "3212": "Tekni\xC4\x8Bi ta' l-agronomija u l-forestrija"
+    "3213": Konsulenti tal-biedja u tal-forestrija
+    "322": "Professjonisti asso\xC4\x8Bjati tas-sa\xC4\xA7\xC4\xA7a moderna (g\xC4\xA7ajr infermiera)"
+    "3221": "Assistenti medi\xC4\x8Bi"
+    "3222": Sanitarji
+    "3223": Esperti tad-dieta u nutrizzjonisti
+    "3224": "Ottometristi u otti\xC4\x8Bi"
+    "3225": Assistenti dentali
+    "3226": "Fi\xC5\xBCjoterapisti u professjonisti asso\xC4\x8Bjati relatati"
+    "3227": Assistenti veterinarji
+    "3228": "Assistenti farma\xC4\x8Bewti\xC4\x8Bi"
+    "3229": "Professjonisti asso\xC4\x8Bjati tas-sa\xC4\xA7\xC4\xA7a moderna (g\xC4\xA7ajr infermiera) li mhumiex ikklassifikati x'imkien ie\xC4\xA7..."
+    "323": "Professjonisti asso\xC4\x8Bjati fil-qasam ta' l-infermiera u l-qwiebel"
+    "3231": "Asso\xC4\x8Bjati ta' l-infermiera"
+    "3232": "Asso\xC4\x8Bjati tal-qwiebel"
+    "324": "Prattikanti tal-medi\xC4\x8Bina tradizzjonali u fejjieqa bil-fidi"
+    "3241": "Prattikanti tal-medi\xC4\x8Bina tradizzjonali"
+    "3242": Fejjieqa bil-fidi
+    "33": "G\xC4\xA7alliema asso\xC4\x8Bjati"
+    "331": "G\xC4\xA7alliema asso\xC4\x8Bjati ta' l-edukazzjoni primarja"
+    "3310": "G\xC4\xA7alliema asso\xC4\x8Bjati ta' l-edukazzjoni primarja"
+    "332": "G\xC4\xA7alliema asso\xC4\x8Bjati ta' l-edukazzjoni ta' qabel il-primarja"
+    "3320": "G\xC4\xA7alliema asso\xC4\x8Bjati ta' l-edukazzjoni ta' qabel il-primarja"
+    "333": "G\xC4\xA7alliema asso\xC4\x8Bjati ta' l-edukazzjoni spe\xC4\x8Bjali"
+    "3330": "G\xC4\xA7alliema asso\xC4\x8Bjati ta' l-edukazzjoni spe\xC4\x8Bjali"
+    "334": "G\xC4\xA7alliema asso\xC4\x8Bjati o\xC4\xA7ra"
+    "3340": "G\xC4\xA7alliema asso\xC4\x8Bjati o\xC4\xA7ra"
+    "34": "Professjonisti asso\xC4\x8Bjati tal-finanzi, tal-bejg\xC4\xA7 u l-amministrazzjoni"
+    "341": "Professjonisti asso\xC4\x8Bjati tal-finanzi u l-bejg\xC4\xA7"
+    "3411": Negozjant u sensara tat-titoli u l-finanzi (brokers)
+    "3412": "Rappre\xC5\xBCentanti ta' l-assigurazzjoni"
+    "3413": "A\xC4\xA1enti tal-proprjet\xC3\xA0"
+    "3414": "Konsulenti u organizzaturi ta' l-ivvja\xC4\xA1\xC4\xA1ar"
+    "3415": "Rappre\xC5\xBCentanti tekni\xC4\x8Bi u tal-bejg\xC4\xA7 kummer\xC4\x8Bjali"
+    "3416": Xerrejja
+    "3417": Stimaturi, prezzaturi u rkantaturi
+    "3419": "Professjonisti asso\xC4\x8Bjati tal-finanzi u l-bejg\xC4\xA7"
+    "342": "A\xC4\xA1enti tas-servizzi kummer\xC4\x8Bjali u sensara tal-kummer\xC4\x8B"
+    "3421": "Sensara tal-kummer\xC4\x8B"
+    "3422": "A\xC4\xA1enti li jibag\xC4\xA7tu u jo\xC4\xA7or\xC4\xA1u l-merkanzija"
+    "3423": "A\xC4\xA1enti ta' l-impjiegi u kuntratturi tax-xog\xC4\xA7ol"
+    "3429": "A\xC4\xA1enti tas-servizzi kummer\xC4\x8Bjali u sensara tal-kummer\xC4\x8B li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "343": "Professjonisti asso\xC4\x8Bjati amministrattivi"
+    "3431": "Segretarji amministrattivi u professjonisti asso\xC4\x8Bjati relatati"
+    "3432": "Professjonisti asso\xC4\x8Bjati legali u kummer\xC4\x8Bjali relatati"
+    "3433": Bookkeepers
+    "3434": "Professjonisti asso\xC4\x8Bjati ta' l-istatistika, l-matematika u professjonisti asso\xC4\x8Bjati relatati"
+    "3439": "Professjonisti asso\xC4\x8Bjati amministrattivi mhux ikklassifikati x'imkien ie\xC4\xA7or"
+    "344": "Professjonisti asso\xC4\x8Bjati tad-dwana, tat-taxxa u professjonisti asso\xC4\x8Bjati relatati mal-gvern"
+    "3441": Spetturi tad-dwana u ta' fuq il-fruntiera
+    "3442": "Uffi\xC4\x8Bjali tas-sisa u tat-taxxa tal-gvern"
+    "3443": "Uffi\xC4\x8Bjali tal-benefi\xC4\x8B\xC4\x8Bji so\xC4\x8Bjali tal-gvern"
+    "3444": "Uffi\xC4\x8Bjali tal-li\xC4\x8Benzjar tal-gvern"
+    "3449": "Professjonisti asso\xC4\x8Bjati tad-dwana tat-taxxa u professjonisti asso\xC4\x8Bjati relatati mal-gvern li mhumie..."
+    "345": Spetturi tal-pulizija u ditektivs
+    "3450": Spetturi tal-pulizija u ditektivs
+    "346": "Professjonisti asso\xC4\x8Bjati tal-\xC4\xA7idma so\xC4\x8Bjali"
+    "3460": "Professjonisti asso\xC4\x8Bjati tal-\xC4\xA7idma so\xC4\x8Bjali"
+    "347": "Professjonisti asso\xC4\x8Bjati artisti\xC4\x8Bi, tad-divertiment u l-isport"
+    "3471": "Dekoraturi u disinjaturi kummer\xC4\x8Bjali"
+    "3472": "\xC4\xA6abbara tar-radju, tat-televixin u o\xC4\xA7rajn"
+    "3473": "Mu\xC5\xBCi\xC4\x8Bisti, kantanti u \xC5\xBCeffiena tat-toroq, tan-najtklabbs u o\xC4\xA7rajn relatati"
+    "3474": "Buffi, me\xC4\xA1ixins, akrobati u professjonisti asso\xC4\x8Bjati relatati"
+    "3475": "Atleti, sportivi u professjonisti asso\xC4\x8Bjati relatati"
+    "348": "Professjonisti asso\xC4\x8Bjati reli\xC4\xA1ju\xC5\xBCi"
+    "3480": "Professjonisti asso\xC4\x8Bjati reli\xC4\xA1ju\xC5\xBCi"
+    "41": "Personal ta' l-uffi\xC4\x8B\xC4\x8Bju"
+    "411": "Segretarji u skrivana li ja\xC4\xA7dmu fuq keyboard"
+    "4111": Stenografi u tajpisti
+    "4112": Operaturi tal-word-processor u operaturi relatati
+    "4113": "Operaturi li jda\xC4\xA7\xC4\xA7lu d-data"
+    "4114": Operaturi tal-magni
+    "4115": Segretarji
+    "412": "Skrivana numeri\xC4\x8Bi"
+    "4121": "Skrivana tal-kontabilit\xC3\xA0 u l-bookkeeping"
+    "4122": Skrivana ta' l-istatistika u l-finanzi
+    "413": "Skrivana tar-re\xC4\xA1istrazzjoni tal-materjal u tat-trasport"
+    "4131": Skrivana ta' l-istokk
+    "4132": Skrivana tal-produzzjoni
+    "4133": Skrivana tat-trasport
+    "414": Skrivana tal-libreriji, tal-posta u relatati
+    "4141": Skrivana tal-libreriji u tal-fajling
+    "4142": "Skrivana li j\xC4\xA1orru l-posta u jissortjawha"
+    "4143": Skrivana ta' l-ikkowdjar, qarrejja tal-provi u relatati
+    "4144": "Skribi u \xC4\xA7addiema relatati"
+    "419": "Skrivana o\xC4\xA7ra ta' l-uffi\xC4\x8B\xC4\x8Bju"
+    "4190": "Skrivana o\xC4\xA7ra ta' l-uffi\xC4\x8B\xC4\x8Bju"
+    "42": Personal tas-servizzi tal-konsumatur
+    "421": Kaxxiera u skrivani relatati
+    "4211": Kaxxiera u skrivana tal-biljetti
+    "4212": "Kaxxiera varji u \xC4\xA7addiema mal-bank tal-\xC4\xA7wienet"
+    "4213": Bookmakers u krupiera
+    "4214": "Ra\xC4\xA7\xC4\xA7ana u selliefa tal-flus"
+    "4215": "Kolletturi tad-djun u \xC4\xA7addiema relatati"
+    "422": "Skrivana ta' l-informazzjoni g\xC4\xA7all-klijent"
+    "4221": "Skrivana f'a\xC4\xA1enziji tal-vja\xC4\xA1\xC4\xA1i u relatati"
+    "4222": Risepxinists u skrivana ta' informazzjoni
+    "4223": "Operaturi ta' l-iswi\xC4\x8B\xC4\x8Bbord"
+    "51": Personal tal-lukandi, tal-kejtering u tas-servizzi personali
+    "511": "Assistenti ta' l-ivvja\xC4\xA1\xC4\xA1ar u \xC4\xA7addiema relatati"
+    "5111": "Assistenti ta' l-ivvja\xC4\xA1\xC4\xA1ar u stewards"
+    "5112": Kundutturi tat-trasport
+    "5113": Gwidi
+    "512": "\xC4\xA6addiema li jie\xC4\xA7du \xC4\xA7sieb id-dar u \xC4\xA7addiema tas-servizzi tar-ristoranti"
+    "5121": "\xC4\xA6addiema li jie\xC4\xA7du \xC4\xA7sieb id-dar u \xC4\xA7addiema relatati"
+    "5122": Koki
+    "5123": "Wejters u \xC4\xA7addiema mal-bar (nisa u r\xC4\xA1iel)"
+    "513": "\xC4\xA6addiema g\xC4\xA7all-kura personali u relatati"
+    "5131": "\xC4\xA6addiema g\xC4\xA7all-kura tat-tfal"
+    "5132": "\xC4\xA6addiema fil-kura personali fl-istituzzjonijiet"
+    "5133": "\xC4\xA6addiema fil-kura personali fid-djar"
+    "5139": "\xC4\xA6addiema fil-kura personali u \xC4\xA7addiema relatati li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "514": "\xC4\xA6addiema o\xC4\xA7ra fis-servizzi personali"
+    "5141": "Parrukkiera, barbiera, estetisti u \xC4\xA7addiema relatati"
+    "5142": "Akkumpanjaturi u val\xC3\xA8"
+    "5143": Kummissjonanti u keffiena
+    "5149": "\xC4\xA6addiema o\xC4\xA7ra fil-qasam tas-servizzi personali li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "515": "Astrologi, qarrejja tax-xorti u \xC4\xA7addiema relatati o\xC4\xA7ra"
+    "5151": "Astrologi u \xC4\xA7addiema relatati"
+    "5152": "Qarrejja tax-xorti, qarrejja ta' l-idejn u \xC4\xA7addiema relatati"
+    "516": "\xC4\xA6addiema fis-servizzi tal-protezzjoni"
+    "5161": Pumpiera
+    "5162": "Uffi\xC4\x8Bjali tal-pulizija"
+    "5163": "Gwardjani tal-\xC4\xA7abs"
+    "5169": "\xC4\xA6addiema fis-servizzi tal-protezzjoni mhux ikklassifikati x'imkien ie\xC4\xA7or"
+    "52": "Staff tal-bejg\xC4\xA7 u tax-xog\xC4\xA7ol tal-moda"
+    "521": "Mudelli (moda u o\xC4\xA7rajn)"
+    "5210": "Mudelli (moda u o\xC4\xA7rajn)"
+    "522": "Staff tal-bejg\xC4\xA7 u l-wiri fil-\xC4\xA7wienet"
+    "5220": "Staff tal-bejg\xC4\xA7 u l-wiri fil-\xC4\xA7wienet"
+    "523": "Bejjieg\xC4\xA7a tas-swieq u tat-tilari"
+    "5230": "Bejjieg\xC4\xA7a tas-swieq u tat-tilari"
+    "61": "\xC4\xA6addiema tas-seng\xC4\xA7a fil-biedja u s-sajd"
+    "611": "\xC4\xA0ardinara tas-swieq u min ikabbar l-g\xC4\xA7elejjel"
+    "6111": "Min ikabbar l-g\xC4\xA7elejjel ta' l-g\xC4\xA7elieqi u l-\xC4\xA7xejjex"
+    "6112": "Min ikabbar is-si\xC4\xA1ar u l-arbuxxeli"
+    "6113": "\xC4\xA0ardinara u min ikabbar fil-qasam ta' l-ortikoltura u l-imxietel"
+    "6114": "Min ikabbar g\xC4\xA7elejjel im\xC4\xA7allta"
+    "612": "Produtturi ta' l-annimali g\xC4\xA7as-suq u \xC4\xA7addiema relatati"
+    "6121": "Produtturi tal-bhejjem u l-prodotti tal-\xC4\xA7alib"
+    "6122": Produtturi tat-tjur ta' l-irziezet
+    "6123": Apjaristi u serikulturisti
+    "6124": Produtturi ta' annimali varji
+    "6129": "Produtturi ta' l-annimali g\xC4\xA7as-suq u \xC4\xA7addiema relatati mhux ikklassifikati x'imkien ie\xC4\xA7or"
+    "613": "Produtturi ta' l-annimali u g\xC4\xA7elejjel varji g\xC4\xA7as-suq"
+    "6130": "Produtturi ta' l-annimali u g\xC4\xA7ellejjel varji g\xC4\xA7as-suq"
+    "614": "\xC4\xA6addiema fil-forestrija u \xC4\xA7addiema relatati"
+    "6141": "\xC4\xA6addiema fil-forestrija u \xC4\xA7addiema tal-qtug\xC4\xA7 tas-si\xC4\xA1ar g\xC4\xA7all-injam"
+    "6142": "\xC4\xA6addiema li ja\xC4\xA7aqru l-fa\xC4\xA7am u \xC4\xA7addiema relatati"
+    "615": "\xC4\xA6addiema fil-qasam tas-sajd, ka\xC4\x8B\xC4\x8Baturi u nassaba"
+    "6151": "\xC4\xA6addiema fil-qasam tal-koltivazzjoni tal-\xC4\xA7ajja akkwatika"
+    "6152": "\xC4\xA6addiema fil-qasam tas-sajd fl-ilmijiet interni u max-xtut"
+    "6153": "\xC4\xA6addiema fil-qasam tas-sajd fil-ba\xC4\xA7ar fond"
+    "6154": "Ka\xC4\x8B\xC4\x8Baturi u nassaba"
+    "62": "\xC4\xA6addiema fil-qasam agrikolu u tas-sajd ta' sussistenza"
+    "621": "\xC4\xA6addiema fil-qasam agrikolu u tas-sajd ta' sussistenza"
+    "6210": "\xC4\xA6addiema fil-qasam agrikolu u tas-sajd ta' sussistenza"
+    "71": "\xC4\xA6addiema fil-bini, il-minjieri u l-barrieri"
+    "711": Minaturi,
+    "7111": "\xC4\xA6addiema fil-minjieri u l-barrieri"
+    "7112": "\xC4\xA6addiema tal-minjieri li jqabbdu l-karga u j\xC4\xA7addmu l-isplussivi"
+    "7113": "\xC4\xA6addiema li jaqsmu u jqattg\xC4\xA7u l-\xC4\xA1ebel"
+    "712": "\xC4\xA6addiema fil-bini u snajja' asso\xC4\x8Bjati"
+    "7121": Bennejja, materjali tradizzjonali
+    "7122": "Bennejja (bil-briks) u na\xC4\xA1\xC4\xA1ara"
+    "7123": "Bennejja bil-konkrit (tqeg\xC4\xA7id u tlestija) u \xC4\xA7addiema relatati"
+    "7124": Mastrudaxxi
+    "7129": "\xC4\xA6addiema fil-bini u snajja' relatati li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "713": "\xC4\xA6addiema fit-tlestija tal-bini u snajja' o\xC4\xA7ra relatati"
+    "7131": Tas-soqfa
+    "7132": Tal-madum
+    "7133": "Ka\xC4\xA7\xC4\xA7ala"
+    "7134": "\xC4\xA6addiema fl-insulazzjoni"
+    "7135": Vitrara
+    "7136": Plamers
+    "7137": Elektrixins tal-bini u relatati
+    "714": "Bajjada, min inaddaf l-istruttura tal-bini u \xC4\xA7addiema fi snajja' relatati"
+    "7141": "Bajjada u \xC4\xA7addiema relatati"
+    "7142": "Verni\xC4\x8Baturi u pitturi/\xC5\xBCebbieg\xC4\xA7a relatati"
+    "7143": Min inaddaf l-istruttura tal-bini
+    "72": "\xC4\xA6addiema fil-qasam tal-metall, il-makkinarju u t-tag\xC4\xA7mir elettroniku"
+    "721": "Pla\xC5\xBCmaturi tal-metall, welders, \xC4\xA7addiema fil-qasam tal-metall (folji), preparaturi ta' metall, u '\xC4\xA7a..."
+    "7211": "Pla\xC5\xBCmaturi tal-metall u min jag\xC4\xA7mel il-qalba interna"
+    "7212": "Welders u qattieg\xC4\xA7a tal-metall bil-fjamma"
+    "7213": "\xC4\xA6addiema fuq il-folji tal-metall"
+    "7214": Min jipprepara u min itella' l-metall strutturali
+    "7215": Riggers u min jaqsam il-kejbils
+    "7216": "Nies li ja\xC4\xA7dmu ta\xC4\xA7t il-ba\xC4\xA7ar"
+    "722": "\xC4\xA6addieda, manifatturi ta' l-g\xC4\xA7odod u \xC4\xA7addiema fi snajja' relatati"
+    "7221": "\xC4\xA6addieda, mazziera u \xC4\xA7addiema tal-for\xC4\xA1a"
+    "7222": "Manifatturi ta' l-g\xC4\xA7odod u \xC4\xA7addiema relatati"
+    "7223": "Min jissettja l-g\xC4\xA7odod tal-magni u l-operaturi tal-magni ta' l-issettjar"
+    "7224": "Lustraturi u senniena ta' l-g\xC4\xA7odod"
+    "723": Mekkaniks u fitters tal-makkinarju
+    "7231": Mekkaniks u fitters tal-vetturi
+    "7232": Mekkaniks u fitters tal-magni ta' l-ajruplani
+    "7233": Mekkaniks u fitters tal-makkinarju agrikolu jew industrijali
+    "724": "Mekkaniks u fitters tat-tag\xC4\xA7mir elettriku u elettroniku"
+    "7241": Mekkaniks u fitters ta' l-elettriku
+    "7242": "Fitters elettroni\xC4\x8Bi"
+    "7243": Mekkaniks u servisers ta' l-elettronika
+    "7244": Stallaturi u servisers tat-telegraf u t-telefown
+    "7245": "Stallturi tal-linji ta' l-elettriku, min isewwihom u min i\xC4\xA1annat il-kejbils"
+    "73": "\xC4\xA6addiema fis-snajja' tal-pre\xC4\x8Bi\xC5\xBCjoni, ta' l-artigjanat, ta' l-istampar u snajja' relatati"
+    "731": "\xC4\xA6addiema tal-pre\xC4\x8Bi\xC5\xBCjoni fil-metall u \xC4\xA7addiema relatati"
+    "7311": "Min jag\xC4\xA7mel u min isewwi strumenti ta' pre\xC4\x8Bi\xC5\xBCjoni"
+    "7312": "Min jag\xC4\xA7mel l-istrumenti mu\xC5\xBCikali u min jikkordahom/jintunahom"
+    "7313": "\xC4\xA6addiema fil-qasam tal-\xC4\xA1ojjellerija u l-mettalli prezzju\xC5\xBCi"
+    "732": "Min ja\xC4\xA7dem bil-fu\xC4\xA7\xC4\xA7ar, bil-\xC4\xA7\xC4\xA1ie\xC4\xA1 u fi snajja' relatati"
+    "7321": "Min jifforma r-roti tal-brix, min ja\xC4\xA7dem fil-fu\xC4\xA7\xC4\xA7ar u \xC4\xA7addiema relatati"
+    "7322": "Min jag\xC4\xA7mel il-\xC4\xA7\xC4\xA1ie\xC4\xA1, jaqtg\xC4\xA7u, jit\xC4\xA7nu u jlestih"
+    "7323": "In\xC4\x8Bi\xC5\xBCuri u intaljaturi fil-\xC4\xA7\xC4\xA1ie\xC4\xA1"
+    "7324": "Pitturi dekorattivi tal-\xC4\xA7\xC4\xA1ie\xC4\xA1, i\xC4\x8B-\xC4\x8Beramika u pitturi relatati"
+    "733": "Arti\xC4\xA1jani ta' l-injam, it-tessuti, il-\xC4\xA1ilda u materjali relatati"
+    "7331": "Arti\xC4\xA1jani fl-injam u materjal relatati"
+    "7332": "Arti\xC4\xA1jani fit-tessuti, il-\xC4\xA1ilda u materjali relatati"
+    "734": "\xC4\xA6addiema fl-istampar u snajja' relatati"
+    "7341": "Kompo\xC5\xBCituri tat-tipa u \xC4\xA7addiema relatati"
+    "7342": Sterotipaturi u elettrotipatur
+    "7343": "In\xC4\x8Bi\xC5\xBCuri u intaljaturi fil-istampar"
+    "7344": "\xC4\xA6addiema fil-qasam tal-fotografija u oqsma relatati"
+    "7345": "Legaturi tal-kotba u \xC4\xA7addiema relatati"
+    "7346": Stampaturi silk-screen, fl-injam u l-metall, u fuq it-tessuti
+    "74": "\xC4\xA6addiema fi snajja' o\xC4\xA7ra relatati"
+    "741": "\xC4\xA6addiema fil-qasam ta' l-ippro\xC4\x8Bessar ta' l-ikel u snajja' relatati"
+    "7411": "Tal-la\xC4\xA7am, tal-\xC4\xA7ut u preparaturi ta' l-ikel relatati"
+    "7412": "Furnara u dul\xC4\x8Biera"
+    "7413": "Min jag\xC4\xA7mel il-prodotti mill-\xC4\xA7alib"
+    "7414": "Pre\xC5\xBCervaturi tal-frott, il-\xC4\xA7xejjex u o\xC4\xA7rajn"
+    "7415": Min iduq u min jikklassifika l-ikel u x-xorb
+    "7416": "Min i\xC4\xA7ejji t-tabakk u min jag\xC4\xA7mel il-prodotti tat-tabakk"
+    "742": "Min jitratta l-injam, min ja\xC4\xA7dem l-g\xC4\xA7amara u \xC4\xA7addiema fi snajja' relatati"
+    "7421": Min jittratta l-injam
+    "7422": "Min jag\xC4\xA7mel l-g\xC4\xA7amara u \xC4\xA7addiema relatati"
+    "7423": "Min jissettja l-magni g\xC4\xA7all-\xC4\xA7dim ta' l-injam u l-operaturi tal-magni ta' l-issettjar"
+    "7424": "Nissie\xC4\xA1a tal-basktijiet, min jag\xC4\xA7mel il-broxkijiet u l-pniezel u \xC4\xA7addiema relatati"
+    "743": "\xC4\xA6addiema fl-oqsma tat-tessuti, tal-\xC4\xA7wejje\xC4\xA1 u snajja' relatati"
+    "7431": Preparaturi tal-fibri
+    "7432": "Nissie\xC4\xA1a, nitters u \xC4\xA7addiema relatati"
+    "7433": "\xC4\xA6ajjata, \xC4\xA7ajjata ta' lbies in-nisa u kappelliera"
+    "7434": "\xC4\xA6addiema fil-qasam tal-fer u \xC4\xA7addiema relatati"
+    "7435": "Min ifassal u min jaqta' t-tessuti u l-\xC4\xA1ilda u \xC4\xA7addiema relatati"
+    "7436": "Min i\xC4\xA7it, min jirrakma u \xC4\xA7addiema relatati"
+    "7437": "Tappizzara u \xC4\xA7addiema relatati"
+    "744": "\xC4\xA6addiema fis-snajja' tal-\xC4\xA1lud u ta\xC5\xBC-\xC5\xBCraben"
+    "7441": "Konzaturi u negozjanti tal-\xC4\xA1lud"
+    "7442": "Skrapan u \xC4\xA7addiema relatati"
+    "81": Operaturi ta' impjanti immobbli u operaturi relatati
+    "811": "Operaturi ta' impjanti tal-minjieri u ta' l-ippro\xC4\x8B\xC4\x8Bessar tal-minerali"
+    "8111": Operaturi ta' l-impjanti tal-minjieri
+    "8112": "Operaturi ta' l-impjanti g\xC4\xA7all-ippro\xC4\x8Bessar tal-minerali mhux ma\xC4\xA7duma u tal-\xC4\xA1ebel u l-blat"
+    "8113": "\xC4\xA6affiera tal-bjar u \xC4\xA7addiema relatati"
+    "812": "Operaturi ta' impjanti g\xC4\xA7all-ippro\xC4\x8Bessar tal-metall"
+    "8121": "Operaturi ta' l-ifran g\xC4\xA7all-minerali mhux ma\xC4\xA7duma u g\xC4\xA7all-metall"
+    "8122": "Dewwieba u furmaturi tal-metall, u operaturi ta' l-imtie\xC4\xA7en ta' l-irrumblar"
+    "8123": "Operaturi ta' impjanti ta' trattament tal-metall bis-s\xC4\xA7ana"
+    "8124": "Min jag\xC4\xA7mel estrazzjoni tal-metall"
+    "813": "Operaturi ta' l-impjanti tal-\xC4\xA7\xC4\xA1ie\xC4\xA1, i\xC4\x8B-\xC4\x8Beramika u impjanti relatati"
+    "8131": "Operaturi tal-forn g\xC4\xA7all-\xC4\xA7\xC4\xA1ie\xC4\xA1 u \xC4\x8B-\xC4\x8Beramika u operaturi ta' magni relatati"
+    "8139": "Operaturi ta' impjanti g\xC4\xA7all-\xC4\xA7\xC4\xA1ie\xC4\xA1 u \xC4\x8B-\xC4\x8Beramika u operaturi ta' magni relatati li mhumiex ikklassifi..."
+    "814": "Operaturi ta' impjanti g\xC4\xA7all-ippro\xC4\x8Bessar ta' l-injam u g\xC4\xA7all-manifattura tal-karta"
+    "8141": "Operaturi ta' impjanti g\xC4\xA7all-ippro\xC4\x8Bessar ta' l-injam"
+    "8142": "Operaturi ta' impjanti g\xC4\xA7all-ippulpjat tal-karta"
+    "8143": "Operaturi ta' impjanti g\xC4\xA7all-manifattura tal-karta"
+    "815": "Operaturi ta' impjanti g\xC4\xA7all-ippro\xC4\x8Bessar tal-kimika"
+    "8151": "Operaturi ta' makkinarji g\xC4\xA7at-tifrik, it-t\xC4\xA7in u t-ta\xC4\xA7lit tal-kimika"
+    "8152": "Operaturi ta' impjanti g\xC4\xA7at-trattament bis-s\xC4\xA7ana tal-kimika"
+    "8153": "Operaturi ta' tag\xC4\xA7mir g\xC4\xA7at-tisfija u s-separazzjoni tal-kimika"
+    "8154": "Operaturi ta' distillaturi tal-kimika u reatturi (minbarra \xC5\xBC-\xC5\xBCejt u l-gass naturali)"
+    "8155": "Operaturi ta' l-impjanti tar-raffinar ta\xC5\xBC-\xC5\xBCejt u l-gass naturali"
+    "8159": "Operaturi ta' l-impjanti ta' l-ippro\xC4\x8Bessar tal-kimika li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "816": "Operaturi tal-produzzjoni ta' l-ener\xC4\xA1ija u impjanti relatati"
+    "8161": "Operaturi ta' impjanti tal-produzzjoni ta' l-ener\xC4\xA1ija"
+    "8162": "Operaturi ta' magni li ja\xC4\xA7dmu bil-fwar u bojlers"
+    "8163": "Operaturi ta' in\xC4\x8Bineraturi, impjanti tat-trattament ta' l-ilma u o\xC4\xA7rajn"
+    "817": "Operaturi ta' linji tal-munta\xC4\xA1\xC4\xA1 awtomatizzati u rowbots industrijali"
+    "8171": "Operaturi ta' linji tal-munta\xC4\xA1\xC4\xA1 awtomatizzati"
+    "8172": Operaturi ta' rowbots industrijali
+    "82": Operaturi u muntaturi ta' magni
+    "821": "Operaturi ta' magni g\xC4\xA7al prodotti mill-metalli u l-minerali"
+    "8211": "Operaturi tal-magni ta' l-g\xC4\xA7odod"
+    "8212": "Operaturi ta' magni tas-siment u prodotti minerali o\xC4\xA7ra"
+    "822": "Operaturi tal-magni tal-prodotti kimi\xC4\x8Bi"
+    "8221": "Operaturi tal-magni tal-prodotti kimi\xC4\x8Bi u tat-toiletries"
+    "8222": "Operaturi tal-magni g\xC4\xA7all-prodotti ta' munizzjon u splussiv"
+    "8223": "Operaturi tal-magni g\xC4\xA7at-tlestija u l-kisi tal-metall"
+    "8224": "Operaturi tal-magni g\xC4\xA7all-prodotti fotografi\xC4\x8Bi"
+    "8229": "Operaturi tal-magni tal-prodotti kimi\xC4\x8Bi mhux ikklassifikati x'imkien ie\xC4\xA7or"
+    "823": Operaturi tal-magni tal-prodotti tal-gomma u tal-plastik
+    "8231": Operaturi tal-magni tal-prodotti tal-gomma
+    "8232": Operaturi tal-magni tal-prodotti tal-plastik
+    "824": Operaturi tal-magni tal-prodotti ta' l-injam
+    "8240": Operaturi tal-magni tal-prodotti ta' l-injam
+    "825": "Operaturi tal-magni g\xC4\xA7all-istampar, il-legar u l-prodotti tal-karta"
+    "8251": "Operaturi tal-magni g\xC4\xA7all-istampar"
+    "8252": Operaturi tal-magni tal-legar tal-kotba
+    "8253": Operaturi tal-magni tal-prodotti tal-karta
+    "826": "Operaturi tal-magni tat-tessuti, il-fer u l-\xC4\xA1lud"
+    "8261": "Operaturi tal-magni g\xC4\xA7all-preparazzjoni, l-g\xC4\xA7a\xC5\xBCil u t-tiwi tal-fibri"
+    "8262": "Operaturi tal-magni ta' l-insi\xC4\xA1 u tan-nitting"
+    "8263": "Operaturi tal-magni tal-\xC4\xA7jata"
+    "8264": "Operaturi tal-magni g\xC4\xA7all-ibbli\xC4\x8Bjar, ta\xC5\xBC-\xC5\xBCebg\xC4\xA7a u tat-tindif tal-magni"
+    "8265": "Operaturi tal-magni g\xC4\xA7all-preparazzjoni tal-fer u l-\xC4\xA1ilda"
+    "8266": "Operaturi ta' magni li jag\xC4\xA7mlu \xC5\xBC-\xC5\xBCraben u operaturi relatati"
+    "8269": "Operaturi ta' magni g\xC4\xA7at-tessuti, il-fer u l-\xC4\xA1ilda li mhumiex ikklassifikati x'imkien ie\xC4\xA7or"
+    "827": "Operaturi ta' magni g\xC4\xA7all-ippro\xC4\x8Bessar ta' l-ikel u prodotti relatati"
+    "8271": "Operaturi ta' magni g\xC4\xA7all-ippro\xC4\x8Bessar tal-la\xC4\xA7am u tal-\xC4\xA7ut"
+    "8272": "Operaturi ta' magni g\xC4\xA7all-prodotti mill-\xC4\xA7alib"
+    "8273": "Operaturi ta' magni g\xC4\xA7at-t\xC4\xA7in tal-qmu\xC4\xA7 u l-\xC4\xA7wawar"
+    "8274": "Operaturi ta' magni g\xC4\xA7all-prodotti mo\xC4\xA7mija, ta\xC4\x8B-\xC4\x8Bereali u ta\xC4\x8B-\xC4\x8Bikkulata"
+    "8275": "Operaturi ta' magni g\xC4\xA7all-ippro\xC4\x8Bessar tal-frott, il-\xC4\xA7xejjex u l-\xC4\xA1ewz"
+    "8276": "Operaturi ta' magni g\xC4\xA7all-produzzjoni taz-zokkor"
+    "8277": "Operaturi ta' magni g\xC4\xA7all-ippro\xC4\x8Bessar tat-te, tal-kafe, u tal-kawkaw"
+    "8278": "Operaturi tal-magni tal-birreriji, ta' l-inbid u xorb ie\xC4\xA7or"
+    "8279": "Operaturi tal-magni g\xC4\xA7all-produzzjoni tat-tabakk"
+    "828": Muntaturi
+    "8281": Muntaturi tal-makkinarju mekkaniku
+    "8282": "Muntaturi ta' tag\xC4\xA7mir elettriku"
+    "8283": "Muntaturi ta' tag\xC4\xA7mir elettroniku"
+    "8284": Muntaturi ta' prodotti, tal-metall, il-gomma u l-plastik
+    "8285": Muntaturi ta' l-injam u prodotti relatati
+    "8286": Muntaturi tal-kartun, it-tessuti u prodotti relatati
+    "829": "Operaturi o\xC4\xA7ra tal-magni u muntaturi"
+    "8290": "Operaturi o\xC4\xA7ra tal-magni u muntaturi"
+    "83": Sewwieqa u operaturi ta' impjanti mobbli
+    "831": "Sewwieqa tal-lokomotivi u \xC4\xA7addiema relatati"
+    "8311": Sewwieqa tal-lokomotivi
+    "8312": "\xC4\xA6addiema fil-ferrovija (brakers, sinjaluturi u shunters)"
+    "832": Sewwieqa tal-vetturi
+    "8321": Sewwieqa tal-muturi
+    "8322": Xufiera u sewwieqa ta' karozzi, taksis u vannijiet
+    "8323": Xufiera tax-xarabank u t-tramm
+    "8324": Sewwieqa tat-trakkijiet tqal
+    "833": "Operaturi ta' impjanti mobbli agrikoli u o\xC4\xA7rajn"
+    "8331": "Operaturi ta' impjanti motorizzati g\xC4\xA7all-farms u l-forestrija"
+    "8332": "Operaturi ta' impjanti g\xC4\xA7all-qlug\xC4\xA7 ta' l-art u operaturi relatati"
+    "8333": Operaturi ta' krejnijiet u makkinarju simili u operaturi relatati
+    "8334": "Operaturi ta' trakkijiet ta' l-irfig\xC4\xA7"
+    "834": "Ekwipa\xC4\xA1\xC4\xA1 tal-vapuri (fuq il-gverta) u \xC4\xA7addiema relatati"
+    "8340": "Ekwipa\xC4\xA1\xC4\xA1 tal-vapuri (fuq il-gverta) u \xC4\xA7addiema relatati"
+    "91": "Xog\xC4\xA7lijiet elementari fil-bejg\xC4\xA7, is-servizzi u t-tindif"
+    "911": "Bejjieg\xC4\xA7a fit-triq u \xC4\xA7addiema relatati"
+    "9111": "Bejjieg\xC4\xA7a ta' l-ikel fit-triq"
+    "9112": "Bejjieg\xC4\xA7a fit-triq, prodotti li mhumiex ta' l-ikel"
+    "9113": "Bejjieg\xC4\xA7a bieb bieb u minn fuq it-telefown"
+    "912": "Tindif ta\xC5\xBC-\xC5\xBCraben u servizzi o\xC4\xA7rajn fit-triq, xog\xC4\xA7lijiet elementari"
+    "9120": "Tindif ta\xC5\xBC-\xC5\xBCraben u servizzi o\xC4\xA7ra fit-triq, xog\xC4\xA7lijiet elementari"
+    "913": "Qaddejja u \xC4\xA7assiela domesti\xC4\x8Bi u \xC4\xA7addiema relatati"
+    "9131": "Qaddejja domesti\xC4\x8Bi u \xC4\xA7assiela"
+    "9132": "Qaddejja u \xC4\xA7assiela fl-offi\xC4\x8Bini, il-lukandi u stabbilimenti o\xC4\xA7ra"
+    "9133": "\xC4\xA6assiela tal-\xC4\xA7wejje\xC4\xA1 (bl-idejn) u min jg\xC4\xA7addi l-\xC4\xA7wejje\xC4\xA1 bil-magni tal-pressa"
+    "914": "Kertejkers tal-binjiet, min inaddaf it-twieqi u \xC4\xA7addiema relatati"
+    "9141": Kertejkers tal-binjiet
+    "9142": "Min inaddaf il-vettri, it-twieqi u \xC4\xA7addiema relatati"
+    "915": "Messa\xC4\xA1\xC4\xA1iera, porters, \xC4\xA7addiema mal-bibien u \xC4\xA7addiema relatati"
+    "9151": "Messa\xC4\xA1\xC4\xA1iera, porters tal-pakketti u l-bagalji u nies li jag\xC4\xA7mlu l-kunsinni"
+    "9152": "\xC4\xA6addiema mal-bibien, g\xC4\xA7assiesa u \xC4\xA7addiema relatati"
+    "9153": "\xC4\xA6addiema li ji\xC4\xA1bru l-flus mill-magni, qarrejja ta' l-arlo\xC4\xA1\xC4\xA1 tad-dawl u \xC4\xA7addiema relatati"
+    "916": "Min ji\xC4\xA1bor l-iskart u \xC4\xA7addiema relatati"
+    "9161": "Min ji\xC4\xA1bor l-iskart"
+    "9162": "Kenniesa u \xC4\xA7addiema relatati"
+    "92": "\xC4\xA6addiema fl-agrikoltura, is-sajd u \xC4\xA7addiema relatati"
+    "921": "\xC4\xA6addiema fl-agrikoltura, is-sajd u \xC4\xA7addiema relatati"
+    "9211": "\xC4\xA6addiema li jg\xC4\xA7inu fil-farms"
+    "9212": "\xC4\xA6addiema tal-forestrija"
+    "9213": "\xC4\xA6addiema fl-oqsma tas-sajd, il-ka\xC4\x8B\xC4\x8Ba u l-insib"
+    "93": "\xC4\xA6addiema fil-qasam tal-minjieri, il-bini, il-manifattura u t-trasport"
+    "931": "\xC4\xA6addiema fil-minjieri u l-bini"
+    "9311": "\xC4\xA6addiema fil-mijieri u l-barrieri"
+    "9312": "\xC4\xA6addiema fil-bini u l-manutenzjoni ta' toroq, digi u kostruzzjonijiet simili"
+    "9313": "\xC4\xA6addiema fil-bini"
+    "932": "\xC4\xA6addiema fil-manifattura"
+    "9321": "\xC4\xA6addiema fl-assembla\xC4\xA1\xC4\xA1"
+    "9322": "Min jippakkja bl-idejn u \xC4\xA7addiema relatati o\xC4\xA7ra"
+    "933": "\xC4\xA6addiema fit-trasport u burdnara"
+    "9331": Sewwieqa ta' vetturi li jitmexxew bl-idejn jew bil-pedali
+    "9332": "Sewwieqa ta' vetturi jew makkinarju mi\xC4\xA1buda mill-annimali"
+    "9333": Burdnara

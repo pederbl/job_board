@@ -1,0 +1,18 @@
+hu:
+  about: Rólunk
+  choose: ~
+  description: Leírás
+  email: E-mail
+  fax: Fax
+  feedback: Visszajelzés
+  i18n:
+    language:
+      name: Magyar
+  maximum: Maximális
+  minimum: Minimális
+  phone: Telefon
+  postal_address: "Levelezési cím"
+  terms: "Felhasználási feltételek"
+  type: Típus
+  visit_address: "Látogasson el a címet"
+  website: Weboldal

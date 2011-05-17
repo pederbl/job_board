@@ -1,0 +1,7 @@
+sv:
+  home:
+    index:
+      find_jobs: "Hitta jobb"
+      highest_paid_jobs: "Högsta betalda jobb"
+      job_openings: "lediga jobb"
+      most_shared_jobs: "Mest delade jobb (via Facebook, Twitter, LinkedIn)"

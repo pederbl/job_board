@@ -1,0 +1,7 @@
+it:
+  home:
+    index:
+      find_jobs: "Trova lavoro"
+      highest_paid_jobs: "Più pagati Jobs"
+      job_openings: "Offerte di lavoro"
+      most_shared_jobs: "La maggior parte delle offerte di lavoro in comune"

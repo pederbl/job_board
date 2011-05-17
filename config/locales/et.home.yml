@@ -1,0 +1,7 @@
+et:
+  home:
+    index:
+      find_jobs: "Leida tööd"
+      highest_paid_jobs: "Kõrgeim tasustatud töökohti"
+      job_openings: töökoha
+      most_shared_jobs: "Enamik Shared Tööpakkumised"

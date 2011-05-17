@@ -1,0 +1,532 @@
+--- 
+fr: 
+  isco_code: 
+    "11": "L\xC3\xA9gislateurs et hauts fonctionnaires"
+    "111": "Membres de ex\xC3\xA9cutif et des corps l\xC3\xA9gislatifs"
+    "1120": "Cadres sup\xC3\xA9rieurs de l'administration publique"
+    "113": Chefs traditionnels et chefs de village
+    "1130": Chefs traditionnels et chefs de village
+    "114": "Dirigeants et cadres sup\xC3\xA9rieurs d'organisations specialisees"
+    "1141": "Dirigeants et cadres sup\xC3\xA9rieurs de partis politiques"
+    "1142": "Dirigeants et cadres sup\xC3\xA9rieurs d'organisations d'employeurs et de travailleurs et d'autres organisa..."
+    "1143": "Dirigeants et cadres sup\xC3\xA9rieurs d'organisations humanitaires et d'autres organisations sp\xC3\xA9cialises"
+    "12": "Cadres sup\xC3\xA9rieurs"
+    "121": Directeurs
+    "1210": Directeurs
+    "122": Cadres de direction, production et operations
+    "1221": "Cadres de direction, agriculture, chasse, sylviculture et p\xC3\xAAche"
+    "1222": "Cadres de direction, industries manufacturi\xC3\xA8res"
+    "1223": "Cadres de direction, b\xC3\xA2timent et travaux publics"
+    "1224": "Cadres de direction. commerce de gros et de d\xC3\xA9tail"
+    "1225": "Cadres de direction, restauration et h\xC3\xB4tellerie"
+    "1226": Cadres de direction, transports, entreposage et communications
+    "1227": "Cadres de direction, entreprises d'interm\xC3\xA9diation et de service aux entreprises"
+    "1228": Cadres de direction, services de soins personnels, de nettoyage et services similaires
+    "1229": "Cadres de direction non class\xC3\xA9s ailleurs"
+    "123": Autres cadres de direction
+    "1231": Cadres de direction, services administratifs et financiers
+    "1232": Cadres de direction, personnel et relations professionnelles
+    "1233": Cadres de direction, ventes et commercialisation
+    "1234": "Cadres de direction, publicit\xC3\xA9 et relations publiques"
+    "1235": Cadres de direction, achats et distribution
+    "1236": Cadres de direction, services informatiques
+    "1237": "Cadres de direction, recherche-d\xC3\xA9veloppement"
+    "1239": "Autres cadres de direction non class\xC3\xA9s ailleurs"
+    "13": "Directeurs g\xC3\xA9n\xC3\xA9raux"
+    "131": "Dirigeants et g\xC3\xA9rants"
+    "1311": "Dirigeants et g\xC3\xA9rants dans l'agriculture, la chasse, la sylviculture et la p\xC3\xAAche"
+    "1312": "Dirigeants et g\xC3\xA9rants dans les industries manufacturi\xC3\xA8res"
+    "1313": "Dirigeants et g\xC3\xA9rants dans le b\xC3\xA2timent et les travaux publics"
+    "1314": "Dirigeants et g\xC3\xA9rants dans le commerce de gros et de d\xC3\xA9tail"
+    "1315": "Dirigeants et g\xC3\xA9rants dans la restauration et l'h\xC3\xB4tellerie"
+    "1316": "Dirigeants et g\xC3\xA9rants dans les transports, l'entreposage et les communications"
+    "1317": "Dirigeants et g\xC3\xA9rants d'entreprises d'interm\xC3\xA9diation et de service aux entreprises"
+    "1318": "Dirigeants et g\xC3\xA9rants de services de soins personnels, de nettoyage et de services similaires"
+    "1319": "Dirigeants et g\xC3\xA9rants non class\xC3\xA9s ailleurs"
+    "21": "Sp\xC3\xA9cialistes de l'informatique, de l'ing\xC3\xA9nierie et de la science"
+    "211": "Physiciens, chimistes et assimil\xC3\xA9s"
+    "2111": Physiciens et astronomes
+    "2112": "M\xC3\xA9t\xC3\xA9orologues"
+    "2113": Chimistes
+    "2114": "G\xC3\xA9ologues et g\xC3\xA9ophysiciens"
+    "212": "Math\xC3\xA9maticiens, statisticiens et assimil\xC3\xA9s"
+    "2121": "Math\xC3\xA9maticiens et assimil\xC3\xA9s"
+    "2122": Statisticiens
+    "213": "Sp\xC3\xA9cialistes de l'informatique"
+    "2131": "Concepteurs et analystes de syst\xC3\xA8mes informatiques"
+    "2132": Programmeurs
+    "2139": "Sp\xC3\xA9cialistes de l'informatique non class\xC3\xA9s ailleurs"
+    "214": "Architectes, ing\xC3\xA9nieurs et assimil\xC3\xA9s"
+    "2141": "Architectes, urbanistes et ing\xC3\xA9nieurs de la circulation routi\xC3\xA8re"
+    "2142": "Ing\xC3\xA9nieurs civils"
+    "2143": "Ing\xC3\xA9nieurs \xC3\xA9lectriciens"
+    "2144": "Ing\xC3\xA9nieurs \xC3\xA9lectroniciens et des t\xC3\xA9l\xC3\xA9communications"
+    "2145": "Ing\xC3\xA9nieurs m\xC3\xA9caniciens"
+    "2146": "Ing\xC3\xA9nieurs chimistes"
+    "2147": "Ing\xC3\xA9nieurs des mines, ing\xC3\xA9nieurs m\xC3\xA9tallurgistes et assimil\xC3\xA9s"
+    "2148": "Cartographes et g\xC3\xA9om\xC3\xA8tres"
+    "2149": "Architectes, ing\xC3\xA9nieurs et assimil\xC3\xA9s, non class\xC3\xA9s ailleurs"
+    "22": "Sp\xC3\xA9cialistes de la sant\xC3\xA9 et des sciences de la vie"
+    "221": "Sp\xC3\xA9cialistes des sciences de la vie"
+    "2211": "Biologistes, botanistes, zoologistes et assimil\xC3\xA9s"
+    "2212": "Pharmacologistes, pathologistes et assimil\xC3\xA9s"
+    "2213": "Agronomes et assimil\xC3\xA9s"
+    "222": "M\xC3\xA9decins et assimil\xC3\xA9s (a l'exception des cadres infirmiers)"
+    "2221": "M\xC3\xA9decins"
+    "2222": Dentistes
+    "2223": "V\xC3\xA9t\xC3\xA9rinaires"
+    "2224": Pharmaciens
+    "2229": "M\xC3\xA9decins et assimil\xC3\xA9s (\xC3\xA0 l'exception des cadres infirmiers) non class\xC3\xA9s ailleurs"
+    "223": Cadres infirmiers et sages-femmes
+    "2230": Cadres infirmiers et sages-femmes
+    "23": "Sp\xC3\xA9cialistes de l'enseignement"
+    "231": "Professeurs d'universit\xC3\xA9 et d'\xC3\xA9tablissements d'enseignement sup\xC3\xA9rieur"
+    "2310": "Professeurs d'universit\xC3\xA9 et d'\xC3\xA9tablissements d'enseignement sup\xC3\xA9rieur"
+    "232": Professeurs de l'enseignement secondaire
+    "2320": Professeurs de l'enseignement secondaire
+    "233": "Instituteurs de l'enseignement primaire et pr\xC3\xA9primaire"
+    "2331": Instituteurs de l'enseignement primaire
+    "2332": "Instituteurs de l'enseignement pr\xC3\xA9 primaire"
+    "234": "Enseignants sp\xC3\xA9cialis\xC3\xA9s dans l'\xC3\xA9ducation des handicap\xC3\xA9s"
+    "2340": "Enseignants sp\xC3\xA9cialis\xC3\xA9s dans l'\xC3\xA9ducation des handicap\xC3\xA9s"
+    "235": "Autres sp\xC3\xA9cialistes de l'enseignement"
+    "2351": "Sp\xC3\xA9cialistes des m\xC3\xA9thodes d'enseignement"
+    "2352": Inspecteurs de !'enseignement
+    "2359": "Autres sp\xC3\xA9cialistes de l'enseignement, non class\xC3\xA9s ailleurs"
+    "24": "Sp\xC3\xA9cialistes de la comptabilit\xC3\xA9, des sciences juridiques et sociales et des arts"
+    "241": "Sp\xC3\xA9cialistes des fonctions administratives et commerciales des entreprises"
+    "2411": Cadres comptables
+    "2412": "Sp\xC3\xA9cialistes des probl\xC3\xA8mes de personnel et de d\xC3\xA9veloppement de carri\xC3\xA8re"
+    "2419": "Sp\xC3\xA9cialistes des fonctions administratives et commerciales des entreprises non class\xC3\xA9s ailleurs"
+    "242": Juristes
+    "2421": Avocats
+    "2422": Magistrats
+    "2429": "Juristes non class\xC3\xA9s ailleurs"
+    "243": "Archivistes, biblioth\xC3\xA9caires, documentalistes et assimil\xC3\xA9s"
+    "2431": "Archivistes pal\xC3\xA9ographes et conservateurs de mus\xC3\xA9e"
+    "2432": "Biblioth\xC3\xA9caires, documentalistes et assimil\xC3\xA9s"
+    "244": "Sp\xC3\xA9cialistes des sciences sociales el humaines"
+    "2441": Economistes
+    "2442": "Sociologues. anthropologues et assimil\xC3\xA9s"
+    "2443": "Philosophes, historiens et sp\xC3\xA9cialistes des sciences politiques"
+    "2444": "Linguistes, traducteurs et interpr\xC3\xA8tes"
+    "2445": Psychologues
+    "2446": "Sp\xC3\xA9cialistes du travail social"
+    "245": "\xC3\x89crivains et artistes cr\xC3\xA9ateurs el ex\xC3\xA9cutants"
+    "2451": "Auteurs, journalistes et autres \xC3\xA9crivains"
+    "2452": "Sculpteurs, peintres et assimil\xC3\xA9s"
+    "2453": Compositeurs, musiciens et chanteurs
+    "2454": "Chor\xC3\xA9graphes et danseurs"
+    "2455": "Acteurs et metteurs en sc\xC3\xA8ne de cin\xC3\xA9ma. de th\xC3\xA9\xC3\xA2tre et d'autres spectacles"
+    "246": "Membres du clerg\xC3\xA9"
+    "2460": "Membres du clerg\xC3\xA9"
+    "31": "Travailleurs de l'informatique, de l'ing\xC3\xA9nierie et de la science"
+    "311": Techniciens des sciences physiques et techniques
+    "3111": Techniciens des sciences chimiques et physiques
+    "3112": "Techniciens du g\xC3\xA9nie civil"
+    "3113": "Techniciens en \xC3\xA9lectricit\xC3\xA9"
+    "3114": "Techniciens en \xC3\xA9lectronique et en t\xC3\xA9l\xC3\xA9communications"
+    "3115": "Techniciens en construction m\xC3\xA9canique"
+    "3116": Techniciens en chimie industrielle
+    "3117": "Techniciens des mines, techniciens m\xC3\xA9tallurgistes"
+    "3118": Dessinateurs industriels
+    "3119": "Techniciens des sciences physiques et techniques non class\xC3\xA9s ailleurs"
+    "312": "Pupitreurs et autres op\xC3\xA9rateurs de mat\xC3\xA9riels informatiques"
+    "3121": Assistants informaticiens
+    "3122": "Techniciens de mat\xC3\xA9riels informatiques"
+    "3123": Techniciens de robots industriels
+    "313": "Techniciens d'appareils optiques et \xC3\xA9lectroniques"
+    "3131": Photographes et techniciens d'appareils enregistreurs d'images et de son
+    "3132": "Techniciens de mat\xC3\xA9riels d'\xC3\xA9missions de radio, de t\xC3\xA9l\xC3\xA9vision et de t\xC3\xA9l\xC3\xA9communications"
+    "3133": "Techniciens d'appareils \xC3\xA9lectrom\xC3\xA9dicaux"
+    "3139": "Techniciens d'appareils optiques et \xC3\xA9lectroniques non class\xC3\xA9s ailleurs"
+    "314": "Techniciens des moyens de transport maritime et a\xC3\xA9rien"
+    "3141": "Officiers m\xC3\xA9caniciens de navires"
+    "3142": Officiers de pont et pilotes
+    "3143": "Pilotes d'avions et assimil\xC3\xA9s"
+    "3144": "Contr\xC3\xB4leurs de la circulation a\xC3\xA9rienne"
+    "3145": "Techniciens de la s\xC3\xA9curit\xC3\xA9 a\xC3\xA9rienne"
+    "315": "Inspecteurs d'immeubles, de s\xC3\xA9curit\xC3\xA9, d'hygiene et de qualit\xC3\xA9"
+    "3151": "Inspecteurs de s\xC3\xA9curit\xC3\xA9 incendie et d'immeubles"
+    "3152": "Inspecteurs de s\xC3\xA9curit\xC3\xA9 et d'hygi\xC3\xA8ne et contr\xC3\xB4leurs de qualit\xC3\xA9"
+    "32": "Travailleurs de la sant\xC3\xA9 et des sciences de la vie"
+    "321": "Techniciens et travailleurs assimil\xC3\xA9s des sciences de la vie et de la sant\xC3\xA9"
+    "3211": Techniciens des sciences de la vie
+    "3212": Techniciens agronomes et forestiers
+    "3213": Conseillers agricoles et forestiers
+    "322": "Professions interm\xC3\xA9diaires de la m\xC3\xA9decine moderne (a l'exception du personnel infirmier)"
+    "3221": "Assistants m\xC3\xA9dicaux"
+    "3222": "Hygi\xC3\xA9nistes"
+    "3223": "Di\xC3\xA9t\xC3\xA9ticiens et sp\xC3\xA9cialistes de la nutrition"
+    "3224": "Optom\xC3\xA9triciens et opticiens"
+    "3225": "Assistants de m\xC3\xA9decine dentaire"
+    "3226": "Kin\xC3\xA9sith\xC3\xA9rapeutes et assimil\xC3\xA9s"
+    "3227": "Assistants v\xC3\xA9t\xC3\xA9rinaires"
+    "3228": "Assistants pharmaciens et pr\xC3\xA9parateurs en pharmacie"
+    "3229": "Professions interm\xC3\xA9diaires de la m\xC3\xA9decine moderne (\xC3\xA0 l'exception du personnel infirmier) non class\xC3\xA9e..."
+    "323": "Personnel infirmier et sages-femmes (niveau interm\xC3\xA9diaire)"
+    "3231": "Personnel infirmier (niveau interm\xC3\xA9diaire)"
+    "3232": "Sages-femmes (niveau interm\xC3\xA9diaire)"
+    "324": "Praticiens de la medecine traditionnelle et gu\xC3\xA9risseurs"
+    "3241": "Praticiens de la m\xC3\xA9decine traditionnelle"
+    "3242": "Gu\xC3\xA9risseurs"
+    "33": "Professions interm\xC3\xA9diaires de l'enseignement"
+    "331": "Professions interm\xC3\xA9diaires de l'enseignement primaire"
+    "3310": "Professions interm\xC3\xA9diaires de l'enseignement primaire"
+    "332": "Professions interm\xC3\xA9diaires de l'enseignement pr\xC3\xA9primaire"
+    "3320": "Professions interm\xC3\xA9diaires de l'enseignement pr\xC3\xA9 primaire"
+    "333": "Professions interm\xC3\xA9diaires de l'\xC3\xA9ducation des handicap\xC3\xA9s"
+    "3330": "Professions interm\xC3\xA9diaires de l'\xC3\xA9ducation des handicap\xC3\xA9s"
+    "334": "Autres professions interm\xC3\xA9diaires de l'enseignement"
+    "3340": "Autres professions interm\xC3\xA9diaires de l'enseignement"
+    "34": "Professions interm\xC3\xA9diaires des finances, de la vente et de l'administration"
+    "341": Professions intermediaires des flnances et de la vente
+    "3411": Courtiers en valeurs et cambistes
+    "3412": Agents d'assurances
+    "3413": Agents immobiliers
+    "3414": Agents de voyages
+    "3415": Agents commerciaux et agents commerciaux techniciens
+    "3416": Acheteurs
+    "3417": "Estimateurs, experts en \xC3\xA9valuation et vendeurs aux ench\xC3\xA8res"
+    "3419": "Professions interm\xC3\xA9diaires des finances et de la vente non class\xC3\xA9es ailleurs"
+    "342": Agents commerciaux et courtiers
+    "3421": Courtiers en marchandises
+    "3422": Agents concessionnaires
+    "3423": "Agents d'\xC3\xA9tablissement de contrats d'emploi et de recrutement de main-d'oeuvre"
+    "3429": "Agents commerciaux et courtiers non class\xC3\xA9s ailleurs"
+    "343": "Professions interm\xC3\xA9diaires de la gestion administrative"
+    "3431": "Secr\xC3\xA9taires d'administration et professions interm\xC3\xA9diaires assimil\xC3\xA9es de la gestion administrative"
+    "3432": "Professions juridiques interm\xC3\xA9diaires et interm\xC3\xA9diaires assimil\xC3\xA9s des fonctions administratives et c..."
+    "3433": Comptables
+    "3434": "Professions interm\xC3\xA9diaires de la statistique et des math\xC3\xA9matiques, et assimil\xC3\xA9es"
+    "3439": "Professions interm\xC3\xA9diaires de la gestion administrative non class\xC3\xA9es ailleurs"
+    "344": "Professions interm\xC3\xA9diaires de l'administration publioue des douanes et des impots, et assimil\xC3\xA9es"
+    "3441": "Inspecteurs des douanes et des fronti\xC3\xA8res"
+    "3442": "Contr\xC3\xB4leurs des imp\xC3\xB4ts"
+    "3443": Agents des services publics accordant des prestations sociales
+    "3444": Agents des services publics accordant des permis et des licences
+    "3449": "Professions interm\xC3\xA9diaires de l'administration publique des douanes et des imp\xC3\xB4ts, et assimil\xC3\xA9es, no..."
+    "345": "Inspecteurs de la police judiciaire et d\xC3\xA9tectives"
+    "3450": "Inspecteurs de la police judiciaire et d\xC3\xA9tectives"
+    "346": "Professions interm\xC3\xA9diaires du travail social"
+    "3460": "Professions interm\xC3\xA9diaires du travail social"
+    "347": "Professions interm\xC3\xA9diaires de la cr\xC3\xA9ation artistique, du spectacle et du sport"
+    "3471": "D\xC3\xA9corateurs et dessinateurs mod\xC3\xA9listes de produits industriels et commerciaux"
+    "3472": "Annonceurs-pr\xC3\xA9sentateurs de radio, de t\xC3\xA9l\xC3\xA9vision et de spectacles"
+    "3473": "Musiciens, chanteurs et danseurs de rue, de bo\xC3\xAEte de nuit et assimil\xC3\xA9s"
+    "3474": "Clowns, magiciens, acrobates et assimil\xC3\xA9s"
+    "3475": "Athl\xC3\xA8tes, sportifs et assimil\xC3\xA9s"
+    "348": Assistants laics des cultes
+    "3480": "Assistants la\xC3\xAFcs des cultes"
+    "41": Personnel de bureau
+    "411": "Secr\xC3\xA9taires et op\xC3\xA9rateurs sur clavier"
+    "4111": "St\xC3\xA9nographes et dactylographes"
+    "4112": "Op\xC3\xA9rateurs de traitement de texte et assimil\xC3\xA9s"
+    "4113": "Op\xC3\xA9rateurs de saisie de donn\xC3\xA9es"
+    "4114": "Op\xC3\xA9rateurs sur machines \xC3\xA0 calculer"
+    "4115": "Secr\xC3\xA9taires"
+    "412": "Employ\xC3\xA9s des services comptables et financiers"
+    "4121": Teneurs de livres
+    "4122": "Employ\xC3\xA9s de service statistique ou financier"
+    "413": "Employ\xC3\xA9s d'approvisionnement, d'ordonnancement et des transports"
+    "4131": "Employ\xC3\xA9s du service des stocks"
+    "4132": "Employ\xC3\xA9s du service d'ordonnancement de la production"
+    "4133": "Employ\xC3\xA9s du service des transports"
+    "414": "Employ\xC3\xA9s de bibliotheque, de service du courrier et assimil\xC3\xA9s"
+    "4141": "Employ\xC3\xA9s de biblioth\xC3\xA8que et classeurs-archivistes"
+    "4142": "Employ\xC3\xA9s de service du courrier"
+    "4143": "Codeurs, correcteurs d'\xC3\xA9preuves et assimil\xC3\xA9s"
+    "4144": "Ecrivains publics et assimil\xC3\xA9s"
+    "419": "Autres employ\xC3\xA9s de bureau"
+    "4190": "Autres employ\xC3\xA9s de bureau"
+    "42": "Personnel des services \xC3\xA0 la client\xC3\xA8le"
+    "421": "Caissiers, guichetiers et assimil\xC3\xA9s"
+    "4211": Caissiers et billettistes
+    "4212": Guichetiers de banque et autres guichetiers
+    "4213": "Croupiers et assimil\xC3\xA9s"
+    "4214": "Pr\xC3\xAAteurs sur gages et bailleurs de fonds"
+    "4215": "Encaisseurs et assimil\xC3\xA9s"
+    "422": "Employ\xC3\xA9s de r\xC3\xA9ception et d'informatlon de la clientele"
+    "4221": "Employ\xC3\xA9s d'agence de voyages"
+    "4222": "R\xC3\xA9ceptionnistes et employ\xC3\xA9s d'information"
+    "4223": "T\xC3\xA9l\xC3\xA9phonistes-standardistes"
+    "51": Personnel horeca et des services personnels
+    "511": "Agents d'accompagnement et assimil\xC3\xA9s"
+    "5111": Agents d'accueil de voyage et stewards
+    "5112": "Contr\xC3\xB4leurs et receveurs de transports publics"
+    "5113": Guides
+    "512": Intendants et personnel des services de restauration
+    "5121": "Economes (collectivit\xC3\xA9s), intendants et gouvernantes"
+    "5122": Cuisiniers
+    "5123": Serveurs et barmen
+    "513": "Personnel soignant et assimil\xC3\xA9"
+    "5131": Gardes d'enfants
+    "5132": Aides-soignants en institution
+    "5133": "Aides-soignants \xC3\xA0 domicile"
+    "5139": "Personnel soignant et assimil\xC3\xA9, non class\xC3\xA9 ailleurs"
+    "514": Autre personnel des services directs aux particuliers
+    "5141": "Coiffeurs, sp\xC3\xA9cialistes des soins de beaut\xC3\xA9 et assimiles"
+    "5142": Personnel de compagnie et valets de chambre
+    "5143": "Agents de pompes fun\xC3\xA8bres et embaumeurs"
+    "5149": "Autre personnel des services directs aux particuliers, non class\xC3\xA9 ailleurs"
+    "515": Astrologuesi diseurs de bonne aventure et assimiles
+    "5151": "Astrologues et assimil\xC3\xA9s"
+    "5152": "Diseurs de bonne aventure, chiromanciens et assimil\xC3\xA9s"
+    "516": "Personnel des services de protection et de s\xC3\xA9curit\xC3\xA9"
+    "5161": Pompiers
+    "5162": Agents de police
+    "5163": Gardiens de prison
+    "5169": "Personnel des services de protection et de s\xC3\xA9curit\xC3\xA9, non class\xC3\xA9 ailleurs"
+    "52": Vendeurs et travailleurs de la mode
+    "521": Manneouins et autres modeles
+    "5210": "Mannequins et autres mod\xC3\xA8les"
+    "522": "Vendeurs et d\xC3\xA9monstrateurs en magasin"
+    "5220": "Vendeurs et d\xC3\xA9monstrateurs en magasin"
+    "523": "Vendeurs a l'\xC3\xA9tal et sur les march\xC3\xA9s"
+    "5230": "Vendeurs \xC3\xA0 l'\xC3\xA9tal et sur les march\xC3\xA9s"
+    "61": "Travailleurs qualifi\xC3\xA9s de l'agriculture, de la p\xC3\xAAche et de la sylviculture"
+    "611": "Agriculteurs et ouvriers qualifi\xC3\xA9s des cultures destin\xC3\xA9es aux march\xC3\xA9s"
+    "6111": "Agriculteurs et ouvriers qualifi\xC3\xA9s des cultures de plein champ et mara\xC3\xAEch\xC3\xA8res"
+    "6112": "Arboriculteurs et ouvriers qualifi\xC3\xA9s de l'arboriculture"
+    "6113": "Agriculteurs et ouvriers qualifi\xC3\xA9s de l'horticulture et des p\xC3\xA9pini\xC3\xA8res"
+    "6114": "Agriculteurs et ouvriers qualifi\xC3\xA9s des cultures mixtes"
+    "612": "\xC3\x89leveurs et ouvriers oualifi\xC3\xA9s de l'\xC3\xA9levage destine aux march\xC3\xA9s et assimil\xC3\xA9s"
+    "6121": "Eleveurs et ouvriers qualifi\xC3\xA9s de l'\xC3\xA9levage de b\xC3\xA9tail et d'autres animaux domestiques, et de la prod..."
+    "6122": "Aviculteurs et ouvriers qualifi\xC3\xA9s de l'aviculture"
+    "6123": "Apiculteurs, s\xC3\xA9riciculteurs et ouvriers qualifi\xC3\xA9s de l'apiculture et de la s\xC3\xA9riciculture"
+    "6124": "Eleveurs et ouvriers qualifi\xC3\xA9s de l'\xC3\xA9levage diversifi\xC3\xA9"
+    "6129": "Eleveurs et ouvriers qualifi\xC3\xA9s de l'\xC3\xA9levage destin\xC3\xA9 aux march\xC3\xA9s et assimil\xC3\xA9s, non class\xC3\xA9s ailleurs"
+    "613": "Agriculteurs et ouvriers oualifies de polyculture et d'\xC3\xA9levage destin\xC3\xA9s aux march\xC3\xA9s"
+    "6130": "Agriculteurs et ouvriers qualifi\xC3\xA9s de polyculture et d'\xC3\xA9levage destin\xC3\xA9s aux march\xC3\xA9s"
+    "614": Professions du forestage et assimilees
+    "6141": Exploitants et ouvriers forestiers
+    "6142": "Charbonniers en charbon de bois et ouvriers assimil\xC3\xA9s"
+    "615": Pecheurs, chasseurs et trappeurs
+    "6151": Aquaculteurs et ouvriers de l'aquaculture
+    "6152": "P\xC3\xAAcheurs de la p\xC3\xAAche c\xC3\xB4ti\xC3\xA8re et en eaux int\xC3\xA9rieures"
+    "6153": "P\xC3\xAAcheurs de la p\xC3\xAAche en haute mer"
+    "6154": Chasseurs et trappeurs
+    "62": "Travailleurs de l'agriculture et de la p\xC3\xAAche de subsistance"
+    "621": Agriculteurs et ouvriers de l'agriculture et de la peche de subsistance
+    "6210": "Agriculteurs et ouvriers de l'agriculture et de la p\xC3\xAAche de subsistance"
+    "71": "Travailleurs de la construction, des mines et des carri\xC3\xA8res"
+    "711": Mineurs, carriers, boutefeux et tailleurs de pierre
+    "7111": Mineurs et carriers
+    "7112": Boutefeux
+    "7113": Fendeurs et tailleurs de pierre, ciseleurs
+    "712": "Ouvriers du batiment (gros oeuvre) et assimil\xC3\xA9s"
+    "7121": "Constructeurs utilisant des techniques et mat\xC3\xA9riaux traditionnels"
+    "7122": "Ma\xC3\xA7ons"
+    "7123": "Constructeurs en b\xC3\xA9ton arm\xC3\xA9, ma\xC3\xA7ons ragr\xC3\xA9eurs et assimil\xC3\xA9s"
+    "7124": "Charpentiers en bois et menuisiers du b\xC3\xA2timent"
+    "7129": "Ouvriers du b\xC3\xA2timent (gros oeuvre) et assimil\xC3\xA9s non class\xC3\xA9s ailleurs"
+    "713": Ouvriers du batiment (finitions) et assimiles
+    "7131": Couvreurs et zingueurs
+    "7132": "Poseurs de rev\xC3\xAAtements de sol et carreleurs"
+    "7133": "Pl\xC3\xA2triers"
+    "7134": Monteurs en isolation thermique et acoustique
+    "7135": Vitriers
+    "7136": Plombiers et tuyauteurs
+    "7137": "Electriciens du b\xC3\xA2timent et assimil\xC3\xA9s"
+    "714": "Ouvriers peintres, ravaleurs de fa\xC3\xA7ades et assimil\xC3\xA9s"
+    "7141": "Peintres en b\xC3\xA2timent et poseurs de papiers peints"
+    "7142": "Laqueurs. vernisseurs et assimil\xC3\xA9s"
+    "7143": "Ravaleurs de fa\xC3\xA7ades et ramoneurs"
+    "72": "Travailleurs de la m\xC3\xA9tallurgie, de la construction et de l'\xC3\xA9lectronique"
+    "721": "Mouleurs de fonderie, soudeurs, toliers-chaudronniers, monteurs de charpentes m\xC3\xA9talliques et assimil..."
+    "7211": Mouleurs et noyauteurs de fonderie
+    "7212": Soudeurs et oxycoupeurs
+    "7213": Toliers-chaudronniers
+    "7214": "Charpentiers m\xC3\xA9talliers et monteurs de charpentes m\xC3\xA9talliques"
+    "7215": "Gr\xC3\xA9eurs et \xC3\xA9pisseurs de c\xC3\xA2bles"
+    "7216": Scaphandriers et hommes-grenouilles
+    "722": "Forgerons, outilleurs et assimil\xC3\xA9s"
+    "7221": "Forgerons, estampeurs et conducteurs de presses \xC3\xA0 forger"
+    "7222": "Outilleurs et assimil\xC3\xA9s"
+    "7223": "R\xC3\xA9gleurs et r\xC3\xA9gleurs-conducteurs de machines-outils"
+    "7224": "Meuleurs, polisseurs et aff\xC3\xBBteurs"
+    "723": Mecaniciens et ajusteurs de machines
+    "7231": "M\xC3\xA9caniciens et ajusteurs de v\xC3\xA9hicules \xC3\xA0 moteur"
+    "7232": "M\xC3\xA9caniciens et ajusteurs de moteurs d'avion"
+    "7233": "M\xC3\xA9caniciens et ajusteurs de machines agricoles et industrielles"
+    "724": "M\xC3\xA9caniciens et ajusteurs d'appareils electriques et \xC3\xA9lectroniques"
+    "7241": "M\xC3\xA9caniciens et ajusteurs d'appareils \xC3\xA9lectriques"
+    "7242": "Ajusteurs d'appareils \xC3\xA9lectroniques"
+    "7243": "M\xC3\xA9caniciens et r\xC3\xA9parateurs d'appareils \xC3\xA9lectroniques"
+    "7244": "Monteurs et r\xC3\xA9parateurs d'installations t\xC3\xA9l\xC3\xA9graphiques et t\xC3\xA9l\xC3\xA9phoniques"
+    "7245": "Monteurs et r\xC3\xA9parateurs de lignes \xC3\xA9lectriques"
+    "73": "Travailleurs de la m\xC3\xA9canique de pr\xC3\xA9cision, des m\xC3\xA9tiers d'art, de l'imprimerie"
+    "731": "M\xC3\xA9caniciens de pr\xC3\xA9cision sur metaux et mat\xC3\xA9riaux similaires"
+    "7311": "M\xC3\xA9caniciens-r\xC3\xA9parateurs d'instruments de pr\xC3\xA9cision"
+    "7312": Facteurs et accordeurs d'instruments de musique
+    "7313": "Joailliers et orf\xC3\xA8vres"
+    "732": Potiers, souffleurs de verre et assimiles
+    "7321": "Potiers et assimil\xC3\xA9s (produits c\xC3\xA9ramiques et abrasifs)"
+    "7322": Souffleurs, mouleurs, tailleurs, meuleurs et polisseurs de verre
+    "7323": Graveurs sur verre
+    "7324": "Peintres-d\xC3\xA9corateurs sur verre et c\xC3\xA9ramique. et assimil\xC3\xA9s"
+    "733": "Ouvriers des m\xC3\xA9tiers d'artisanat sur bois, sur textile, sur cuir et sur des materiaux similaires"
+    "7331": "Ouvriers des m\xC3\xA9tiers d'artisanat sur bois et sur des materiaux similaires"
+    "7332": "Ouvriers des m\xC3\xA9tiers d'artisanat sur textile, sur cuir et sur des mat\xC3\xA9riaux similaires"
+    "734": Artisans et ouvriers de l'imprimerie et assimiles
+    "7341": "Compositeurs typographes et assimil\xC3\xA9s"
+    "7342": "St\xC3\xA9r\xC3\xA9otypeurs et clicheurs-galvanoplastes"
+    "7343": Graveurs d'imprimerie et photograveurs
+    "7344": "Personnel de la photographie et assimil\xC3\xA9s"
+    "7345": "Relieurs et assimil\xC3\xA9s"
+    "7346": "Imprimeurs serigraphes, \xC3\xA0 la planche et sur textile"
+    "74": Artisans
+    "741": Artisans et ouvriers de l'alimentation et assimiles
+    "7411": "Bouchers, poissonniers et assimil\xC3\xA9s"
+    "7412": "Boulangers, p\xC3\xA2tissiers et confiseurs"
+    "7413": Ouvriers de la fabrication des produits laitiers
+    "7414": "Ouvriers de la conserverie de fruits, de l\xC3\xA9gumes et assimil\xC3\xA9s"
+    "7415": "D\xC3\xA9gustateurs et classeurs de denr\xC3\xA9es alimentaires et de boissons"
+    "7416": "Ouvriers de la pr\xC3\xA9paration du tabac et de la fabrication des produits du tabac"
+    "742": "Artisans et ouvriers du traitement du bois, \xC3\xA9b\xC3\xA9nistes et assimil\xC3\xA9s"
+    "7421": Ouvriers du traitement du bois
+    "7422": "Eb\xC3\xA9nistes, menuisiers et assimil\xC3\xA9s"
+    "7423": "R\xC3\xA9gleurs et r\xC3\xA9gleurs-conducteurs de machines \xC3\xA0 bois"
+    "7424": "Vanniers, brossiers et assimil\xC3\xA9s"
+    "743": "Artisans et ouvriers des m\xC3\xA9tiers du textile et de l'habillement et assimil\xC3\xA9s"
+    "7431": "Pr\xC3\xA9parateurs de fibres"
+    "7432": "Tisserands, tricoteurs et assimil\xC3\xA9s"
+    "7433": Tailleurs, couturiers, chapeliers et modistes
+    "7434": "Fourreurs et assimil\xC3\xA9s"
+    "7435": "Patronniers et coupeurs du textile, du cuir et assimil\xC3\xA9s"
+    "7436": "Couseurs, brodeurs et assimil\xC3\xA9s"
+    "7437": "Tapissiers et assimil\xC3\xA9s"
+    "744": Artisans et ouvriers du travail du cuir des peaux et de la chaussure
+    "7441": "Tanneurs, peaussiers et m\xC3\xA9gissiers"
+    "7442": "Artisans et ouvriers de la chaussure et assimil\xC3\xA9s"
+    "81": Conducteurs d'installations fixes
+    "811": Conducteurs d'installations d'exploitation miniere et d'extraction des mlneraux
+    "8111": Conducteurs d'installations de mine
+    "8112": "Conducteurs d'installations de pr\xC3\xA9paration des minerais et de la roche"
+    "8113": "Foreurs, sondeurs de puits et assimil\xC3\xA9s"
+    "812": "Conducteurs d'installations de transformation des m\xC3\xA9taux"
+    "8121": "Conducteurs de fours \xC3\xA0 minerais et de fours de premi\xC3\xA8re fusion des m\xC3\xA9taux"
+    "8122": "Conducteurs de fours de deuxi\xC3\xA8me fusion des m\xC3\xA9taux, couleurs de fonderie et conducteurs de laminoirs"
+    "8123": "Conducteurs d'installations de traitement thermique des m\xC3\xA9taux"
+    "8124": "Tr\xC3\xA9fileurs et \xC3\xA9tireurs de m\xC3\xA9taux"
+    "813": "Conducteurs d'installations de verrerie et de c\xC3\xA9ramioue et assimiles"
+    "8131": "Conducteurs de fours de verrerie et de c\xC3\xA9ramique, et conducteurs de machines assimil\xC3\xA9s"
+    "8139": "Conducteurs d'installations de verrerie et de c\xC3\xA9ramique et assimil\xC3\xA9s non class\xC3\xA9s ailleurs"
+    "814": Conducteurs d'installations pour le travail du bois et la fabrication du papier
+    "8141": Conducteurs d'installations pour le travail du bois
+    "8142": "Conducteurs d'installations pour la fabrication de la p\xC3\xA2te \xC3\xA0 papier"
+    "8143": Conducteurs d'installations pour la fabrication du papier
+    "815": Conducteurs d'installations de traitement chimioue
+    "8151": Conducteurs d'installations de fragmentation et de broyage, et d'installations de malaxage chimique
+    "8152": Conducteurs d'appareils de traitement thermique de la chimie
+    "8153": "Conducteurs d'appareils de filtrage et de s\xC3\xA9paration chimiques"
+    "8154": "Conducteurs d'appareils de distillation et de r\xC3\xA9acteurs chimiques (traitement du p\xC3\xA9trole et du gaz n..."
+    "8155": "Conducteurs d'installations de raffinage de p\xC3\xA9trole et de gaz naturel"
+    "8159": "Conducteurs d'installations de traitement chimique non class\xC3\xA9s ailleurs"
+    "816": "Conducteurs d'installations de production d'\xC3\xA9nergie et assimil\xC3\xA9s"
+    "8161": "Conducteurs d'installations de production d'\xC3\xA9nergie"
+    "8162": "Chauffeurs de machines \xC3\xA0 vapeur et de chaudi\xC3\xA8res"
+    "8163": "Conducteurs d'incin\xC3\xA9rateurs, d'installations de traitement de l'eau et assimil\xC3\xA9s"
+    "817": Conducteurs de chaines de montage automatioues et de robots industriels
+    "8171": "Conducteurs de cha\xC3\xAEnes de montage automatiques"
+    "8172": Conducteurs de robots industriels
+    "82": Conducteurs de machines
+    "821": "Conducteurs de machines a travailler les m\xC3\xA9taux et les produits mineraux"
+    "8211": Conducteurs de machines outils
+    "8212": "Conducteurs de machines \xC3\xA0 fabriquer du ciment et d'autres produits min\xC3\xA9raux"
+    "822": Conducteurs de machines pour la fabrication des produits chimioues
+    "8221": "Conducteurs de machines pour la fabrication de produits pharmaceutiques et cosm\xC3\xA9tiques"
+    "8222": Conducteurs de machines pour la fabrication de munitions et d'explosifs
+    "8223": "Conducteurs de machines de traitement superficiel des m\xC3\xA9taux"
+    "8224": Conducteurs de machines pour la fabrication de produits photographiques
+    "8229": "Conducteurs de machines pour la fabrication des produits chimiques non class\xC3\xA9s ailleurs"
+    "823": Conducteurs de machines pour la fabrication de produits en caoutchouc et en matieres plastioues
+    "8231": Conducteurs de machines pour la fabrication des produits en caoutchouc
+    "8232": "Conducteurs de machines pour la fabrication des produits en mati\xC3\xA8res plastiques"
+    "824": Conducteurs de machines a bois
+    "8240": "Conducteurs de machines \xC3\xA0 bois"
+    "825": Conducteurs de machines d'imprimerie, de machines a relier et de machines de papeterie
+    "8251": Conducteurs de machines d'imprimerie
+    "8252": "Conducteurs de machines \xC3\xA0 relier"
+    "8253": Conducteurs de machines de papeterie
+    "826": Conducteurs de machines pour la fabrication de produits textiles et d'articles en fourrure et en cui...
+    "8261": "Conducteurs de machines \xC3\xA0 pr\xC3\xA9parer les fibres, \xC3\xA0 filer et \xC3\xA0 bobiner"
+    "8262": "Conducteurs de m\xC3\xA9tiers m\xC3\xA9caniques \xC3\xA0 tisser et \xC3\xA0 tricoter"
+    "8263": "Conducteurs de machines \xC3\xA0 piquer"
+    "8264": "Conducteurs de machines a blanchir, \xC3\xA0 teindre et \xC3\xA0 nettoyer"
+    "8265": "Conducteurs de machines \xC3\xA0 pr\xC3\xA9parer les fourrures et le cuir"
+    "8266": "Conducteurs de machines pour la fabrication des chaussures et assimil\xC3\xA9s"
+    "8269": Conducteurs de machines pour la fabrication de produits textiles et d'articles en fourrure et en cui...
+    "827": "Conducteurs de machines pour la fabrication de denr\xC3\xA9es alimentaires et de produits connexes"
+    "8271": "Conducteurs de machines pour la pr\xC3\xA9paration des viandes et du poisson"
+    "8272": Conducteurs de machines pour la fabrication des produits laitiers
+    "8273": "Conducteurs de machines \xC3\xA0 moudre les c\xC3\xA9r\xC3\xA9ales et les \xC3\xA9pices"
+    "8274": "Conducteurs de machines pour la production d'articles de boulangerie-p\xC3\xA2tisserie, d'articles \xC3\xA0 base d..."
+    "8275": "Conducteurs de machines pour le traitement des fruits, des l\xC3\xA9gumes, des noix et des amandes"
+    "8276": Conducteurs de machines pour la production du sucre
+    "8277": "Conducteurs de machines pour le traitement du th\xC3\xA9, du caf\xC3\xA9 et du cacao"
+    "8278": Conducteurs de machines de brasserie et de machines pour la fabrication du vin et d'autres boissons
+    "8279": Conducteurs de machines pour la production du tabac
+    "828": Ouvriers de l'assemblage
+    "8281": "Monteurs en construction m\xC3\xA9canique"
+    "8282": "Monteurs en appareillages \xC3\xA9lectriques"
+    "8283": "Monteurs d'appareils \xC3\xA9lectroniques"
+    "8284": "Assembleurs d'articles en m\xC3\xA9tal, en caoutchouc et en mati\xC3\xA8res plastiques"
+    "8285": "Assembleurs d'articles en bois et en mati\xC3\xA8res similaires"
+    "8286": "Assembleurs d'articles en carton, en textile et en mati\xC3\xA8res similaires"
+    "829": Autres conducteurs de machines e1 ouvriers de l'assemblage
+    "8290": Autres conducteurs de machines et ouvriers de i 'assemblage
+    "83": "Conducteurs de v\xC3\xA9hicules lourds"
+    "831": Conducteurs de locomotives etassimiles
+    "8311": Conducteurs de locomotives
+    "8312": Serre-freins. aiguilleurs et agents de manoeuvre
+    "832": "Conducteurs de v\xC3\xA9hicules a moteur"
+    "8321": Conducteurs de motocycles
+    "8322": Chauffeurs de taxi et conducteurs d'automobiles et de camionnettes
+    "8323": Conducteurs d'autobus et de tramways
+    "8324": Conducteurs de poids lourds et de camions
+    "833": "Conducteurs de mat\xC3\xA9riels mobiles agricoles et d'autres engins mobiles"
+    "8331": "Conducteurs de mat\xC3\xA9riels motoris\xC3\xA9s agricoles et forestiers"
+    "8332": "Conducteurs d'engins de terrassement et de mat\xC3\xA9riels similaires"
+    "8333": "Conducteurs de grues, d'engins de levage divers et de mat\xC3\xA9riels similaires"
+    "8334": "Conducteurs de chariots \xC3\xA9l\xC3\xA9vateurs"
+    "834": "Matelots de pont et assimil\xC3\xA9s"
+    "8340": "Matelots de pont et assimil\xC3\xA9s"
+    "91": "Employ\xC3\xA9s non qualifi\xC3\xA9s des services, de la vente et du nettoyage"
+    "911": "Vendeurs ambulants et assimil\xC3\xA9s"
+    "9111": Vendeurs ambulants de comestibles
+    "9112": Vendeurs ambulants de produits divers, non alimentaires
+    "9113": "Vendeurs de porte en porte et vendeurs au t\xC3\xA9l\xC3\xA9phone"
+    "912": "Cireurs de chaussures et autres travailleurs des petits m\xC3\xA9tiers des rues"
+    "9120": "Cireurs de chaussures et autres petits m\xC3\xA9tiers des rues"
+    "913": "Aides de m\xC3\xA9nage et autres aides, nettoyeurs et blanchisseurs"
+    "9131": "Aides de m\xC3\xA9nage et nettoyeurs domestiques"
+    "9132": "Aides et nettoyeurs dans les bureaux, les h\xC3\xB4tels et autres \xC3\xA9tablissements"
+    "9133": "Laveurs et repasseurs de linge \xC3\xA0 la main"
+    "914": "Personnel du service d'immeuble, laveurs de vitres et assimil\xC3\xA9s"
+    "9141": Personnel du service d'immeuble
+    "9142": "Laveurs de v\xC3\xA9hicules, de vitres et assimil\xC3\xA9s"
+    "915": "Messagers, porteurs, gardiens, portiers et assimil\xC3\xA9s"
+    "9151": Messagers, porteurs de colis ou de bagages, livreurs
+    "9152": "Portiers, gardiens et assimil\xC3\xA9s"
+    "9153": "Encaisseurs de distributeurs automatiques \xC3\xA0 pr\xC3\xA9paiement, releveurs de compteurs et assimil\xC3\xA9s"
+    "916": "\xC3\x89boueurs et manoeuvres assimil\xC3\xA9s"
+    "9161": Eboueurs
+    "9162": "Balayeurs et manoeuvres assimil\xC3\xA9s"
+    "92": "Manoeuvres de l'agriculture, de la p\xC3\xAAche"
+    "921": "Manoeuvres de l'agriculture, de la peche et assimil\xC3\xA9s"
+    "9211": Aides et manoeuvres agricoles
+    "9212": Manoeuvres forestiers
+    "9213": "Manoeuvres p\xC3\xAAcheurs, chasseurs et trappeurs"
+    "93": "Manoeuvres des mines, du b\xC3\xA2timent, des industries et des transports"
+    "931": Manoeuvres des mines, du batiment et des travaux publics
+    "9311": "Manoeuvres des mines et des carri\xC3\xA8res"
+    "9312": "Manoeuvres de chantier de travaux publics et d'entretien: routes, barrages et ouvrages similaires"
+    "9313": "Manoeuvres du b\xC3\xA2timent"
+    "932": Manoeuvres des industries manufacturieres
+    "9321": Manoeuvres de l'assemblage
+    "9322": "Emballeurs \xC3\xA0 la main et autres manoeuvres des industries manufacturi\xC3\xA8res"
+    "933": Manoeuvres des transports et manutentionnaires
+    "9331": "Conducteurs de v\xC3\xA9hicules \xC3\xA0 bras ou \xC3\xA0 p\xC3\xA9dales"
+    "9332": "Conducteurs de v\xC3\xA9hicules et de machines \xC3\xA0 traction animale"
+    "9333": Manutentionnaires

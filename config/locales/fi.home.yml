@@ -1,0 +1,7 @@
+fi:
+  home:
+    index:
+      find_jobs: "Etsi Työpaikat"
+      highest_paid_jobs: "Korkein palkattuja töitä"
+      job_openings: "avoimista työpaikoista"
+      most_shared_jobs: "Useimmat Jaettu Työpaikat"

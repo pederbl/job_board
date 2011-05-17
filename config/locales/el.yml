@@ -1,0 +1,18 @@
+el:
+  about: Σχετικά
+  choose: ~
+  description: Περιγραφή
+  email: Email
+  fax: Fax
+  feedback: Ανατροφοδότηση
+  i18n:
+    language:
+      name: Ελληνικά
+  maximum: Μέγιστη
+  minimum: Ελάχιστη
+  phone: Τηλέφωνο
+  postal_address: Διεύθυνση
+  terms: Όροι
+  type: Τύπος
+  visit_address: Διεύθυνση
+  website: Ιστοσελίδα

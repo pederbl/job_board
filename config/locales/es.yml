@@ -1,0 +1,18 @@
+es:
+  about: "Acerca de"
+  choose: ~
+  description: Descripción
+  email: "Correo electrónico"
+  fax: Fax
+  feedback: Comentarios
+  i18n:
+    language:
+      name: Español
+  maximum: Máxima
+  minimum: Mínimo
+  phone: Teléfono
+  postal_address: "Dirección postal"
+  terms: Condiciones
+  type: Tipo
+  visit_address: "Visite la dirección"
+  website: "Sitio web"

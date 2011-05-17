@@ -1,0 +1,532 @@
+--- 
+de: 
+  isco_code: 
+    "11": "Angeh\xC3\xB6rige gesetzgebender k\xC3\xB6rperschaften und leitende verwaltungsbedienstete"
+    "111": "Angeh\xC3\xB6rige gesetzgebender k\xC3\xB6rperschaften"
+    "1120": Leitende verwaltungsbedienstete
+    "113": Traditionelle ortsvorsteher
+    "1130": Traditionelle ortsvorsteher
+    "114": Leitende bedienstete von interessenorganisationen
+    "1141": Leitende bedienstete politischer parteien
+    "1142": "Leitende bedienstete von arbeitgeber- und arbeitnehmer- sowie anderen wirtschaftsverb\xC3\xA4nden"
+    "1143": "Leitende bedienstete humanit\xC3\xA4rer und anderer interessenorganisationen"
+    "12": "Gesch\xC3\xA4ftsleiter und gesch\xC3\xA4ftsbereichsleiter in gro\xC3\x9Fen unternehmen"
+    "121": "Direktoren und hauptgesch\xC3\xA4ftsf\xC3\xBChrer"
+    "1210": "Direktoren und hauptgesch\xC3\xA4ftsf\xC3\xBChrer"
+    "122": Produktions- und operationsleiter
+    "1221": Produktions- und operationsleiter in der landwirtschaft, jagd, forstwirtschaft und fischerei
+    "1222": Produktions- und operationsleiter im verarbeitenden gewerbe
+    "1223": Produktions- und operationsleiter im baugewerbe
+    "1224": "Produktions- und operationsleiter im gro\xC3\x9F- und einzelhandel"
+    "1225": Produktions- und operationsleiter in restaurants und hotels
+    "1226": "Produktions- und operationsleiter im transportwesen, in der lagerbewirtschaftung und nachrichten\xC3\xBCber..."
+    "1227": Produktions- und opertionsleiter in gewerblichen dienstleistungsunternehmen
+    "1228": "Produktions- und operationsleiter in k\xC3\xB6rperpflege-, pflege-, reinigungs- und verwandten dienstleistu..."
+    "1229": Produktions- und operationsleiter, anderweitig nicht genannt
+    "123": Sonstige bereichsleiter
+    "1231": Finanzdirektoren und verwaltunsleiter
+    "1232": Personalleiter und sozialdirektoren
+    "1233": Verkaufs- und absatzleiter
+    "1234": "Werbeleiter und leiter der \xC3\xB6ffentlichkeitsarbeit"
+    "1235": Leiter des einkaufs und der materialwirtschaft
+    "1236": Leiter der edv
+    "1237": Forschungs- und entwicklungsleiter
+    "1239": Sonstige fachbereichsleiter,  anderweitig nicht genannt
+    "13": Leiter kleiner unternehmen
+    "131": Leiter kleiner unternehmen
+    "1311": Betriebsleiter in der landwirtschaft, jagd, forstwirtschaft und fischerei
+    "1312": Betriebsleiter im verarbeitenden gewerbe
+    "1313": Betriebsleiter im baugewerbe
+    "1314": "Betriebsleiter im gro\xC3\x9F- und einzelhandel"
+    "1315": Betriebsleiter von restaurants und hotels
+    "1316": "Betriebsleiter im transportwesen, in der lagerei u. nachrichten\xC3\xBCbermittlung"
+    "1317": Betriebsleiter von gewerblichen dienstleistungsunternehmen
+    "1318": "Betriebsleiter von  k\xC3\xB6rperpflege-, pflege-, reinigungs- und vewandten dienstleistungsunternehmen"
+    "1319": Betriebsleiter, anderweitig nicht genannt
+    "21": Physiker, mathematiker und ingenieurwissenschaftler
+    "211": Physiker, chemiker und verwandte wissenschaftler
+    "2111": Physiker und astronomen
+    "2112": Metereologen
+    "2113": Chemiker
+    "2114": Geologen und geophysiker
+    "212": Mathematiker, statistiker und verwandte wissenschaftler
+    "2121": Mathematiker und verwandte wissenschaftler
+    "2122": Statistiker
+    "213": Informatiker
+    "2131": Systemplaner und systemanalytiker
+    "2132": Systemprogrammierer
+    "2139": Informatiker, anderweitig nicht genannt
+    "214": Architekten, ingenieure und verwandte wissenschaftler
+    "2141": Architekten, raum- und verkehrsplaner
+    "2142": Bauingenieure
+    "2143": Elektroingenieure
+    "2144": Elektronik- und fernmeldeingenieure
+    "2145": Maschinenbauingenieure
+    "2146": Chemieingenieure
+    "2147": Bergbauingenieure, metalluren und verwandte wissenschaftler
+    "2148": Kartographen und vermessungsingenieure
+    "2149": Architekten, ingenieure und verwandte wissenschaftler, anderweitig nicht genannt
+    "22": Biowissenschaftler und mediziner
+    "221": Biowissenschaftler
+    "2211": Biologen, botaniker, zoologen und verwandte wissenschaftler
+    "2212": "Pharmakologen, pathologen und verwandte wissenschaftler (nicht \xC3\xA4rzte)"
+    "2213": Agrar- und verwandte wissenschaftler
+    "222": Mediziner (ohne krankenpflege)
+    "2221": "\xC3\x84rzte"
+    "2222": "Zahn\xC3\xA4rzte"
+    "2223": "Tier\xC3\xA4rzte"
+    "2224": Apotheker
+    "2229": Mediziner (ohne krankenpflege), anderweitig nicht genannt)
+    "223": "Wissenschaftliche krankenpflege- und geburtshilfefachkr\xC3\xA4fte"
+    "2230": "Wissenschaftliche krankenpflege- und geburtshilfefachkr\xC3\xA4fte"
+    "23": "Wissenschaftliche lehrkr\xC3\xA4fte"
+    "231": "Universit\xC3\xA4ts- und hochschullehrer"
+    "2310": "Universit\xC3\xA4ts- und hochschullehrer"
+    "232": "Lehrer des sekund\xC3\xA4rbereiches"
+    "2320": Lehrer des sekundarbereiches
+    "233": Wissenschaftliche lehrer des primar- und vorschulbereiches
+    "2331": Wissenschaftliche lehrer des primarbereiches
+    "2332": Wissenschaftliche lehrer des vorschulbereiches
+    "234": Wissenschaftliche sonderschullehrer
+    "2340": Wissenschaftliche sonderschullehrer
+    "235": "Sonstige wissenschaftliche lehrkr\xC3\xA4fte"
+    "2351": "P\xC3\xA4dagogik-, didaktiklehrer und -berater"
+    "2352": Schulinspektoren
+    "2359": "Sonstige wissenschaftliche lehrkr\xC3\xA4fte, anderweitig nicht genannt"
+    "24": Sonstige wissenschaftler und verwandte berufe
+    "241": "Unternehmensberatungs- und organistionsfachkr\xC3\xA4fte"
+    "2411": "Buchpr\xC3\xBCfer, revisoren, steuerberater"
+    "2412": Pesonalfachleute, berufsberater und berufsanalytiker
+    "2419": "Unternehmensberatungs- und organisationsfachkr\xC3\xA4fte,  anderweitig nicht genannt"
+    "242": Juristen
+    "2421": "Anw\xC3\xA4lte"
+    "2422": Richter
+    "2429": Juristen, anderweitig nicht genannt
+    "243": Archiv-, bibliotheks- und verwandte informationswissenschaftler
+    "2431": Archiv- und museumswissenschaftler
+    "2432": Bibliotheks-, dokumentations- und verwandte informationswissenschaftler
+    "244": Sozialwissenschaftler und verwandte berufe
+    "2441": Wirtschaftswissenschaftler
+    "2442": Soziologen, anthropologen und verwandte wissenschaftler
+    "2443": Philosophen, historiker und politologen
+    "2444": "Philologen, \xC3\xBCbersetzer und dolmetscher"
+    "2445": Psychologen
+    "2446": Sozialarbeiter
+    "245": "Schriftsteller, bildende oder darstellende k\xC3\xBCnstler"
+    "2451": Autoren, journalisten und andere schriftsteller
+    "2452": "Bildhauer, maler und verwandte k\xC3\xBCnstler"
+    "2453": "Komponisten, musiker und s\xC3\xA4nger"
+    "2454": "Choreographen und t\xC3\xA4nzer"
+    "2455": "Film-, b\xC3\xBChnen- und sonstige schauspieler, regisseure"
+    "246": Geistliche , seelsorger
+    "2460": Geistliche , seelsorger
+    "31": "Technische fachkr\xC3\xA4fte"
+    "311": "Material- und ingenieurtechnische fachkr\xC3\xA4fte"
+    "3111": Chemo- und physiktechniker
+    "3112": Bautechniker
+    "3113": Elektrotechniker
+    "3114": Elektronik- und fernmeldetechniker
+    "3115": Maschinenbautechniker
+    "3116": Chemiebetriebs- und verfahrenstechniker
+    "3117": "Bergbau-, h\xC3\xBCttentechniker"
+    "3118": Technische zeichner
+    "3119": "Material- und  ingenieurtechnische fachkr\xC3\xA4fte, anderweitig nicht genannt"
+    "312": "Datenverarbeitungsfachkr\xC3\xA4fte"
+    "3121": Datenverarbeitungsassistenten
+    "3122": Edv-operateure
+    "3123": Roboterkontrolleure und -programmierer
+    "313": Bediener optische und elektronischer anlagen
+    "3131": Photographen und bediener von bild- und tonaufzeichnungsanlagen
+    "3132": Fernseh-, rundfunk- und fernmeldeanlagenbediener
+    "3133": "Bediener medizinischer ger\xC3\xA4te"
+    "3139": Bediener optischer und elektronischer anlagen, anderweitig nicht genannt
+    "314": "Schiffs-, flugzeugf\xC3\xBChrer und verwandte berufe"
+    "3141": Schiffsmaschinisten
+    "3142": "Schiffsf\xC3\xBChrer und lotsen"
+    "3143": "Flugzeugf\xC3\xBChrer und verwandte berufe"
+    "3144": Flugverkehrslotsen
+    "3145": Flugsicherungtechniker
+    "315": "Sicherheits- und qualit\xC3\xA4tskontrolleure"
+    "3151": Bau-, brandschutz-, brandinspektoren
+    "3152": "Qualit\xC3\xA4tskontrolleure"
+    "32": "Biowissenschaftliche und gesundheitsfachkr\xC3\xA4fte"
+    "321": Biotechniker und verwandte berufe
+    "3211": Biotechniker
+    "3212": Agrar- und forstwirtschaftstechniker
+    "3213": Land- und forstwirtschaftliche berater
+    "322": Moderne medizinische fachberufe (ohne krankenpflege)
+    "3221": Medizinische assistenten
+    "3222": Gesundheits-, umweltschutztechniker
+    "3223": "Di\xC3\xA4tassistenten und ern\xC3\xA4hrungsberater"
+    "3224": Augenoptiker
+    "3225": Zahnmedizinische assistenten
+    "3226": Physiotherapeuten und verwandte berufe
+    "3227": "Veterin\xC3\xA4rmedizinische assistenten"
+    "3228": Pharmazeutische assistenten
+    "3229": Moderne medizinische fachberufe (ohne krankenpflege), anderweitig nicht genannt
+    "323": "Nicht-wissenschaftliche krankenpflege- und geburtshilfefachkr\xC3\xA4fte"
+    "3231": Nicht-wissenschaftliche krankenschwestern/-pfleger
+    "3232": Nicht-wissenschaftliche hebammen/geburtshelfer
+    "324": Heilpraktiker, geistheiler und gesundbeter
+    "3241": Heilpraktiker
+    "3242": Geistheiler und gesundbeter
+    "33": "Nicht-wissenschaftliche lehrkr\xC3\xA4fte"
+    "331": "Nicht-wissenschaftliche lehrkr\xC3\xA4fte des primarbereiches"
+    "3310": "Nicht-wissenschaftliche lehrkr\xC3\xA4fte des primarbereiches"
+    "332": "Nicht-wissenschaftliche lehrkr\xC3\xA4fte des vorschulbereiches"
+    "3320": "Nicht-wissenschaftliche lehrkr\xC3\xA4fte des vorschulbereiches"
+    "333": "Nicht-wissenschaftliche sonderschullehrkr\xC3\xA4fte"
+    "3330": "Nicht-wissenschaftliche sonderschullehrkr\xC3\xA4fte"
+    "334": "Sonstige nicht-wissenschaftliche lehrkr\xC3\xA4fte"
+    "3340": "Sonstige nicht-wissenschaftliche lehrkr\xC3\xA4fte"
+    "34": "Sonstige fachkr\xC3\xA4fte (mittlere qualifikationsebene)"
+    "341": "Finanz- und verkaufsfachkr\xC3\xA4fte"
+    "3411": "Effektenh\xC3\xA4ndler, -makler und finanzmakler"
+    "3412": Versicherungsvertreter
+    "3413": Immobilienmakler
+    "3414": Reiseberater und -veranstalter
+    "3415": "Technische und kaufm\xC3\xA4nnische handelsvertreter"
+    "3416": "Eink\xC3\xA4ufer"
+    "3417": "Sch\xC3\xA4tzer und versteigerer"
+    "3419": "Finanz- und verkaufsfachkr\xC3\xA4fte , anderweitig nicht genannt"
+    "342": Vermittler gewerblicher dienstleistungen und handelsmakler
+    "3421": Handelsmakler
+    "3422": Vermittler von abrechnungs- und speditionsdienstleistungen
+    "3423": Arbeits- und personalvermittler
+    "3429": Vermittler gewerblicher dienstleitungen und handelsmakler, anderweitig nicht genannt
+    "343": "Verwaltungsfachkr\xC3\xA4fte"
+    "3431": "Verwaltungssekret\xC3\xA4re und verwandte fachkr\xC3\xA4fte"
+    "3432": "Fachkr\xC3\xA4fte f\xC3\xBCr rechts- und verwandte angelegenheiten"
+    "3433": Buchhalter
+    "3434": "Statistische, mathematische und verwandte fachkr\xC3\xA4fte"
+    "3439": "Verwaltungsfachkr\xC3\xA4fte, anderweitig nicht genannt"
+    "344": "Zoll-, steuer- und verwandte fachkr\xC3\xA4fte der \xC3\xB6ffentlichen verwaltung"
+    "3441": Zoll- und grenzschutzinspektoren
+    "3442": Staatliche steuer- und abgabenbedienstete
+    "3443": Staatliche sozialverwaltungsbedienstete
+    "3444": "Staatliche bedienstete bei pa\xC3\x9F-, lizenz- und genehmigungsstellen"
+    "3449": "Zoll-, steuer- und verw. fachkr\xC3\xA4fte der \xC3\xB6ffentl. verwaltung, anderweitig nicht genannt"
+    "345": Polizeikommissare und detektive
+    "3450": Polizeikommissare und detektive
+    "346": Sozialpflegerische berufe
+    "3460": Sozialpflegerische berufe
+    "347": "K\xC3\xBCnstlerische, unterhaltungs- und sportberufe"
+    "3471": Dekorateure und gewerbliche designer
+    "3472": Rundfunk-, fernsehsprecher und verw. berufe
+    "3473": "Stra\xC3\x9Fen-, nachtklub- und verwandte musiker, s\xC3\xA4nger und t\xC3\xA4nzer"
+    "3474": "Clowns,  zauberer, akrobaten und verwandte fachkr\xC3\xA4fte"
+    "3475": "Athleten, berufssportler und verwandte fachkr\xC3\xA4fte"
+    "348": "Ordensbr\xC3\xBCder/-schwestern und seelsorgehelfer"
+    "3480": "Ordensbr\xC3\xBCder/-schwestern und seelsorgehelfer"
+    "41": "B\xC3\xBCroangestellte ohne kundenkontakt"
+    "411": "Sekret\xC3\xA4rinnen, maschinenschreibkr\xC3\xA4fte und verwandte berufe"
+    "4111": Stenographen, stenotypisten, maschinenschreiber
+    "4112": Bediener von textverarbeitungs- und verwandten anlagen
+    "4113": Datenerfasser
+    "4114": Rechenmaschinenbediener
+    "4115": "Sekret\xC3\xA4rinnen"
+    "412": Angestellte im rechnungs-, statistik- und finanzwesen
+    "4121": Rechnungswesen- und buchhaltungsangestellte
+    "4122": Statistik- und finanzangestellte
+    "413": Materialverwaltuns- und transportangestellte
+    "4131": Lagerverwalter
+    "4132": Material-, fertigungsplaner
+    "4133": Speditionsangestellte
+    "414": Bibliotheks-, post- und verwandte angestellte
+    "4141": Bibliotheks-, dokumentations- und registraturangestellte
+    "4142": Postverteiler und -sortierer
+    "4143": "Kodierer, korrekturleser und verwandte kr\xC3\xA4fte"
+    "4144": "Schreiber und verwandte arbeitskr\xC3\xA4fte"
+    "419": "Sonstige b\xC3\xBCroangestellte"
+    "4190": "Sonstige b\xC3\xBCroangestellte"
+    "42": "B\xC3\xBCroangestellte mit kundenkontakt"
+    "421": Kassierer, schalter- und andere angestellte
+    "4211": "Kassierer und kartenverk\xC3\xA4ufer"
+    "4212": Bank-, post und andere schalterbedienstete
+    "4213": Buchmacher und croupiers
+    "4214": Pfandleiher und geldverleiher
+    "4215": "Inkassobeauftragte und verwandte arbeitskr\xC3\xA4fte"
+    "422": Kundeninformationsangestellte
+    "4221": "Reiseb\xC3\xBCroangestellte"
+    "4222": "Empfangsb\xC3\xBCrokr\xC3\xA4fte und auskunftspersonal"
+    "4223": Telefonisten
+    "51": Personenbezogene dienstleistungsberufe und sicherheitsbedienstete
+    "511": Reisebegleiter und verwandte berufe
+    "5111": Reisebegleiter und stewards
+    "5112": Schaffner
+    "5113": "Reisef\xC3\xBChrer"
+    "512": "Dienstleistungsberufe im hauswirtschaflichen bereich und im gastst\xC3\xA4ttengewerbe"
+    "5121": Hauswirtschaftliche und verwandte berufe
+    "5122": "K\xC3\xB6che"
+    "5123": Kellner und barkeeper
+    "513": Pflege- und verwandte berufe
+    "5131": Kinderbetreuer
+    "5132": "Pflegekr\xC3\xA4fte in institutionen"
+    "5133": Haus- und familienpfleger
+    "5139": Pflege- und verwandte berufe, anderweitig nicht genannt
+    "514": Sonstige personenbezogene dienstleistungsberufe
+    "5141": Friseure, kosmetiker und verwandte berufe
+    "5142": Gesellschafter und zofen/kammerdiener
+    "5143": Leichenbestatter und einbalsamierer
+    "5149": Sonstige personenbezogene dienstleistungsberufe, anderweitig nicht gen.
+    "515": Astrologen, wahrsager und verwandte berufe
+    "5151": Astrologen und verwandte berufe
+    "5152": Wahrsager, handleser und verwandte berufe
+    "516": Sicherheitsbedienstete
+    "5161": Feuerwehrleute
+    "5162": Polizisten
+    "5163": "Gef\xC3\xA4ngnisaufseher"
+    "5169": Sicherheitsbedienstete, anderweitig nicht genannt
+    "52": "Modelle, verk\xC3\xA4ufer und vorf\xC3\xBChrer"
+    "521": Mannequins/dressmen und sonstige modelle
+    "5210": Mannequins/dressmen und sonstige modelle
+    "522": "Verk\xC3\xA4ufer und vorf\xC3\xBChrer in gesch\xC3\xA4ften"
+    "5220": "Verk\xC3\xA4ufer und vorf\xC3\xBChrer in gesch\xC3\xA4ften"
+    "523": "Verkaufsstand- und marktstandverk\xC3\xA4ufer"
+    "5230": "Verkaufsstand- und marktstandverk\xC3\xA4ufer"
+    "61": "Fachkr\xC3\xA4fte in der landwirtschaft und fischerei (marktproduktion)"
+    "611": "G\xC3\xA4rtner und ackerbauern (marktproduktion)"
+    "6111": "Feldfrucht- und gem\xC3\xBCseanbauer"
+    "6112": "Baum- und strauchfr\xC3\xBCchteanbauer"
+    "6113": "G\xC3\xA4rtner, saat- und pflanzenanz\xC3\xBCchter"
+    "6114": "Ackerbauern f\xC3\xBCr gemischte anbaukulturen"
+    "612": Tierwirtschaftliche und verwandte berufe (marktproduktion)
+    "6121": "Milchviehhalter und nutztierz\xC3\xBCchter"
+    "6122": "Gefl\xC3\xBCgelz\xC3\xBCchter"
+    "6123": "Imker und seidenraupenz\xC3\xBCchter"
+    "6124": "Z\xC3\xBCchter/halter von gemischten tierarten"
+    "6129": Tierwirtschaftliche und verwandte berufe (marktproduktion), anderweitig nicht genannt
+    "613": "Ackerbauern und tierz\xC3\xBCchter/-halter marktproduktion)"
+    "6130": "Ackerbauern und tierz\xC3\xBCchter/-halter (marktproduktion)"
+    "614": "Forstarbeitskr\xC3\xA4fte und verwandte berufe"
+    "6141": "Waldarbeiter und holzf\xC3\xA4ller"
+    "6142": "K\xC3\xB6hler und verwandte berufe"
+    "615": "Fischer, j\xC3\xA4ger und fallensteller"
+    "6151": "Z\xC3\xBCchter von wasserlebewesen"
+    "6152": "Binnen- und k\xC3\xBCstenfischer"
+    "6153": Hochseefischer
+    "6154": "J\xC3\xA4ger und fallensteller"
+    "62": "Arbeitskr\xC3\xA4fte in der landwirtschaft und fischerei (eigenbedarfsproduktion)"
+    "621": "Arbeitskr\xC3\xA4fte in der landwirtschaft und fischerei (eigenbedarfsproduktion)"
+    "6210": "Arbeitskr\xC3\xA4fte in der landwirtschaft und fischerei (eigenbedarfsproduktion)"
+    "71": Mineralgewinnungs- und bauberufe
+    "711": Bergleute, sprengmeister, steinbearbeiter und steinbildhauer
+    "7111": Bergleute und steinbrecher
+    "7112": Sprengmeister
+    "7113": Steinspalter, -bearbeiter und steinbildhauer
+    "712": Baukonstruktions- und verwandte berufe
+    "7121": Bauhandwerker
+    "7122": Maurer, bausteinmetzen
+    "7123": "Betonierer, betonoberfl\xC3\xA4chenfertigmacher und verw. berufe"
+    "7124": Zimmerer, bautischler
+    "7129": Baukonstruktions- und verwandte berufe, anderweitig nicht genannt
+    "713": Ausbau- und verwandte berufe
+    "7131": Dachdecker
+    "7132": "Fu\xC3\x9Fboden- und fliesenleger"
+    "7133": Stukkateure
+    "7134": Isolierer
+    "7135": Glaser
+    "7136": Klempner, rohrinstallateure
+    "7137": Bau- und verwandte elektriker
+    "714": "Maler, geb\xC3\xA4udereiniger und verwandte berufe"
+    "7141": Maler, tapezierer und verwandte berufe
+    "7142": Lackierer und verwandte berufe
+    "7143": "Geb\xC3\xA4udereiniger und schornsteinfeger"
+    "72": Metallarbeiter, mechaniker und verwandte berufe
+    "721": "Former (f\xC3\xBCr metallgu\xC3\x9F), schwei\xC3\x9Fer, blechkaltverformer, baumetallverformer und verwandte berufe"
+    "7211": "Former und kernmacher (f\xC3\xBCr metallgu\xC3\x9F)"
+    "7212": "Schwei\xC3\x9Fer und brennschneider"
+    "7213": Blechkaltverformer
+    "7214": Baumetallverformer und metallbaumonteure
+    "7215": "Verspannungsmonteuere und seilsplei\xC3\x9Fer"
+    "7216": Taucher
+    "722": Grobschmiede, werkzeugmacher und verw. berufe
+    "7221": Grobschmiede, hammerschmiede und schmiedepresser
+    "7222": Werkzeugmacher und verwandte berufe
+    "7223": Werkzeugmaschineneinrichter und einrichter/bediener
+    "7224": "Metallschleifer, metallpolierer und werkzeugsch\xC3\xA4rfer"
+    "723": Maschinenmechaniker und -schlosser
+    "7231": Kraftfahrzeugmechaniker und -schlosser
+    "7232": Flugmotorenmechaniker und -schlosser
+    "7233": Landmaschinen- oder industriemaschinenmechaniker und -schlosser
+    "724": Elektro- und elektronikmechaniker und -monteure
+    "7241": Elektromechaniker und -monteure
+    "7242": Elektronikmonteure
+    "7243": "Elektromechaniker und service-fachkr\xC3\xA4fte"
+    "7244": Telefon- und telegrapheninstallateure und -wartungspersonal
+    "7245": Elektrokabel-, elektroleitungsmonteure und -wartungspersonal
+    "73": "Pr\xC3\xA4zisionsarbeiter, kunsthandwerker, drucker und verw. berufe"
+    "731": "Pr\xC3\xA4zisionsarbeiter f\xC3\xBCr metall und verwandte werkstoffe"
+    "7311": "Pr\xC3\xA4zisionsinstrumentenmacher und -instandsetzer"
+    "7312": Musikinstrumentenmacher und -stimmer
+    "7313": Schmuckwarenhersteller und edelmetallbearbeiter
+    "732": "T\xC3\xB6pfer, glasmacher und verwandte berufe"
+    "7321": "T\xC3\xB6pfer und verwandte beruf"
+    "7322": Glasmacher, -schneider, - schleifer und  -polierer
+    "7323": "Glasgraveure und -\xC3\xA4tzer"
+    "7324": Glas-, keram- und verwandte dekormaler
+    "733": "Kunsthandwerker f\xC3\xBCr holz, textilien, leder und verw. materialien"
+    "7331": "Kunsthandwerker f\xC3\xBCr holz und verw. materialien"
+    "7332": "Kunsthandwerker f\xC3\xBCr textilien, leder und verw. materialien"
+    "734": Drucker und verwandte berufe
+    "7341": Schriftsetzer und verwandte berufe
+    "7342": Stereotypeure und galvanoplastiker
+    "7343": "Klischeehersteller und -\xC3\xA4tzer"
+    "7344": Fotolaboranten
+    "7345": Buchbinder und verwandte berufe
+    "7346": Sieb-, druckstock- und textildrucker
+    "74": Sonstige handwerks- und verwandte berufe
+    "741": Berufe in der nahrungsmittelverarbeitung und verw. berufe
+    "7411": "Fleischer, fischh\xC3\xA4ndler und verw. berufe"
+    "7412": "B\xC3\xA4cker, konditoren und s\xC3\xBC\xC3\x9Fwarenhersteller"
+    "7413": Molkereiwarenhersteller
+    "7414": "Obst-, gem\xC3\xBCse- und verwandte konservierer"
+    "7415": "Nahrungsmittel- und getr\xC3\xA4nkekoster und -klassierer"
+    "7416": Tabakaufbereiter und tabakwarenhersteller
+    "742": "Holzbearbeiter, m\xC3\xB6beltischler und verwandte berufe"
+    "7421": Holztrockner und -konservierer
+    "7422": "M\xC3\xB6beltischler und verwandte berufe"
+    "7423": Holzbearbeitungsmaschineneinrichter und einrichter/bediener
+    "7424": "Korbflechter, b\xC3\xBCrstenmacher und verwandte berufe"
+    "743": Textil-, bekleidungs- und verwandte berufe
+    "7431": Spinnvorbereiter
+    "7432": Weber, stricker, wirker und verwandte berufe
+    "7433": Herren-, damenschneider und hutmacher
+    "7434": "K\xC3\xBCrschner und verwandte berufe"
+    "7435": "Schnittmustermacher und zuschneider (textilien, leder u.\xC3\xA4.)"
+    "7436": "N\xC3\xA4her, sticker und verwandte berufe"
+    "7437": Polsterer und verwandte berufe
+    "744": Fell-, lederverarbeiter und schuhmacher
+    "7441": Rauchwarenzurichter, gerber und fellzurichter
+    "7442": Schuhmacher und verwandte berufe
+    "81": "Bediener station\xC3\xA4rer und verwandter anlagen"
+    "811": Bediener von bergbaulichen und mineralaufbereitungsanlagen
+    "8111": Bediener von bergbaulichen maschinen und anlagen
+    "8112": Bediener von erz- und gesteinsaufbereitungsanlagen
+    "8113": Tiefbohrer und verwandte berufe
+    "812": Verfahrensanlagenbediener in der metallerzeugung und metallumformung
+    "8121": Ofenbediener (erzschmelzen, metallumformung und - veredlung)
+    "8122": "Metallschmelzer, metallgie\xC3\x9Fer und walzwerker"
+    "8123": "Metallh\xC3\xA4rter, metallverg\xC3\xBCter"
+    "8124": "Metallzieher, pre\xC3\x9Fzieher"
+    "813": Bediener von anlagen zur glas- und keramikherstellung sowie verw. anlagenbediener
+    "8131": Glasschmelz-, kerambrennofenbediener und verwandte berufe
+    "8139": Bediener von anlagen zur glas- und keramikherstellung sowie verwandte anlagenbediener, anderweitig n...
+    "814": Bediener von anlagen zur holzaufbereitung und papierherstellung
+    "8141": Bediener von holzaufbereitungsanlagen
+    "8142": Bediener von anlagen zur papierbreiherstellung
+    "8143": Bediener von papierherstellungsanlagen
+    "815": Bediener chemischer verfahrensanlagen
+    "8151": Bediener von brechmaschinen, mahlwerken und mischanlagen
+    "8152": Bediener von warmbehandlungsanlagen
+    "8153": Bediener von filtrier- und trennvorrichtungen
+    "8154": "Destillations- und reaktionsgef\xC3\xA4\xC3\x9Fbediener (ausgen. erd\xC3\xB6l u. erdgas)"
+    "8155": "Bediener von erd\xC3\xB6l- und erdgasraffinieranlagen"
+    "8159": Bediener chemischer verfahrensanlagen, anderweitig nicht genannt
+    "816": Bediener von energieerzeugungs- und verwandten anlagen
+    "8161": Bediener von energieerzeugungsanlagen
+    "8162": Bediener von dampfmaschinen und -kesseln
+    "8163": Bediener von verbrennungs-, wasserbehandlungs- und verw. anlagen
+    "817": "Bediener von automatisierten montageb\xC3\xA4ndern und industrierobotern"
+    "8171": "Bediener von automatisierten montageb\xC3\xA4ndern"
+    "8172": Bediener von industrierobotern
+    "82": Maschinenbediener und montierer
+    "821": "Maschinenbediener f\xC3\xBCr metall- und mineralerzeugnisse"
+    "8211": Werkzeugmaschinenbediener
+    "8212": Bediener von maschinen zur herstellung und verarbeitung von zement und verwandten mineralien
+    "822": "Maschinenbediener f\xC3\xBCr chemische erzeugnisse"
+    "8221": Bediener von maschinen zur herstellung  von pharmazeutischen produkten und toilettenartikeln
+    "8222": Bediener von maschinen zur herstellung von munition und explosiven  stoffen
+    "8223": "Bediener von metalloberfl\xC3\xA4chenbearbeitungs- und beschichtungsmaschinen"
+    "8224": Bediener von maschinen zur herstellung photograpfischer erzeugnisse
+    "8229": "Maschinenbediener f\xC3\xBCr chemische erzeugnisse, anderweitig nicht genannt"
+    "823": "Maschinenbediener f\xC3\xBCr gummi- und kunststofferzeugnisse"
+    "8231": Bediener von maschinen zur herstellung von gummierzeugnissen
+    "8232": Bediener von maschinen zur herstellung von kunststofferzeugnissen
+    "824": "Maschinenbediener f\xC3\xBCr holzerzeugnisse"
+    "8240": Bediener von holzbearbeitungsmaschinen
+    "825": "Maschinenbediener f\xC3\xBCr druck-, buchbinde- und papiererzeugnisse"
+    "8251": Druckmaschinenbediener
+    "8252": Buchbindemaschinenbediener
+    "8253": Bediener von maschinen zur herstellung von papiererzeugnissen
+    "826": "Maschinebediener f\xC3\xBCr textil-, pelz- und ledererzeugnisse"
+    "8261": Bediener von spinnvorbereitungs-, spinn- und spulmaschinen
+    "8262": Bediener von web-, strick- und wirkmaschinen
+    "8263": "N\xC3\xA4hmaschinenbediener"
+    "8264": "Bediener von bleich-, f\xC3\xA4rbe- und reinigungsmaschinen"
+    "8265": Bediener von pelz- und ledervorbereitungsmaschinen
+    "8266": "Maschinebediener f\xC3\xBCr die herstellung von schuhen und anderen lederwaren"
+    "8269": "Maschinenbediener f\xC3\xBCr textil-, pelz- und ledererzeugnisse, anderweitig nicht genannt"
+    "827": "Maschinenbediener zur herstellung von nahrungs- und genu\xC3\x9Fmitteln"
+    "8271": Bediener von fleisch- und fischverarbeitungsmaschinen
+    "8272": Bediener von milchverarbeitungsmaschinen
+    "8273": "Bediener von getreide- und gew\xC3\xBCrzm\xC3\xBChlen"
+    "8274": Bediener von maschinen zur herstellung von backwaren, getreide- und schokoladeerzeugnissen
+    "8275": "Bediener von obst-, gem\xC3\xBCse- und nu\xC3\x9Fverarbeitungsmaschinen"
+    "8276": Bediener von zuckerherstellungsmaschinen
+    "8277": Bediener von tee-, kaffee- und kakaoverarbeitungsmaschinen
+    "8278": "Brauer, bediener von wein- und sonstigen getr\xC3\xA4nkeherstellungsmaschinen"
+    "8279": Bediener von tabakaufbereitungs- und tabakwarenherstellungsmaschinen
+    "828": Montierer
+    "8281": Montierer (von mechanischen bauteilen)
+    "8282": Montierer (von elektrischen einrichtungen)
+    "8283": Montierer (von elektronischen einrichtungen)
+    "8284": Montierer von metall-, gummi- und kunststofferzeugnissen
+    "8285": Montierer von holzwaren und verwandten erzeugnissen
+    "8286": Montierer von pappe-, textil- und verwandten erzeugnissen
+    "829": Sonstige maschinenbediener und montierer
+    "8290": Sonstige maschinenbediener
+    "83": "Fahrzeugf\xC3\xBChrer und bediener mobiler anlagen"
+    "831": "Lokomotivf\xC3\xBChrer und verwandte berufe"
+    "8311": "Lokomotivf\xC3\xBChrer"
+    "8312": Eisenbahnbremser, stellwerksbediener und rangierer
+    "832": "Kraftfahrzeugf\xC3\xBChrer"
+    "8321": Motorradfahrer
+    "8322": Personenkraftwagen-, taxi- und kleinlastkraftwagenfahrer
+    "8323": "Busfahrer und stra\xC3\x9Fenbahnf\xC3\xBChrer"
+    "8324": Fahrer schwerer lastkraftwagen
+    "833": "F\xC3\xBChrer von landmaschinen und anderen mobilen anlagen"
+    "8331": "F\xC3\xBChrer von motorisierten land- und forstwirtschaftlichen maschinen"
+    "8332": "F\xC3\xBChrer von erdbewegungs- und verwandten maschinen"
+    "8333": "Kranf\xC3\xBChrer, aufzugsmaschinisten und bediener verwandter hebeeinrichtungen"
+    "8334": "Hubkarrenf\xC3\xBChrer"
+    "834": Deckpersonal auf schiffen und verwandte berufe
+    "8340": Deckpersonal auf schiffen und verwandte berufe
+    "91": "Verkaufs- und dienstleistungshilfskr\xC3\xA4fte"
+    "911": "Stra\xC3\x9Fenh\xC3\xA4ndler und verwandte berufe"
+    "9111": "Stra\xC3\x9Fenh\xC3\xA4ndler (lebensmittel)"
+    "9112": "Stra\xC3\x9Fenh\xC3\xA4ndler (nicht lebensmittel)"
+    "9113": "Hausierer und telefonverk\xC3\xA4ufer"
+    "912": "Schuhputzer und sonstige auf der stra\xC3\x9Fe ausge\xC3\xBCbte einfache dienstleistungst\xC3\xA4tigkeiten"
+    "9120": "Schuhputzer und sonstige auf der stra\xC3\x9Fe ausge\xC3\xBCbte einfache dienstleistungst\xC3\xA4tigkeiten"
+    "913": "Haushaltshilfen und verwandte hilfskr\xC3\xA4fte, reinigungspersonal, w\xC3\xA4scher"
+    "9131": Haushaltshilfen und reinigungspersonal in privathaushalten
+    "9132": "Haushaltshilfen und reinigungspersonal in b\xC3\xBCros, hotels und sonstigen einrichtungen"
+    "9133": "Handw\xC3\xA4scher und handb\xC3\xBCgler"
+    "914": Hausmeister, fensterputzer und verwandtes reinigungspersonal
+    "9141": Hausmeister, hauswarte und verwandte berufe
+    "9142": Fahrzeugreiniger, fensterputzer und verwandtes reinigungspersonal
+    "915": "Boten, tr\xC3\xA4ger, pf\xC3\xB6rtner und verwandte berufe"
+    "9151": "Boten, paket-, gep\xC3\xA4cktr\xC3\xA4ger und -austr\xC3\xA4ger"
+    "9152": "Pf\xC3\xB6rtner, wachpersonal und verwandte berufe"
+    "9153": "Automatenkassierer, z\xC3\xA4hlerableser und verwandte berufe"
+    "916": "M\xC3\xBCllsammler und verwandte berufe"
+    "9161": "M\xC3\xBCllsammler"
+    "9162": "Stra\xC3\x9Fenkehrer und verwandte berufe"
+    "92": Landwirtschaftliche, fischerei- und verwandte hilfsarbeiter
+    "921": Landwirtschaftliche, fischerei- und verwandte hilfsarbeiter
+    "9211": Landwirtschaftliche hilfsarbeiter
+    "9212": Forstwirtschaftliche hilfsarbeiter
+    "9213": Hilfsarbeiter in der fischerei, jagd und fallenstellerei
+    "93": Hilfsarbeiter im bergbau, baugewerbe, verarbeitenden gewerbe und transportwesen
+    "931": Hilfsarbeiter im bergbau und baugewerbe
+    "9311": Hilfsarbeiter im bergbau und steinbruch
+    "9312": "Bau- und instandhaltungshilfsarbeiter (stra\xC3\x9Fen, d\xC3\xA4mme und \xC3\xA4hnliche bauwerke)"
+    "9313": "Bauhilfsarbeiter (geb\xC3\xA4ude)"
+    "932": Hilfsarbeiter in der fertigung
+    "9321": Montagehilfsarbeiter
+    "9322": Handpacker und sonstige fertigungshilfsarbeiter
+    "933": Transport- und frachtarbeiter
+    "9331": "F\xC3\xBChrer von handbewegten oder pedalgetriebenentransportfahrzeugen"
+    "9332": "F\xC3\xBChrer von fahrzeugen und maschinen, die von tieren gezogen werden"
+    "9333": Frachtarbeiter

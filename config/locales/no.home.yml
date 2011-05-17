@@ -1,0 +1,8 @@
+? "no"
+:
+  home:
+    index:
+      find_jobs: "Finn Jobs"
+      highest_paid_jobs: "Høyeste betalte jobber"
+      job_openings: "ledige jobber"
+      most_shared_jobs: "Mest Felles Jobber"

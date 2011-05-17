@@ -1,0 +1,18 @@
+mt:
+  about: Dwar
+  choose: ~
+  description: Deskrizzjoni
+  email: Email
+  fax: Fax
+  feedback: Feedback
+  i18n:
+    language:
+      name: Malti
+  maximum: Massimu
+  minimum: Minimu
+  phone: Phone
+  postal_address: "Indirizz postali"
+  terms: Termini
+  type: Tip
+  visit_address: "Żur indirizz"
+  website: Website

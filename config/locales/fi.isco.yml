@@ -1,0 +1,532 @@
+--- 
+fi: 
+  isco_code: 
+    "11": "Lains\xC3\xA4\xC3\xA4t\xC3\xA4j\xC3\xA4t ja ylimm\xC3\xA4t virkamiehet"
+    "111": "Lains\xC3\xA4\xC3\xA4t\xC3\xA4j\xC3\xA4t"
+    "1120": "Ylimm\xC3\xA4t virkamiehet"
+    "113": "Heimo- ja kyl\xC3\xA4p\xC3\xA4\xC3\xA4llik\xC3\xB6t"
+    "1130": "Heimo- ja kyl\xC3\xA4p\xC3\xA4\xC3\xA4llik\xC3\xB6t"
+    "114": "J\xC3\xA4rjest\xC3\xB6jen johtajat"
+    "1141": Puolueiden johtajat
+    "1142": "Ty\xC3\xB6markkina- ja elinkeinoel\xC3\xA4m\xC3\xA4n j\xC3\xA4rjest\xC3\xB6jen johtajat"
+    "1143": "Humanitaaristen ja muiden j\xC3\xA4rjest\xC3\xB6jen johtajat"
+    "12": "Yritysten ja muiden toimintayksik\xC3\xB6iden johtajat"
+    "121": "P\xC3\xA4\xC3\xA4johtajat ja toimitusjohtajat"
+    "1210": "P\xC3\xA4\xC3\xA4johtajat ja toimitusjohtajat"
+    "122": Tuotanto- ja linjajohtajat
+    "1221": "Maa- ja mets\xC3\xA4talouden johtajat"
+    "1222": Teollisuuden tuotantojohtajat
+    "1223": Rakennusalan tuotantojohtajat
+    "1224": Kaupan alan johtajat
+    "1225": "Hotellinjohtajat ja ravintolap\xC3\xA4\xC3\xA4llik\xC3\xB6t"
+    "1226": Kuljetuksen, varastoinnin ja tietoliikenteen johtajat
+    "1227": Yrityspalvelu- ymv. yritysten johtajat
+    "1228": Siivous- ja kauneudenhoitoalan ymv. alojen johtajat
+    "1229": "Muiden yritysten ja toimintayksik\xC3\xB6iden johtajat"
+    "123": Asiantuntijajohtajat
+    "1231": Talous- ja hallintojohtajat
+    "1232": "Henkil\xC3\xB6st\xC3\xB6johtajat"
+    "1233": Myynti- ja markkinointijohtajat
+    "1234": Mainos- ja tiedotusjohtajat
+    "1235": "Osto- ja varastop\xC3\xA4\xC3\xA4llik\xC3\xB6t"
+    "1236": Tietotekniikkajohtajat
+    "1237": Tutkimus- ja kehitysjohtajat
+    "1239": Muut asiantuntijajohtajat
+    "13": Pienyritysten johtajat
+    "131": Pienyritysten johtajat
+    "1311": "Maa- ja mets\xC3\xA4talousalan pienyritysten johtajat"
+    "1312": Pienteollisuuden johtajat
+    "1313": Rakennusalan pienyritysten johtajat
+    "1314": Kaupan ymv. alojen pienyritysten johtajat
+    "1315": Hotelli- ja ravintola-alan pienyritysten johtajat
+    "1316": Kuljetuksen, varastoinnin ja tietoliikenteen pienyritysten johtajat
+    "1317": Yrityspalvelutoiminnan pienyritysten johtajat
+    "1318": Siivous- ja kauneudenhoitoalan ymv. pienyritysten johtajat
+    "1319": Muut pienyritysten johtajat
+    "21": Matemaattis-luonnontieteelliset ja tekniikan erityisasiantuntijat
+    "211": Fysiikan ja kemian erityisasiantuntijat
+    "2111": Fyysikot ja astronomit
+    "2112": Meteorologit
+    "2113": Kemistit
+    "2114": Geologit ja geofyysikot
+    "212": Matematiikan ja tilastotieteen erityisasiantuntijat
+    "2121": Matematiikan erityisasiantuntijat
+    "2122": Tilastotieteen erityisasiantuntijat
+    "213": Tietotekniikan erityisasiantuntijat
+    "2131": Tietotekniikan suunnittelijat
+    "2132": Ohjelmoijat
+    "2139": Muut tietotekniikan erityisasiantuntijat
+    "214": "Arkkitehdit, insin\xC3\xB6\xC3\xB6rit ja muut tekniikan erityisasiantuntijat"
+    "2141": Talonrakennusalan erityisasiantuntijat
+    "2142": "Maank\xC3\xA4yt\xC3\xB6n ja yhdyskuntarakentamisen erityisasiantuntijat"
+    "2143": "S\xC3\xA4hk\xC3\xB6tekniikan erityisasiantuntijat"
+    "2144": Elektroniikan ja informaatiotekniikan erityisasiantuntijat
+    "2145": Konetekniikan erityisasiantuntijat
+    "2146": Puunjalostuksen ja kemian prosessitekniikan erityisasiantuntijat
+    "2147": Vuoriteollisuuden prosessitekniikan erityisasiantuntijat
+    "2148": Kartoituksen ja maanmittauksen erityisasiantuntijat
+    "2149": Muut tekniikan erityisasiantuntijat
+    "22": Biotieteiden ja terveydenhuollon erityisasiantuntijat
+    "221": Biotieteiden erityisasiantuntijat
+    "2211": "Biologit, kasvitieteilij\xC3\xA4t, el\xC3\xA4intieteilij\xC3\xA4t ym."
+    "2212": Farmakologit, patologit ym.
+    "2213": "Agronomit ja muut maa- ja mets\xC3\xA4talouden erityisasiantuntijat"
+    "222": Terveydenhuollon erityisasiantuntijat (pl. sairaanhoito)
+    "2221": "L\xC3\xA4\xC3\xA4k\xC3\xA4rit"
+    "2222": "Hammasl\xC3\xA4\xC3\xA4k\xC3\xA4rit"
+    "2223": "El\xC3\xA4inl\xC3\xA4\xC3\xA4k\xC3\xA4rit"
+    "2224": Proviisorit
+    "2229": Muut terveydenhuollon erityisasiantuntijat (pl. sairaanhoito)
+    "223": "Erikoissairaanhoitajat ja k\xC3\xA4til\xC3\xB6t"
+    "2230": "Erikoissairaanhoitajat ja k\xC3\xA4til\xC3\xB6t"
+    "23": Opetusalan erityisasiantuntijat
+    "231": Yliopisto- ja korkeakouluopettajat
+    "2310": Yliopisto- ja korkeakouluopettajat
+    "232": Aineenopettajat ja lehtorit
+    "2320": Aineenopettajat ja lehtorit
+    "233": Luokanopettajat ja lastentarhanopettajat
+    "2331": Luokanopettajat
+    "2332": Lastentarhanopettajat
+    "234": Erityisopettajat
+    "2340": Erityisopettajat
+    "235": Muut opetusalan erityisasiantuntijat
+    "2351": Muut opettajat ja koulutussuunnittelijat
+    "2352": Tarkastajat ja opetusmenetelmien erityisasiantuntijat
+    "2359": Muut opetus- ymv. alan erityisasiantuntijat
+    "24": Muiden alojen erityisasiantuntijat
+    "241": "Liike-el\xC3\xA4m\xC3\xA4n erityisasiantuntijat"
+    "2411": Tilintarkastajat
+    "2412": "Henkil\xC3\xB6st\xC3\xB6- ja urasuunnittelijat"
+    "2419": "Muut liike-el\xC3\xA4m\xC3\xA4n erityisasiantuntijat"
+    "242": Lainopilliset erityisasiantuntijat
+    "2421": Asianajajat
+    "2422": Tuomioistuinlakimiehet
+    "2429": Muut lainopilliset erityisasiantuntijat
+    "243": "Arkiston- ja kirjastonhoitajat sek\xC3\xA4 museoalan erityisasiantuntijat"
+    "2431": Arkistonhoitajat ja museoalan erityisasiantuntijat
+    "2432": Kirjastonhoitajat, informaatikot ym.
+    "244": Yhteiskunnallisten alojen erityisasiantuntijat
+    "2441": Ekonomistit
+    "2442": Yhteiskunta- ja kulttuuritutkijat
+    "2443": Filosofit, historioitsijat ja politologit
+    "2444": "Kielentutkijat, k\xC3\xA4\xC3\xA4nt\xC3\xA4j\xC3\xA4t ja tulkit"
+    "2445": Psykologit
+    "2446": "Sosiaality\xC3\xB6ntekij\xC3\xA4t"
+    "245": "Kirjailijat ja esitt\xC3\xA4v\xC3\xA4t taiteilijat"
+    "2451": Tuottajat, toimittajat, kirjailijat ymv.
+    "2452": Kuvataiteilijat, taideteollisen alan suunnittelijat ym.
+    "2453": "S\xC3\xA4velt\xC3\xA4j\xC3\xA4t, muusikot ja laulajat"
+    "2454": Tanssitaiteilijat
+    "2455": "N\xC3\xA4yttelij\xC3\xA4t ja ohjaajat"
+    "246": Uskonnolliset erityisasiantuntijat
+    "2460": Uskonnolliset erityisasiantuntijat
+    "31": Tekniset asiantuntijat
+    "311": Tekniset asiantuntijat
+    "3111": Luonnontieteen tekniset asiantuntijat
+    "3112": Rakennusalan ja yhdyskuntarakentamisen asiantuntijat
+    "3113": "S\xC3\xA4hk\xC3\xB6tekniikan asiantuntijat"
+    "3114": Elektroniikan ja informaatiotekniikan asiantuntijat
+    "3115": Konetekniikan asiantuntijat
+    "3116": Puunjalostuksen ja kemian prosessitekniikan asiantuntijat
+    "3117": Vuoriteollisuuden prosessitekniikan asiantuntijat
+    "3118": "Tekniset piirt\xC3\xA4j\xC3\xA4t"
+    "3119": "Mekaanisen mets\xC3\xA4teollisuuden ym. tekniikan asiantuntijat"
+    "312": "Tietotekniikan tukihenkil\xC3\xB6t"
+    "3121": "Mikrotukihenkil\xC3\xB6t"
+    "3122": Tietokoneoperaattorit
+    "3123": Teollisten robottien valvojat
+    "313": "Optisten ja elektronisten laitteiden k\xC3\xA4ytt\xC3\xA4j\xC3\xA4t"
+    "3131": "Kuvaajat, kuvanauhoittajat ja \xC3\xA4\xC3\xA4nitt\xC3\xA4j\xC3\xA4t"
+    "3132": Radio- ja tv-tarkkailijat
+    "3133": "L\xC3\xA4\xC3\xA4ketieteellisten laitteiden k\xC3\xA4ytt\xC3\xA4j\xC3\xA4t"
+    "3139": "Muut optisten ja elektronisten laitteiden k\xC3\xA4ytt\xC3\xA4j\xC3\xA4t"
+    "314": "Meri-, lento- ja satamaliikenteen p\xC3\xA4\xC3\xA4llik\xC3\xB6t ja ohjaajat"
+    "3141": "Alusten konep\xC3\xA4\xC3\xA4llik\xC3\xB6t ja konemestarit"
+    "3142": "Per\xC3\xA4miehet ja pienten alusten p\xC3\xA4\xC3\xA4llik\xC3\xB6t"
+    "3143": "Lentokapteenit ja -per\xC3\xA4miehet"
+    "3144": Lento- ja satamaliikenteen ohjaajat
+    "3145": Lentoturvallisuusteknikot
+    "315": Turvallisuuden ja laadun tarkastajat
+    "3151": Rakennus- ja palotarkastajat
+    "3152": "Ty\xC3\xB6suojelu- ja tuoteturvallisuuden tarkastajat"
+    "32": "Maa- ja mets\xC3\xA4taloustieteiden ja terveydenhuollon asiantuntijat"
+    "321": "Biotieteiden ja l\xC3\xA4\xC3\xA4ketieteen tekniset asiantuntijat"
+    "3211": Laborantit
+    "3212": "Agronomit ja mets\xC3\xA4talousteknikot"
+    "3213": Maatalous- ja kalastusalan neuvojat
+    "322": Terveydenhuollon asiantuntijat (pl. sairaanhoito)
+    "3221": Labooratoriohoitajat ymv.
+    "3222": "Terveystarkastajat ja ymp\xC3\xA4rist\xC3\xB6nsuojeluty\xC3\xB6ntekij\xC3\xA4t"
+    "3223": Ravitsemusalan asiantuntijat
+    "3224": Optikot
+    "3225": Hammashuoltajat
+    "3226": Fysioterapeutit ymv.
+    "3227": Seminologit ym.
+    "3228": Farmaseutit
+    "3229": Luontaisparantajat
+    "323": "Sairaanhoitajat ja k\xC3\xA4til\xC3\xB6t"
+    "3231": Sairaanhoitajat
+    "3232": "K\xC3\xA4til\xC3\xB6t"
+    "324": Luonnon- ja henkiparantajat
+    "3241": Luonnonparantajat
+    "3242": Henkiparantajat
+    "33": Kouluttajat ja muut opetusalan asiantuntijat
+    "331": "Koulunk\xC3\xA4yntiavustajat"
+    "3310": "Koulunk\xC3\xA4yntiavustajat"
+    "332": "P\xC3\xA4iv\xC3\xA4kotiavustajat"
+    "3320": "P\xC3\xA4iv\xC3\xA4kotiavustajat"
+    "333": Sosiaali- ja muut erityiskasvattajat
+    "3330": Sosiaali- ja muut erityiskasvattajat
+    "334": Muut kouluttajat ja opetusalan asiantuntijat
+    "3340": Muut kouluttajat ja opetusalan asiantuntijat
+    "34": Muut asiantuntijat
+    "341": Myynnin ja rahoituksen asiantuntijat
+    "3411": Arvopaperi- ja valuuttakauppiaat
+    "3412": Vakuutusalan asiamiehet
+    "3413": "Kiinteist\xC3\xB6nv\xC3\xA4litt\xC3\xA4j\xC3\xA4t"
+    "3414": "Matkailuasiamiehet ja matkanj\xC3\xA4rjest\xC3\xA4j\xC3\xA4t"
+    "3415": Myyntineuvottelijat ja -edustajat
+    "3416": Ostajat
+    "3417": "Vahinkotarkastajat ja huutokaupanpit\xC3\xA4j\xC3\xA4t"
+    "3419": Muut myynnin ja rahoituksen asiantuntijat
+    "342": "Liike-el\xC3\xA4m\xC3\xA4n palveluiden v\xC3\xA4litt\xC3\xA4j\xC3\xA4t"
+    "3421": Kauppa-agentit
+    "3422": Huolitsijat ja tullaajat
+    "3423": "Ty\xC3\xB6nv\xC3\xA4litt\xC3\xA4j\xC3\xA4t"
+    "3429": "Muut liike-el\xC3\xA4m\xC3\xA4n palvelujen v\xC3\xA4litt\xC3\xA4j\xC3\xA4t"
+    "343": "Hallinnolliset toimihenkil\xC3\xB6t"
+    "3431": Johdon sihteerit, osastosihteerit ym.
+    "3432": "Oikeudenk\xC3\xA4yntiasiamiehet ja ulosottomiehet"
+    "3433": "Kirjanpit\xC3\xA4j\xC3\xA4t"
+    "3434": Tilastolliset ja matemaattiset avustajat
+    "3439": "Muut hallinnolliset toimihenkil\xC3\xB6t"
+    "344": Tullivirkamiehet, raja- ja merivartijat, verovalmistelijat ymv.
+    "3441": Tullivirkamiehet ja raja- ja merivartijat
+    "3442": Verovalmistelijat ja -tarkastajat
+    "3443": "Sosiaaliturvatoimihenkil\xC3\xB6t"
+    "3444": Lupaviranomaiset
+    "3449": Muut tulli- ja verohallinnon virkamiehet
+    "345": Komisariot ja ylikonstaapelit
+    "3450": Komisariot ja ylikonstaapelit
+    "346": Sosiaalialan ohjaajat ymv.
+    "3460": Sosiaalialan ohjaajat ymv.
+    "347": Taidealan asiantuntijat, viihdetaiteilijat, urheilijat ym.
+    "3471": Taidealan asiantuntijat, kuvaussihteerit ym.
+    "3472": Juontajat, kuuluttajat ym.
+    "3473": Viihdemuusikot, laulajat, tanssijat ym.
+    "3474": Klovnit, taikurit, akrobaatit ym.
+    "3475": Urheilijat, urheiluvalmentajat, liikunnanohjaajat ym.
+    "348": "Seurakuntaty\xC3\xB6ntekij\xC3\xA4t"
+    "3480": "Seurakuntaty\xC3\xB6ntekij\xC3\xA4t"
+    "41": "Toimistoty\xC3\xB6ntekij\xC3\xA4t"
+    "411": "Sihteerit ja tekstink\xC3\xA4sittelij\xC3\xA4t"
+    "4111": Pika- ja konekirjoittajat
+    "4112": "Tekstink\xC3\xA4sittelij\xC3\xA4t"
+    "4113": Tallentajat
+    "4114": Laskuttajat
+    "4115": Sihteerit
+    "412": Palkanlaskijat, vakuutusvirkailijat ymv.
+    "4121": "Palkanlaskijat ja kirjanpit\xC3\xA4j\xC3\xA4t"
+    "4122": "Tilasto- ja rahoitusalan toimistoty\xC3\xB6ntekij\xC3\xA4t"
+    "413": "Kuljetusalan ja varastoinnin toimistoty\xC3\xB6ntekij\xC3\xA4t"
+    "4131": Varastonhoitajat ym.
+    "4132": "Teollisuuden toimistoty\xC3\xB6ntekij\xC3\xA4t"
+    "4133": "Raideliikenteen ohjaajat ja muut kuljetuksen toimistoty\xC3\xB6ntekij\xC3\xA4t"
+    "414": Kirjasto- ja postivirkailijat ymv.
+    "4141": "Kirjasto-, arkisto- ja museoty\xC3\xB6ntekij\xC3\xA4t"
+    "4142": "Postink\xC3\xA4sittelij\xC3\xA4t ja toimistovahtimestarit"
+    "4143": Koodaajat, oikolukijat ymv.
+    "4144": "Arvopaperien k\xC3\xA4sittelij\xC3\xA4t"
+    "419": "Muut toimistoty\xC3\xB6ntekij\xC3\xA4t"
+    "4190": "Muut toimistoty\xC3\xB6ntekij\xC3\xA4t"
+    "42": "Asiakaspalveluty\xC3\xB6ntekij\xC3\xA4t"
+    "421": "Rahaliikenteen asiakaspalveluty\xC3\xB6ntekij\xC3\xA4t"
+    "4211": "Lipunmyyj\xC3\xA4t"
+    "4212": "Posti- ja pankkitoimihenkil\xC3\xB6t"
+    "4213": Bingo- ja kasinopelien hoitajat ymv.
+    "4214": Panttilainaajat
+    "4215": "Maksujenperij\xC3\xA4t"
+    "422": "Muut asiakaspalveluty\xC3\xB6ntekij\xC3\xA4t"
+    "4221": Matkatoimistovirkailijat
+    "4222": Vastaanoton ja neuvonnan hoitajat
+    "4223": "Puhelinvaihteenhoitajat ja h\xC3\xA4lytysp\xC3\xA4ivyst\xC3\xA4j\xC3\xA4t"
+    "51": "Palvelu- ja suojeluty\xC3\xB6ntekij\xC3\xA4t"
+    "511": "Matkustuspalveluty\xC3\xB6ntekij\xC3\xA4t"
+    "5111": "Lentoem\xC3\xA4nn\xC3\xA4t ja purserit"
+    "5112": "Kondukt\xC3\xB6\xC3\xB6rit"
+    "5113": Matkaoppaat
+    "512": "Ravintola- ja suurtalousty\xC3\xB6ntekij\xC3\xA4t"
+    "5121": Ravintola-, suurtalous- ymv. esimiehet
+    "5122": Kokit
+    "5123": "Tarjoiluty\xC3\xB6ntekij\xC3\xA4t"
+    "513": "Perus- ja l\xC3\xA4hihoitajat, lasten- ja kodinhoitajat ymv."
+    "5131": Lastenhoitajat
+    "5132": "Perushoitajat, l\xC3\xA4hihoitajat ymv."
+    "5133": "Kodinhoitajat, henkil\xC3\xB6kohtaiset avustajat ymv."
+    "5139": "Muut hoivaty\xC3\xB6ntekij\xC3\xA4t"
+    "514": "Kampaajat ja muut henkil\xC3\xB6kohtaisen palvelun ty\xC3\xB6ntekij\xC3\xA4t"
+    "5141": Kampaajat, parturit, kosmetologit ymv.
+    "5142": Palvelijat
+    "5143": "Hautauspalveluty\xC3\xB6ntekij\xC3\xA4t"
+    "5149": "Muut henkil\xC3\xB6kohtaisen palvelun ty\xC3\xB6ntekij\xC3\xA4t"
+    "515": Astrologit, ennustajat ymv.
+    "5151": Astrologit
+    "5152": Ennustajat
+    "516": "Suojelu- ja vartiointity\xC3\xB6ntekij\xC3\xA4t"
+    "5161": Palomiehet
+    "5162": Poliisit
+    "5163": Vanginvartijat
+    "5169": Valvojat ja vartijat
+    "52": "Mallit, myyj\xC3\xA4t ja tuote-esittelij\xC3\xA4t"
+    "521": Mallit
+    "5210": Mallit
+    "522": "Myyj\xC3\xA4t ja tuote-esittelij\xC3\xA4t"
+    "5220": "Myyj\xC3\xA4t ja tuote-esittelij\xC3\xA4t"
+    "523": "Tukku- ja v\xC3\xA4hitt\xC3\xA4iskaupan myyj\xC3\xA4t"
+    "5230": "Tukku- ja v\xC3\xA4hitt\xC3\xA4iskaupan myyj\xC3\xA4t"
+    "61": "Maanviljelij\xC3\xA4t, mets\xC3\xA4ty\xC3\xB6ntekij\xC3\xA4t ymv."
+    "611": "Pelto- ja puutarhaviljelij\xC3\xA4t"
+    "6111": "Peltoviljelij\xC3\xA4t ja peltoviljelyty\xC3\xB6ntekij\xC3\xA4t"
+    "6112": "Puutarhaviljelij\xC3\xA4t"
+    "6113": "Puutarhurit, kauppapuutarhurit, taimitarhan ty\xC3\xB6ntekij\xC3\xA4t"
+    "6114": "Monialaviljelij\xC3\xA4t"
+    "612": "El\xC3\xA4intenkasvattajat ja -hoitajat"
+    "6121": Karjankasvattajat
+    "6122": Siipikarjankasvattajat
+    "6123": "Mehil\xC3\xA4istenhoitajat ja silkinviljelij\xC3\xA4t"
+    "6124": "El\xC3\xA4inetenkasvattajat (useamman lajin)"
+    "6129": "Muut el\xC3\xA4intenhoitajat"
+    "613": "Yhdistetyn maanviljelyn ja el\xC3\xA4intenhoidon ty\xC3\xB6ntekij\xC3\xA4t"
+    "6130": "Yhdistetyn maanviljelyn ja el\xC3\xA4intenhoidon harjoittajat ja ty\xC3\xB6ntekij\xC3\xA4t"
+    "614": "Metsurit ja mets\xC3\xA4ty\xC3\xB6ntekij\xC3\xA4t"
+    "6141": "Metsurit ja mets\xC3\xA4ty\xC3\xB6ntekij\xC3\xA4t"
+    "6142": Hiilenpolttajat ymv.
+    "615": "Kalanviljelij\xC3\xA4t, kalastajat ja mets\xC3\xA4st\xC3\xA4j\xC3\xA4t"
+    "6151": "Kalanviljely-yritt\xC3\xA4j\xC3\xA4t ja -ty\xC3\xB6ntekij\xC3\xA4t"
+    "6152": Kalastajat
+    "6153": "Syv\xC3\xA4nmeren kalastajat"
+    "6154": "Riistanhoitajat ja mets\xC3\xA4st\xC3\xA4j\xC3\xA4t"
+    "62": "Kotitarvikeviljelij\xC3\xA4t ja -kalastajat"
+    "621": "Kotitarveviljelij\xC3\xA4t ja -kalastajat"
+    "6210": "Kotitarvikeviljelij\xC3\xA4t ja -kalastajat"
+    "71": "Kaivos-, louhos- ja rakennusty\xC3\xB6ntekij\xC3\xA4t"
+    "711": "Kaivosty\xC3\xB6ntekij\xC3\xA4t, panostajat, kivenhakkaajat ymv."
+    "7111": "Kaivos- ja louhosty\xC3\xB6ntekij\xC3\xA4t"
+    "7112": "Panostajat ja r\xC3\xA4j\xC3\xA4ytt\xC3\xA4j\xC3\xA4t"
+    "7113": Kivenhakkaajat ja -leikkaajat ymv.
+    "712": "Rakennusty\xC3\xB6ntekij\xC3\xA4t ymv."
+    "7121": "Rakennusty\xC3\xB6ntekij\xC3\xA4t"
+    "7122": Muurarit ja laatoittajat
+    "7123": "Betonity\xC3\xB6ntekij\xC3\xA4t, raudoittajat ymv."
+    "7124": Kirvesmiehet
+    "7129": "Muut rakennusty\xC3\xB6ntekij\xC3\xA4t"
+    "713": "Rakennusten viimeistelyty\xC3\xB6ntekij\xC3\xA4t"
+    "7131": Kattoasentajat ja -korjaajat
+    "7132": "Lattianp\xC3\xA4\xC3\xA4llystysty\xC3\xB6ntekij\xC3\xA4t"
+    "7133": Rappaajat
+    "7134": "Erist\xC3\xA4j\xC3\xA4t"
+    "7135": Lasittajat
+    "7136": Putkiasentajat
+    "7137": "Rakennuss\xC3\xA4hk\xC3\xB6asentajat"
+    "714": Maalarit ja rakennuspuhdistajat
+    "7141": Rakennusmaalarit
+    "7142": Pintamaalarit ja lakkaajat
+    "7143": Rakennussiivoojat ja nuohoojat
+    "72": "Konepaja- ja valimoty\xC3\xB6ntekij\xC3\xA4t sek\xC3\xA4 asentajat ja korjaajat"
+    "721": "Valimoty\xC3\xB6ntekij\xC3\xA4t, hitsaajat, levysep\xC3\xA4t ym."
+    "7211": "Muovaajat ja keernantekij\xC3\xA4t"
+    "7212": Hitsaajat ja kaasuleikkaajat
+    "7213": "Ohutlevysep\xC3\xA4t"
+    "7214": "Paksulevysep\xC3\xA4t ja rautarakennety\xC3\xB6ntekij\xC3\xA4t"
+    "7215": "Kaapelin- ja k\xC3\xB6ysienasentajat"
+    "7216": "Vedenalaisty\xC3\xB6ntekij\xC3\xA4t"
+    "722": "Sep\xC3\xA4t, ty\xC3\xB6kaluntekij\xC3\xA4t ja koneenasettajat"
+    "7221": "Sep\xC3\xA4t"
+    "7222": "Ty\xC3\xB6kaluntekij\xC3\xA4t ja lukkosep\xC3\xA4t"
+    "7223": Koneenasettajat ja koneistajat
+    "7224": Konehiojat, kiillottajat ja teroittajat
+    "723": Koneenasentajat ja -korjaajat
+    "7231": "Moottoriajoneuvojen ja ty\xC3\xB6koneiden asentajat ja korjaajat"
+    "7232": Lentokoneasentajat ja -korjaajat
+    "7233": Maatalouskoneasentajat ja -korjaajat
+    "724": "S\xC3\xA4hk\xC3\xB6-, elektroniikka- ja tietoliikennelaitteiden asentajat ja korjaajat"
+    "7241": "S\xC3\xA4hk\xC3\xB6laitteiden asentajat ja korjaajat"
+    "7242": Elektroniikkalaitteiden asentajat
+    "7243": Elektroniikkalaitteiden korjaajat
+    "7244": Tieto- ja teleliikenneasentajat ja -korjaajat
+    "7245": Linja-asentajat ja -korjaajat
+    "73": "Hienomekaniikan sek\xC3\xA4 taide- ja graafisen teollisuuden ty\xC3\xB6ntekij\xC3\xA4t"
+    "731": Hienomekaanikot
+    "7311": "Instrumentintekij\xC3\xA4t ja instrumenttiasentajat"
+    "7312": "Soittimien tekij\xC3\xA4t ja viritt\xC3\xA4j\xC3\xA4t"
+    "7313": "Jalokivi-, kulta- ja hopeasep\xC3\xA4t"
+    "732": "Savenvalajat, lasihyttity\xC3\xB6ntekij\xC3\xA4t ymv."
+    "7321": Saven- ja tiilenvalajat ja dreijaajat
+    "7322": Lasinpuhaltajat ja -leikkaajat ymv.
+    "7323": Lasinkaivertajat ja -etsaajat
+    "7324": Koristelijat
+    "733": "Puu-, tekstiili-, nahka- ym. k\xC3\xA4sity\xC3\xB6tuotteiden tekij\xC3\xA4t"
+    "7331": "Puuk\xC3\xA4sit\xC3\xB6iden tekij\xC3\xA4t"
+    "7332": "Tekstiili- ja nahkak\xC3\xA4sit\xC3\xB6iden tekij\xC3\xA4t"
+    "734": "Graafikot ja muut painoalan ty\xC3\xB6ntekij\xC3\xA4t"
+    "7341": "Tekstin- ja kuvank\xC3\xA4sittelij\xC3\xA4t"
+    "7342": Painokoneenhoitajat ymv.
+    "7343": Kemigrafit ja litografit
+    "7344": "Valokuvalaboratorioiden ty\xC3\xB6ntekij\xC3\xA4t"
+    "7345": "Kirjansitomoty\xC3\xB6ntekij\xC3\xA4t"
+    "7346": Silkki- ja tekstiilipainajat
+    "74": "Muut k\xC3\xA4sity\xC3\xB6tuotteiden tekij\xC3\xA4t"
+    "741": "Ruokatuotantoty\xC3\xB6ntekij\xC3\xA4t"
+    "7411": "Teurastajat, kalank\xC3\xA4sittelij\xC3\xA4t ymv."
+    "7412": Leipurit ja kondiittorit
+    "7413": Elintarvikkeiden valmistajat (meijerituotteet)
+    "7414": "Hedelm\xC3\xA4- ja vihanness\xC3\xA4ilykkeiden valmistajat"
+    "7415": Elintarvikkeiden ja juomien koemaistajat ja laadunarvioijat
+    "7416": Tupakkatuotteiden teolliset valmistajat
+    "742": "Puutavaran k\xC3\xA4sittelij\xC3\xA4t, puusep\xC3\xA4t ymv."
+    "7421": "Puutavaran k\xC3\xA4sittelij\xC3\xA4t"
+    "7422": "Huonekalupuusep\xC3\xA4t ymv."
+    "7423": "Puuty\xC3\xB6koneiden asentajat ja huoltajat"
+    "7424": "Korinpunojat ja harjantekij\xC3\xA4t"
+    "743": "Tekstiili- ja vaatetusalan ty\xC3\xB6ntekij\xC3\xA4t"
+    "7431": "Lankaty\xC3\xB6ntekij\xC3\xA4t"
+    "7432": Kutojat, neulojat ymv.
+    "7433": "Vaatturit, pukuompelijat ja hatuntekij\xC3\xA4t"
+    "7434": Turkkurit
+    "7435": Leikkaajat ja mallimestarit
+    "7436": Koru- ja muut tekstiiliompelijat
+    "7437": Verhoilijat
+    "744": "Turkisten ja nahkojen muokkaajat sek\xC3\xA4 suutarit"
+    "7441": Turkisten ja nahkojen muokkaajat
+    "7442": "Suutarit ja jalkinety\xC3\xB6ntekij\xC3\xA4t"
+    "81": "Prosessity\xC3\xB6ntekij\xC3\xA4t"
+    "811": "Kaivos- ja louhintaty\xC3\xB6n koneenk\xC3\xA4ytt\xC3\xA4j\xC3\xA4t"
+    "8111": Vaunuporarit
+    "8112": "Rikastusty\xC3\xB6ntekij\xC3\xA4t"
+    "8113": "Iskuporaajat ja syv\xC3\xA4kairaajat"
+    "812": "Metalliteollisuuden prosessity\xC3\xB6ntekij\xC3\xA4t"
+    "8121": "Sulatto- ja sulatusuunity\xC3\xB6ntekij\xC3\xA4t"
+    "8122": Metallurgiset muokkaajat
+    "8123": "L\xC3\xA4mp\xC3\xB6k\xC3\xA4sittelij\xC3\xA4t"
+    "8124": "Langan- ja putkenvet\xC3\xA4j\xC3\xA4t"
+    "813": "Lasi- ja keramiikkateollisuuden ty\xC3\xB6ntekij\xC3\xA4t"
+    "8131": Lasi- ja keramiikkauunienhoitajat
+    "8139": "Muut lasi- ja keramiikkateollisuuden ty\xC3\xB6ntekij\xC3\xA4t"
+    "814": "Puunjalostuksen ja paperinvalmistuksen prosessity\xC3\xB6ntekij\xC3\xA4t"
+    "8141": Sahausprosessinhoitajat
+    "8142": Paperimassan ja hakkeen teolliset valmistajat
+    "8143": Paperin ja kartongin teolliset valmistajat
+    "815": "Kemianteollisuuden prosessity\xC3\xB6ntekij\xC3\xA4t"
+    "8151": Murskaajat ja myllynhoitajat
+    "8152": Uuninhoitajat
+    "8153": Suodattajat ja separaattorinhoitajat
+    "8154": Kalanterinhoitajat
+    "8155": "Raaka\xC3\xB6ljyn ja luonnonkaasun jalostusty\xC3\xB6ntekij\xC3\xA4t"
+    "8159": Muut prosessinhoitajat
+    "816": Voimalaitosten, vesilaitosten ym. koneenhoitajat
+    "8161": Voimalaitosten koneenhoitajat
+    "8162": "L\xC3\xA4mmityskattiloiden hoitajat"
+    "8163": "J\xC3\xA4tteenpoltto- ja vedenpuhdistuslaitosten koneenhoitajat"
+    "817": Teollisuusrobottien hoitajat
+    "8171": Tuotantolinjan hoitajat
+    "8172": Teollisuusrobottien hoitajat
+    "82": Teollisuustuotteiden valmistajat ja kokoonpanijat
+    "821": Metalli- ja mineraalituotteiden teolliset valmistajat
+    "8211": "Metallin koneelliset ty\xC3\xB6st\xC3\xA4j\xC3\xA4t"
+    "8212": Betoni- ym. tuotteiden teolliset valmistajat
+    "822": Kemiallisten tuotteiden teolliset valmistajat
+    "8221": "L\xC3\xA4\xC3\xA4kkeiden ja hygieniatuotteiden teolliset valmistajat"
+    "8222": "Ammusten ja r\xC3\xA4j\xC3\xA4hteiden teolliset valmistajat"
+    "8223": "Metallien teolliset p\xC3\xA4\xC3\xA4llyst\xC3\xA4j\xC3\xA4t ja viimeistelij\xC3\xA4t"
+    "8224": Valokuvatuotteiden teolliset valmistajat
+    "8229": Muut kemiallisten tuotteiden teolliset valmistajat
+    "823": Kumi- ja muovituotteiden teolliset valmistajat
+    "8231": Kumituotteiden teolliset valmistajat
+    "8232": Muovituotteiden teolliset valmistajat
+    "824": Puutuotteiden teolliset valmistajat
+    "8240": Puutuotteiden teolliset valmistajat
+    "825": "Painajat, j\xC3\xA4lkik\xC3\xA4sittelij\xC3\xA4t ja paperituotteiden teolliset valmistajat"
+    "8251": Painokoneen hoitajat
+    "8252": "J\xC3\xA4lkik\xC3\xA4sittelij\xC3\xA4t"
+    "8253": Paperituotteiden teolliset valmistajat
+    "826": Tekstiili-, turkis- ja nahkatuotteiden teolliset valmistajat
+    "8261": Kuitujenvalmistus-, kehruu- ja puolauskoneiden hoitajat
+    "8262": Kutoma- ja neulekoneiden hoitajat
+    "8263": Ompelukoneiden hoitajat
+    "8264": "Pesu-, valkaisu- ja v\xC3\xA4rj\xC3\xA4yskoneiden hoitajat"
+    "8265": "Turkisten ja nahkojen teolliset k\xC3\xA4sittelij\xC3\xA4t"
+    "8266": Jalkineiden, laukkujen ym. teolliset valmistajat
+    "8269": Muut tekstiili-, turkis- ja nahkatuotteiden teolliset valmistajat
+    "827": Elintarvikkeiden ymv. tuotteiden teolliset valmistajat
+    "8271": Liha- ja kalajalosteiden teolliset valmistajat
+    "8272": Maitotaloustuotteiden teolliset valmistajat
+    "8273": Jauhotuotteiden ja mausteiden teolliset valmistajat
+    "8274": Leipomo- ja suklaatuotteiden teolliset valmistajat
+    "8275": "Hedelm\xC3\xA4-, vihannes- ymv. tuotteiden teolliset valmistajat"
+    "8276": Sokerin teolliset valmistajat
+    "8277": Teen, kahvin ja kaakaon teolliset valmistajat
+    "8278": Oluen, viinin ja muiden juomien teolliset valmistajat
+    "8279": Tupakkatuotteiden teolliset valmistajat
+    "828": Teollisuustuotteiden kokoonpanijat
+    "8281": Konepaja- ja metallituotteiden kokoonpanijat
+    "8282": "S\xC3\xA4hk\xC3\xB6laitteiden kokoonpanijat"
+    "8283": Elektronisten laitteiden kokoonpanijat
+    "8284": Metalli-, kumi- ja muovituotteiden teolliset kokoonpanijat
+    "8285": Puu- ym. tuotteiden teolliset kokoonpanijat
+    "8286": Kartonki-, tekstiili- ym. tuotteiden teolliset kokoonpanijat
+    "829": Muut teolliset valmistajat ja kokoonpanijat
+    "8290": Muut teolliset valmistajat ja kokoonpanijat
+    "83": "Kuljettajat, vesiliikennety\xC3\xB6ntekij\xC3\xA4t ym."
+    "831": Veturin- ja moottorivaununkuljettajat
+    "8311": Veturin- ja moottorivaununkuljettajat
+    "8312": "Vaihdety\xC3\xB6henkil\xC3\xB6st\xC3\xB6"
+    "832": Moottoriajoneuvojen kuljettajat
+    "8321": "Moottoripy\xC3\xB6r\xC3\xA4l\xC3\xA4hetit ym."
+    "8322": "Henkil\xC3\xB6- ja pakettiautonkuljettajat"
+    "8323": Linja-auton- ja raitiovaununkuljettajat
+    "8324": Kuorma-auton ja erikoisajoneuvojen kuljettajat
+    "833": "Ty\xC3\xB6koneiden kuljettajat"
+    "8331": "Maa- ja mets\xC3\xA4talousty\xC3\xB6koneiden kuljettajat"
+    "8332": Maanrakennus- ym. koneiden kuljettajat
+    "8333": Nosturinkuljettajat
+    "8334": Trukin- ja siirtokoneenkuljettajat
+    "834": "Kansi- ja konemiehist\xC3\xB6 ymv. vesiliikenteen ty\xC3\xB6ntekij\xC3\xA4t"
+    "8340": "Kansi- ja konemiehist\xC3\xB6 ymv. vesiliikenteen ty\xC3\xB6ntekij\xC3\xA4t"
+    "91": "Muut myynti- ja palveluty\xC3\xB6ntekij\xC3\xA4t"
+    "911": "Katu- ja kotimyyj\xC3\xA4t"
+    "9111": "Katumyyj\xC3\xA4t (elintarvikkeet)"
+    "9112": "Katumyyj\xC3\xA4t (muut kuin elintarvikkeet)"
+    "9113": "Puhelinmyyj\xC3\xA4t ja kotimyyj\xC3\xA4t"
+    "912": "Keng\xC3\xA4nkiillottajat ymv."
+    "9120": "Keng\xC3\xA4nkiillottajat ymv."
+    "913": "Sairaala-, hoito- ja keitti\xC3\xB6apulaiset, siivoojat ymv."
+    "9131": Kotiapulaiset ja -siivoojat
+    "9132": "Sairaala-, hoito- ja keitti\xC3\xB6apulaiset sek\xC3\xA4 siivoojat"
+    "9133": "Puhdistajat ja pr\xC3\xA4ss\xC3\xA4\xC3\xA4j\xC3\xA4t"
+    "914": "Kiinteist\xC3\xB6ty\xC3\xB6ntekij\xC3\xA4t, huoltomiehet, ikkunanpesij\xC3\xA4t ymv."
+    "9141": "Kiinteist\xC3\xB6huoltomiehet"
+    "9142": "Ajoneuvojen ja ikkunoiden pesij\xC3\xA4t ymv."
+    "915": "L\xC3\xA4hetit, vahtimestarit, ovenvartijat ymv."
+    "9151": "Sanomalehtien ja mainosten jakajat ja l\xC3\xA4hetit"
+    "9152": Ovenvartijat ja vahtimestarit
+    "9153": Mittareiden lukijat ymv.
+    "916": "Puhtaanapito- ja siivousalan ty\xC3\xB6ntekij\xC3\xA4t"
+    "9161": "J\xC3\xA4te- ja kaatopaikkaty\xC3\xB6ntekij\xC3\xA4t"
+    "9162": Kadunlakaisijat ymv.
+    "92": "Maa- ja mets\xC3\xA4talouden sek\xC3\xA4 kalatalouden ty\xC3\xB6ntekij\xC3\xA4t"
+    "921": "Maa- ja mets\xC3\xA4talouden sek\xC3\xA4 kalatalouden ty\xC3\xB6ntekij\xC3\xA4t"
+    "9211": "Maatalousty\xC3\xB6ntekij\xC3\xA4t"
+    "9212": "Mets\xC3\xA4ty\xC3\xB6ntekij\xC3\xA4t"
+    "9213": "Kalastus- ja mets\xC3\xA4stysty\xC3\xB6ntekij\xC3\xA4t"
+    "93": "Teollisuuden ja rakentamisen ty\xC3\xB6ntekij\xC3\xA4t"
+    "931": "Kaivos- ja rakennusalan ty\xC3\xB6ntekij\xC3\xA4t"
+    "9311": "Kaivosty\xC3\xB6ntekij\xC3\xA4t"
+    "9312": "Maa- ja vesirakennusalan ty\xC3\xB6ntekij\xC3\xA4t"
+    "9313": "Talonrakennusalan ty\xC3\xB6ntekij\xC3\xA4t"
+    "932": "Teollisuusty\xC3\xB6ntekij\xC3\xA4t"
+    "9321": "Kokoonpanoty\xC3\xB6ntekij\xC3\xA4t"
+    "9322": "Pakkaajat ja muut avustavat teollisuus ty\xC3\xB6ntekij\xC3\xA4t"
+    "933": "Rahdink\xC3\xA4sittelij\xC3\xA4t ja varastoty\xC3\xB6ntekij\xC3\xA4t"
+    "9331": "K\xC3\xA4si- tai poljinauton kuljettajat"
+    "9332": "El\xC3\xA4invetoisten kulkuneuvojen kuljettajat"
+    "9333": "Rahdink\xC3\xA4sittelij\xC3\xA4t"

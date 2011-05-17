@@ -1,0 +1,18 @@
+nl:
+  about: Over
+  choose: ~
+  description: Beschrijving
+  email: E-mail
+  fax: Fax
+  feedback: Feedback
+  i18n:
+    language:
+      name: Nederlands
+  maximum: Maximale
+  minimum: Minimum
+  phone: Telefoon
+  postal_address: Postadres
+  terms: Termen
+  type: Type
+  visit_address: Bezoekadres
+  website: Website

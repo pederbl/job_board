@@ -1,0 +1,532 @@
+--- 
+pl: 
+  isco_code: 
+    "11": "Przedstawiciele w\xC5\x82adz publicznych, wy\xC5\xBCsi urz\xC4\x99dnicy, zawodowi dzia\xC5\x82acze"
+    "111": "Przedstawiciele w\xC5\x82adz publicznych i wy\xC5\xBCsi urz\xC4\x99dnicy"
+    "1120": "Wy\xC5\xBCsi urz\xC4\x99dnicy rz\xC4\x85dowi"
+    "113": "Tradycyjni zarz\xC4\x85dcy i zwierzchnicy wiosek"
+    "1130": "Tradycyjni zarz\xC4\x85dcy i zwierzchnicy wiosek"
+    "114": "Wy\xC5\xBCsi urz\xC4\x99dnicy organizacji do zada\xC5\x84 szczeg\xC3\xB3lnych"
+    "1141": "Zawodowi dzia\xC5\x82acze organizacji politycznych"
+    "1142": "Zawodowi dzia\xC5\x82acze organizacji zwi\xC4\x85zkowych"
+    "1143": "Zawodowi dzia\xC5\x82acze organizacji spo\xC5\x82ecznych"
+    "12": "Kierownicy du\xC5\xBCych i \xC5\x9Brednich organizacji"
+    "121": "Dyrektorzy generalni, wykonawczy, prezesi i ich zast\xC4\x99pcy"
+    "1210": "Zast\xC4\x99pcy dyrektor\xC3\xB3w generalnych i prezes\xC3\xB3w"
+    "122": "Kierownicy wewn\xC4\x99trznych jednostek organizacyjnych dzia\xC5\x82alno\xC5\x9Bci podstawowej"
+    "1221": "Kierownicy wewn\xC4\x99trznych jednostek organizacyjnych dzia\xC5\x82alno\xC5\x9Bci podstawowej w rolnictwie, \xC5\x82owiectwie,..."
+    "1222": "Kierownicy wewn\xC4\x99trznych jednostek organizacyjnych dzia\xC5\x82alno\xC5\x9Bci podstawowej w przemy\xC5\x9Ble przetw\xC3\xB3rczym"
+    "1223": "Kierownicy wewn\xC4\x99trznych jednostek organizacyjnych dzia\xC5\x82alno\xC5\x9Bci podstawowej w budownictwie"
+    "1224": "Kierownicy wewn\xC4\x99trznych jednostek organizacyjnych dzia\xC5\x82alno\xC5\x9Bci podstawowej w handlu hurtowym i detal..."
+    "1225": "Kierownicy wewn\xC4\x99trznych jednostek organizacyjnych dzia\xC5\x82alno\xC5\x9Bci podstawowej w gastronomii, hotelarstw..."
+    "1226": "Kierownicy wewn\xC4\x99trznych jednostek organizacyjnych dzia\xC5\x82alno\xC5\x9Bci podstawowej w gospodarce magazynowej,..."
+    "1227": "Kierownicy wewn\xC4\x99trznych jednostek organizacyjnych dzia\xC5\x82alno\xC5\x9Bci podstawowej w przedsi\xC4\x99biorstwach obs\xC5\x82..."
+    "1228": "Kierownicy wewn\xC4\x99trznych jednostek organizacyjnych dzia\xC5\x82alno\xC5\x9Bci podstawowej w przedsi\xC4\x99biorstwach us\xC5\x82u..."
+    "1229": "Kierownicy wewn\xC4\x99trznych jednostek organizacyjnych dzia\xC5\x82alno\xC5\x9Bci podstawowej gdzie indziej niesklasyfi..."
+    "123": "Kierownicy pozosta\xC5\x82ych wewn\xC4\x99trznych jednostek organizacyjnych"
+    "1231": "Kierownicy dzia\xC5\x82\xC3\xB3w finansowych i administracyjnych"
+    "1232": "Kierownicy dzia\xC5\x82\xC3\xB3w osobowych i pokrewnych"
+    "1233": "Kierownicy dzia\xC5\x82\xC3\xB3w marketingu i sprzeda\xC5\xBCy"
+    "1234": "Kierownicy dzia\xC5\x82\xC3\xB3w reklamy, promocji i pokrewnych"
+    "1235": "Kierownicy dzia\xC5\x82\xC3\xB3w zaopatrzenia i dystrybucji"
+    "1236": "Kierownicy dzia\xC5\x82\xC3\xB3w informatyki"
+    "1237": "Kierownicy dzia\xC5\x82\xC3\xB3w badawczo-rozwojowych"
+    "1239": "Kierownicy pozosta\xC5\x82ych wewn\xC4\x99trznych jednostek organizacyjnych gdzie indziej niesklasyfikowani"
+    "13": "Kierownicy ma\xC5\x82ych przedsi\xC4\x99biorstw"
+    "131": "Kierownicy ma\xC5\x82ych przedsi\xC4\x99biorstw"
+    "1311": "Kierownicy ma\xC5\x82ych przedsi\xC4\x99biorstw w rolnictwie, \xC5\x82owiectwie, le\xC5\x9Bnictwie i rybo\xC5\x82\xC3\xB3wstwie"
+    "1312": "Kierownicy ma\xC5\x82ych przedsi\xC4\x99biorstw w przemy\xC5\x9Ble przetw\xC3\xB3rczym"
+    "1313": "Kierownicy ma\xC5\x82ych przedsi\xC4\x99biorstw w budownictwie"
+    "1314": "Kierownicy ma\xC5\x82ych przedsi\xC4\x99biorstw w handlu hurtowym i detalicznym"
+    "1315": "Kierownicy ma\xC5\x82ych przedsi\xC4\x99biorstw w gastronomii, hotelarstwie i turystyce"
+    "1316": "Kierownicy ma\xC5\x82ych przedsi\xC4\x99biorstw w gospodarce magazynowej, transporcie i \xC5\x82\xC4\x85czno\xC5\x9Bci"
+    "1317": "Kierownicy ma\xC5\x82ych przedsi\xC4\x99biorstw obs\xC5\x82ugi biznesu"
+    "1318": "Kierownicy ma\xC5\x82ych przedsi\xC4\x99biorstw us\xC5\x82ug osobistych, porz\xC4\x85dkowych i pokrewnych"
+    "1319": "Kierownicy ma\xC5\x82ych przedsi\xC4\x99biorstw gdzie indziej niesklasyfikowani"
+    "21": "Specjali\xC5\x9Bci nauk fizycznych, matematycznych i technicznych"
+    "211": Fizycy, chemicy i pokrewni
+    "2111": Fizycy i astronomowie
+    "2112": Meteorolodzy
+    "2113": Chemicy
+    "2114": "Specjali\xC5\x9Bci nauk o ziemi"
+    "212": Matematycy, statystycy i pokrewni
+    "2121": Matematycy i pokrewni
+    "2122": Statystycy
+    "213": Informatycy
+    "2131": "Projektanci i analitycy system\xC3\xB3w komputerowych"
+    "2132": "Programi\xC5\x9Bci"
+    "2139": Informatycy gdzie indziej niesklasyfikowani
+    "214": "In\xC5\xBCynierowie i pokrewni"
+    "2141": "Architekci, urbani\xC5\x9Bci i pokrewni"
+    "2142": "In\xC5\xBCynierowie budownictwa i in\xC5\xBCynierii \xC5\x9Brodowiska"
+    "2143": "In\xC5\xBCynierowie elektrycy"
+    "2144": "In\xC5\xBCynierowie elektronicy i telekomunikacji"
+    "2145": "In\xC5\xBCynierowie mechanicy"
+    "2146": "In\xC5\xBCynierowie chemicy"
+    "2147": "In\xC5\xBCynierowie g\xC3\xB3rnicy, metalurdzy i pokrewni"
+    "2148": "In\xC5\xBCynierowie geodeci i kartografowie"
+    "2149": "In\xC5\xBCynierowie i pokrewni gdzie indziej niesklasyfikowani"
+    "22": "Specjali\xC5\x9Bci nauk przyrodniczych i ochrony zdrowia"
+    "221": "Specjali\xC5\x9Bci nauk rolniczych i le\xC5\x9Bnych"
+    "2211": Biotechnolodzy
+    "2212": Biochemicy, biofizycy i pokrewni
+    "2213": "In\xC5\xBCynierowie rolnictwa, le\xC5\x9Bnictwa i pokrewni"
+    "222": "Specjali\xC5\x9Bci ochrony zdrowia (z wyj\xC4\x85tkiem piel\xC4\x99gniarek i po\xC5\x82o\xC5\xBCnych)"
+    "2221": Lekarze
+    "2222": "Lekarze denty\xC5\x9Bci"
+    "2223": Lekarze weterynarii
+    "2224": Farmaceuci
+    "2229": "Specjali\xC5\x9Bci ochrony zdrowia (z wyj\xC4\x85tkiem piel\xC4\x99gniarek) gdzie indziej niesklasyfikowani"
+    "223": "Piel\xC4\x99gniarki i po\xC5\x82o\xC5\xBCne"
+    "2230": "Po\xC5\x82o\xC5\xBCne"
+    "23": "Specjali\xC5\x9Bci szkolnictwa"
+    "231": "Nauczyciele szk\xC3\xB3\xC5\x82 wy\xC5\xBCszych"
+    "2310": "Nauczyciele szk\xC3\xB3\xC5\x82 wy\xC5\xBCszych"
+    "232": "Nauczyciele gimnazj\xC3\xB3w i szk\xC3\xB3\xC5\x82 ponadgimnazjalnych"
+    "2320": "Nauczyciele gimnazj\xC3\xB3w i szk\xC3\xB3\xC5\x82 ponadgimnazjalnych"
+    "233": "Nauczyciele szk\xC3\xB3\xC5\x82 podstawowych i przedszkoli"
+    "2331": "Nauczyciele szk\xC3\xB3\xC5\x82 podstawowych"
+    "2332": Nauczyciele przedszkoli
+    "234": "Nauczyciele szk\xC3\xB3\xC5\x82 specjalnych"
+    "2340": "Nauczyciele szk\xC3\xB3\xC5\x82 specjalnych"
+    "235": "Pozostali specjali\xC5\x9Bci szkolnictwa i wychowawcy"
+    "2351": "Specjali\xC5\x9Bci metod nauczania"
+    "2352": Wizytatorzy szkolni
+    "2359": "Specjali\xC5\x9Bci szkolnictwa i wychowawcy gdzie indziej niesklasyfikowani"
+    "24": "Pozostali specjali\xC5\x9Bci"
+    "241": "Specjali\xC5\x9Bci do spraw ekonomicznych i zarz\xC4\x85dzania"
+    "2411": "Specjali\xC5\x9Bci do spraw finansowych"
+    "2412": "Specjali\xC5\x9Bci do spraw zarz\xC4\x85dzania zasobami ludzkimi"
+    "2419": "Specjali\xC5\x9Bci do spraw ekonomicznych i zarz\xC4\x85dzania gdzie indziej niesklasyfikowani"
+    "242": Prawnicy
+    "2421": Adwokaci, radcy prawni i prokuratorzy
+    "2422": "S\xC4\x99dziowie"
+    "2429": Prawnicy gdzie indziej nie sklasyfikowani
+    "243": "Archiwi\xC5\x9Bci, bibliotekoznawcy i specjali\xC5\x9Bci informacji naukowej"
+    "2431": "Archiwi\xC5\x9Bci i muzealnicy"
+    "2432": "Bibliotekoznawcy i specjali\xC5\x9Bci informacji naukowej"
+    "244": "Specjali\xC5\x9Bci nauk spo\xC5\x82ecznych i pokrewnych"
+    "2441": "Ekonomi\xC5\x9Bci"
+    "2442": Archeolodzy, socjolodzy i pokrewni
+    "2443": Filozofowie, historycy i politolodzy
+    "2444": "Filolodzy i t\xC5\x82umacze"
+    "2445": Psycholodzy i pokrewni
+    "2446": "Specjali\xC5\x9Bci do spraw spo\xC5\x82ecznych"
+    "245": "Specjali\xC5\x9Bci kultury i sztuki"
+    "2451": Literaci, dziennikarze i pokrewni
+    "2452": "Tw\xC3\xB3rcy ludowi"
+    "2453": "Kompozytorzy, arty\xC5\x9Bci muzycy i \xC5\x9Bpiewacy"
+    "2454": Choreografowie i tancerze baletowi
+    "2455": "Producenci, organizatorzy produkcji filmowej i telewizyjnej, re\xC5\xBCyserzy, aktorzy i pokrewni"
+    "246": Duchowni
+    "2460": Zakonnicy
+    "31": "\xC5\x9Aredni personel techniczny"
+    "311": Technicy
+    "3111": Technicy nauk chemicznych, fizycznych i pokrewni
+    "3112": "Technicy budownictwa, ochrony \xC5\x9Brodowiska i pokrewni"
+    "3113": Technicy elektrycy
+    "3114": Technicy elektronicy, telekomunikacji i pokrewni
+    "3115": Technicy mechanicy
+    "3116": "Technicy technologii \xC5\xBCywno\xC5\x9Bci"
+    "3117": "Technicy g\xC3\xB3rnictwa, metalurgii i pokrewni"
+    "3118": "Kre\xC5\x9Blarze, graficy komputerowi i pokrewni"
+    "3119": "Operatorzy obiekt\xC3\xB3w j\xC4\x85drowych"
+    "312": "Techniczny personel obs\xC5\x82ugi komputer\xC3\xB3w i pokrewni"
+    "3121": Technicy informatycy
+    "3122": "Operatorzy sprz\xC4\x99tu komputerowego i pokrewni"
+    "3123": "Kontrolerzy robot\xC3\xB3w przemys\xC5\x82owych"
+    "313": "Operatorzy sprz\xC4\x99tu optycznego i elektronicznego"
+    "3131": "Fotografowie i operatorzy urz\xC4\x85dze\xC5\x84 do rejestracji obrazu i d\xC5\xBAwi\xC4\x99ku"
+    "3132": "Operatorzy urz\xC4\x85dze\xC5\x84 nadawczych i telekomunikacyjnych"
+    "3133": Operatorzy aparatury medycznej
+    "3139": "Operatorzy sprz\xC4\x99tu optycznego i elektronicznego gdzie indziej niesklasyfikowani"
+    "314": "Kontrolerzy i techniczy statk\xC3\xB3w i statk\xC3\xB3w powietrznych"
+    "3141": "Pracownicy s\xC5\x82u\xC5\xBCb technicznych \xC5\xBCeglugi"
+    "3142": "Oficerowie pok\xC5\x82adowi, piloci \xC5\xBCeglugi i pokrewni"
+    "3143": "Piloci statk\xC3\xB3w powietrznych i pokrewni"
+    "3144": Kontrolerzy ruchu lotniczego i pokrewni
+    "3145": "Technicy urz\xC4\x85dze\xC5\x84 ruchu lotniczego"
+    "315": "Inspektorzy bezpiecze\xC5\x84stwa i jako\xC5\x9Bci"
+    "3151": "Inspektorzy budowlani, przeciwpo\xC5\xBCarowi i pokrewni"
+    "3152": "Inspektorzy bezpiecze\xC5\x84stwa pracy, kontrolerzy jako\xC5\x9Bci wyrob\xC3\xB3w i pokrewni"
+    "32": "\xC5\x9Aredni personel w zakresie nauk biologicznych i ochrony zdrowia"
+    "321": Technicy nauk biologicznych i rolniczych
+    "3211": Technicy analityki medycznej
+    "3212": "Technicy rolnicy, le\xC5\x9Bnicy i pokrewni"
+    "3213": "Doradcy rolni i le\xC5\x9Bni"
+    "322": "\xC5\x9Aredni personel ochrony zdrowia"
+    "3221": Asystenci medyczni
+    "3222": "Higieni\xC5\x9Bci"
+    "3223": "Dietetycy i \xC5\xBCywieniowcy"
+    "3224": Optycy
+    "3225": Asystenci i technicy dentystyczni
+    "3226": Fizjoterapeuci i pokrewni
+    "3227": Asystenci weterynaryjni
+    "3228": Technicy farmaceutyczni
+    "3229": "\xC5\x9Aredni personel ochrony zdrowia gdzie indziej niesklasyfikowany"
+    "323": "\xC5\x9Aredni personel piel\xC4\x99gniarski i po\xC5\x82o\xC5\xBCniczy"
+    "3231": "\xC5\x9Aredni personel piel\xC4\x99gniarski"
+    "3232": "\xC5\x9Aredni personel po\xC5\x82o\xC5\xBCniczy"
+    "324": "Praktykuj\xC4\x85cy medycyn\xC4\x99 tradycyjn\xC4\x85  i uzdrawiacze"
+    "3241": "Praktykuj\xC4\x85cy medycyn\xC4\x99 tradycyjn\xC4\x85"
+    "3242": Uzdrawiacze
+    "33": Nauczyciele praktycznej nauki zawodu i instruktorzy
+    "331": "\xC5\x9Aredni personel nauczania pocz\xC4\x85tkowego"
+    "3310": "\xC5\x9Aredni personel nauczania pocz\xC4\x85tkowego"
+    "332": "\xC5\x9Aredni personel nauczania przedszkolnego"
+    "3320": "\xC5\x9Aredni personel nauczania przedzkolnego"
+    "333": "\xC5\x9Aredni personel nauczania specjalnego"
+    "3330": "\xC5\x9Aredni personel nauczania specjalnego"
+    "334": Nauczyciele praktycznej nauki zawodu i instruktorzy
+    "3340": Nauczyciele praktycznej nauki zawodu i instruktorzy
+    "34": "Pracownicy pozosta\xC5\x82ych specjalno\xC5\x9Bci"
+    "341": Pracownicy do spraw finansowych i handlowych
+    "3411": "Dealerzy i maklerzy aktyw\xC3\xB3w finansowych i pokrewni"
+    "3412": "Po\xC5\x9Brednicy ubezpieczeniowi"
+    "3413": "Po\xC5\x9Brednicy w obrocie nieruchomo\xC5\x9Bciami"
+    "3414": Organizatorzy turystyki i pokrewni
+    "3415": "Agenci do spraw sprzeda\xC5\xBCy (handlowcy)"
+    "3416": Zaopatrzeniowcy
+    "3417": Rzeczoznawcy, taksatorzy i licytatorzy
+    "3419": "\xC5\x9Aredni personel do spraw finansowych i handlowych gdzie indziej niesklasyfikowani"
+    "342": "Agenci biur pomagaj\xC4\x85cych w prowadzeniu dzia\xC5\x82alno\xC5\x9Bci gospodarczej i po\xC5\x9Brednicy handlowi"
+    "3421": "Po\xC5\x9Brednicy handlowi"
+    "3422": Spedytorzy i pokrewni
+    "3423": "Pracownicy do spraw zatrudnienia i po\xC5\x9Brednictwa pracy"
+    "3429": Animatorzy kultury
+    "343": "\xC5\x9Aredni personel biurowy"
+    "3431": Asystenci do spraw organizacji produkcji filmowej i telewizyjnej
+    "3432": "\xC5\x9Aredni personel w dziedzinie prawa i pokrewnych"
+    "3433": "Ksi\xC4\x99gowi"
+    "3434": "\xC5\x9Aredni personel w dziedzinie matematyki, statystyki i pokrewnych"
+    "3439": "\xC5\x9Aredni personel administracyjny gdzie indziej niesklasyfikowany"
+    "344": "\xC5\x9Aredni personel urz\xC4\x99dniczy do spraw podatk\xC3\xB3w, ce\xC5\x82 i pokrewnych"
+    "3441": Funkcjonariusze celni i ochrony granic
+    "3442": "Urz\xC4\x99dnicy do spraw podatk\xC3\xB3w"
+    "3443": "Urz\xC4\x99dnicy do spraw przyznawania zasi\xC5\x82k\xC3\xB3w"
+    "3444": "Urz\xC4\x99dnicy organ\xC3\xB3w udzielaj\xC4\x85cych licencji"
+    "3449": "Urz\xC4\x99dnicy do spraw podatk\xC3\xB3w, ce\xC5\x82 i pokrewni gdzie indziej niesklasyfikowani"
+    "345": "Policjanci, funkcjonariusze s\xC5\x82u\xC5\xBCby wi\xC4\x99ziennej i ochrony pa\xC5\x84stwa"
+    "3450": "Funkcjonariusze ochrony pa\xC5\x84stwa"
+    "346": Pracownicy pomocy spobecznej i pracy socjalnej
+    "3460": Pracownicy pomocy spobecznej i pracy socjalnej
+    "347": "Pracownicy dzia\xC5\x82alno\xC5\x9Bci artystycznej, rozrywki i sportu"
+    "3471": Plastycy i pokrewni
+    "3472": Prezenterzy, inspicjenci i pokrewni
+    "3473": Muzycy, piosenkarze i tancerze
+    "3474": Pirotechnicy
+    "3475": Sportowcy zawodowi, trenerzy i pokrewni
+    "348": "Pracownicy parafialni i \xC5\x9Bwieccy krzewiciele wiary"
+    "3480": "Pracownicy parafialni i \xC5\x9Bwieccy krzewiciele wiary"
+    "41": "Pracownicy obs\xC5\x82ugi biurowej"
+    "411": Sekretarki i operatorzy maszyn biurowych
+    "4111": Maszynistki i stenografowie
+    "4112": "Operatorzy procesor\xC3\xB3w tekstu"
+    "4113": Operatorzy wprowadzania danych
+    "4114": "Operatorzy maszyn licz\xC4\x85cych"
+    "4115": Sekretarki
+    "412": "Pracownicy zajmuj\xC4\x85cy si\xC4\x99 liczbami"
+    "4121": "Pracownicy do spraw rachunkowo-ksi\xC4\x99gowych"
+    "4122": Pracownicy do spraw finansowo-statystycznych
+    "413": "Pracownicy do spraw ewidencji materia\xC5\x82owej, transportu i produkcji"
+    "4131": Magazynierzy i pokrewni
+    "4132": "Plani\xC5\x9Bci produkcyjni"
+    "4133": Pracownicy do spraw transportu
+    "414": Pracownicy poczty i pokrewni
+    "4141": Pracownicy bibliotek i informacji naukowej
+    "4142": "Dor\xC4\x99czyciele pocztowi i pokrewni"
+    "4143": Kodowacze i korektorzy
+    "4144": "Kopi\xC5\x9Bci i pokrewni"
+    "419": "Pracownicy obs\xC5\x82ugi biurowej gdzie indziej niesklasyfikowani"
+    "4190": "Pracownicy obs\xC5\x82ugi biurowej gdzie indziej niesklasyfikowani"
+    "42": "Pracownicy obrotu pieni\xC4\x99\xC5\xBCnego i obs\xC5\x82ugi klient\xC3\xB3w"
+    "421": "Pracownicy obrotu pieni\xC4\x99\xC5\xBCnego"
+    "4211": "Kasjerzy i sprzedawcy bilet\xC3\xB3w"
+    "4212": "Asystenci us\xC5\x82ug pocztowych i telekomunikacyjnych"
+    "4213": Krupierzy, pracownicy kolektur i pokrewni
+    "4214": "Pracownicy lombard\xC3\xB3w"
+    "4215": Inkasenci i poborcy
+    "422": "Informatorzy, pracownicy biur  podr\xC3\xB3\xC5\xBCy, recepcjoni\xC5\x9Bci i telefoni\xC5\x9Bci"
+    "4221": "Pracownicy biur podr\xC3\xB3\xC5\xBCy i pokrewni"
+    "4222": "Recepcjoni\xC5\x9Bci i rejestratorzy"
+    "4223": "Telefoni\xC5\x9Bci"
+    "51": "Pracownicy us\xC5\x82ug osobistych i ochrony"
+    "511": Stewardzi, konduktorzy i przewodnicy
+    "5111": Stewardzi
+    "5112": "Kierownicy poci\xC4\x85g\xC3\xB3w, konduktorzy i rewizorzy"
+    "5113": Przewodnicy turystyczni i piloci wycieczek
+    "512": "Pracownicy us\xC5\x82ug domowych i gastronomicznych"
+    "5121": "Pracownicy us\xC5\x82ug domowych i pokrewni"
+    "5122": Kucharze
+    "5123": Kelnerzy i pokrewni
+    "513": Pracownicy opieki osobistej i pokrewni
+    "5131": "Opiekunki dzieci\xC4\x99ce"
+    "5132": Pomocniczy personel medyczny
+    "5133": Pracownicy domowej opieki osobistej
+    "5139": Pracownicy opieki osobistej i pokrewni gdzie indziej niesklasyfikowani
+    "514": "Pozostali pracownicy us\xC5\x82ug osobistych"
+    "5141": Fryzjerzy, kosmetyczki i pokrewni
+    "5142": Osoby do towarzystwa
+    "5143": "Pracownicy zak\xC5\x82ad\xC3\xB3w pogrzebowych"
+    "5149": "Pozostali pracownicy us\xC5\x82ug osobistych gdzie indziej niesklasyfikowani"
+    "515": "Astrolodzy, wr\xC3\xB3\xC5\xBCbiarze i pokrewni"
+    "5151": Astrolodzy i pokrewni
+    "5152": Chiromanci i pokrewni
+    "516": "Pracownicy us\xC5\x82ug ochrony"
+    "5161": "Stra\xC5\xBCacy"
+    "5162": Funkcjonariusze policji
+    "5163": "Stra\xC5\xBCnicy wi\xC4\x99zienni"
+    "5169": "Pracownicy us\xC5\x82ug ochrony gdzie indziej niesklasyfikowani"
+    "52": Modelki, sprzedawcy i demonstratorzy
+    "521": Modelki, modele i pokrewni
+    "5210": Modelki, modele i pokrewni
+    "522": Sprzedawcy i demonstratorzy
+    "5220": Sprzedawcy i demonstratorzy
+    "523": Sprzedawcy i pracownicy stoisk
+    "5230": Sprzedawcy i pracownicy stoisk
+    "61": "Le\xC5\x9Bnicy i rybacy"
+    "611": Ogrodnicy
+    "6111": "Rolnicy produkcji ro\xC5\x9Blinnej"
+    "6112": Ogrodnicy sadownicy i pokrewni
+    "6113": "Ogrodnicy teren\xC3\xB3w zieleni"
+    "6114": Hodowcy upraw mieszanych
+    "612": "Hodowcy zwierz\xC4\x85t przeznaczonych dp sprzeda\xC5\xBCy rynkowej i pokrewni"
+    "6121": "Hodowcy wyspecjalizowanej produkcji zwierz\xC4\x99cej"
+    "6122": Hodowcy drobiu
+    "6123": "Pszczelarze i hodowcy jedwabnik\xC3\xB3w"
+    "6124": "Hodowcy krzy\xC5\xBC\xC3\xB3wek zwierz\xC4\x85t"
+    "6129": "Hodowcy zwierz\xC4\x85t przeznaczonych do sprzeda\xC5\xBCy rynkowej i pokrewni gdzie indziej niesklasyfikowani"
+    "613": "Rolnicy produkcji ro\xC5\x9Blinnej i zwierz\xC4\x99cej"
+    "6130": "Rolnicy produkcji ro\xC5\x9Blinnej i zwierz\xC4\x99cej"
+    "614": "Robotnicy le\xC5\x9Bni i pokrewni"
+    "6141": "Robotnicy le\xC5\x9Bni i pokrewni"
+    "6142": "Palacze w\xC4\x99glem i pokrewni"
+    "615": "Pracownicy rybo\xC5\x82\xC3\xB3wstwa, my\xC5\x9Bliwi i \xC5\x82owczy"
+    "6151": Hodowcy ryb
+    "6152": "Rybacy \xC5\x9Br\xC3\xB3dl\xC4\x85dowi gdzie indziej niesklasyfikowani"
+    "6153": Rybacy morscy
+    "6154": "My\xC5\x9Bliwi i \xC5\x82owczy"
+    "62": "Rolnicy i rybacy pracuj\xC4\x85cy na w\xC5\x82asne potrzeby"
+    "621": "Rolnicy i rybacy pracuj\xC4\x85cy na w\xC5\x82asne potrzeby"
+    "6210": "Rolnicy i rybacy pracuj\xC4\x85cy na w\xC5\x82asne potrzeby"
+    "71": "Robotnicy budowlani, g\xC3\xB3rnicy i robotnicy kopalnictwa"
+    "711": "G\xC3\xB3rnicy i robotnicy obr\xC3\xB3bki kamienia"
+    "7111": "G\xC3\xB3rnicy podziemnej i odkrywkowej eksploatacji z\xC5\x82\xC3\xB3\xC5\xBC i pokrewni"
+    "7112": "G\xC3\xB3rnicy strza\xC5\x82owi"
+    "7113": "Robotnicy obr\xC3\xB3bki kamienia"
+    "712": "Robotnicy budowlani rob\xC3\xB3t stanu surowego i pokrewni"
+    "7121": "Budowniczy; materia\xC5\x82y tradycyjne"
+    "7122": Murarze i kamieniarze
+    "7123": Betoniarze
+    "7124": Cie[le, stolarze budowlani i pokrewni
+    "7129": "Robotnicy budowlani rob\xC3\xB3t stanu surowego i pokrewni gdzie indziej niesklasyfikowani"
+    "713": "Robotnicy budowlani rob\xC3\xB3t wyko\xC5\x84czeniowych i pokrewni"
+    "7131": Dekarze
+    "7132": Posadzkarze i pokrewni
+    "7133": Tynkarze i pokrewni
+    "7134": Monterzy izolacji
+    "7135": Szklarze i pokrewni
+    "7136": Monterzy sieci komunalnych
+    "7137": Elektrycy budowlani i pokrewni
+    "714": "Malarze, pracownicy czyszcz\xC4\x85cy konstrukcje budowlane i pokrewni"
+    "7141": Malarze budowlani i pokrewni
+    "7142": Lakiernicy
+    "7143": "Robotnicy czyszcz\xC4\x85cy konstrukcje budowlane i pokrewni"
+    "72": "Robotnicy obr\xC3\xB3bki metali i mechanicy maszyn i urz\xC4\x85dze\xC5\x84"
+    "721": Formierze odlewniczy, spawacze, blacharze, monterzy konstrukcji metalowych i pokrewni
+    "7211": Formierze odlewniczy i pokrewni
+    "7212": Spawacze i pokrewni
+    "7213": Blacharze
+    "7214": "Robotnicy przygotowuj\xC4\x85cy i wznosz\xC4\x85cy konstrukcje metalowe"
+    "7215": Monterzy konstrukcji linowych
+    "7216": Nurkowie
+    "722": "Kowale, \xC5\x9Blusarze i pokrewni"
+    "7221": Kowale, hartownicy i pokrewni
+    "7222": "\xC5\x9Alusarze i pokrewni"
+    "7223": "Ustawiacze-operatorzy obrabiarek skrawaj\xC4\x85cych do metali"
+    "7224": "Szlifierze narz\xC4\x99dzi i polerowacze metali"
+    "723": "Mechanicy maszyn i urz\xC4\x85dze\xC5\x84"
+    "7231": "Mechanicy pojazd\xC3\xB3w samochodowych"
+    "7232": "Mechanicy statk\xC3\xB3w powietrznych i pokrewni"
+    "7233": "Mechanicy - monterzy maszyn i urz\xC4\x85dze\xC5\x84"
+    "724": Monterzy elektronicy i pokrewni
+    "7241": Elektromonterzy
+    "7242": Monterzy mechatronicy
+    "7243": "Mechanicy i serwisanci urz\xC4\x85dze\xC5\x84 elektronicznych"
+    "7244": "Monterzy i serwisanci urz\xC4\x85dze\xC5\x84 telekomunikacyjnych i telegraficznych"
+    "7245": Monterzy linii elektrycznych
+    "73": "Robotnicy zawod\xC3\xB3w precyzyjnych, ceramicy, wytw\xC3\xB3rcy wyrob\xC3\xB3w galanteryjnych, robotnicy poligraficzni i..."
+    "731": "Robotnicy produkcji wyrob\xC3\xB3w precyzyjnych z metalu i materia\xC5\x82\xC3\xB3w  pokrewnych"
+    "7311": Mechanicy precyzyjni
+    "7312": "Monterzy instrument\xC3\xB3w muzycznych"
+    "7313": "Jubilerzy, z\xC5\x82otnicy i pokrewni"
+    "732": Ceramicy, szklarze i pokrewni
+    "7321": "Formowacze wyrob\xC3\xB3w ceramicznych i pokrewni"
+    "7322": "Formowacze wyrob\xC3\xB3w szklanych, krajacze i szlifierze szk\xC5\x82a"
+    "7323": "Grawerzy szk\xC5\x82a i pokrewni"
+    "7324": "Zdobnicy ceramiki, szk\xC5\x82a i pokrewni"
+    "733": "Wytw\xC3\xB3rcy wyrob\xC3\xB3w galanteryjnych, pami\xC4\x85tkarskich i pokrewni"
+    "7331": "Wytw\xC3\xB3rcy wyrob\xC3\xB3w galanteryjnych, pami\xC4\x85tkarskich i pokrewni"
+    "7332": "Wykonawcy r\xC4\x99kodzie\xC5\x82a z tekstyli\xC3\xB3w, sk\xC3\xB3ry i materia\xC5\x82\xC3\xB3w pokrewnych"
+    "734": "Pracownicy handlu artyku\xC5\x82ami poligraficznymi i pokrewnymi"
+    "7341": "Sk\xC5\x82adacze tekst\xC3\xB3w"
+    "7342": Odlewacze i galwanizerzy poligraficzni
+    "7343": "Kopi\xC5\x9Bci, trawiacze, grawerzy i pokrewni"
+    "7344": Fotografowie poligraficzni
+    "7345": Introligatorzy
+    "7346": Drukarze sitodrukowi i pokrewni
+    "74": "Pozostali robotnicy przemys\xC5\x82owi i rzemie\xC5\x9Blnicy"
+    "741": "Robotnicy w przetw\xC3\xB3rstwie spo\xC5\xBCywczym"
+    "7411": "Masarze, robotnicy w przetw\xC3\xB3rstwie ryb i pokrewni"
+    "7412": Piekarze, cukiernicy i pokrewni
+    "7413": "Robotnicy w produkcji wyrob\xC3\xB3w mleczarskich"
+    "7414": "Robotnicy przetw\xC3\xB3rstwa surowc\xC3\xB3w ro\xC5\x9Blinnych"
+    "7415": "Klasyfikatorzy \xC5\xBCywno\xC5\x9Bci i pokrewni"
+    "7416": "Robotnicy przygotowuj\xC4\x85cy tyto\xC5\x84 i wyroby tytoniowe"
+    "742": "Pracownicy handlu: obr\xC3\xB3bka drewna, stolarka meblowa i pokrewne"
+    "7421": "Robotnicy przygotowuj\xC4\x85cy drewno i pokrewni"
+    "7422": Stolarze i pokrewni
+    "7423": "Ustawiacze-operatorzy maszyn do obr\xC3\xB3bki drewna i pokrewni"
+    "7424": Plecionkarze, szczotkarze i pokrewni
+    "743": "Robotnicy produkcji wyrob\xC3\xB3w w\xC5\x82\xC3\xB3kienniczych, odzie\xC5\xBCy i pokrewni"
+    "7431": "Przygotowywacze w\xC5\x82\xC3\xB3kna i prz\xC4\x99dzarze"
+    "7432": Tkacze, dziewiarze i pokrewni
+    "7433": Krawcy, kapelusznicy i pokrewni
+    "7434": "Ku\xC5\x9Bnierze i pokrewni"
+    "7435": Krojczowie
+    "7436": Szwaczki, hafciarki i pokrewni
+    "7437": Tapicerzy i pokrewni
+    "744": "Robotnicy obr\xC3\xB3bki sk\xC3\xB3ry"
+    "7441": "Garbarze sk\xC3\xB3r i pokrewni"
+    "7442": Obuwnicy
+    "81": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 wydobywczych i przetw\xC3\xB3rczych"
+    "811": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 wydobywczych i pokrewni"
+    "8111": "Operatorzy maszyn g\xC3\xB3rniczych i pokrewni"
+    "8112": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do przer\xC3\xB3bki mechanicznej kopalin"
+    "8113": "Operatorzy urz\xC4\x85dze\xC5\x84 wiertniczych i wydobywczych ropy, gazu i innych surowc\xC3\xB3w"
+    "812": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 hutniczych i pokrewni"
+    "8121": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 metalurgicznych"
+    "8122": "Operatorzy urz\xC4\x85dze\xC5\x84 odlewniczych, walcowniczych i pokrewni"
+    "8123": "Operatorzy piec\xC3\xB3w i urz\xC4\x85dze\xC5\x84 do obr\xC3\xB3bki cieplnej metali"
+    "8124": "Ci\xC4\x85gacze i t\xC5\x82oczarze"
+    "813": "Operatorzy urz\xC4\x85dze\xC5\x84 do produkcji wyrob\xC3\xB3w szklanych, ceramicznych i pokrewni"
+    "8131": "Operatorzy urz\xC4\x85dze\xC5\x84 przemys\xC5\x82u ceramicznego* (zaw\xC3\xB3d szkolny: operator urz\xC4\x85dze\xC5\x84 przemys\xC5\x82u ceramicznego..."
+    "8139": "Operatorzy urz\xC4\x85dze\xC5\x84 do produkcji wyrob\xC3\xB3w szklanych, ceramicznych i pokrewni gdzie indziej niesklasyf..."
+    "814": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do obr\xC3\xB3bki drewna i produkcji papieru"
+    "8141": "Operatorzy urz\xC4\x85dze\xC5\x84 do obr\xC3\xB3bki drewna"
+    "8142": "Operatorzy urz\xC4\x85dze\xC5\x84 do wyrobu masy papierniczej"
+    "8143": "Operatorzy urz\xC4\x85dze\xC5\x84 do produkcji papieru"
+    "815": "Operatorzy urz\xC4\x85dze\xC5\x84 przemys\xC5\x82u chemicznego"
+    "8151": "Operatorzy urz\xC4\x85dze\xC5\x84 do rozdrabniania, mieszania i granulowania chemikali\xC3\xB3w"
+    "8152": "Operatorzy urz\xC4\x85dze\xC5\x84 do obr\xC3\xB3bki cieplnej chemikali\xC3\xB3w i pokrewni"
+    "8153": "Operatorzy urz\xC4\x85dze\xC5\x84 filtruj\xC4\x85cych i oddzielaj\xC4\x85cych"
+    "8154": "Operatorzy urz\xC4\x85dze\xC5\x84 do proces\xC3\xB3w chemicznych i produkcji chemikali\xC3\xB3w"
+    "8155": "Operatorzy urz\xC4\x85dze\xC5\x84 do przer\xC3\xB3bki ropy naftowej i gazu"
+    "8159": "Operatorzy urz\xC4\x85dze\xC5\x84 przetw\xC3\xB3rstwa chemicznego gdzie indziej niesklasyfikowani"
+    "816": "Operatorzy urz\xC4\x85dze\xC5\x84 energetycznych i pokrewni"
+    "8161": Elektroenergetycy i pokrewni
+    "8162": "Maszyni\xC5\x9Bci silnik\xC3\xB3w, kot\xC5\x82\xC3\xB3w parowych i pokrewni"
+    "8163": "Operatorzy pomp, spr\xC4\x99\xC5\xBCarek, urz\xC4\x85dze\xC5\x84 uzdatniania wody, oczyszczania \xC5\x9Bciek\xC3\xB3w i pokrewni"
+    "817": "Operatorzy zautomatyzowanych linii produkcyjnych i robot\xC3\xB3w przemys\xC5\x82owych w przemy\xC5\x9Ble elektromaszynow..."
+    "8171": "Operatorzy zautomatyzowanych i zrobotyzowanych linii produkcyjnych w przemy\xC5\x9Ble elektromaszynowym"
+    "8172": "Operatorzy robot\xC3\xB3w i manipulator\xC3\xB3w przemys\xC5\x82owych"
+    "82": Operatorzy i monterzy maszyn
+    "821": "Operatorzy maszyn do produkcji wyrob\xC3\xB3w z metali i minera\xC5\x82\xC3\xB3w"
+    "8211": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do obr\xC3\xB3bki metali"
+    "8212": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do produkcji betonu, asfaltobetonu, element\xC3\xB3w betonowych i kamiennych i..."
+    "822": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do produkcji wyrob\xC3\xB3w chemicznych"
+    "8221": "Operatorzy urz\xC4\x85dze\xC5\x84 do produkcji wyrob\xC3\xB3w farmaceutycznych, kosmetycznych i sanitarnych"
+    "8222": "Operatorzy urz\xC4\x85dze\xC5\x84 do produkcji materia\xC5\x82\xC3\xB3w wybuchowych i pokrewni"
+    "8223": "Operatorzy urz\xC4\x85dze\xC5\x84 do nak\xC5\x82adania pow\xC5\x82ok"
+    "8224": "Operatorzy urz\xC4\x85dze\xC5\x84 do produkcji materia\xC5\x82\xC3\xB3w \xC5\x9Bwiat\xC5\x82oczu\xC5\x82ych i obr\xC3\xB3bki film\xC3\xB3w."
+    "8229": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do produkcji wyrob\xC3\xB3w chemicznych gdzie indziej niesklasyfikowani"
+    "823": "Operatorzy maszyn do produkcji wyrob\xC3\xB3w z gumy i tworzyw sztucznych"
+    "8231": "Operatorzy maszyn do produkcji wyrob\xC3\xB3w z gumy"
+    "8232": "Operatorzy maszyn do produkcji wyrob\xC3\xB3w z tworzyw sztucznych"
+    "824": "Operatorzy maszyn do produkcji wyrob\xC3\xB3w z drewna"
+    "8240": "Operatorzy maszyn do produkcji wyrob\xC3\xB3w z drewna"
+    "825": "Operatorzy maszyn poligraficznych i papierniczo-przetw\xC3\xB3rczych"
+    "8251": "Maszyni\xC5\x9Bci maszyn drukuj\xC4\x85cych"
+    "8252": "Maszyni\xC5\x9Bci maszyn introligatorskich"
+    "8253": "Operatorzy maszyn do produkcji wyrob\xC3\xB3w papierniczych"
+    "826": "Operatorzy maszyn w przemy\xC5\x9Ble w\xC5\x82\xC3\xB3kienniczym"
+    "8261": "Operatorzy maszyn prz\xC4\x99dzalniczych i pokrewni"
+    "8262": Operatorzy maszyn tkackich, dziewiarskich i pokrewni
+    "8263": Operatorzy maszyn do szycia
+    "8264": "Operatorzy maszyn wyko\xC5\x84czalniczych wyrob\xC3\xB3w w\xC5\x82\xC3\xB3kienniczych i pokrewni"
+    "8265": "Operatorzy maszyn do wyprawiania futer i sk\xC3\xB3r"
+    "8266": Operatorzy maszyn do produkcji obuwia
+    "8269": "Operatorzy maszyn do produkcji wyrob\xC3\xB3w w\xC5\x82\xC3\xB3kienniczych, futrzarskich i sk\xC3\xB3rzanych gdzie indziej niesk..."
+    "827": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 przemys\xC5\x82u spo\xC5\xBCywczego"
+    "8271": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do przetw\xC3\xB3rstwa mi\xC4\x99sa i ryb"
+    "8272": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do produkcji wyrob\xC3\xB3w mleczarskich"
+    "8273": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 przetw\xC3\xB3rstwa zbo\xC5\xBCowego i pokrewni"
+    "8274": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do produkcji wyrob\xC3\xB3w piekarniczych i cukierniczych oraz koncentrat\xC3\xB3w sp..."
+    "8275": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do przetw\xC3\xB3rstwa owoc\xC3\xB3w, warzyw, nasion oleistych i pokrewni"
+    "8276": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do produkcji cukru"
+    "8277": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do przetw\xC3\xB3rstwa kawy, herbaty i ziarna kakaowego"
+    "8278": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 do produkcji napoj\xC3\xB3w bezalkoholowych, wyrob\xC3\xB3w alkoholowych i pokrewni"
+    "8279": "Operatorzy maszyn i urz\xC4\x85dze\xC5\x84 przemys\xC5\x82u tytoniowego"
+    "828": Monterzy
+    "8281": "Monterzy maszyn i urz\xC4\x85dze\xC5\x84 mechanicznych"
+    "8282": "Monterzy aparatury, maszyn i sprz\xC4\x99tu elektrycznego"
+    "8283": "Monterzy sprz\xC4\x99tu elektronicznego"
+    "8284": "Monterzy wyrob\xC3\xB3w z metalu, gumy i tworzyw sztucznych"
+    "8285": "Monterzy wyrob\xC3\xB3w z drewna"
+    "8286": "Monterzy wyrob\xC3\xB3w tekstylnych, z tektury i pokrewnych materia\xC5\x82\xC3\xB3w"
+    "829": Operatorzy maszyn gdzie indziej niesklasyfikowani
+    "8290": Operatorzy maszyn gdzie indziej niesklasyfikowani
+    "83": "Kierowcy i operatorzy pojazd\xC3\xB3w"
+    "831": "Maszyni\xC5\x9Bci kolejowi, dy\xC5\xBCurni ruchu i pokrewni"
+    "8311": "Maszyni\xC5\x9Bci kolejowi i metra"
+    "8312": "Dy\xC5\xBCurni ruchu, manewrowi i pokrewni"
+    "832": "Kierowcy pojazd\xC3\xB3w"
+    "8321": Kierowcy motocykli
+    "8322": "Kierowcy samochod\xC3\xB3w osobowych, taks\xC3\xB3wek i samochod\xC3\xB3w dostawczych"
+    "8323": "Kierowcy autobus\xC3\xB3w i motorniczowie tramwaj\xC3\xB3w"
+    "8324": "Kierowcy samochod\xC3\xB3w ci\xC4\x99\xC5\xBCarowych"
+    "833": "Operatorzy pojazd\xC3\xB3w wolnobie\xC5\xBCnych i pokrewni"
+    "8331": "Operatorzy pojazd\xC3\xB3w wolnobie\xC5\xBCnych rolniczych i le\xC5\x9Bnych"
+    "8332": "Operatorzy sprz\xC4\x99tu do rob\xC3\xB3t ziemnych i urz\xC4\x85dze\xC5\x84 pokrewnych"
+    "8333": "Maszyni\xC5\x9Bci i operatorzy maszyn i urz\xC4\x85dze\xC5\x84 d\xC5\xBAwigowo-transportowych i pokrewni"
+    "8334": "Operatorzy w\xC3\xB3zk\xC3\xB3w podno\xC5\x9Bnikowych"
+    "834": Marynarze i pokrewni
+    "8340": Marynarze i pokrewni
+    "91": "Pracownicy przy pracach prostych w handlu i us\xC5\x82ugach"
+    "911": Sprzedawcy uliczni i pokrewni
+    "9111": Sprzedawcy uliczni
+    "9112": "Sprzedawcy uliczni; produkty nie\xC5\xBCywno\xC5\x9Bciowe"
+    "9113": "Domokr\xC4\x85\xC5\xBCcy i sprzedawcy na telefon"
+    "912": "Czy\xC5\x9Bciciele but\xC3\xB3w i inni \xC5\x9Bwiadcz\xC4\x85cy us\xC5\x82ugi na ulicach"
+    "9120": "Czy\xC5\x9Bciciele but\xC3\xB3w i inni \xC5\x9Bwiadcz\xC4\x85cy us\xC5\x82ugi na ulicach"
+    "913": "Pomoce domowe, sprz\xC4\x85taczki i praczki"
+    "9131": "Pomoce domowe i sprz\xC4\x85taczki"
+    "9132": "Pomoce i sprz\xC4\x85taczki biurowe, hotelowe i podobne"
+    "9133": "Praczki r\xC4\x99czne i prasowacze"
+    "914": "Gospodarze budynk\xC3\xB3w, zmywacze szyb i pokrewni"
+    "9141": "Gospodarze budynk\xC3\xB3w"
+    "9142": "Myj\xC4\x85cy pojazdy i szyby"
+    "915": "Go\xC5\x84cy, baga\xC5\xBCowi, portierzy i pokrewni"
+    "9151": "Go\xC5\x84cy, baga\xC5\xBCowi i pokrewni"
+    "9152": "Portierzy, wo\xC5\xBAni i pokrewni"
+    "9153": "Wybieraj\xC4\x85cy pieni\xC4\x85dze z automat\xC3\xB3w, odczytuj\xC4\x85cy liczniki i pokrewni"
+    "916": "\xC5\x81adowacze nieczysto\xC5\x9Bci i pokrewni"
+    "9161": "\xC5\x81adowacze nieczysto\xC5\x9Bci"
+    "9162": Zamiatacze i pokrewni
+    "92": "Robotnicy pomocniczy w rolnictwie, rybo\xC5\x82\xC3\xB3wstwie i pokrewni"
+    "921": "Robotnicy pomocniczy w rolnictwie, rybo\xC5\x82\xC3\xB3wstwie i pokrewni"
+    "9211": "Robotnicy pomocniczy w gospodarstwach i le\xC5\x9Bnictwie"
+    "9212": "Robotnicy pomocniczy w le\xC5\x9Bnictwie"
+    "9213": "Robotnicy pomocniczy w rybo\xC5\x82\xC3\xB3wstwie, my\xC5\x9Bliwstwie i \xC5\x82owiectwie"
+    "93": "Robotnicy pomocniczy w g\xC3\xB3rnictwie, przemy\xC5\x9Ble, budownictwie i transporcie"
+    "931": "Robotnicy pomocniczy w g\xC3\xB3rnictwie i budownictwie"
+    "9311": "Robotnicy pomocniczy w kopalniach i kamienio\xC5\x82omach"
+    "9312": Robotnicy pomocniczy w budownictwie drogowym, wodnym i pokrewni
+    "9313": "Robotnicy pomocniczy w budownictwie og\xC3\xB3lnym"
+    "932": "Robotnicy przy pracach prostych w przemy\xC5\x9Ble"
+    "9321": "Robotnicy przy pracach prostych w przemy\xC5\x9Ble"
+    "9322": "Pakowacze r\xC4\x99czni i inni robotnicy pomocniczy w produkcji"
+    "933": Robotnicy pomocniczy transportu i tragarze
+    "9331": "Kierowcy pojazd\xC3\xB3w nap\xC4\x99dzanych r\xC4\x99cznie lub peda\xC5\x82ami"
+    "9332": "Kierowcy pojazd\xC3\xB3w i maszyn ci\xC4\x85gni\xC4\x99tych przez zwierz\xC4\x99ta"
+    "9333": Robotnicy pomocniczy transportu i tragarze

@@ -1,0 +1,19 @@
+? "no"
+:
+  about: Om
+  choose: ~
+  description: Beskrivelse
+  email: E-post
+  fax: Fax
+  feedback: Tilbakemelding
+  i18n:
+    language:
+      name: "Norsk (bokmål)"
+  maximum: Maksimal
+  minimum: Minimum
+  phone: Telefon
+  postal_address: Postadresse
+  terms: Vilkår
+  type: Type
+  visit_address: Besøksadresse
+  website: Nettside

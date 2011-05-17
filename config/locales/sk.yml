@@ -1,0 +1,18 @@
+sk:
+  about: O
+  choose: ~
+  description: Popis
+  email: E-mail
+  fax: Fax
+  feedback: "Spätná väzba"
+  i18n:
+    language:
+      name: Slovenčina
+  maximum: Maximálna
+  minimum: Minimálna
+  phone: Telefón
+  postal_address: "Poštová adresa"
+  terms: Podmienky
+  type: Typ
+  visit_address: "Navštívte adresu"
+  website: "Internetové stránky"

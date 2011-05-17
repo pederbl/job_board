@@ -1,0 +1,7 @@
+el:
+  home:
+    index:
+      find_jobs: "Αγγελίες εργασίας"
+      highest_paid_jobs: "Μέγιστα αμειβόμενες θέσεις εργασίας"
+      job_openings: "νέες θέσεις εργασίας"
+      most_shared_jobs: "Οι περισσότεροι Εργασία"

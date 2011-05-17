@@ -1,0 +1,18 @@
+sv:
+  about: Om
+  choose: ~
+  description: Beskrivning
+  email: E-post
+  fax: Fax
+  feedback: Feedback
+  i18n:
+    language:
+      name: Svenska
+  maximum: Maximal
+  minimum: Minsta
+  phone: Telefon
+  postal_address: Postadress
+  terms: Villkor
+  type: Typ
+  visit_address: Besöksadress
+  website: Webbplats

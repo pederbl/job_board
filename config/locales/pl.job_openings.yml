@@ -1,0 +1,87 @@
+pl:
+  job_openings:
+    apply:
+      apply: "Stosuje się"
+      deadline: Termin
+    contacts:
+      contacts: Kontakt
+      union_contacts: "Unii Kontakt"
+    employer:
+      employer: Pracodawcy
+      national_id: "Dowód osobisty"
+    index:
+      employer: Pracodawcy
+      job_categories: ~
+      keywords: "Słowa kluczowe"
+      location: Lokalizacja
+      locations: ~
+      update_search: "Update Szukaj"
+    items:
+      ago: temu
+      posted: Wysłany
+    job_description:
+      job_description: "Opis stanowiska"
+    job_information:
+      accommodation_paid_for: "Zakwaterowanie opłacane"
+      duration: "Czas trwania"
+      ends: "Kończy się"
+      hours_per_week: "h / tydzień"
+      industry: Przemysł
+      job_category: "kategorii Praca"
+      job_information: "Informacje o zadaniu"
+      length: Długość
+      length_type:
+        "0": Tymczasowych
+        "-1": Stały
+      location: Lokalizacja
+      meals_paid_for: "Posiłki opłacane"
+      num_positions: Pozycji
+      relocation_paid_for: "Przeniesienie opłacane"
+      salary: Wynagrodzenie
+      salary_period:
+        D: dzień
+        H: h
+        M: miesiąc
+        W: tydzień
+        "Y": rok
+      see_map: "Zobacz mapę"
+      starts: "Zaczyna się"
+      substitute: Substytut
+      travel_expenses_paid_for: "pokrycie kosztów podróży dla"
+      worktime: "Czas pracy"
+      worktime_type:
+        FULL_TIME: "Pełny etat"
+        PART_TIME: "W niepełnym wymiarze godzin"
+    matches:
+      jobs_match_your_query: "Jednym z zadań meczach zapytanie"
+      more: Więcej
+    requirements:
+      drivers_license: "prawo jazdy"
+      education: Edukacja
+      experience: Doświadczenie
+      experience_str: "1 miesiąc"
+      language_proficiency:
+        "true": "umiejętności podstawowe"
+        "2": "Limited pracy biegłości"
+        "3": "Pracy zawodowej biegłości"
+        "4": "Pełna biegłości zawodowej"
+        "5": "Język lub dwujęzycznych biegłości"
+      language_type:
+        cs: Czech
+        de: Niemiecki
+        en: Angielski
+        es: Hiszpański
+        fr: Francuski
+        it: Włoski
+        nl: Holenderski
+        ro: Rumuński
+      languages: Języki
+      maximum_age: "Maksymalny wiek"
+      minimum_age: "Minimalny wiek"
+      must_have_car: "Musi mieć samochód"
+      none: Brak
+      required: Wymagane
+      requirements: Wymagania
+    show:
+      anonymous: Anonimowy
+      published: Opublikowano

@@ -1,0 +1,91 @@
+el:
+  job_openings:
+    apply:
+      apply: Αίτηση
+      deadline: Προθεσμία
+    contacts:
+      contacts: Επαφές
+      union_contacts: " Επαφές Συνδικάτα"
+    employer:
+      employer: Εργοδότης
+      national_id: "Εθνική ταυτότητα"
+    index:
+      employer: Εργοδότης
+      job_categories: ~
+      keywords: Λέξεις-κλειδιά
+      location: Τοποθεσία
+      locations: ~
+      update_search: "Ενημέρωση αναζήτησης"
+    items:
+      ago: πριν
+      posted: Καταχωρήθηκε
+    job_description:
+      job_description: "Περιγραφή Εργασίας"
+    job_information:
+      accommodation_paid_for: "Διαμονή καταβάλλεται για"
+      duration: Διάρκεια
+      ends: Λήξη
+      hours_per_week: "ώρες / εβδομάδα"
+      industry: Βιομηχανία
+      job_category: "Κατηγορία Εργασίας"
+      job_information: "Πληροφορίες Εργασίας"
+      length: Διάρκεια
+      length_type:
+        "0": Προσωρινή
+        "-1": Μόνιμες
+      location: Τοποθεσία
+      meals_paid_for: "Γεύματα που καταβάλλονται για"
+      num_positions: Θέσεις
+      relocation_paid_for: "Μετεγκατάσταση που καταβάλλονται για"
+      salary: Μισθός
+      salary_period:
+        D: ημέρα
+        H: ώρες
+        M: μήνας
+        W: εβδομάδα
+        "Y": έτος
+      see_map: "Δείτε χάρτη"
+      starts: Ξεκινά
+      substitute: Αντικαταστάτης
+      travel_expenses_paid_for: "Τα έξοδα ταξιδίου που καταβάλλονται για"
+      worktime: "Χρόνος εργασίας"
+      worktime_type:
+        FULL_TIME: "Πλήρης απασχόληση"
+        PART_TIME: Ημιαπασχόληση
+    matches:
+      jobs_match_your_query:
+        one: "Μια δουλειά ταιριάζει στο ερώτημα σας"
+        other: "%{delimited} δουλειές ταιριάζουν στο ερώτημά σας"
+      more: Περισσότερα
+    requirements:
+      drivers_license: "Δίπλωμα οδήγησης"
+      education: Εκπαίδευση
+      experience: Εμπειρία
+      experience_str:
+        one: "1 μήνα"
+        other: "%{count} μήνες"
+      language_proficiency:
+        "true": "Αρχάριοι "
+        "2": "Περιορισμένη επάρκεια εργασίας"
+        "3": "Επαγγελματική επάρκεια εργασίας"
+        "4": "Πλήρης επαγγελματική επάρκεια"
+        "5": "Μητρική γλώσσα ή και δεύτερη γλώσσα"
+      language_type:
+        cs: Τσεχική
+        de: Γερμανικά
+        en: Αγγλικά
+        es: Ισπανικά
+        fr: Γαλλικά
+        it: Ιταλικά
+        nl: Ολλανδικά
+        ro: Ρουμανικά
+      languages: Γλώσσες
+      maximum_age: "Μέγιστη ηλικία"
+      minimum_age: "Ελάχιστη ηλικία"
+      must_have_car: "Πρέπει να έχετε το αυτοκίνητο"
+      none: Καμία
+      required: Απαιτούμενη
+      requirements: Απαιτήσεις
+    show:
+      anonymous: Ανώνυμος
+      published: Δημοσιεύθηκε

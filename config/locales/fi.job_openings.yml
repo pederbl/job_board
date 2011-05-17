@@ -1,0 +1,87 @@
+fi:
+  job_openings:
+    apply:
+      apply: Käytä
+      deadline: Määräaika
+    contacts:
+      contacts: Yhteystiedot
+      union_contacts: "Unionin Yhteystiedot"
+    employer:
+      employer: Työnantaja
+      national_id: "Kansallinen tunnus"
+    index:
+      employer: Työnantaja
+      job_categories: ~
+      keywords: Hakusanat
+      location: Sijainti
+      locations: ~
+      update_search: "Päivitä Search"
+    items:
+      ago: sitten
+      posted: Julkaistu
+    job_description:
+      job_description: Toimenkuva
+    job_information:
+      accommodation_paid_for: "Majoitus maksetaan"
+      duration: Kesto
+      ends: Päättyy
+      hours_per_week: "h / viikko"
+      industry: Teollisuus
+      job_category: "Job luokka"
+      job_information: "Job Information"
+      length: Pituus
+      length_type:
+        "0": Tilapäinen
+        "-1": Pysyvä
+      location: Sijainti
+      meals_paid_for: "Ruokailut maksetaan"
+      num_positions: Kannoilla
+      relocation_paid_for: "Muutto maksettu"
+      salary: Palkka
+      salary_period:
+        D: päivä
+        H: h
+        M: kuukausi
+        W: viikko
+        "Y": vuosi
+      see_map: "Katso kartta"
+      starts: Alkaa
+      substitute: Korvata
+      travel_expenses_paid_for: "Matkakulut maksetaan"
+      worktime: Työaikaa
+      worktime_type:
+        FULL_TIME: Kokoaikainen
+        PART_TIME: Osa-aika
+    matches:
+      jobs_match_your_query: "Yksi työ vastaa hakua"
+      more: Lisää
+    requirements:
+      drivers_license: Ajokortti
+      education: Koulutus
+      experience: Kokemus
+      experience_str: "1 kuukausi"
+      language_proficiency:
+        "true": "Elementary taito"
+        "2": "Rajoitettu työ taito"
+        "3": "Ammatillinen työskentely taito"
+        "4": "Koko ammattitaitoa"
+        "5": "Native tai kaksikielisiä taito"
+      language_type:
+        cs: Tšekin
+        de: Saksan
+        en: Englanti
+        es: Espanjan
+        fr: Ranskan
+        it: Italian
+        nl: Alankomaiden
+        ro: Romanian
+      languages: Kielet
+      maximum_age: Yläikäraja
+      minimum_age: Alaikäraja
+      must_have_car: "Pitää olla auto"
+      none: Ei
+      required: Vaadittu
+      requirements: Vaatimukset
+    show:
+      anonymous: Nimetön
+      published: Julkaistu

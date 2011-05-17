@@ -1,0 +1,18 @@
+lv:
+  about: Par
+  choose: ~
+  description: Apraksts
+  email: E-pasts
+  fax: Fakss
+  feedback: Atsauksmes
+  i18n:
+    language:
+      name: Latviešu
+  maximum: Maksimālais
+  minimum: Minimālais
+  phone: Tālrunis
+  postal_address: "Pasta adrese"
+  terms: Noteikumi
+  type: Veids
+  visit_address: "Apmeklējiet adrese"
+  website: "Mājas lapa"

@@ -1,0 +1,87 @@
+hu:
+  job_openings:
+    apply:
+      apply: Alkalmaz
+      deadline: Határidő
+    contacts:
+      contacts: Kapcsolatok
+      union_contacts: "Unió Névjegyzék"
+    employer:
+      employer: Munkáltató
+      national_id: "Nemzeti azonosító"
+    index:
+      employer: Munkáltató
+      job_categories: ~
+      keywords: Kulcsszavak
+      location: Helyszín
+      locations: ~
+      update_search: "Frissítés keresése"
+    items:
+      ago: ezelőtt
+      posted: Megjelenés
+    job_description:
+      job_description: "Állás leírása"
+    job_information:
+      accommodation_paid_for: "Szállás fizetett"
+      duration: Időtartam
+      ends: Vége
+      hours_per_week: "h / hét"
+      industry: Ipari
+      job_category: "Állás kategóriában"
+      job_information: "Állás információk"
+      length: Hossz
+      length_type:
+        "0": Ideiglenes
+        "-1": Állandó
+      location: Helyszín
+      meals_paid_for: "Ellátás fizetett"
+      num_positions: Pozíció
+      relocation_paid_for: "Áthelyezés fizetett"
+      salary: Fizetés
+      salary_period:
+        D: nap
+        H: h
+        M: hónap
+        W: hét
+        "Y": év
+      see_map: "Lásd a térképen"
+      starts: Elindítja
+      substitute: Póttag
+      travel_expenses_paid_for: "Fizetett utazási költségtérítés, a"
+      worktime: Üzemidő
+      worktime_type:
+        FULL_TIME: "Teljes munkaidőben"
+        PART_TIME: Részidős
+    matches:
+      jobs_match_your_query: "Az egyik feladat megfelel a lekérdezés"
+      more: Tovább
+    requirements:
+      drivers_license: Jogosítvány
+      education: Oktatás
+      experience: Tapasztalatok
+      experience_str: "1 hónap"
+      language_proficiency:
+        "true": "Elemi jártasság"
+        "2": "Korlátozott munka szakértelem"
+        "3": "Szakmai munka szakértelem"
+        "4": "Teljes szakmai hozzáértésről"
+        "5": "Natív vagy kétnyelvű jártasságot"
+      language_type:
+        cs: Cseh
+        de: Német
+        en: Angol
+        es: Spanyol
+        fr: Francia
+        it: Olasz
+        nl: Holland
+        ro: Román
+      languages: Nyelvek
+      maximum_age: "Maximális életkor"
+      minimum_age: "Minimális életkor"
+      must_have_car: "Biztos autó"
+      none: "Egyik sem"
+      required: Szükséges
+      requirements: Követelmények
+    show:
+      anonymous: Anonim
+      published: Publikálva

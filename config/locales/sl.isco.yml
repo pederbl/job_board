@@ -1,0 +1,532 @@
+--- 
+sl: 
+  isco_code: 
+    "11": Zakonodajalci/zakonodajalke, visoki uradniki/visoke uradnice
+    "111": Zakonodajalci/zakonodajalke
+    "1120": "Visoki dr\xC5\xBEavni uradniki/visoke dr\xC5\xBEavne uradnice"
+    "113": Tradicionalni poglavarji  in vodje vasi
+    "1130": Tradicionalni poglavarji in vodje vasi
+    "114": Visoki uradniki/visoke uradnice interesnih organizacij
+    "1141": "Visoki uradniki/visoke uradnice politi\xC4\x8Dnih strank"
+    "1142": Visoki uradniki/visoke uradnice organizacij delodajalcev, delavcev in drugih gospodarskointeresnih o...
+    "1143": Visoki uradniki/visoke uradnice humanitarnih in drugih podobnih organizacij
+    "12": "Mened\xC5\xBEerji/mened\xC5\xBEerke dru\xC5\xBEb"
+    "121": "Direktorji/direktorice in izvr\xC5\xA1ni direktorji/izvr\xC5\xA1ne direktorice"
+    "1210": "Direktorji/direktorice in izvr\xC5\xA1ni diektorji/izvr\xC5\xA1ne direktorice"
+    "122": "Mened\xC5\xBEerji/mened\xC5\xBEerke proizvodnih in operativnih enot dru\xC5\xBEbe"
+    "1221": "Mened\xC5\xBEerji/mened\xC5\xBEerke proizvodnih in operativnih enot dru\xC5\xBEbe v kmetijstvu, lovstvu, gozdarstvu in ri..."
+    "1222": "Mened\xC5\xBEerji/mened\xC5\xBEerke proizvodnih in operativnih enot dru\xC5\xBEbe v proizvodnih dejavnostih"
+    "1223": "Mened\xC5\xBEerji/mened\xC5\xBEerke proizvodnih in operativnih enot dru\xC5\xBEbe v gradbeni\xC5\xA1tvu"
+    "1224": "Mened\xC5\xBEerji/mened\xC5\xBEerke proizvodnih in operativnih enot dru\xC5\xBEbe v trgovini na drobno in debelo"
+    "1225": "Mened\xC5\xBEerji/mened\xC5\xBEerke proizvodnih in operativnih enot dru\xC5\xBEbe v gostinstvu in hotelirstvu"
+    "1226": "Mened\xC5\xBEerji/mened\xC5\xBEerke proizvodnih in operativnih enot dru\xC5\xBEbe v prometu, skladi\xC5\xA1\xC4\x8Denju in komunikacija..."
+    "1227": "Mened\xC5\xBEerji/mened\xC5\xBEerke proizvodnih in operativnih enot dru\xC5\xBEbe za poslovne storitve"
+    "1228": "Mened\xC5\xBEerji/mened\xC5\xBEerke proizvodnih in operativnih enot dru\xC5\xBEbe za osebne storitve, \xC4\x8Di\xC5\xA1\xC4\x8Denje ipd."
+    "1229": "Mened\xC5\xBEerji/mened\xC5\xBEerke proizvodnih in operativnih enot dru\xC5\xBEbe, d.n."
+    "123": "Mened\xC5\xBEerji/mened\xC5\xBEerke drugih enot dru\xC5\xBEbe"
+    "1231": "Mened\xC5\xBEerji/mened\xC5\xBEerke finan\xC4\x8Dne in upravne enote dru\xC5\xBEbe"
+    "1232": "Mened\xC5\xBEerji/mened\xC5\xBEerke kadrovske enote in enote za delovne odnose v dru\xC5\xBEbi"
+    "1233": "Mened\xC5\xBEerji/mened\xC5\xBEerke enote za tr\xC5\xBEenje in prodajo v dru\xC5\xBEbi"
+    "1234": "Mened\xC5\xBEerji/mened\xC5\xBEerke enote za ogla\xC5\xA1evanje in odnose z javnostmi v dru\xC5\xBEbi"
+    "1235": "Mened\xC5\xBEerji/mened\xC5\xBEerke nabavne in distribucijske enote dru\xC5\xBEbe"
+    "1236": "Mened\xC5\xBEerji/mened\xC5\xBEerke enote za ra\xC4\x8Dunalni\xC5\xA1ke storitve v dru\xC5\xBEbi"
+    "1237": "Mened\xC5\xBEerji/mened\xC5\xBEerke raziskovalne in razvojne enote dru\xC5\xBEbe"
+    "1239": "Mened\xC5\xBEerji/mened\xC5\xBEerke drugih enot dru\xC5\xBEbe, d.n."
+    "13": "Mened\xC5\xBEerji/mened\xC5\xBEerke manj\xC5\xA1ih dru\xC5\xBEb"
+    "131": "Mened\xC5\xBEerji/mened\xC5\xBEerke manj\xC5\xA1ih dru\xC5\xBEb"
+    "1311": "Mened\xC5\xBEerji/mened\xC5\xBEerke manj\xC5\xA1ih dru\xC5\xBEb v kmetijstvu, lovstvu, gozdarstvu in ribi\xC5\xA1tvu"
+    "1312": "Mened\xC5\xBEerji/mened\xC5\xBEerke manj\xC5\xA1ih dru\xC5\xBEb v proizvodnih dejavnostih"
+    "1313": "Mened\xC5\xBEerji/mened\xC5\xBEerke manj\xC5\xA1ih dru\xC5\xBEb v gradbeni\xC5\xA1tvu"
+    "1314": "Mened\xC5\xBEerji/mened\xC5\xBEerke manj\xC5\xA1ih dru\xC5\xBEb za prodajo na debelo in drobno"
+    "1315": "Mened\xC5\xBEerji/mened\xC5\xBEerke manj\xC5\xA1ih dru\xC5\xBEb v gostinstvu in hotelirstvu"
+    "1316": "Mened\xC5\xBEerji/mened\xC5\xBEerke manj\xC5\xA1ih dru\xC5\xBEb v prometu, skladi\xC5\xA1\xC4\x8Denju in komunikacijah"
+    "1317": "Mened\xC5\xBEerji/mened\xC5\xBEerke manj\xC5\xA1ih dru\xC5\xBEb za poslovne storitve"
+    "1318": "Mened\xC5\xBEerji/mened\xC5\xBEerke manj\xC5\xA1ih dru\xC5\xBEb za osebne storitve, \xC4\x8Di\xC5\xA1\xC4\x8Denje ipd."
+    "1319": "Mened\xC5\xBEerji/mened\xC5\xBEerke manj\xC5\xA1ih dru\xC5\xBEb, d.n."
+    "21": "Strokovnjaki/strokovnjakinje za ra\xC4\x8Dunalni\xC5\xA1tvo, tehni\xC4\x8Dne in druge znanstvene vede"
+    "211": "Fiziki/fizi\xC4\x8Darke, kemiki/kemi\xC4\x8Darke ipd."
+    "2111": "Fiziki/fizi\xC4\x8Darke, astronomi/astronomke"
+    "2112": Meteorologi/meteorologinje
+    "2113": "Kemiki/kemi\xC4\x8Darke"
+    "2114": "Geologi/geologinje, geofiziki/geofizi\xC4\x8Darke ipd."
+    "212": "Matematiki/matemati\xC4\x8Darke, statistiki/statisti\xC4\x8Darke ipd."
+    "2121": "Matematiki/matemati\xC4\x8Darke ipd."
+    "2122": "Statistiki/statisti\xC4\x8Darke"
+    "213": "Informatiki/informati\xC4\x8Darke in ra\xC4\x8Dunalnikarji/ra\xC4\x8Dunalnikarke"
+    "2131": "Na\xC4\x8Drtovalci ra\xC4\x8Dunalni\xC5\xA1kih sistemov in analitiki"
+    "2132": "Ra\xC4\x8Dunalni\xC5\xA1ki programerji"
+    "2139": "Informatiki/informati\xC4\x8Darke in ra\xC4\x8Dunalnikarji/ra\xC4\x8Dunalini\xC4\x8Darke, d.n."
+    "214": "Arhitekti/arhitektke, in\xC5\xBEenirji/in\xC5\xBEenirke ipd."
+    "2141": "Arhitekti/arhitektke, urbanisti in prometni na\xC4\x8Drtovalci"
+    "2142": "In\xC5\xBEenirji/in\xC5\xBEenirke gradbeni\xC5\xA1tva"
+    "2143": "In\xC5\xBEenirji/in\xC5\xBEenirke elektrotehnike"
+    "2144": "In\xC5\xBEenirji/in\xC5\xBEenirke elektronike, telekomunikacij"
+    "2145": "In\xC5\xBEenirji/in\xC5\xBEenirke strojni\xC5\xA1tva"
+    "2146": "Kemijski in\xC5\xBEenirji/kemijske in\xC5\xBEenirke"
+    "2147": "In\xC5\xBEenirji/in\xC5\xBEenirke rudarstva, metalurgije ipd."
+    "2148": Kartografi/kartografinje, geodeti/geodetinje
+    "2149": "Arhitekti/arhitektke, in\xC5\xBEenirji/in\xC5\xBEenirke ipd., d.n."
+    "22": Zdravstveni strokovnjaki/zdravstvene strokovnjakinje, strokovnjaki/strokovnjakinje biomedicinskih, b...
+    "221": "Strokovnjaki/strokovnjakinje s podro\xC4\x8Dja znanosti o \xC5\xBEivljenju"
+    "2211": "Biologi/biologinje, botaniki/botani\xC4\x8Darke, zoologi/zoologinje ipd."
+    "2212": Farmakologi/farmakologinje, patologi/patologinje ipd.
+    "2213": Agronomi/agronomke ipd.
+    "222": Strokovnjaki/strokovnjakinje v zdravstvu (razen zdravstvene nege)
+    "2221": Zdravniki/zdravnice
+    "2222": Zobozdravniki/zobozdravnice
+    "2223": Veterinarji/veterinarke
+    "2224": Farmacevti/farmacevtke
+    "2229": Drugi strokovnjaki/druge strokovnjakinje v zdravstvu (razen zdravstvene nege), d.n.
+    "223": Strokovnjaki/strokovnjakinje za zdravstveno  in porodno nego
+    "2230": Strokovnjaki/strokovnjakinje za zdravstveno in porodno nego
+    "23": "Strokovnjaki/strokovnjakinje za vzgojo in izobra\xC5\xBEevanje"
+    "231": "Strokovnjaki/strokovnjakinje za univerzitetno in visoko\xC5\xA1olsko izobra\xC5\xBEevanje"
+    "2310": "Strokovnjaki/strokovnjakinje za univerzitetno in visoko\xC5\xA1olsko izobra\xC5\xBEevanje"
+    "232": "Strokovnjaki/strokovnjakinje za srednje\xC5\xA1olsko izobra\xC5\xBEevanje"
+    "2320": "Strokovnjaki/strokovnjakinje za srednje\xC5\xA1olsko izobra\xC5\xBEevanje"
+    "233": "Strokovnjaki/strokovnjakinje za pred\xC5\xA1olsko in osnovno\xC5\xA1olsko vzgojo in izobra\xC5\xBEevanje"
+    "2331": "Osnovno\xC5\xA1olski u\xC4\x8Ditelji/osnovno\xC5\xA1olske u\xC4\x8Diteljice"
+    "2332": "Vzgojitelji/vzgojiteljice pred\xC5\xA1olskih otrok"
+    "234": "Strokovnjaki/strokovnjakinje za vzgojo in izobra\xC5\xBEevanje oseb s posebnimi potrebami"
+    "2340": "Strokovnjaki/strokovnjakinje za vzgojo in izobra\xC5\xBEevanje oseb s posebnimi potrebami"
+    "235": "Drugi strokovnjaki/druge strokovnjakinje za vzgojo in izobra\xC5\xBEevanje"
+    "2351": "Strokovnjaki/strokovnjakinje za vzgojno- izobra\xC5\xBEevalne metode"
+    "2352": "\xC5\xA0olski in\xC5\xA1pektorji/\xC5\xA1olske in\xC5\xA1pektorice"
+    "2359": "Drugi strokovnjaki/druge strokovnjakinje za vzgojo in izobra\xC5\xBEevanje, d.n."
+    "24": "Ra\xC4\x8Dunovodski, pravni strokovnjaki/strokovnjakinje, strokovnjaki/strokovnjakinje dru\xC5\xBEbenih ved in ume..."
+    "241": Strokovnjaki/strokovnjakinje za poslovanje
+    "2411": "Ra\xC4\x8Dunovodje/ra\xC4\x8Dunovodkinje"
+    "2412": Strokovnjaki/strokovnjakinje za kadre, analizo poklicnega dela ipd.
+    "2419": Strokovnjaki/strokovnjakinje za poslovanje, d.n.
+    "242": Pravni strokovnjaki/pravne strokovnjakinje
+    "2421": Odvetniki/odvetnice, notarji/notarke ipd.
+    "2422": Sodniki/sodnice
+    "2429": Pravni strokovnjaki/pravne strokovnjakinje, d.n.
+    "243": "Arhivarji/arhivarke, knji\xC5\xBEnji\xC4\x8Darji/knji\xC5\xBEnji\xC4\x8Darke ipd."
+    "2431": Arhivarji/arhivarke, konservatorji/konservatorke ipd.
+    "2432": Bibliotekarji/bibliotekarke ipd.
+    "244": "Strokovnjaki/strokovnjakinje dru\xC5\xBEbenih ved ipd."
+    "2441": Ekonomisti/ekomomistke
+    "2442": Sociologi/sociologinje, antropologi/antropologinje ipd.
+    "2443": Filozofi/filozofinje, zgodovinarji/zgodovinarke, politologi/politologinje
+    "2444": "Filologi/filologinje, prevajalci/prevajalke, tolma\xC4\x8Di/tolma\xC4\x8Dke ipd."
+    "2445": Psihologi/psihologinje
+    "2446": Socialni delavci/socialne delavke
+    "245": "Umetni\xC5\xA1ki ustvarjalci, poustvarjalci/umetni\xC5\xA1ke ustvarjalke, poustvarjalke ipd."
+    "2451": Pisatelji/pisateljice, novinarji/novinarke ipd.
+    "2452": Kiparji/kiparke, slikarji/slikarke ipd.
+    "2453": Skladatelji/skladateljice, glasbeniki/glasbenice, pevke/pevci
+    "2454": Plesalci/plesalke, koreografi/koreografke
+    "2455": "Filmski in gledali\xC5\xA1ki igralci/igralke, re\xC5\xBEiserji/re\xC5\xBEiserke ipd."
+    "246": Poklici verskih delavcev/delavk
+    "2460": Poklici verskih delavcev/delavk
+    "31": "Tehniki/tehnice ra\xC4\x8Dunalni\xC5\xA1kih, in\xC5\xBEenirskih in znanstvenih strok"
+    "311": "Tehniki/tehnice tehni\xC4\x8Dno-tehnolo\xC5\xA1kih strok"
+    "3111": Tehniki/tehnice za fiziko, kemijo
+    "3112": "Tehniki/tehnice za gradbeni\xC5\xA1tvo"
+    "3113": Tehniki/tehnice za elektrotehniko
+    "3114": Tehniki/tehnice za elektroniko in telekomunikacije
+    "3115": "Tehniki/tehnice za strojni\xC5\xA1tvo"
+    "3116": Tehniki/tehnice za kemijsko tehnologijo
+    "3117": Tehniki/tehnice za rudarstvo, metalurgijo ipd.
+    "3118": "Tehni\xC4\x8Dni risarji/tehni\xC4\x8Dne risarke"
+    "3119": "Tehniki/tehnice tehni\xC4\x8Dno-tehnolo\xC5\xA1kih strok, d.n."
+    "312": "Tehniki/tehnice za ra\xC4\x8Dunalni\xC5\xA1ko podporo"
+    "3121": "Tehniki/tehnice za ra\xC4\x8Dunalni\xC5\xA1ko podporo"
+    "3122": "Ra\xC4\x8Dunalni\xC5\xA1ki operaterji/ra\xC4\x8Dunalni\xC5\xA1ke operaterke"
+    "3123": Kontrolorji/kontrolorke robotov
+    "313": "Tehniki/tehnice za upravljanje opti\xC4\x8Dnih in elektronskih naprav"
+    "3131": "Fotografi/fotografke in operaterji/operaterke naprav za slikovni in zvo\xC4\x8Dni zapis"
+    "3132": Operaterji/operaterke oddajnih, telekomunikacijskih naprav
+    "3133": Operaterji/operaterke medicinskih naprav
+    "3139": "Tehniki/tehnice za upravljanje opti\xC4\x8Dnih in elektronskih naprav, d.n."
+    "314": "Kapitani/kapitanke ladij, piloti/pilotke letal, kontrolorji/kontrolorke zra\xC4\x8Dnega prometa ipd."
+    "3141": "\xC4\x8Castniki/\xC4\x8Dastnice ladijskega strojni\xC5\xA1tva"
+    "3142": Kapitani/kapitanke ladij ipd.
+    "3143": Piloti/pilotke letal ipd.
+    "3144": "Kontrolorji/kontrolorke zra\xC4\x8Dnega prometa"
+    "3145": "Tehniki/tehnice za varnost zra\xC4\x8Dnega prometa"
+    "315": "In\xC5\xA1pektorji/in\xC5\xA1pektorice za nadzor varnosti in kakovosti"
+    "3151": "Gradbeni in\xC5\xA1pektorji/in\xC5\xA1pektorice, po\xC5\xBEarni in\xC5\xA1pektorji/in\xC5\xA1pektorice"
+    "3152": Nadzor kakovosti
+    "32": "Tehniki/tehnice in asistenti/asistentke v zdravstvu in biolo\xC5\xA1kih vedah"
+    "321": "Tehniki/laboratorijske tehnice v biolo\xC5\xA1kih vedah ipd."
+    "3211": "Tehniki/laboratorijske tehnice v biolo\xC5\xA1kih vedah"
+    "3212": Agronomski in gozdarski tehniki/agronomske in gozdarske tehtnice
+    "3213": Svetovalci, asistenti/svetovalke, asistentke v kmetijstvu in gozdarstvu
+    "322": Strokovni sodelavci/strokovne sodelavke v moderni medicini (razen zdravstvene nege)
+    "3221": Zdravstveni asistenti
+    "3222": Strokovni sodelavci/strokovne sodelavke za higieno
+    "3223": Svetovalci/svetovalke za zdravo prehrano, dietetiko
+    "3224": "O\xC4\x8Desni optiki/o\xC4\x8Desne opti\xC4\x8Darke"
+    "3225": Zobozdravstveni asistenti in tehniki/zobozdravstvene asistentke in tehnice ipd.
+    "3226": Fizioterapevti/fizioterapevtke ipd.
+    "3227": Veterinarski asistenti/veterinarske asistentke
+    "3228": Farmacevtski asistenti/farmacevtske asistentke
+    "3229": Strokovni sodelvaci/strokovne sodelvke v moderni medicini (razen zdravstvene nege), d.n.
+    "323": Medicinske sestre in medicinske sestre babice
+    "3231": Medicinske sestre
+    "3232": Medicinske sestre babice
+    "324": Izvajalci/izvajalke tradicionalne medicine in zdravilci z vero
+    "3241": Izvajalci tradicionalne medicine
+    "3242": Zdravilci z vero
+    "33": "Strokovni sodelavci/strokovne sodelavke u\xC4\x8Diteljev/u\xC4\x8Diteljic, vzgojiteljev/vzgojiteljic ipd."
+    "331": "Pomo\xC4\x8Dniki/pomo\xC4\x8Dnice u\xC4\x8Diteljev/u\xC4\x8Diteljic osnovno\xC5\xA1olskih otrok"
+    "3310": "Pomo\xC4\x8Dniki/pomo\xC4\x8Dnice u\xC4\x8Diteljev/u\xC4\x8Diteljic osnovno\xC5\xA1olskih otrok"
+    "332": "Pomo\xC4\x8Dniki/pomo\xC4\x8Dnice vzgojiteljev/vzgojiteljic pred\xC5\xA1olskih otrok"
+    "3320": "Pomo\xC4\x8Dniki/pomo\xC4\x8Dnice vzgojiteljev/vzgojiteljic pred\xC5\xA1olskih otrok"
+    "333": "Pomo\xC4\x8Dniki/pomo\xC4\x8Dnice u\xC4\x8Diteljev/u\xC4\x8Diteljic oseb s posebnimi potrebami"
+    "3330": "Pomo\xC4\x8Dniki/pomo\xC4\x8Dnice u\xC4\x8Diteljev/u\xC4\x8Diteljic oseb s posebnimi potrebami"
+    "334": "Drugi strokovni sodelavci/strokovne sodelavke u\xC4\x8Diteljev/u\xC4\x8Diteljic, vzgojiteljev/vzgojiteljic"
+    "3340": "Drugi strokovni sodelavci/strokovne sodelavke u\xC4\x8Diteljev/u\xC4\x8Diteljic, vzgojiteljev/vzgojiteljic"
+    "34": "Finan\xC4\x8Dni, komercialni in upravni strokovni sodelavci/finan\xC4\x8Dne, komercialne in upravne strokovne sode..."
+    "341": "Finan\xC4\x8Dni in komercialni strokovni sodelavci/strokovne sodelavke"
+    "3411": Borzni posredniki/borzne posrednice
+    "3412": "Zavarovalni\xC5\xA1ki zastopniki/zavarovalni\xC5\xA1ke zastopnice"
+    "3413": "Posredniki/posrednice za nepremi\xC4\x8Dnine in premi\xC4\x8Dnine"
+    "3414": Zastopniki/zastopnice in organizatorji/organizatorice za potovanja
+    "3415": "Tehni\xC4\x8Dni in komercialni zastopniki/tehni\xC4\x8Dne in komercialne zastopnice za prodajo"
+    "3416": Nabavni referenti/nabavne referentke
+    "3417": "Cenilci/cenilke, dra\xC5\xBEbarji/dra\xC5\xBEbarke ipd."
+    "3419": "Finan\xC4\x8Dni in komercialni strokovni sodelavci/finan\xC4\x8Dne in komercialne strokovne sodelavke, d.n."
+    "342": Posredniki/posrednice za poslovne storitve ipd.
+    "3421": Trgovski posredniki/trgovskeposrednice
+    "3422": "\xC5\xA0pediterji/\xC5\xA1pediterke ipd."
+    "3423": Posredniki/posrednice za zaposlovanje
+    "3429": Posredniki/posrednice za poslovne storitve, d.n.
+    "343": Upravni strokovni sodelavci/upravne strokovne sodelavke
+    "3431": Poslovni sekretarji/poslovne sekretarke ipd.
+    "3432": Pravni asistenti/pravne asistentke ipd.
+    "3433": Knjigovodje/knjigovodkinje
+    "3434": "Strokovni sodelavci/strokovne sodelavke za statisti\xC4\x8Dne, matemati\xC4\x8Dne izra\xC4\x8Dune ipd."
+    "3439": Upravni strokovni sodelavci/upravne strokovne sodelavke, d.n.
+    "344": Cariniki/carinice, davkarji/davkarice, referenti ipd.
+    "3441": Cariniki/carinice
+    "3442": Davkarji/davkarice
+    "3443": Referenti/referentke za socialno varnost
+    "3444": Referenti/referentke za koncesije, dovoljenja
+    "3449": Cariniki/carinice, davkarji/davkarice, referenti/referentke, d.n.
+    "345": Policijski preiskovalci/policijske preiskovalke
+    "3450": Policijski preiskovalci/policijske preiskovalke
+    "346": Strokovni sodelavci/strokovne sodelavke za socialno delo
+    "3460": Strokovni sodelavci/strokovne sodelavke za socialno delo
+    "347": "Poklici za kulturno, razvedrilno in \xC5\xA1portno dejavnost"
+    "3471": Dekoraterji/dekoraterke in oblikovalci/oblikovalke ipd.
+    "3472": Radijski in televizijski napovedovalci/napovedovalke, povezovalci/povezovalke ipd.
+    "3473": "Pouli\xC4\x8Dni glasbeniki/pouli\xC4\x8Dne glasbenice, glasbeniki/glasbenice v no\xC4\x8Dnih lokalih, pevci/pevke in ples..."
+    "3474": "Klovni/klovnese, \xC4\x8Darovniki/\xC4\x8Darovnice, akrobati/akrobatke ipd."
+    "3475": "\xC5\xA0portniki/\xC5\xA1portnice ipd."
+    "348": Redovniki/redovnice ipd.
+    "3480": Redovniki/redovnice ipd.
+    "41": "Uradniki/uradnice za pisarni\xC5\xA1ko poslovanje"
+    "411": Tajniki/tajnice, strojepisci/strojepiske ipd.
+    "4111": Stenodaktilografi/stenodaktilografke in strojepisci/strojepiske
+    "4112": Urejevalci/urejevalke besedil ipd.
+    "4113": "Vna\xC5\xA1alci/vna\xC5\xA1alke podatkov"
+    "4114": "Upravljalci/upravljalke ra\xC4\x8Dunskih strojev"
+    "4115": Tajniki/tajnice ipd.
+    "412": "Uradniki/uradnice v ra\xC4\x8Dunovodstvu, knjigovodstvu, statistiki, financah ipd."
+    "4121": "Uradniki/uradnice v ra\xC4\x8Dunovodstvu in knjigovodstvu"
+    "4122": Uradniki/uradnice v statistiki in  financah
+    "413": "Uradniki/uradnice v skladi\xC5\xA1\xC4\x8Dih, prometu, prodaji, nabavi ipd."
+    "4131": "Skladi\xC5\xA1\xC4\x8Dniki/skladi\xC5\xA1\xC4\x8Dnice"
+    "4132": Uradniki/uradnice za planiranje proizvodnje
+    "4133": Uradniki/uradnice za promet
+    "414": "Uradniki/uradnice v knji\xC5\xBEnicah, na po\xC5\xA1tah ipd."
+    "4141": "Uradniki/uradnice v knji\xC5\xBEnicah, arhivih ipd."
+    "4142": "Usmerjevalci/usmerjevalke in razna\xC5\xA1alci/razna\xC5\xA1alke po\xC5\xA1te ipd."
+    "4143": Koderji/koderke, korektorji/korektorice
+    "4144": Kopist/kopistka
+    "419": "Drugi uradniki/druge uradnice za pisarni\xC5\xA1ko poslovanje, d.n."
+    "4190": "Drugi uradniki/druge uradnice za pisarni\xC5\xA1ko poslovanje, d.n."
+    "42": Uradniki/uradnice za poslovanje s strankami
+    "421": Uradniki/uradnice za denarno in podobno poslovanje
+    "4211": "Blagajniki/blagajni\xC4\x8Darke, prodajalci/prodajalke vstopnic"
+    "4212": Uradniki/uradnice za denarno poslovanje neposredno s strankami ipd.
+    "4213": Sprejemalci/sprejemalke stav, krupjeji/krupjejke
+    "4214": "Zastavljalni\xC4\x8Darji/zastavljalni\xC4\x8Darke in posojevalci/posojevalke denarja"
+    "4215": Izterjevalci/izterjevalke dolgov ipd.
+    "422": Uradniki/uradnice za posredovanje informacij strankam
+    "4221": "Uradniki/uradnice v turisti\xC4\x8Dnih in potovalnih agencijah ipd."
+    "4222": Receptorji/receptorke in uradniki za posredovanje informacij
+    "4223": Telefonisti/telefonistke
+    "51": Zaposleni v hotelirskih, gostinskih in osebnih storitvah
+    "511": Spremljevalci/spremljevalke potnikov ipd.
+    "5111": Stevardi/stevardese, spremljevalci/spremljevalke
+    "5112": Sprevodniki/sprevodnice
+    "5113": Vodniki/vodnice
+    "512": Poklici za gospodinjska, gostinska dela ipd.
+    "5121": Gospodinjci/gospodinje ipd.
+    "5122": Kuharji/kuharice
+    "5123": Natakarji/natakarice ipd.
+    "513": Poklici za zdravstveno, higiensko, socialno oskrbo, nego   ipd.
+    "5131": Poklici za nego otrok
+    "5132": Poklici za zdravstveno in socialno oskrbo v zavodih
+    "5133": Poklici za zdravstveno in socialno oskrbo na domu
+    "5139": Poklici za zdravstveno, higiensko, socialno oskrbo, nego ipd., d.n.
+    "514": Drugi poklici za osebne storitve
+    "5141": "Frizerji/frizerke, brivci/brivke, kozmetiki/kozmeti\xC4\x8Darke ipd."
+    "5142": Osebni spremljevalci/osebne spremljevalke
+    "5143": Grobarji/grobarke, pogrebniki/pogrebnice, balzamer/balzamerka
+    "5149": Drugi poklici za osebne storitve, d.n.
+    "515": "Astrologi/astrologinje, vede\xC5\xBEevalci/vede\xC5\xBEevalke ipd."
+    "5151": Astrologi/astrologinje ipd.
+    "5152": "Vede\xC5\xBEevalci/vede\xC5\xBEevalke, prerokovalci/prerokovalke z dlani ipd."
+    "516": "Poklici za varovanje oseb in premo\xC5\xBEenja"
+    "5161": Gasilci/gasilke
+    "5162": Policisti/policistke
+    "5163": Pazniki/paznice v zaporu
+    "5169": "Poklici za varovanje oseb in premo\xC5\xBEenja, d.n."
+    "52": Modeli, prodajalci/prodajalke
+    "521": Modeli ipd.
+    "5210": Modeli ipd.
+    "522": Prodajalci/prodajalke v trgovinah,  demonstratorji/demonstratorke
+    "5220": Prodajalci/prodajalke v trgovinah, demonstratorji/demonstratorke
+    "523": "Prodajalci/prodajalke na stojnicah in tr\xC5\xBEnici"
+    "5230": "Prodajalci/prodajalke na stojnicah in tr\xC5\xBEnici"
+    "61": "Kvalificirani kmetovalci/kmetovalke, ribi\xC4\x8Di/ribi\xC4\x8Dke, gozdarji/gozdarke"
+    "611": Poljedelci/poljedelke, vrtnarji/vrtnarice
+    "6111": Poljedelci/poljedelke ipd
+    "6112": "Gojitelji/gojiteljice dreves in grmi\xC4\x8Devja"
+    "6113": Vrtnarji/vrtnarice, gojitelji/gojiteljice v rastlinjakih
+    "6114": "Gojitelji/gojiteljice razli\xC4\x8Dnih vrst polj\xC5\xA1\xC4\x8Din"
+    "612": "Tr\xC5\xBEno usmerjeni rejci/rejke \xC5\xBEivali ipd."
+    "6121": "\xC5\xBDivinorejci/\xC5\xBEivinorejke in proizvajalci/prozvajalke mleka"
+    "6122": Perutninarji/perutninarke
+    "6123": "\xC4\x8Cebelarji, svilogojci"
+    "6124": "Rejci/rejke razli\xC4\x8Dnih vrst \xC5\xBEivali"
+    "6129": "Tr\xC5\xBEno usmerjeni rejci/rejke \xC5\xBEivali, d.n."
+    "613": "Tr\xC5\xBEno usmerjeni kmetovalci/kmetovalke na me\xC5\xA1anih kmetijah"
+    "6130": "Tr\xC5\xBEno usmerjeni kmetovalci/kmetovalke na me\xC5\xA1anih kmetijah"
+    "614": Gozdarji/gozdarke ipd.
+    "6141": Gozdarji/gozdarke ipd.
+    "6142": Oglarji/oglarke ipd.
+    "615": "Ribi\xC4\x8Di/ribi\xC4\x8Dke, lovci/lovke ipd."
+    "6151": Ribogojci/ribogojke ipd.
+    "6152": "Obalni ribi\xC4\x8Di/obalne ribi\xC4\x8Dke ipd."
+    "6153": "Ribi\xC4\x8Di/ribi\xC4\x8Dke na odprtem morju"
+    "6154": Lovci/lovke
+    "62": "Samooskrbni kmetijski in ribi\xC5\xA1ki delavci/samooskrbne kmetijske in ribi\xC5\xA1ke delavke"
+    "621": "Samooskrbni kmetijski in ribi\xC5\xA1ki delavci, samooskrbne kmetijske in ribi\xC5\xA1ke delavke"
+    "6210": "Samooskrbni kmetijski in ribi\xC5\xA1ki delavci/samooskrbne kmetijske in ribi\xC5\xA1ke delavke"
+    "71": Gradbinci/gradbinke, rudarji/rudarke in kamnolomci/kamnolomke
+    "711": Rudarji/rudarke, minerji/minerke, kamnoseki/kamnosekinje
+    "7111": Rudarji/rudarke, kamnolomci/kamnolomke
+    "7112": Minerji/minerke
+    "7113": Kamnoseki/kamnosekinje
+    "712": Gradbinci/gradbinke ipd.
+    "7121": Graditelji/graditeljice s tradicionalnimi materiali
+    "7122": Zidarji/zidarke
+    "7123": Betonerji/betonerke ipd.
+    "7124": Tesarji/tesarke, stavbni mizarji/stavbne mizarke
+    "7129": Gradbinci/gradbinke ipd., d.n.
+    "713": "Gradbinci/gradbinke zaklju\xC4\x8Dnih del ipd."
+    "7131": Krovci/krovke
+    "7132": Polagalci/polagalke podov ipd.
+    "7133": "\xC5\xA0tukaterji/\xC5\xA1tukaterke"
+    "7134": Izolaterji/izolaterke
+    "7135": Zastekljevalci/zastekljevalke
+    "7136": "Vodovodarji/vodovodarke in monterji/monterke vodovodnih in\xC5\xA1talacij"
+    "7137": "Elektroin\xC5\xA1talaterji/elektroin\xC5\xA1talaterke"
+    "714": "Pleskarji/pleskarke, \xC4\x8Distilci/\xC4\x8Distilke fasad in dimnikarji/dimnikarke"
+    "7141": Pleskarji/pleskarke ipd.
+    "7142": Lakirci/lakirke ipd.
+    "7143": "\xC4\x8Cistilci/\xC4\x8Distilke fasad in dimnikarji/dimnikarice"
+    "72": "Kovinarji/kovinarke, strojni mehaniki/strojne mehani\xC4\x8Darke, mehaniki/mehani\xC4\x8Darke elekronskih naprav"
+    "721": Livarji/livarke, varilci/varilke, kleparji/kleparke, monterji/monterke konstrukcij ipd.
+    "7211": Livarji/livarke ipd.
+    "7212": Varilci/varilke ipd.
+    "7213": Kleparji/kleparke
+    "7214": Monterji/monterke kovinskih konstrukcij
+    "7215": Monterji/monterke in polagalci/polagalke kablov
+    "7216": Podvodni monterji/podvodne monterke
+    "722": "Kova\xC4\x8Di/kova\xC4\x8Dice, orodjarji/orodjarke ipd."
+    "7221": "Kova\xC4\x8Di/kova\xC4\x8Dice"
+    "7222": Orodjarji/orodjarke ipd.
+    "7223": Nastavljalci nastavljalke/upravljalci/upravljalke strojnih orodij
+    "7224": Brusilci/brusilke, polirci/polirke, ostrilci/ostrilke
+    "723": "Mehaniki/mehani\xC4\x8Darke, monterji/monterke strojev in vozil"
+    "7231": "Mehaniki/mehani\xC4\x8Darke in monterji/monterke motornih vozil in koles"
+    "7232": "Mehaniki/mehani\xC4\x8Darke in monterji/monterke letal"
+    "7233": "Mehaniki/mehani\xC4\x8Darke in monterji/monterke kmetijskih, industrijskih in drugih strojev ipd."
+    "724": "Mehaniki/mehani\xC4\x8Darke in monterji/monterke elektri\xC4\x8Dnih in elektronskih naprav"
+    "7241": "Elektromehaniki/elektromehani\xC4\x8Darke in monterji/monterke"
+    "7242": Monterji/monterke elektronskih naprav
+    "7243": "Mehaniki/mehani\xC4\x8Darke elektronskih naprav, serviserji/serviserke"
+    "7244": "Mehaniki/mehani\xC4\x8Darke in serviserji/serviserke telekomunikacijskih naprav"
+    "7245": "Monterji/monterke in popravljalci/popravljalke elektri\xC4\x8Dnega  omre\xC5\xBEja"
+    "73": "Finomehaniki/finomehani\xC4\x8Darke, rokodelci/rokodelke, tiskarji/tiskarke ipd."
+    "731": "Finomehaniki/finomehani\xC4\x8Darke s kovinami in drugimi podobnimi materiali"
+    "7311": Izdelovalci/izdelovalke in popravljalci/popravljalke preciznih instrumentov
+    "7312": "Izdelovalci/izdelovalke, ugla\xC5\xA1evalci/ugla\xC5\xA1evalke glasbil"
+    "7313": "Izdelovalci/izdelovalke nakita in bi\xC5\xBEuterije"
+    "732": "Keramiki/kerami\xC4\x8Darke, steklarji/steklarke ipd."
+    "7321": "Lon\xC4\x8Darji/lon\xC4\x8Darke ipd."
+    "7322": Steklarji/steklarke, rezalci/rezalke, brusilci/brusilke, polirci/polirke stekla
+    "7323": Graverji/graverke stekla in jedkarji/jedkarke
+    "7324": Dekoraterji/dekoraterke stekla, keramike ipd.
+    "733": "Ro\xC4\x8Dni izdelovalci/ro\xC4\x8Dne izdelovalke izdelkov iz lesa, blaga, usnja ipd."
+    "7331": "Ro\xC4\x8Dni izdelovalci/ro\xC4\x8Dne izdelovalke izdelkov iz lesa ipd."
+    "7332": "Ro\xC4\x8Dni izdelovalci/ro\xC4\x8Dne izdelovalke izdelokov iz blaga, usnja ipd."
+    "734": "Tiskarski in sorodni poklici za neindustrijski na\xC4\x8Din dela"
+    "7341": Stavci/stavke, tiskarji/tiskarke ipd.
+    "7342": "Stereotiperji/stereotiperke in galavanoplastiki/galvanoplasti\xC4\x8Darke"
+    "7343": Izdelovalci/izdelovalke tiskovnih predlog in tiskovnih sestavkov
+    "7344": Razvijalci/razvijalke filmov ipd.
+    "7345": Knjigovezi/knjigovezke
+    "7346": Sitotiskarji/sitotiskarke
+    "74": "Drugi poklici za neindustrijski na\xC4\x8Din dela"
+    "741": "Predelovalci/predelovalke \xC5\xBEivil ipd."
+    "7411": Mesarji/mesarke, trgovci/trgovke z ribami ipd.
+    "7412": "Peki/pekinje, sla\xC5\xA1\xC4\x8Di\xC4\x8Darji/sla\xC5\xA1\xC4\x8Di\xC4\x8Darke"
+    "7413": Predelovalci/predelovalke mleka
+    "7414": Predelovalci/predelovalke sadja, zelenjave ipd.
+    "7415": "Ocenjevalci/ocenjevalke \xC5\xBEivil ipd."
+    "7416": Predelovalci/predelovalke tobaka ipd.
+    "742": Obdelovalci/obdelovalke lesa, mizarji/mizarke ipd.
+    "7421": Obdelovalci/obdelovalke lesa
+    "7422": Mizarji/mizarke ipd.
+    "7423": Nastavljalci/nastavljalke in upravljalci/upravljalke lesnoobdelovalnih strojev
+    "7424": "Izdelovalci/izdelovalke pletenih izdelkov iz trsti\xC4\x8Dja, vrbja ipd."
+    "743": "Tekstilni in obla\xC4\x8Dilni poklici za neidustrijski na\xC4\x8Din dela"
+    "7431": Pripravljalci/pripravljalke vlaken
+    "7432": Tkalci/tkalke, pletilci/pletilke ipd.
+    "7433": "Kroja\xC4\x8Di/kroja\xC4\x8Dice, \xC5\xA1iviljci/\xC5\xA1ivilje, klobu\xC4\x8Darji/klobu\xC4\x8Darke"
+    "7434": "Izdelovalci/izdelovalke krznenih obla\xC4\x8Dil"
+    "7435": Krojilci/krojilke tekstila, usnja ipd.
+    "7436": "\xC5\xA0ivalci/\xC5\xA1ivalke, vezilci/vezilke ipd."
+    "7437": Tapetniki/tapetnice
+    "744": "Izdelovalci/izdelovalke, predelovalci/predelovalke, neustrojenih ko\xC5\xBE, usnja, izdelovalci/izdelovalke..."
+    "7441": Usnjarji/usnjarke, strojarji/strojarke
+    "7442": Izdelovalci/izdelovalke obutve ipd.
+    "81": Upravljalci/upravljalke procesnih strojev in naprav
+    "811": Upravljalci/upravljalke rudarskih procesnih strojev in naprav za obdelavo rude in kamnin
+    "8111": Upravljalci/upravljalke rudarskih procesnih strojev in naprav
+    "8112": Upravljalci/upravljalke procesnih strojev in naprav za obdelavo rude in kamnin
+    "8113": Upravljalci/upravljalke geovrtalnih strojev in naprav
+    "812": "Upravljalci/upravljalke metalur\xC5\xA1kih procesnih strojev in naprav"
+    "8121": "Upravljalci/upravljalke talilnih pe\xC4\x8Di za pridobivanje kovin"
+    "8122": Industrijski talilci/industrijske talilke, livarji/livarke, valjavci/valjavke
+    "8123": Upravljalci/upravljalke procesnih strojev za toplotno obdelavo kovin
+    "8124": "Upravljalci/upravljalke strojev in naprav za vle\xC4\x8Denje, iztiskanje kovin"
+    "813": "Upravljalci/upravljalke mineralo\xC5\xA1kih procesnih strojev in naprav"
+    "8131": Upravljalci/upravljalke steklarskih, keramijskih in podobnih strojev in naprav
+    "8139": "Upravljalci/upravljalke mineralo\xC5\xA1kih procesnih strojev in naprav, d.n."
+    "814": Upravljalci/upravljalke procesnih strojev in naprav za predelavo lesa in izdelavo papirja
+    "8141": Upravljalci/upravljalke procesnih strojev in naprav za predelavo lesa
+    "8142": Upravljalci/upravljalke procesnih strojev in naprav za pripravo papirjevine
+    "8143": Upravljalci/upravljalke procesnih strojev in naprav za proizvodnjo papirja
+    "815": Upravljalci/upravljalke procesnih strojev in naprav za kemijsko predelavo
+    "8151": "Upravljalci/upravljalke strojev za drobljenje, mletje in kemi\xC4\x8Dno me\xC5\xA1anje"
+    "8152": Upravljalci/upravljalke naprav za toplotno obdelavo
+    "8153": "Upravljalci/upravljalke opreme za kemi\xC4\x8Dno filtriranje in lo\xC4\x8Devanje"
+    "8154": Upravljalci/upravljalke naprav za destilacijo in reaktorjev (razen nafte in zemeljskega plina)
+    "8155": Upravljalci/upravljalke procesnih strojev in naprav za predelavo nafte in zemeljskega plina
+    "8159": Upravljalci/upravljalke procesnih strojev in naprav za kemijsko predelavo, d.n.
+    "816": Upravljalci/upravljalke energetskih procesnih strojev in naprav
+    "8161": Upravljalci/upravljalke energetskih procesnih naprav
+    "8162": Upravljalci/upravljalke parnih strojev in naprav
+    "8163": "Upravljalci/upravljalke, se\xC5\xBEigalnih, vodo\xC4\x8Drpalnih naprav ipd."
+    "817": "Upravljalci/upravljalke teko\xC4\x8Dega traku in industrijskih robotov"
+    "8171": "Upravljalci/upravljalke teko\xC4\x8Dega traku"
+    "8172": Upravljalci/upravljalke industrijskih robotov
+    "82": Upravljalci/upravljalke strojev za proizvodnjo izdelkov in sestavljalci/sestavljalke izdelkov
+    "821": Upravljalci/upravljalke strojev za proizvodnjo kovinskih in mineralnih izdelkov
+    "8211": Upravljalci/upravljalke orodnih strojev
+    "8212": Upravljalci/upravljalke strojev za proizvodnjo cementnih in drugih mineralnih izdelkov
+    "822": Upravljalci/upravljalke strojev za proizvodnjo kemijskih izdelkov
+    "8221": Upravljalci/upravljalke strojev za proizvodnjo zdravil in toaletnih sredstev
+    "8222": Upravljalci/upravljalke strojev za proizvodnjo streliva in razstreliva
+    "8223": "Upravljalci/upravljalke strojev za povr\xC5\xA1insko obdelavo kovinskih delov"
+    "8224": Upravljalci/upravljalke strojev za izdelovanje fotografskih izdelkov
+    "8229": Upravljalci/upravljalke strojev za proizvodnjo kemijskih izdelkov, d.n.
+    "823": "Upravljalci/upravljalke strojev za proizvodnjo gumenih in plasti\xC4\x8Dnih izdelkov"
+    "8231": Upravljalci/upravljalke strojev za proizvodnjo gumenih izdelkov
+    "8232": "Upravljalci/upravljalke strojev za proizvodnjo plasti\xC4\x8Dnih izdelkov"
+    "824": Upravljalci/upravljalke strojev za proizvodnjo lesenih izdelkov
+    "8240": Upravljalci/upravljalke strojev za proizvodnjo lesenih izdelkov
+    "825": Upravljalci/upravljalke strojev za proizvodnjo tiskovin in ostalih papirnih izdelkov
+    "8251": Upravljalci/upravljalke strojev za proizvodnjo tiskarskih izdelkov
+    "8252": "Upravljalci/upravljalke knjigove\xC5\xA1kih strojev"
+    "8253": Upravljalci/upravljalke strojev za proizvodnjo papirnatih izdelkov
+    "826": Upravljalci/upravljalke strojev za proizvodnjo tekstilnih, usnjenih, krznenih izdelkov
+    "8261": Upravljalci/upravljalke strojev za pripravljanje vlaken, predenje, previjanje
+    "8262": Upravljalci/upravljalke strojev za pletenje, tkanje
+    "8263": "Upravljalci/upravljalke strojev za \xC5\xA1ivanje obla\xC4\x8Dil"
+    "8264": "Upravljalci/upravljalke strojev za beljenje, barvanje, \xC4\x8Di\xC5\xA1\xC4\x8Denje"
+    "8265": Upravljalci/upravljalke strojev za proizvodnjo usnja in krzna
+    "8266": Upravljalci/upravljalke strojev za proizvodnjo obutve in usnjene galanterije
+    "8269": Upravljalci/upravljalke strojev za proizvodnjo tekstilnih, usnjenih, krznenih izdelkov, d.n.
+    "827": Upravljalci/upravljalke strojev za proizvodnjo prehrambnih in podobnih izdelkov
+    "8271": Upravljalci/upravljalke strojev za predelavo mesa in rib
+    "8272": "Upravljalci/upravljalke strojev za proizvodnjo mle\xC4\x8Dnih izdelkov"
+    "8273": "Upravljalci/upravljalke strojev za mletje \xC5\xBEita, za\xC4\x8Dimb ipd."
+    "8274": "Upravljalci/upravljalke strojev za proizvodnjo pekarskih, \xC5\xBEitnih, \xC4\x8Dokoladnih in podobnih izdelkov"
+    "8275": "Upravljalci/upravljalke strojev za predelavo sadja, zelenjave, ore\xC5\xA1\xC4\x8Dkov ipd."
+    "8276": Upravljalci/upravljalke strojev za proizvodnjo sladkorja ipd.
+    "8277": "Upravljalci/upravljalke strojev za predelavo \xC4\x8Daja, kave in kakava"
+    "8278": Upravljalci/upravljalke strojev za proizvodnjo piva, vina ipd.
+    "8279": "Upravljalci/upravljalke strojev za proizvodnjo toba\xC4\x8Dnih izdelkov, d.n."
+    "828": Sestavljalci/sestavljalke strojev, naprav in izdelkov
+    "8281": Sestavljalci/sestavljalke strojev in naprav
+    "8282": "Sestavljalci/sestavljalke elektri\xC4\x8Dne opreme"
+    "8283": Sestavljalci/sestavljalke elektronskih naprav in opreme
+    "8284": Sestavljalci/sestavljalke izdelkov iz kovin, gume in plastike
+    "8285": Sestavljalci/sestavljalke izdelkov iz lesa in podobnih materialov
+    "8286": Sestavljalci/sestavljalke izdelkov iz kartona, tekstilij in podobnih materialov
+    "829": Drugi upravljalci/druge upravljalke strojev in sestavljalci/sestavljalke izdelkov, d.n.
+    "8290": Drugi upravljalci/druge upravljalke strojev in sestavljalci/sestavljalke izdelkov, d.n.
+    "83": "Vozniki/voznice, upravljalci/upravljalke transportnih naprav in premi\xC4\x8Dnih strojev"
+    "831": "Vozniki/voznice \xC5\xBEelezni\xC5\xA1kih vozil ipd."
+    "8311": "Vozniki/voznice \xC5\xBEelezni\xC5\xA1kih vozil"
+    "8312": "\xC5\xBDelezni\xC5\xA1ki signalisti/\xC5\xBEelezni\xC5\xA1ke signalistke, premika\xC4\x8Di/premika\xC4\x8Dice ipd."
+    "832": Vozniki/voznice cestnih vozil
+    "8321": Vozniki motornih koles
+    "8322": Vozniki/voznice osebnih vozil, taksijev in lahkih dostavnih vozil
+    "8323": Vozniki/voznice avtobusov, tramvajev
+    "8324": "Vozniki/voznice te\xC5\xBEkih tovornjakov in vla\xC4\x8Dilcev"
+    "833": "Upravljalci/upravljalke transportnih naprav, kmetijskih in drugih premi\xC4\x8Dnih strojev"
+    "8331": "Upravljalci/upravljalke premi\xC4\x8Dnih kmetijskih in gozdarskih strojev"
+    "8332": Upravljalci/upravljalke strojev za zemeljska dela ipd.
+    "8333": "Upravljalci/upravljalke \xC5\xBEerjavov, dvigal ipd."
+    "8334": "Upravljalci/upravljalke te\xC5\xBEkih tovornjakov z dvigalom"
+    "834": Zaposleni na ladijskem krovu ipd.
+    "8340": Zaposleni na ladijskem krovu ipd.
+    "91": Poklici za preprosta prodajna, storitvena in komunalna dela
+    "911": "Pouli\xC4\x8Dni prodajalci/pouli\xC4\x8Dne prodajalke ipd."
+    "9111": "Pouli\xC4\x8Dni prodajalci hrane"
+    "9112": "Pouli\xC4\x8Dni prodajalci neprehrambenih izdelkov"
+    "9113": Prodaja od vrat do vrat, telefonska prodaja
+    "912": "\xC4\x8Ci\xC5\xA1\xC4\x8Denje \xC4\x8Develjev in druge storitve poklicev za preprosta dela"
+    "9120": "\xC4\x8Ci\xC5\xA1\xC4\x8Denje \xC4\x8Devljev in druge storitve poklicev za preprosta dela"
+    "913": "Gospodinjski pomo\xC4\x8Dniki/gospodinjske pomo\xC4\x8Dnice na domu, \xC4\x8Distilci/\xC4\x8Distilke, pralci/pralke ipd."
+    "9131": "\xC4\x8Cistilci/\xC4\x8Distilke in gospodinjski pomo\xC4\x8Dniki/gospodinjske pomo\xC4\x8Dnice na domu"
+    "9132": "Pomo\xC4\x8Dniki/pomo\xC4\x8Dnice in \xC4\x8Distilci/\xC4\x8Distilke v pisarnah, hotelih ipd."
+    "9133": "Ro\xC4\x8Dni pralci/pralke, likalci/likalke"
+    "914": "Hi\xC5\xA1niki/hi\xC5\xA1nice, \xC4\x8Distilci/\xC4\x8Distilke oken ipd."
+    "9141": "Hi\xC5\xA1niki/hi\xC5\xA1nice"
+    "9142": "\xC4\x8Cistilci/\xC4\x8Distilke oken, pralci/ro\xC4\x8Dne pralke vozil"
+    "915": Kurirji/kurirke, vratarji/vratarice ipd.
+    "9151": "Kurirji/kurirke, nosa\xC4\x8Di/nosa\xC4\x8Dke prtljage, dostavljalci/dostavljalke"
+    "9152": Vratarji/vratarice, varnostniki/varnostnice ipd.
+    "9153": "Oskrbovalci/oskrbovalke prodajnih avtomatov, \xC4\x8Ditalci/\xC4\x8Ditalke \xC5\xA1tevcev ipd."
+    "916": Delavci/delavke za preprosta komunalna dela ipd.
+    "9161": Smetarji/smetarke
+    "9162": Pometalci/pometalke ipd.
+    "92": "Poklici za preprosta kmetijska in ribi\xC5\xA1ka dela ipd."
+    "921": "Delavci/delavke za preprosta kmetijska in ribi\xC5\xA1ka dela ipd."
+    "9211": Delavci/delavke za preprosta kmetijska dela
+    "9212": Delavci/delavke za preprosta gozdarska dela
+    "9213": "Delavci/delavke za preprosta lovska, ribi\xC5\xA1ka dela"
+    "93": "Poklici za preprosta rudarska in gradbeni\xC5\xA1ka dela ter preprosta dela v predelovalnih dejavnostih, tr..."
+    "931": "Delavci/delavke za preprosta rudarska, gradbeni\xC5\xA1ka dela ipd."
+    "9311": Delavci/delavke za preprosta kamnolomska in rudarska dela
+    "9312": Delavci/delavke za preprosta dela pri cestah, jezih in podobnih gradnjah
+    "9313": Delavci/delavke za preprosta dela pri visokih gradnjah
+    "932": Delavci/delavke za preprosta dela v predelovalnih dejavnostih
+    "9321": Sestavljalci/sestavljalke delov
+    "9322": "Ro\xC4\x8Dni zavijalci/zavijalke ipd."
+    "933": Delavci/delavke za preprosta prekladalna in transportna dela
+    "9331": "Vozniki/voznice vozil na ro\xC4\x8Dni ali no\xC5\xBEni pogon"
+    "9332": "Vozniki/voznice vozil in strojev na \xC5\xBEivalski pogon"
+    "9333": Prekladalci/prekladalke tovora

@@ -1,0 +1,93 @@
+en:
+  job_openings:
+    apply:
+      apply: Apply
+      deadline: Deadline
+    contacts:
+      contacts: Contacts
+      union_contacts: "Union Contacts"
+    employer:
+      employer: Employer
+      national_id: "National ID"
+    index:
+      employer: Employer
+      job_categories: "Job Categories"
+      keywords: Keywords
+      location: Location
+      locations: Locations
+      update_search: "Update Search"
+    items:
+      ago: ago
+      posted: Posted
+    job_description:
+      job_description: "Job Description"
+    job_information:
+      accommodation_paid_for: "Accommodation paid for"
+      duration: Duration
+      ends: Ends
+      hours_per_week: "h / week"
+      industry: Industry
+      job_category: "Job category"
+      job_information: "Job Information"
+      length: Length
+      length_type:
+        "0": Temporary
+        "-1": Permanent
+      location: Location
+      meals_paid_for: "Meals paid for"
+      num_positions: Positions
+      relocation_paid_for: "Relocation paid for"
+      salary: Salary
+      salary_period:
+        D: day
+        H: h
+        M: month
+        W: week
+        "Y": year
+      see_map: "See map"
+      starts: Starts
+      substitute: Substitute
+      travel_expenses_paid_for: "Travel expenses paid for"
+      worktime: Worktime
+      worktime_type:
+        FULL_TIME: Full-time
+        PART_TIME: Part-time
+    matches:
+      jobs_match_your_query:
+        one: "One job matches your query"
+        other: "%{delimited} jobs match your query"
+        zero: "No jobs match your query"
+      more: More
+    requirements:
+      drivers_license: "Drivers license"
+      education: Education
+      experience: Experience
+      experience_str:
+        one: "1 month"
+        other: "%{count} months"
+        zero: None
+      language_proficiency:
+        "true": "Elementary proficiency"
+        "2": "Limited working proficiency"
+        "3": "Professional working proficiency"
+        "4": "Full professional proficiency"
+        "5": "Native or bilingual proficiency"
+      language_type:
+        cs: Czech
+        de: German
+        en: English
+        es: Spanish
+        fr: French
+        it: Italian
+        nl: Dutch
+        ro: Romanian
+      languages: Languages
+      maximum_age: "Maximum age"
+      minimum_age: "Minimum age"
+      must_have_car: "Must have car"
+      none: None
+      required: Required
+      requirements: Requirements
+    show:
+      anonymous: Anonymous
+      published: Published

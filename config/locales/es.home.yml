@@ -1,0 +1,7 @@
+es:
+  home:
+    index:
+      find_jobs: "Buscar Empleo"
+      highest_paid_jobs: "El mejor remunerados"
+      job_openings: "ofertas de trabajo"
+      most_shared_jobs: "La mayoría de trabajos compartidos"

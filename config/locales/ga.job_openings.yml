@@ -1,0 +1,87 @@
+ga:
+  job_openings:
+    apply:
+      apply: Iarratas
+      deadline: Spriocdháta
+    contacts:
+      contacts: Teagmhálacha
+      union_contacts: "Teagmhálacha Aontais"
+    employer:
+      employer: Fostóir
+      national_id: "Náisiúnta ID"
+    index:
+      employer: Fostóir
+      job_categories: ~
+      keywords: Keywords
+      location: Suíomh
+      locations: ~
+      update_search: "Nuashonrú Cuardaigh"
+    items:
+      ago: "ó shin"
+      posted: Posted
+    job_description:
+      job_description: "Job Cur Síos"
+    job_information:
+      accommodation_paid_for: "Cóiríocht a íocadh le haghaidh"
+      duration: Fad
+      ends: Críoch
+      hours_per_week: "u / sa tseachtain"
+      industry: Tionscal
+      job_category: "Post catagóire"
+      job_information: "Post Faisnéise"
+      length: Fad
+      length_type:
+        "0": Sealadach
+        "-1": Permanent
+      location: Suíomh
+      meals_paid_for: "Béilí íoc as"
+      num_positions: Poist
+      relocation_paid_for: "Athlonnú íoc as"
+      salary: Tuarastal
+      salary_period:
+        D: lá
+        H: h
+        M: mí
+        W: tseachtain
+        "Y": bliana
+      see_map: "Féach ar léarscáil"
+      starts: Tosaigh
+      substitute: "Chur in ionad"
+      travel_expenses_paid_for: "costais taistil a íocadh do"
+      worktime: Worktime
+      worktime_type:
+        FULL_TIME: Lánaimseartha
+        PART_TIME: Páirtaimseartha
+    matches:
+      jobs_match_your_query: "oireann post amháin do cheist"
+      more: More
+    requirements:
+      drivers_license: "Ceadúnas tiománaithe"
+      education: Oideachas
+      experience: Taithí
+      experience_str: "1 mhí"
+      language_proficiency:
+        "true": "Elementary líofacht"
+        "2": "Teoranta ag obair líofacht"
+        "3": "Gairmiúla oibre líofacht"
+        "4": "inniúlacht ghairmiúil Iomlán"
+        "5": "oilteacht dúchais nó go dátheangach"
+      language_type:
+        cs: "Na Seice"
+        de: Gearmáinis
+        en: Béarla
+        es: Spáinnis
+        fr: Fraincis
+        it: Iodáilis
+        nl: Ollainnis
+        ro: Rómáinis
+      languages: Teangacha
+      maximum_age: "Uasmhéid aois"
+      minimum_age: "Aois íosta"
+      must_have_car: "Ní mór a bheith carr"
+      none: None
+      required: Riachtanach
+      requirements: Riachtanais
+    show:
+      anonymous: Anonymous
+      published: Foilsithe

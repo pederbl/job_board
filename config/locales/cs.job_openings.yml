@@ -1,0 +1,87 @@
+cs:
+  job_openings:
+    apply:
+      apply: Platí
+      deadline: Lhůta
+    contacts:
+      contacts: Kontakty
+      union_contacts: "Unie Kontakty"
+    employer:
+      employer: Zaměstnavatel
+      national_id: "Národní ID"
+    index:
+      employer: Zaměstnavatel
+      job_categories: ~
+      keywords: "Klíčová slova"
+      location: Místo
+      locations: ~
+      update_search: "Aktualizace Hledání"
+    items:
+      ago: před
+      posted: Publikováno
+    job_description:
+      job_description: "Popis práce"
+    job_information:
+      accommodation_paid_for: "Ubytování zaplaceno"
+      duration: "Doba trvání"
+      ends: Končí
+      hours_per_week: "h / týden"
+      industry: Průmysl
+      job_category: "Kategorie práce"
+      job_information: "Informace o zaměstnání"
+      length: Délka
+      length_type:
+        "0": Dočasné
+        "-1": Stálý
+      location: Místo
+      meals_paid_for: "Stravování zaplaceno"
+      num_positions: Pozice
+      relocation_paid_for: "Přemístění zaplaceno"
+      salary: Plat
+      salary_period:
+        D: den
+        H: h
+        M: měsíc
+        W: týden
+        "Y": rok
+      see_map: "Podívejte se na mapu"
+      starts: Začíná
+      substitute: Náhradní
+      travel_expenses_paid_for: "Cestovní výdaje pro"
+      worktime: Worktime
+      worktime_type:
+        FULL_TIME: "Na plný úvazek"
+        PART_TIME: Part-time
+    matches:
+      jobs_match_your_query: "Jedno pracovní místo vašemu dotazu"
+      more: Více
+    requirements:
+      drivers_license: "Řidičský průkaz"
+      education: Vzdělávání
+      experience: Zkušenosti
+      experience_str: "1 měsíc"
+      language_proficiency:
+        "true": "Základní znalosti"
+        "2": "Omezené pracovní způsobilosti"
+        "3": "Profesionální pracovní způsobilosti"
+        "4": "Plné odborné způsobilosti"
+        "5": "Nativní nebo dvojjazyčné odborné způsobilosti"
+      language_type:
+        cs: České
+        de: Němec
+        en: Angličtina
+        es: Španělština
+        fr: Francouzština
+        it: Italská
+        nl: Holandský
+        ro: Rumunský
+      languages: Jazyky
+      maximum_age: "Maximální věk"
+      minimum_age: "Minimální věk"
+      must_have_car: "Musí mít auto"
+      none: Žádné
+      required: Požadované
+      requirements: Požadavky
+    show:
+      anonymous: Anonym
+      published: Publikovaná

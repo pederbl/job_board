@@ -1,0 +1,91 @@
+de:
+  job_openings:
+    apply:
+      apply: Bewerben
+      deadline: Frist
+    contacts:
+      contacts: Kontakte
+      union_contacts: "Union Kontakte"
+    employer:
+      employer: Arbeitgeber
+      national_id: "National ID"
+    index:
+      employer: Arbeitgeber
+      job_categories: ~
+      keywords: Stichwort
+      location: Ort
+      locations: ~
+      update_search: Update-Suche
+    items:
+      ago: vor
+      posted: Geschrieben
+    job_description:
+      job_description: "Job Beschreibung"
+    job_information:
+      accommodation_paid_for: "Unterkunft bezahlt"
+      duration: Dauer
+      ends: Endet
+      hours_per_week: "h / Woche"
+      industry: Industrie
+      job_category: "Job Kategorie"
+      job_information: Job-Information
+      length: Länge
+      length_type:
+        "0": Temporäre
+        "-1": Permanent
+      location: Ort
+      meals_paid_for: "Mahlzeiten bezahlt"
+      num_positions: Positionen
+      relocation_paid_for: "Umzug bezahlt"
+      salary: Gehalt
+      salary_period:
+        D: Tag
+        H: h
+        M: Monat
+        W: Woche
+        "Y": Jahr
+      see_map: "Auf der Karte sehen"
+      starts: Startet
+      substitute: Stellvertreter
+      travel_expenses_paid_for: "Reisekosten bezahlt"
+      worktime: Regelarbeitszeit
+      worktime_type:
+        FULL_TIME: Full-time
+        PART_TIME: Teilzeit
+    matches:
+      jobs_match_your_query:
+        one: "Ein Job entspricht Ihrer Abfrage"
+        other: "%{delimited} Jobs entspricht Ihrer Abfrage"
+      more: Mehr
+    requirements:
+      drivers_license: Führerschein
+      education: Bildung
+      experience: Erleben
+      experience_str:
+        one: "1 Monat"
+        other: "%{count} Monaten"
+      language_proficiency:
+        "true": "Elementare Sprachkenntnisse"
+        "2": "Limited arbeitet Befähigungsüberprüfung"
+        "3": "Professionelles Arbeiten Kenntnisse"
+        "4": "Volle berufliche Befähigung"
+        "5": "Native oder zweisprachige Kompetenz"
+      language_type:
+        cs: Tschechische
+        de: Deutsch
+        en: Englisch
+        es: Spanisch
+        fr: Französisch
+        it: Italienisch
+        nl: Niederländisch
+        ro: Rumänisch
+      languages: Sprachen
+      maximum_age: "Maximales Alter"
+      minimum_age: Mindestalter
+      must_have_car: "Muss Auto"
+      none: Keine
+      required: Erforderliche
+      requirements: Bedarf
+    show:
+      anonymous: Anonym
+      published: Veröffentlicht

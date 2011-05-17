@@ -1,0 +1,31 @@
+
+.site_header
+  .left
+    .logo
+      = link_to "jobboteket", root_path
+  .right
+    .item
+      .locale_picker_link
+        %a{ rel: "#locale_picker" } 
+          = I18n.name_for_locale
+
+  .overlay#locale_picker
+    .col
+      - I18n.available_locales[0..10].each do |locale|
+        .item 
+          %a{ "data-set-locale" => locale } 
+            = I18n.name_for_locale(locale)
+
+    .col
+      - I18n.available_locales[10..20].each do |locale|
+        .item 
+          %a{ "data-set-locale" => locale } 
+            = I18n.name_for_locale(locale)
+
+    .col
+      - I18n.available_locales[20..30].each do |locale|
+        .item 
+          %a{ "data-set-locale" => locale } 
+            = I18n.name_for_locale(locale)
+
+  

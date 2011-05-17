@@ -1,0 +1,87 @@
+it:
+  job_openings:
+    apply:
+      apply: Applica
+      deadline: Termine
+    contacts:
+      contacts: Contatti
+      union_contacts: "Unione Contatti"
+    employer:
+      employer: "Datore di lavoro"
+      national_id: "Identità nazionale"
+    index:
+      employer: "Datore di lavoro"
+      job_categories: ~
+      keywords: "Parole chiave"
+      location: Posizione
+      locations: ~
+      update_search: "Aggiornamento della ricerca"
+    items:
+      ago: fa
+      posted: Pubblicato
+    job_description:
+      job_description: "Job Description"
+    job_information:
+      accommodation_paid_for: "Alloggio pagato per"
+      duration: Durata
+      ends: Termina
+      hours_per_week: "ore / settimana"
+      industry: Industria
+      job_category: "Job categoria"
+      job_information: "Informazioni lavoro"
+      length: Lunghezza
+      length_type:
+        "0": Temporaneo
+        "-1": Permanente
+      location: Posizione
+      meals_paid_for: "Pasti pagati per"
+      num_positions: Posizioni
+      relocation_paid_for: "Delocalizzazione pagato per"
+      salary: Stipendio
+      salary_period:
+        D: giorno
+        H: h
+        M: mese
+        W: settimana
+        "Y": anno
+      see_map: "Vedi la mappa"
+      starts: Avvia
+      substitute: Supplenti
+      travel_expenses_paid_for: "spese di viaggio pagate per"
+      worktime: "Orario di lavoro"
+      worktime_type:
+        FULL_TIME: "A tempo pieno"
+        PART_TIME: Part-time
+    matches:
+      jobs_match_your_query: "Un posto di lavoro corrisponde alla tua ricerca"
+      more: Più
+    requirements:
+      drivers_license: "Patente di guida"
+      education: Istruzione
+      experience: Esperienza
+      experience_str: "1 mese"
+      language_proficiency:
+        "true": "Elementare di professionalità"
+        "2": "Limited di lavoro di competenza"
+        "3": "Lavoro professionale di competenza"
+        "4": "Piena idoneità professionale"
+        "5": "competenza nativa o bilingue"
+      language_type:
+        cs: Ceca
+        de: Tedesco
+        en: Inglese
+        es: Spagnolo
+        fr: Francese
+        it: Italiano
+        nl: Olandese
+        ro: Rumeno
+      languages: Lingue
+      maximum_age: "Età massima"
+      minimum_age: "Età minima"
+      must_have_car: "Deve avere auto"
+      none: Nessuno
+      required: Obbligatorio
+      requirements: Requisiti
+    show:
+      anonymous: Anonimo
+      published: Edizione
