@@ -1,252 +1,252 @@
 pt:
   iso_3166_1_alpha_2:
-    "NO": ~
-    AD: ~
-    AE: ~
-    AF: ~
-    AG: ~
-    AI: ~
-    AL: ~
-    AM: ~
-    AO: ~
-    AQ: ~
-    AR: ~
-    AS: ~
-    AT: ~
-    AU: ~
-    AW: ~
-    AX: ~
-    AZ: ~
-    BA: ~
-    BB: ~
-    BD: ~
-    BE: ~
-    BF: ~
-    BG: ~
-    BH: ~
-    BI: ~
-    BJ: ~
-    BL: ~
-    BM: ~
-    BN: ~
-    BO: ~
-    BQ: ~
-    BR: ~
-    BS: ~
-    BT: ~
-    BV: ~
-    BW: ~
-    BY: ~
-    BZ: ~
-    CA: ~
-    CC: ~
-    CD: ~
-    CF: ~
-    CG: ~
-    CH: ~
-    CI: ~
-    CK: ~
-    CL: ~
-    CM: ~
-    CN: ~
-    CO: ~
-    CR: ~
-    CU: ~
-    CV: ~
-    CW: ~
-    CX: ~
-    CY: ~
-    CZ: ~
-    DE: ~
-    DJ: ~
-    DK: ~
-    DM: ~
-    DO: ~
-    DZ: ~
-    EC: ~
-    EE: ~
-    EG: ~
-    EH: ~
-    ER: ~
-    ES: ~
-    ET: ~
-    FI: ~
-    FJ: ~
-    FK: ~
-    FM: ~
-    FO: ~
-    FR: ~
-    GA: ~
-    GB: ~
-    GD: ~
-    GE: ~
-    GF: ~
-    GG: ~
-    GH: ~
-    GI: ~
-    GL: ~
-    GM: ~
-    GN: ~
-    GP: ~
-    GQ: ~
-    GR: ~
-    GS: ~
-    GT: ~
-    GU: ~
-    GW: ~
-    GY: ~
-    HK: ~
-    HM: ~
-    HN: ~
-    HR: ~
-    HT: ~
-    HU: ~
-    ID: ~
-    IE: ~
-    IL: ~
-    IM: ~
-    IN: ~
-    IO: ~
-    IQ: ~
-    IR: ~
-    IS: ~
-    IT: ~
-    JE: ~
-    JM: ~
-    JO: ~
-    JP: ~
-    KE: ~
-    KG: ~
-    KH: ~
-    KI: ~
-    KM: ~
-    KN: ~
-    KP: ~
-    KR: ~
-    KW: ~
-    KY: ~
-    KZ: ~
-    LA: ~
-    LB: ~
-    LC: ~
-    LI: ~
-    LK: ~
-    LR: ~
-    LS: ~
-    LT: ~
-    LU: ~
-    LV: ~
-    LY: ~
-    MA: ~
-    MC: ~
-    MD: ~
-    ME: ~
-    MF: ~
-    MG: ~
-    MH: ~
-    MK: ~
-    ML: ~
-    MM: ~
-    MN: ~
-    MO: ~
-    MP: ~
-    MQ: ~
-    MR: ~
-    MS: ~
-    MT: ~
-    MU: ~
-    MV: ~
-    MW: ~
-    MX: ~
-    MY: ~
-    MZ: ~
-    NA: ~
-    NC: ~
-    NE: ~
-    NF: ~
-    NG: ~
-    NI: ~
-    NL: ~
-    NP: ~
-    NR: ~
-    NU: ~
-    NZ: ~
-    OM: ~
-    PA: ~
-    PE: ~
-    PF: ~
-    PG: ~
-    PH: ~
-    PK: ~
-    PL: ~
-    PM: ~
-    PN: ~
-    PR: ~
-    PS: ~
-    PT: ~
-    PW: ~
-    PY: ~
-    QA: ~
-    RE: ~
-    RO: ~
-    RS: ~
-    RU: ~
-    RW: ~
-    SA: ~
-    SB: ~
-    SC: ~
-    SD: ~
-    SE: ~
-    SG: ~
-    SH: ~
-    SI: ~
-    SJ: ~
-    SK: ~
-    SL: ~
-    SM: ~
-    SN: ~
-    SO: ~
-    SR: ~
-    ST: ~
-    SV: ~
-    SX: ~
-    SY: ~
-    SZ: ~
-    TC: ~
-    TD: ~
-    TF: ~
-    TG: ~
-    TH: ~
-    TJ: ~
-    TK: ~
-    TL: ~
-    TM: ~
-    TN: ~
-    TO: ~
-    TR: ~
-    TT: ~
-    TV: ~
-    TW: ~
-    TZ: ~
-    UA: ~
-    UG: ~
-    UK: ~
-    UM: ~
-    US: ~
-    UY: ~
-    UZ: ~
-    VA: ~
-    VC: ~
-    VE: ~
-    VG: ~
-    VI: ~
-    VN: ~
-    VU: ~
-    WF: ~
-    WS: ~
-    XK: ~
-    YE: ~
-    YT: ~
-    ZA: ~
-    ZM: ~
-    ZW: ~
+    "NO": Noruega
+    AD: Andorra
+    AE: "Emirados Árabes Unidos"
+    AF: Afeganistão
+    AG: "Antígua e Barbuda"
+    AI: Anguilla
+    AL: Albânia
+    AM: Arménia
+    AO: Angola
+    AQ: Antártica
+    AR: Argentina
+    AS: "Samoa Americana"
+    AT: Áustria
+    AU: Austrália
+    AW: Aruba
+    AX: "Ilhas Aland"
+    AZ: Azerbaijão
+    BA: "Bósnia e Herzegovina"
+    BB: Barbados
+    BD: Bangladesh
+    BE: Bélgica
+    BF: "Burkina Faso"
+    BG: Bulgária
+    BH: Bahrein
+    BI: Burundi
+    BJ: Benin
+    BL: "São Bartolomeu"
+    BM: Bermudas
+    BN: "Brunei Darussalam"
+    BO: "Bolívia, Estado Plurinacional da"
+    BQ: "Bonaire, Saint Eustatius e Saba"
+    BR: Brasil
+    BS: Bahamas
+    BT: Butão
+    BV: "Ilha Bouvet"
+    BW: Botswana
+    BY: Bielorrússia
+    BZ: Belize
+    CA: Canadá
+    CC: "Ilhas Cocos (Keeling)"
+    CD: "Congo, República Democrática do"
+    CF: "Central Africano República"
+    CG: Congo
+    CH: Suíça
+    CI: "Cote D'Ivoire"
+    CK: "Ilhas Cook"
+    CL: Chile
+    CM: Camarões
+    CN: China
+    CO: Colômbia
+    CR: "Costa Rica"
+    CU: Cuba
+    CV: "Cabo Verde"
+    CW: Curaçao
+    CX: "Christmas Island"
+    CY: Chipre
+    CZ: "República Checa"
+    DE: Alemanha
+    DJ: Djibouti
+    DK: Dinamarca
+    DM: Dominica
+    DO: "República Dominicana"
+    DZ: Argélia
+    EC: Equador
+    EE: Estónia
+    EG: Egito
+    EH: "Sahara Ocidental"
+    ER: Eritreia
+    ES: Espanha
+    ET: Etiópia
+    FI: Finlândia
+    FJ: Fiji
+    FK: "Ilhas Falkland (Malvinas)"
+    FM: "Micronésia, Estados Federados da"
+    FO: "Ilhas Feroé"
+    FR: França
+    GA: Gabão
+    GB: "Reino Unido"
+    GD: Grenada
+    GE: Geórgia
+    GF: "Guiana Francesa"
+    GG: Guernsey
+    GH: Gana
+    GI: Gibraltar
+    GL: Gronelândia
+    GM: Gâmbia
+    GN: Guiné
+    GP: Guadalupe
+    GQ: "Guiné Equatorial"
+    GR: Grécia
+    GS: "Geórgia do Sul e Ilhas Sandwich do Sul"
+    GT: Guatemala
+    GU: Guam
+    GW: Guiné-Bissau
+    GY: Guiana
+    HK: "Hong Kong"
+    HM: "Ilha Heard e Ilhas Mcdonald"
+    HN: Honduras
+    HR: Croácia
+    HT: Haiti
+    HU: Hungria
+    ID: Indonésia
+    IE: Irlanda
+    IL: Israel
+    IM: "Ilha de Man"
+    IN: Índia
+    IO: "Território Britânico do Oceano Índico"
+    IQ: Iraque
+    IR: "Irã, República Islâmica do"
+    IS: Islândia
+    IT: Itália
+    JE: Jersey
+    JM: Jamaica
+    JO: Jordan
+    JP: Japão
+    KE: Quénia
+    KG: Quirguistão
+    KH: Camboja
+    KI: Kiribati
+    KM: Comores
+    KN: "São Cristóvão e Nevis"
+    KP: "Coréia, República Popular Democrática da"
+    KR: "Coreia do Sul"
+    KW: Kuwait
+    KY: "Ilhas Caymans"
+    KZ: Cazaquistão
+    LA: "República Democrática Popular do Laos"
+    LB: Líbano
+    LC: "Santa Lúcia"
+    LI: Liechtenstein
+    LK: "Sri Lanka"
+    LR: Libéria
+    LS: Lesoto
+    LT: Lituânia
+    LU: Luxemburgo
+    LV: Letónia
+    LY: "Jamahiriya Árabe Líbia"
+    MA: Marrocos
+    MC: Monaco
+    MD: "República da Moldávia"
+    ME: Montenegro
+    MF: "São Martinho (parte francesa)"
+    MG: Madagascar
+    MH: "Ilhas Marshall"
+    MK: "Macedónia, Antiga República Jugoslava da"
+    ML: Mali
+    MM: Mianmar
+    MN: Mongólia
+    MO: Macau
+    MP: "Ilhas Marianas do Norte"
+    MQ: Martinica
+    MR: Mauritânia
+    MS: Montserrat
+    MT: Malta
+    MU: Maurícias
+    MV: Maldivas
+    MW: Malawi
+    MX: México
+    MY: Malásia
+    MZ: Moçambique
+    NA: Namíbia
+    NC: "Nova Caledônia"
+    NE: Níger
+    NF: "Norfolk Island"
+    NG: Nigéria
+    NI: Nicarágua
+    NL: Holanda
+    NP: Nepal
+    NR: Nauru
+    NU: Niue
+    NZ: "Nova Zelândia"
+    OM: Omã
+    PA: Panamá
+    PE: Peru
+    PF: "Polinésia Francesa"
+    PG: "Papua Nova Guiné"
+    PH: Filipinas
+    PK: Paquistão
+    PL: Polónia
+    PM: "São Pedro e Miquelon"
+    PN: Pitcairn
+    PR: "Puerto Rico"
+    PS: "Território Palestiniano Ocupado"
+    PT: Portugal
+    PW: Palau
+    PY: Paraguai
+    QA: Qatar
+    RE: Reunião
+    RO: Roménia
+    RS: Sérvia
+    RU: "Federação Russa"
+    RW: Ruanda
+    SA: "Arábia Saudita"
+    SB: "Ilhas Salomão"
+    SC: Seychelles
+    SD: Sudão
+    SE: Suécia
+    SG: Singapura
+    SH: "Santa Helena Ascensão e Tristão da Cunha"
+    SI: Eslovénia
+    SJ: "Svalbard e Jan Mayen"
+    SK: Eslováquia
+    SL: "Serra Leoa"
+    SM: "São Marino"
+    SN: Senegal
+    SO: Somália
+    SR: Suriname
+    ST: "São Tomé e Príncipe"
+    SV: "El Salvador"
+    SX: "Sint Maarten (parte holandesa)"
+    SY: "República Árabe da Síria"
+    SZ: Suazilândia
+    TC: "Ilhas Turks e Caicos"
+    TD: Chade
+    TF: "Territórios Franceses do Sul"
+    TG: Togo
+    TH: Tailândia
+    TJ: Tajiquistão
+    TK: Tokelau
+    TL: Timor-Leste
+    TM: Turquemenistão
+    TN: Tunísia
+    TO: Tonga
+    TR: Turquia
+    TT: "Trinidad e Tobago"
+    TV: Tuvalu
+    TW: "Taiwan, Província da China"
+    TZ: "Tanzânia, República Unida da"
+    UA: Ucrânia
+    UG: Uganda
+    UK: "Reino Unido"
+    UM: "Estados Unidos Ilhas Menores Distantes"
+    US: "Estados Unidos"
+    UY: Uruguai
+    UZ: Uzbequistão
+    VA: "Santa Sé (Estado da Cidade do Vaticano)"
+    VC: "São Vicente e Granadinas"
+    VE: "Venezuela, República Bolivariana da"
+    VG: "Ilhas Virgens Britânicas"
+    VI: "Ilhas Virgens, EUA"
+    VN: "Viet Nam"
+    VU: Vanuatu
+    WF: "Wallis e Futuna"
+    WS: Samoa
+    XK: Kosovo
+    YE: Iémen
+    YT: Mayotte
+    ZA: "África do Sul"
+    ZM: Zâmbia
+    ZW: Zimbabué

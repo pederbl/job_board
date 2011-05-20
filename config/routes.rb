@@ -1,16 +1,11 @@
 Base::Application.routes.draw do
-  resources :geonames_locations do 
-    collection do 
-      get "search"
-    end
-  end
-
   resources :agreements
 
   resources :job_openings, path: 'j', constraints: { id: /.*/ } do 
     collection do
       get "more"
-      get "location_picker_node_children" 
+      get "job_categories_picker_node_children" 
+      get "locations_picker_node_children" 
     end
   end
 
@@ -21,6 +16,4 @@ Base::Application.routes.draw do
   end
 
   root to: 'home#index'
-  
-
 end

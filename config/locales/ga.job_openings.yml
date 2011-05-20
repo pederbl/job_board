@@ -11,10 +11,10 @@ ga:
       national_id: "Náisiúnta ID"
     index:
       employer: Fostóir
-      job_categories: ~
+      job_categories: "Catagóirí Poist"
       keywords: Keywords
       location: Suíomh
-      locations: ~
+      locations: Suímh
       update_search: "Nuashonrú Cuardaigh"
     items:
       ago: "ó shin"

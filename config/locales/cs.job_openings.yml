@@ -11,10 +11,10 @@ cs:
       national_id: "Národní ID"
     index:
       employer: Zaměstnavatel
-      job_categories: ~
+      job_categories: "Kategorie práce"
       keywords: "Klíčová slova"
       location: Místo
-      locations: ~
+      locations: Míst
       update_search: "Aktualizace Hledání"
     items:
       ago: před

@@ -1,6 +1,5 @@
 en:
   iso_3166_1_alpha_2:
-    XK: Kosovo
     "NO": Norway
     AD: Andorra
     AE: "United Arab Emirates"
@@ -245,6 +244,7 @@ en:
     VU: Vanuatu
     WF: "Wallis and Futuna"
     WS: Samoa
+    XK: Kosovo
     YE: Yemen
     YT: Mayotte
     ZA: "South Africa"

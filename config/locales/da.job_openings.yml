@@ -11,10 +11,10 @@ da:
       national_id: "Nationale id"
     index:
       employer: Arbejdsgiver
-      job_categories: ~
+      job_categories: "Job Kategorier"
       keywords: Søgeord
       location: Beliggenhed
-      locations: ~
+      locations: Steder
       update_search: Opdat.søgning
     items:
       ago: siden

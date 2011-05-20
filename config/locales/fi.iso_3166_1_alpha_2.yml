@@ -1,252 +1,252 @@
 fi:
   iso_3166_1_alpha_2:
-    "NO": ~
-    AD: ~
-    AE: ~
-    AF: ~
-    AG: ~
-    AI: ~
-    AL: ~
-    AM: ~
-    AO: ~
-    AQ: ~
-    AR: ~
-    AS: ~
-    AT: ~
-    AU: ~
-    AW: ~
-    AX: ~
-    AZ: ~
-    BA: ~
-    BB: ~
-    BD: ~
-    BE: ~
-    BF: ~
-    BG: ~
-    BH: ~
-    BI: ~
-    BJ: ~
-    BL: ~
-    BM: ~
-    BN: ~
-    BO: ~
-    BQ: ~
-    BR: ~
-    BS: ~
-    BT: ~
-    BV: ~
-    BW: ~
-    BY: ~
-    BZ: ~
-    CA: ~
-    CC: ~
-    CD: ~
-    CF: ~
-    CG: ~
-    CH: ~
-    CI: ~
-    CK: ~
-    CL: ~
-    CM: ~
-    CN: ~
-    CO: ~
-    CR: ~
-    CU: ~
-    CV: ~
-    CW: ~
-    CX: ~
-    CY: ~
-    CZ: ~
-    DE: ~
-    DJ: ~
-    DK: ~
-    DM: ~
-    DO: ~
-    DZ: ~
-    EC: ~
-    EE: ~
-    EG: ~
-    EH: ~
-    ER: ~
-    ES: ~
-    ET: ~
-    FI: ~
-    FJ: ~
-    FK: ~
-    FM: ~
-    FO: ~
-    FR: ~
-    GA: ~
-    GB: ~
-    GD: ~
-    GE: ~
-    GF: ~
-    GG: ~
-    GH: ~
-    GI: ~
-    GL: ~
-    GM: ~
-    GN: ~
-    GP: ~
-    GQ: ~
-    GR: ~
-    GS: ~
-    GT: ~
-    GU: ~
-    GW: ~
-    GY: ~
-    HK: ~
-    HM: ~
-    HN: ~
-    HR: ~
-    HT: ~
-    HU: ~
-    ID: ~
-    IE: ~
-    IL: ~
-    IM: ~
-    IN: ~
-    IO: ~
-    IQ: ~
-    IR: ~
-    IS: ~
-    IT: ~
-    JE: ~
-    JM: ~
-    JO: ~
-    JP: ~
-    KE: ~
-    KG: ~
-    KH: ~
-    KI: ~
-    KM: ~
-    KN: ~
-    KP: ~
-    KR: ~
-    KW: ~
-    KY: ~
-    KZ: ~
-    LA: ~
-    LB: ~
-    LC: ~
-    LI: ~
-    LK: ~
-    LR: ~
-    LS: ~
-    LT: ~
-    LU: ~
-    LV: ~
-    LY: ~
-    MA: ~
-    MC: ~
-    MD: ~
-    ME: ~
-    MF: ~
-    MG: ~
-    MH: ~
-    MK: ~
-    ML: ~
-    MM: ~
-    MN: ~
-    MO: ~
-    MP: ~
-    MQ: ~
-    MR: ~
-    MS: ~
-    MT: ~
-    MU: ~
-    MV: ~
-    MW: ~
-    MX: ~
-    MY: ~
-    MZ: ~
-    NA: ~
-    NC: ~
-    NE: ~
-    NF: ~
-    NG: ~
-    NI: ~
-    NL: ~
-    NP: ~
-    NR: ~
-    NU: ~
-    NZ: ~
-    OM: ~
-    PA: ~
-    PE: ~
-    PF: ~
-    PG: ~
-    PH: ~
-    PK: ~
-    PL: ~
-    PM: ~
-    PN: ~
-    PR: ~
-    PS: ~
-    PT: ~
-    PW: ~
-    PY: ~
-    QA: ~
-    RE: ~
-    RO: ~
-    RS: ~
-    RU: ~
-    RW: ~
-    SA: ~
-    SB: ~
-    SC: ~
-    SD: ~
-    SE: ~
-    SG: ~
-    SH: ~
-    SI: ~
-    SJ: ~
-    SK: ~
-    SL: ~
-    SM: ~
-    SN: ~
-    SO: ~
-    SR: ~
-    ST: ~
-    SV: ~
-    SX: ~
-    SY: ~
-    SZ: ~
-    TC: ~
-    TD: ~
-    TF: ~
-    TG: ~
-    TH: ~
-    TJ: ~
-    TK: ~
-    TL: ~
-    TM: ~
-    TN: ~
-    TO: ~
-    TR: ~
-    TT: ~
-    TV: ~
-    TW: ~
-    TZ: ~
-    UA: ~
-    UG: ~
-    UK: ~
-    UM: ~
-    US: ~
-    UY: ~
-    UZ: ~
-    VA: ~
-    VC: ~
-    VE: ~
-    VG: ~
-    VI: ~
-    VN: ~
-    VU: ~
-    WF: ~
-    WS: ~
-    XK: ~
-    YE: ~
-    YT: ~
-    ZA: ~
-    ZM: ~
-    ZW: ~
+    "NO": Norja
+    AD: Andorra
+    AE: Arabiemiirikunnat
+    AF: Afganistanissa
+    AG: "Antigua ja Barbuda"
+    AI: Anguilla
+    AL: Albania
+    AM: Armenia
+    AO: Angola
+    AQ: Etelämanner
+    AR: Argentiina
+    AS: "Amerikan Samoa"
+    AT: Itävalta
+    AU: Australia
+    AW: Aruba
+    AX: Ahvenanmaa
+    AZ: Azerbaidžan
+    BA: "Bosnia ja Hertsegovina"
+    BB: Barbados
+    BD: Bangladesh
+    BE: Belgia
+    BF: "Burkina Faso"
+    BG: Bulgaria
+    BH: Bahrain
+    BI: Burundi
+    BJ: Benin
+    BL: "Saint Barthelemy"
+    BM: Bermuda
+    BN: Brunei
+    BO: "Bolivia monikansallisia valtio"
+    BQ: "Bonaire, Saint Eustatius ja Saba"
+    BR: Brasilia
+    BS: Bahama
+    BT: Bhutan
+    BV: Bouvet'nsaari
+    BW: Botswana
+    BY: Valko-Venäjä
+    BZ: Belize
+    CA: Kanada
+    CC: "Cocos (Keelingsaaret)"
+    CD: "Kongon demokraattinen tasavalta"
+    CF: "Keski-Afrikkalainen tasavalta"
+    CG: Kongo
+    CH: Sveitsi
+    CI: Norsunluurannikko
+    CK: Cookinsaaret
+    CL: Chile
+    CM: Kamerun
+    CN: Kiina
+    CO: Kolumbia
+    CR: "Costa Rica"
+    CU: Kuuba
+    CV: "Kap Verde"
+    CW: Curacao
+    CX: Joulusaari
+    CY: Kypros
+    CZ: Tšekki
+    DE: Saksa
+    DJ: Djibouti
+    DK: Tanska
+    DM: Dominica
+    DO: "Dominikaaninen tasavalta"
+    DZ: Algeria
+    EC: Ecuador
+    EE: Viro
+    EG: Egypti
+    EH: Länsi-Sahara
+    ER: Eritrea
+    ES: Espanja
+    ET: Etiopia
+    FI: Suomi
+    FJ: Fidži
+    FK: "Falklandin saaret (Malvinassaaret)"
+    FM: "Mikronesia ja"
+    FO: Färsaaret
+    FR: Ranska
+    GA: Gabon
+    GB: Iso-Britannia
+    GD: Grenada
+    GE: Georgia
+    GF: "Ranskan Guayana"
+    GG: Guernsey
+    GH: Ghana
+    GI: Gibraltar
+    GL: Grönlanti
+    GM: Gambia
+    GN: Guinea
+    GP: Guadeloupe
+    GQ: "Päiväntasaajan Guinea"
+    GR: Kreikka
+    GS: "Etelä-Georgia ja Eteläiset Sandwichsaaret"
+    GT: Guatemala
+    GU: Guam
+    GW: Guinea-Bissau
+    GY: Guyana
+    HK: Hongkong
+    HM: "Heard ja McDonaldinsaaret"
+    HN: Honduras
+    HR: Kroatia
+    HT: Haiti
+    HU: Unkari
+    ID: Indonesia
+    IE: Irlanti
+    IL: Israel
+    IM: "Isle of Man"
+    IN: Intia
+    IO: "Brittiläinen Intian valtameren alue"
+    IQ: Irak
+    IR: "Iranin islamilainen tasavalta"
+    IS: Islanti
+    IT: Italia
+    JE: Jersey
+    JM: Jamaika
+    JO: Jordan
+    JP: Japani
+    KE: Kenia
+    KG: Kirgisia
+    KH: Kambodza
+    KI: Kiribati
+    KM: Komorit
+    KN: "Saint Kitts ja Nevis"
+    KP: "Korean demokraattinen kansantasavalta"
+    KR: Etelä-Korea
+    KW: Kuwait
+    KY: Caymansaaret
+    KZ: Kazakstan
+    LA: "Lao People's Democratic Republic"
+    LB: Libanon
+    LC: "Saint Lucia"
+    LI: Liechtenstein
+    LK: "Sri Lanka"
+    LR: Liberia
+    LS: Lesotho
+    LT: Liettua
+    LU: Luxemburg
+    LV: Latvia
+    LY: Libya
+    MA: Marokko
+    MC: Monaco
+    MD: Moldova
+    ME: Montenegro
+    MF: "Saint Martin (ranskalainen osa)"
+    MG: Madagaskar
+    MH: Marshallinsaaret
+    MK: "Makedonia, entinen Jugoslavian tasavalta"
+    ML: Mali
+    MM: Myanmar
+    MN: Mongolia
+    MO: Macao
+    MP: Pohjois-Mariaanit
+    MQ: Martinique
+    MR: Mauritania
+    MS: Montserrat
+    MT: Malta
+    MU: Mauritius
+    MV: Malediivit
+    MW: Malawi
+    MX: Meksiko
+    MY: Malesia
+    MZ: Mosambik
+    NA: Namibia
+    NC: Uusi-Kaledonia
+    NE: Niger
+    NF: Norfolkinsaari
+    NG: Nigeria
+    NI: Nicaragua
+    NL: Alankomaat
+    NP: Nepal
+    NR: Nauru
+    NU: Niue
+    NZ: Uusi-Seelanti
+    OM: Oman
+    PA: Panama
+    PE: Peru
+    PF: "Ranskan Polynesia"
+    PG: Papua-Uusi-Guinea
+    PH: Filippiinit
+    PK: Pakistan
+    PL: Puola
+    PM: "Saint Pierre ja Miquelon"
+    PN: Pitcairn
+    PR: "Puerto Rico"
+    PS: "Palestiinan alue, miehitetty"
+    PT: Portugali
+    PW: Palau
+    PY: Paraguay
+    QA: Qatar
+    RE: Jälleennäkeminen
+    RO: Romania
+    RS: Serbia
+    RU: Venäjä
+    RW: Ruanda
+    SA: Saudi-Arabia
+    SB: Salomonsaaret
+    SC: Seychellit
+    SD: Sudan
+    SE: Ruotsi
+    SG: Singapore
+    SH: "Saint Helena, Ascension ja Tristan da Cunha"
+    SI: Slovenia
+    SJ: "Svalbard ja Jan Mayen"
+    SK: Slovakia
+    SL: "Sierra Leone"
+    SM: "San Marino"
+    SN: Senegal
+    SO: Somalia
+    SR: Suriname
+    ST: "Sao Tome ja Principe"
+    SV: "El Salvador"
+    SX: "Sint Maarten (hollanti osa)"
+    SY: Syyria
+    SZ: Swazimaa
+    TC: "Turks-ja Caicossaaret"
+    TD: Chad
+    TF: "Ranskan eteläiset alueet"
+    TG: Togo
+    TH: Thaimaa
+    TJ: Tadžikistan
+    TK: Tokelau
+    TL: Itä-Timorin
+    TM: Turkmenistan
+    TN: Tunisia
+    TO: Tonga
+    TR: Turkki
+    TT: "Trinidad ja Tobago"
+    TV: Tuvalu
+    TW: "Taiwan, Kiinan provinssi"
+    TZ: "Tansanian yhdistynyt tasavalta"
+    UA: Ukraina
+    UG: Uganda
+    UK: Iso-Britannia
+    UM: "Yhdysvaltain Tyynenmeren erillissaaret"
+    US: Yhdysvallat
+    UY: Uruguay
+    UZ: Uzbekistan
+    VA: "Pyhä istuin (Vatikaanivaltio)"
+    VC: "Saint Vincent ja Grenadiinit"
+    VE: "Venezuelan bolivariaanisen tasavallan"
+    VG: "Brittiläiset Neitsytsaaret"
+    VI: "Yhdysvaltain Neitsytsaaret"
+    VN: Vietnam
+    VU: Vanuatu
+    WF: "Wallis ja Futuna"
+    WS: Samoa
+    XK: Kosovo
+    YE: Jemen
+    YT: Mayotte
+    ZA: Etelä-Afrikka
+    ZM: Sambia
+    ZW: Zimbabwe

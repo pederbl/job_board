@@ -1,252 +1,252 @@
 hu:
   iso_3166_1_alpha_2:
-    "NO": ~
-    AD: ~
-    AE: ~
-    AF: ~
-    AG: ~
-    AI: ~
-    AL: ~
-    AM: ~
-    AO: ~
-    AQ: ~
-    AR: ~
-    AS: ~
-    AT: ~
-    AU: ~
-    AW: ~
-    AX: ~
-    AZ: ~
-    BA: ~
-    BB: ~
-    BD: ~
-    BE: ~
-    BF: ~
-    BG: ~
-    BH: ~
-    BI: ~
-    BJ: ~
-    BL: ~
-    BM: ~
-    BN: ~
-    BO: ~
-    BQ: ~
-    BR: ~
-    BS: ~
-    BT: ~
-    BV: ~
-    BW: ~
-    BY: ~
-    BZ: ~
-    CA: ~
-    CC: ~
-    CD: ~
-    CF: ~
-    CG: ~
-    CH: ~
-    CI: ~
-    CK: ~
-    CL: ~
-    CM: ~
-    CN: ~
-    CO: ~
-    CR: ~
-    CU: ~
-    CV: ~
-    CW: ~
-    CX: ~
-    CY: ~
-    CZ: ~
-    DE: ~
-    DJ: ~
-    DK: ~
-    DM: ~
-    DO: ~
-    DZ: ~
-    EC: ~
-    EE: ~
-    EG: ~
-    EH: ~
-    ER: ~
-    ES: ~
-    ET: ~
-    FI: ~
-    FJ: ~
-    FK: ~
-    FM: ~
-    FO: ~
-    FR: ~
-    GA: ~
-    GB: ~
-    GD: ~
-    GE: ~
-    GF: ~
-    GG: ~
-    GH: ~
-    GI: ~
-    GL: ~
-    GM: ~
-    GN: ~
-    GP: ~
-    GQ: ~
-    GR: ~
-    GS: ~
-    GT: ~
-    GU: ~
-    GW: ~
-    GY: ~
-    HK: ~
-    HM: ~
-    HN: ~
-    HR: ~
-    HT: ~
-    HU: ~
-    ID: ~
-    IE: ~
-    IL: ~
-    IM: ~
-    IN: ~
-    IO: ~
-    IQ: ~
-    IR: ~
-    IS: ~
-    IT: ~
-    JE: ~
-    JM: ~
-    JO: ~
-    JP: ~
-    KE: ~
-    KG: ~
-    KH: ~
-    KI: ~
-    KM: ~
-    KN: ~
-    KP: ~
-    KR: ~
-    KW: ~
-    KY: ~
-    KZ: ~
-    LA: ~
-    LB: ~
-    LC: ~
-    LI: ~
-    LK: ~
-    LR: ~
-    LS: ~
-    LT: ~
-    LU: ~
-    LV: ~
-    LY: ~
-    MA: ~
-    MC: ~
-    MD: ~
-    ME: ~
-    MF: ~
-    MG: ~
-    MH: ~
-    MK: ~
-    ML: ~
-    MM: ~
-    MN: ~
-    MO: ~
-    MP: ~
-    MQ: ~
-    MR: ~
-    MS: ~
-    MT: ~
-    MU: ~
-    MV: ~
-    MW: ~
-    MX: ~
-    MY: ~
-    MZ: ~
-    NA: ~
-    NC: ~
-    NE: ~
-    NF: ~
-    NG: ~
-    NI: ~
-    NL: ~
-    NP: ~
-    NR: ~
-    NU: ~
-    NZ: ~
-    OM: ~
-    PA: ~
-    PE: ~
-    PF: ~
-    PG: ~
-    PH: ~
-    PK: ~
-    PL: ~
-    PM: ~
-    PN: ~
-    PR: ~
-    PS: ~
-    PT: ~
-    PW: ~
-    PY: ~
-    QA: ~
-    RE: ~
-    RO: ~
-    RS: ~
-    RU: ~
-    RW: ~
-    SA: ~
-    SB: ~
-    SC: ~
-    SD: ~
-    SE: ~
-    SG: ~
-    SH: ~
-    SI: ~
-    SJ: ~
-    SK: ~
-    SL: ~
-    SM: ~
-    SN: ~
-    SO: ~
-    SR: ~
-    ST: ~
-    SV: ~
-    SX: ~
-    SY: ~
-    SZ: ~
-    TC: ~
-    TD: ~
-    TF: ~
-    TG: ~
-    TH: ~
-    TJ: ~
-    TK: ~
-    TL: ~
-    TM: ~
-    TN: ~
-    TO: ~
-    TR: ~
-    TT: ~
-    TV: ~
-    TW: ~
-    TZ: ~
-    UA: ~
-    UG: ~
-    UK: ~
-    UM: ~
-    US: ~
-    UY: ~
-    UZ: ~
-    VA: ~
-    VC: ~
-    VE: ~
-    VG: ~
-    VI: ~
-    VN: ~
-    VU: ~
-    WF: ~
-    WS: ~
-    XK: ~
-    YE: ~
-    YT: ~
-    ZA: ~
-    ZM: ~
-    ZW: ~
+    "NO": Norvégia
+    AD: Andorra
+    AE: "Egyesült Arab Emírségek"
+    AF: Afganisztán
+    AG: "Antigua és Barbuda"
+    AI: Anguilla
+    AL: Albánia
+    AM: Örményország
+    AO: Angola
+    AQ: Antarktisz
+    AR: Argentína
+    AS: "Amerikai Szamoa"
+    AT: Ausztria
+    AU: Ausztrália
+    AW: Aruba
+    AX: Aland-szigetek
+    AZ: Azerbajdzsán
+    BA: "Bosznia és Hercegovina"
+    BB: Barbados
+    BD: Banglades
+    BE: Belgium
+    BF: "Burkina Faso"
+    BG: Bulgária
+    BH: Bahrain
+    BI: Burundi
+    BJ: Benin
+    BL: "Saint Barthelemy"
+    BM: Bermuda
+    BN: "Brunei Darussalam"
+    BO: "Bolívia, Plurinational állam"
+    BQ: "Bonaire, Saba és Saint Eustatius"
+    BR: Brazília
+    BS: Bahama-szigetek
+    BT: Bhután
+    BV: Bouvet-sziget
+    BW: Botswana
+    BY: Fehéroroszország
+    BZ: Belize
+    CA: Kanada
+    CC: "Kókusz (Keeling)-szigetek"
+    CD: "Kongói Demokratikus Köztársaság a"
+    CF: "Közép-afrikai Köztársaság"
+    CG: Kongó
+    CH: Svájc
+    CI: Elefántcsontpart
+    CK: Cook-szigetek
+    CL: Chile
+    CM: Kamerun
+    CN: Kína
+    CO: Colombia
+    CR: "Costa Rica"
+    CU: Kuba
+    CV: "Zöld-foki Köztársaság"
+    CW: Curacao
+    CX: Karácsony-sziget
+    CY: Ciprus
+    CZ: Csehország
+    DE: Németország
+    DJ: Dzsibuti
+    DK: Dánia
+    DM: Dominika
+    DO: "Dominikai Köztársaság"
+    DZ: Algéria
+    EC: Ecuador
+    EE: Észtország
+    EG: Egyiptom
+    EH: Nyugat-Szahara
+    ER: Eritrea
+    ES: Spanyolország
+    ET: Etiópia
+    FI: Finnország
+    FJ: Fidzsi-szigetek
+    FK: "Falkland-szigetek (Malvinas)"
+    FM: "Mikronézia, Szövetségi Államok"
+    FO: Feröer-szigetek
+    FR: Franciaország
+    GA: Gabon
+    GB: "Egyesült Királyság"
+    GD: Grenada
+    GE: Grúzia
+    GF: "Francia Guyana"
+    GG: Guernsey-sziget
+    GH: Ghána
+    GI: Gibraltár
+    GL: Grönland
+    GM: Gambia
+    GN: Guinea
+    GP: Guadeloupe
+    GQ: Egyenlítői-Guinea
+    GR: Görögország
+    GS: "Dél-Georgia és Déli-Sandwich-szigetek"
+    GT: Guatemala
+    GU: Guam
+    GW: Bissau-Guinea
+    GY: Guyana
+    HK: "Hong Kong"
+    HM: "Heard-sziget és McDonald-szigetek"
+    HN: Honduras
+    HR: Horvátország
+    HT: Haiti
+    HU: Magyarország
+    ID: Indonézia
+    IE: Írország
+    IL: Izrael
+    IM: "Isle of Man"
+    IN: India
+    IO: "Brit Indiai-óceáni Terület"
+    IQ: Irak
+    IR: "Iráni Iszlám Köztársaság"
+    IS: Izland
+    IT: Olaszország
+    JE: Jersey
+    JM: Jamaica
+    JO: Jordánia
+    JP: Japán
+    KE: Kenya
+    KG: Kirgizisztán
+    KH: Kambodzsa
+    KI: Kiribati
+    KM: Comore-szigetek
+    KN: "Saint Kitts és Nevis"
+    KP: "Koreai Népi Demokratikus Köztársaság"
+    KR: Dél-Korea
+    KW: Kuvait
+    KY: Kajmán-szigetek
+    KZ: Kazahsztán
+    LA: "Laoszi Népi Demokratikus Köztársaság"
+    LB: Libanon
+    LC: "Saint Lucia"
+    LI: Liechtenstein
+    LK: "Srí Lanka"
+    LR: Libéria
+    LS: Lesotho
+    LT: Litvánia
+    LU: Luxemburg
+    LV: Lettország
+    LY: "Líbiai Arab Szocialista Népi Közösség"
+    MA: Marokkó
+    MC: Monaco
+    MD: "Moldovai Köztársaság"
+    ME: Montenegró
+    MF: "Saint Martin (francia rész)"
+    MG: Madagaszkár
+    MH: Marshall-szigetek
+    MK: "Macedónia Volt Jugoszláv Köztársaság"
+    ML: Mali
+    MM: Mianmar
+    MN: Mongólia
+    MO: Makaó
+    MP: Északi-Mariana-szigetek
+    MQ: Martinique
+    MR: Mauritánia
+    MS: Montserrat
+    MT: Málta
+    MU: Mauritius
+    MV: Maldív-szigetek
+    MW: Malawi
+    MX: Mexikó
+    MY: Malaysia
+    MZ: Mozambik
+    NA: Namíbia
+    NC: Új-Kaledónia
+    NE: Niger
+    NF: Norfolk-sziget
+    NG: Nigéria
+    NI: Nicaragua
+    NL: Hollandia
+    NP: Nepál
+    NR: Nauru
+    NU: Niue
+    NZ: Új-Zéland
+    OM: Omán
+    PA: Panama
+    PE: Peru
+    PF: "Francia Polinézia"
+    PG: "Pápua Új-Guinea"
+    PH: Fülöp-szigetek
+    PK: Pakisztán
+    PL: Lengyelország
+    PM: "Saint Pierre és Miquelon"
+    PN: Pitcairn-
+    PR: "Puerto Rico"
+    PS: "Palesztin megszállt területek"
+    PT: Portugália
+    PW: Palau
+    PY: Paraguay
+    QA: Katar
+    RE: Találkozó
+    RO: Románia
+    RS: Szerbia
+    RU: "Orosz Föderáció"
+    RW: Ruanda
+    SA: Szaúd-Arábia
+    SB: Salamon-szigetek
+    SC: Seychelle-szigetek
+    SD: Szudán
+    SE: Svédország
+    SG: Szingapúr
+    SH: "Szent Ilona, ​​Ascension és Tristan da Cunha"
+    SI: Szlovénia
+    SJ: "Svalbard és Jan Mayen"
+    SK: Szlovákia
+    SL: "Sierra Leone"
+    SM: "San Marino"
+    SN: Szenegál
+    SO: Szomáliában
+    SR: Suriname
+    ST: "Sao Tome és Principe"
+    SV: "El Salvador"
+    SX: "Sint Maarten (holland rész)"
+    SY: "Szíriai Arab Köztársaság"
+    SZ: Szváziföld
+    TC: "Turks-és Caicos-szigetek"
+    TD: Csád
+    TF: "Francia Déli Területek"
+    TG: Togo
+    TH: Thaiföld
+    TJ: Tádzsikisztán
+    TK: Tokelau
+    TL: Kelet-Timor
+    TM: Türkmenisztán
+    TN: Tunézia
+    TO: Tonga
+    TR: Törökország
+    TT: "Trinidad és Tobago"
+    TV: Tuvalu
+    TW: "Tajvan, Kína"
+    TZ: "Tanzániai Egyesült Köztársaság"
+    UA: Ukrajna
+    UG: Uganda
+    UK: "Egyesült Királyság"
+    UM: "Amerikai Egyesült Államok Külső Szigetei"
+    US: "Egyesült Államok"
+    UY: Uruguay
+    UZ: Üzbegisztán
+    VA: "Apostoli Szentszék (Vatikáni Városállam)"
+    VC: "Saint Vincent és Grenadine-szigetek"
+    VE: "Venezuela, Bolivári Köztársaság"
+    VG: "Brit Virgin-szigetek"
+    VI: "Amerikai Virgin-szigetek"
+    VN: "Viet Nam"
+    VU: Vanuatu
+    WF: "Wallis és Futuna"
+    WS: Szamoa
+    XK: Koszovó
+    YE: Jemen
+    YT: Mayotte
+    ZA: Dél-Afrika
+    ZM: Zambia
+    ZW: Zimbabwe

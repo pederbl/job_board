@@ -11,10 +11,10 @@ de:
       national_id: "National ID"
     index:
       employer: Arbeitgeber
-      job_categories: ~
+      job_categories: Job-Kategorien
       keywords: Stichwort
       location: Ort
-      locations: ~
+      locations: Standorte
       update_search: Update-Suche
     items:
       ago: vor

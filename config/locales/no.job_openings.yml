@@ -12,10 +12,10 @@
       national_id: "Nasjonalt ID"
     index:
       employer: Arbeidsgiver
-      job_categories: ~
+      job_categories: "Job Kategorier"
       keywords: Nøkkelord
       location: Beliggenhet
-      locations: ~
+      locations: Steder
       update_search: "Oppdater Søk"
     items:
       ago: siden

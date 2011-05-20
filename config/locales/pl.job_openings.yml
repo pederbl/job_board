@@ -11,10 +11,10 @@ pl:
       national_id: "Dowód osobisty"
     index:
       employer: Pracodawcy
-      job_categories: ~
+      job_categories: "Praca Kategorie"
       keywords: "Słowa kluczowe"
       location: Lokalizacja
-      locations: ~
+      locations: Lokalizacje
       update_search: "Update Szukaj"
     items:
       ago: temu

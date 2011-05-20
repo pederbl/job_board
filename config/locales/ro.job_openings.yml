@@ -11,10 +11,10 @@ ro:
       national_id: "Naţionale de identitate"
     index:
       employer: Angajator
-      job_categories: ~
+      job_categories: "Categorii de locuri de muncă"
       keywords: "Cuvinte cheie"
       location: Locaţie
-      locations: ~
+      locations: Locaţii
       update_search: "Update Search"
     items:
       ago: "în urmă"

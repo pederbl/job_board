@@ -1,252 +1,252 @@
 ga:
   iso_3166_1_alpha_2:
-    "NO": ~
-    AD: ~
-    AE: ~
-    AF: ~
-    AG: ~
-    AI: ~
-    AL: ~
-    AM: ~
-    AO: ~
-    AQ: ~
-    AR: ~
-    AS: ~
-    AT: ~
-    AU: ~
-    AW: ~
-    AX: ~
-    AZ: ~
-    BA: ~
-    BB: ~
-    BD: ~
-    BE: ~
-    BF: ~
-    BG: ~
-    BH: ~
-    BI: ~
-    BJ: ~
-    BL: ~
-    BM: ~
-    BN: ~
-    BO: ~
-    BQ: ~
-    BR: ~
-    BS: ~
-    BT: ~
-    BV: ~
-    BW: ~
-    BY: ~
-    BZ: ~
-    CA: ~
-    CC: ~
-    CD: ~
-    CF: ~
-    CG: ~
-    CH: ~
-    CI: ~
-    CK: ~
-    CL: ~
-    CM: ~
-    CN: ~
-    CO: ~
-    CR: ~
-    CU: ~
-    CV: ~
-    CW: ~
-    CX: ~
-    CY: ~
-    CZ: ~
-    DE: ~
-    DJ: ~
-    DK: ~
-    DM: ~
-    DO: ~
-    DZ: ~
-    EC: ~
-    EE: ~
-    EG: ~
-    EH: ~
-    ER: ~
-    ES: ~
-    ET: ~
-    FI: ~
-    FJ: ~
-    FK: ~
-    FM: ~
-    FO: ~
-    FR: ~
-    GA: ~
-    GB: ~
-    GD: ~
-    GE: ~
-    GF: ~
-    GG: ~
-    GH: ~
-    GI: ~
-    GL: ~
-    GM: ~
-    GN: ~
-    GP: ~
-    GQ: ~
-    GR: ~
-    GS: ~
-    GT: ~
-    GU: ~
-    GW: ~
-    GY: ~
-    HK: ~
-    HM: ~
-    HN: ~
-    HR: ~
-    HT: ~
-    HU: ~
-    ID: ~
-    IE: ~
-    IL: ~
-    IM: ~
-    IN: ~
-    IO: ~
-    IQ: ~
-    IR: ~
-    IS: ~
-    IT: ~
-    JE: ~
-    JM: ~
-    JO: ~
-    JP: ~
-    KE: ~
-    KG: ~
-    KH: ~
-    KI: ~
-    KM: ~
-    KN: ~
-    KP: ~
-    KR: ~
-    KW: ~
-    KY: ~
-    KZ: ~
-    LA: ~
-    LB: ~
-    LC: ~
-    LI: ~
-    LK: ~
-    LR: ~
-    LS: ~
-    LT: ~
-    LU: ~
-    LV: ~
-    LY: ~
-    MA: ~
-    MC: ~
-    MD: ~
-    ME: ~
-    MF: ~
-    MG: ~
-    MH: ~
-    MK: ~
-    ML: ~
-    MM: ~
-    MN: ~
-    MO: ~
-    MP: ~
-    MQ: ~
-    MR: ~
-    MS: ~
-    MT: ~
-    MU: ~
-    MV: ~
-    MW: ~
-    MX: ~
-    MY: ~
-    MZ: ~
-    NA: ~
-    NC: ~
-    NE: ~
-    NF: ~
-    NG: ~
-    NI: ~
-    NL: ~
-    NP: ~
-    NR: ~
-    NU: ~
-    NZ: ~
-    OM: ~
-    PA: ~
-    PE: ~
-    PF: ~
-    PG: ~
-    PH: ~
-    PK: ~
-    PL: ~
-    PM: ~
-    PN: ~
-    PR: ~
-    PS: ~
-    PT: ~
-    PW: ~
-    PY: ~
-    QA: ~
-    RE: ~
-    RO: ~
-    RS: ~
-    RU: ~
-    RW: ~
-    SA: ~
-    SB: ~
-    SC: ~
-    SD: ~
-    SE: ~
-    SG: ~
-    SH: ~
-    SI: ~
-    SJ: ~
-    SK: ~
-    SL: ~
-    SM: ~
-    SN: ~
-    SO: ~
-    SR: ~
-    ST: ~
-    SV: ~
-    SX: ~
-    SY: ~
-    SZ: ~
-    TC: ~
-    TD: ~
-    TF: ~
-    TG: ~
-    TH: ~
-    TJ: ~
-    TK: ~
-    TL: ~
-    TM: ~
-    TN: ~
-    TO: ~
-    TR: ~
-    TT: ~
-    TV: ~
-    TW: ~
-    TZ: ~
-    UA: ~
-    UG: ~
-    UK: ~
-    UM: ~
-    US: ~
-    UY: ~
-    UZ: ~
-    VA: ~
-    VC: ~
-    VE: ~
-    VG: ~
-    VI: ~
-    VN: ~
-    VU: ~
-    WF: ~
-    WS: ~
-    XK: ~
-    YE: ~
-    YT: ~
-    ZA: ~
-    ZM: ~
-    ZW: ~
+    "NO": "An Iorua"
+    AD: Andóra
+    AE: "Aontas na nÉimíríochtaí Arabacha"
+    AF: "An Afganastáin"
+    AG: "Antigua agus Barbúda"
+    AI: Anguilla
+    AL: "An Albáin"
+    AM: Airméin
+    AO: Angóla
+    AQ: Antartaice
+    AR: "An Airgintín"
+    AS: "Samó Meiriceánach"
+    AT: "An Ostair"
+    AU: "An Astráil"
+    AW: Aruba
+    AX: "Le hOileáin Åland"
+    AZ: "An Asarbaiseáin"
+    BA: "An Bhoisnia-Heirseagaivéin"
+    BB: Barbadós
+    BD: "An Bhanglaidéis"
+    BE: "An Bheilg"
+    BF: "Buircíne Fasó"
+    BG: "An Bhulgáir"
+    BH: Bairéin
+    BI: "An Bhurúin"
+    BJ: Beinin
+    BL: "Saint Barthélemy"
+    BM: Beirmiúda
+    BN: "Brúiné Dárasalám"
+    BO: "Bholaiv, Stáit trasteorann, ilnáisiúnta d'"
+    BQ: "Bonaire, Eustatius Saint agus Saba"
+    BR: "An Bhrasaíl"
+    BS: Bahámaí
+    BT: Bhútáin
+    BV: "Oileán Bouvet"
+    BW: "An Bhotsuáin"
+    BY: "An Bhealarúis"
+    BZ: "An Bheilís"
+    CA: Ceanada
+    CC: "Cocos (Keeling) Oileáin"
+    CD: "Chongó, Poblacht Dhaonlathach an"
+    CF: "Poblacht na hAfraice Láir"
+    CG: Chongó
+    CH: "An Eilvéis"
+    CI: "Côte d'Ivoire"
+    CK: "Oileáin Cook"
+    CL: "An tSile"
+    CM: Camarún
+    CN: "An tSín"
+    CO: "An Cholóim"
+    CR: "Cósta Ríce"
+    CU: Cúba
+    CV: "Rinn Verde"
+    CW: Cúrasó
+    CX: "Oileán na Nollag"
+    CY: "An Chipir"
+    CZ: "Poblacht na Seice"
+    DE: "An Ghearmáin"
+    DJ: Diobúití
+    DK: "An Danmhairg"
+    DM: Doiminice
+    DO: "An Phoblacht Dhoiminiceach"
+    DZ: "An Ailgéir"
+    EC: Eacuadór
+    EE: "An Eastóin"
+    EG: "An Éigipt"
+    EH: "Sahára Thiar"
+    ER: "An Eiritré"
+    ES: "An Spáinn"
+    ET: "An Aetóip"
+    FI: "An Fhionlainn"
+    FJ: Fidsí
+    FK: "Oileáin Fháclainne (Malvinas)"
+    FM: "Micrinéise, Stáit Chónaidhme na"
+    FO: "Oileáin Fharó"
+    FR: "An Fhrainc"
+    GA: "An Ghabúin"
+    GB: "An Ríocht Aontaithe"
+    GD: Grenada
+    GE: Georgia
+    GF: "Guáin na Fraince"
+    GG: Geansaí
+    GH: Gána
+    GI: Giobráltar
+    GL: Ghraonlainn
+    GM: Ghaimbia
+    GN: "An Ghuine"
+    GP: Guadalúip
+    GQ: "Ghuine Mheánchriosach"
+    GR: "An Ghréig"
+    GS: "An tSeoirsia Theas agus Oileáin Sandwich Theas"
+    GT: Guatamala
+    GU: Guam
+    GW: "Guine Bhissau"
+    GY: Ghuáin
+    HK: "Hong Cong"
+    HM: "Oileán Heard agus Oileáin McDonald"
+    HN: Hondúras
+    HR: "An Chróit"
+    HT: Háití
+    HU: "An Ungáir"
+    ID: "An Indinéis"
+    IE: Éire
+    IL: Iosrael
+    IM: "Oileán Mhanann"
+    IN: India
+    IO: "Críoch na Breataine san Aigéan Indiach"
+    IQ: "An Iaráic"
+    IR: "Iaráin, Poblacht Ioslamach na"
+    IS: "An Íoslainn"
+    IT: "An Iodáil"
+    JE: Jersey
+    JM: Iamáice
+    JO: Jordan
+    JP: "An tSeapáin"
+    KE: "An Chéinia"
+    KG: "An Chirgeastáin"
+    KH: "An Chambóid"
+    KI: Ciribeas
+    KM: "Oileáin Chomóra"
+    KN: "San Críostóir Nimheas"
+    KP: "An Chóiré, Daoine Dhaonlathach na"
+    KR: "Poblacht na Cóiré"
+    KW: Cuáit
+    KY: "Oileáin Cayman"
+    KZ: "An Chasacstáin"
+    LA: "Lao People's Poblacht Dhaonlathach"
+    LB: "An Liobáin"
+    LC: "Saint Lucia"
+    LI: Lichtinstéin
+    LK: "Srí Lanca"
+    LR: Libéir
+    LS: Leosóta
+    LT: "An Liotuáin"
+    LU: Lucsamburg
+    LV: "An Laitvia"
+    LY: "Jamahiriya Arabach Libyan"
+    MA: Maracó
+    MC: Monacó
+    MD: "Mholdóiv, Poblacht na"
+    ME: Montainéagró
+    MF: "Saint Martin (Cuid Fraincis)"
+    MG: Madagascar
+    MH: "Oileáin Marshall"
+    MK: "Macadóine, an Iar-Phoblacht Iúgslavach na"
+    ML: Mailí
+    MM: Maenmar
+    MN: "An Mhongóil"
+    MO: Macao
+    MP: "Oileáin Mariana Thuaidh"
+    MQ: Martinique
+    MR: Mháratáin
+    MS: Montsarat
+    MT: Málta
+    MU: "Oileán Mhuirís"
+    MV: "Oileáin Mhaildíve"
+    MW: Mhaláiv
+    MX: Meicsiceo
+    MY: "An Mhalaeisia"
+    MZ: Mósaimbíc
+    NA: Namaib
+    NC: Nua-Chaladóin
+    NE: Nígir
+    NF: "Norfolk Island"
+    NG: "An Nigéir"
+    NI: Nicearagua
+    NL: "An Ísiltír"
+    NP: Neipeal
+    NR: Nárú
+    NU: Niue
+    NZ: Nua-Shéalainn
+    OM: Oman
+    PA: Panama
+    PE: Peiriú
+    PF: "I bPolainéis na Fraince"
+    PG: "Nua-Ghuine Phapua"
+    PH: "Na hOileáin Fhilipíneacha"
+    PK: "An Phacastáin"
+    PL: "An Pholainn"
+    PM: "Saint Pierre agus Miquelon"
+    PN: Pitcairn
+    PR: "Pórtó Ríce"
+    PS: "Chríoch Phalaistíneach faoi Fhorghabháil"
+    PT: "An Phortaingéil"
+    PW: Palau
+    PY: Paragua
+    QA: Catar
+    RE: Reunion
+    RO: "An Rómáin"
+    RS: "An tSeirbia"
+    RU: "Cónaidhm na Rúise"
+    RW: Ruanda
+    SA: "An Araib Shádach"
+    SB: "Oileáin Sholamón"
+    SC: "Na Séiséil"
+    SD: "An tSúdáin"
+    SE: "An tSualainn"
+    SG: Singeapór
+    SH: "Saint Helena, Oileán na Deascabhála agus Da Cunha Tristan"
+    SI: "An tSlóivéin"
+    SJ: "Svalbard agus Jan Mayen"
+    SK: "An tSlóvaic"
+    SL: "Siarra Leon"
+    SM: "San Mairíne"
+    SN: "An tSeineagáil"
+    SO: "An tSomáil"
+    SR: Suranam
+    ST: "São Tomé agus Príncipe"
+    SV: "El Salvador"
+    SX: "Sint Maarten (Cuid Ollainnis)"
+    SY: "Poblacht Arabach na Siria"
+    SZ: "An tSuasalainn"
+    TC: "Oileáin na dTurcach agus na gCaiceos"
+    TD: Sead
+    TF: "Críocha an Deiscirt Fraince"
+    TG: Tóga
+    TH: "An Téalainn"
+    TJ: "An Táidsíceastáin"
+    TK: Tócalá
+    TL: "Timor Leste"
+    TM: Tuircméanastáin
+    TN: "An Túinéis"
+    TO: Tonga
+    TR: "An Tuirc"
+    TT: "Oileán na Tríonóide agus Tobága"
+    TV: Tuvalu
+    TW: "Taiwan, Cúige na Síne"
+    TZ: "Tansáin, Poblacht Aontaithe na"
+    UA: "An Úcráin"
+    UG: Uganda
+    UK: "An Ríocht Aontaithe"
+    UM: "Mion-Oileáin Imeallacha na Stát Aontaithe"
+    US: "Stáit Aontaithe"
+    UY: Uragua
+    UZ: Uzbekistan
+    VA: "Suí Naofa (Stát Chathair na Vatacáine)"
+    VC: "San Uinseann agus na Greanáidíní an"
+    VE: "Veiniséala, Poblacht Bolivarian"
+    VG: "Maighdean Oileáin na Breataine"
+    VI: "Maighdean Oileáin Mheiriceánacha,"
+    VN: Vítneam
+    VU: Vanuatú
+    WF: "Vailís agus Futúna"
+    WS: Samó
+    XK: "An Chosaiv"
+    YE: Éimin
+    YT: Mayotte
+    ZA: "An Afraic Theas"
+    ZM: "An tSaimbia"
+    ZW: "An tSiombáib"

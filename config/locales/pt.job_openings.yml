@@ -11,10 +11,10 @@ pt:
       national_id: "Identidade nacional"
     index:
       employer: Empregador
-      job_categories: ~
+      job_categories: "Categorias profissionais"
       keywords: Palavras-chave
       location: Localização
-      locations: ~
+      locations: Locais
       update_search: "Atualize Pesquisa"
     items:
       ago: atrás

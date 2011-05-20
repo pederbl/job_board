@@ -19,12 +19,41 @@ $(function() {
       $.get("<%= more_job_openings_path %>.js", data, null, "script");
     });
 
-    $(".job_categories_picker_link a").overlay({mask: '#fff', effect: 'apple'});
+    $(".job_categories_picker_link a").overlay({
+      mask: '#fff', 
+      effect: 'apple',
+      fixed: false,
+      load: false
+    });
+    $(".job_categories_tree").dynatree({
+      checkbox: true, 
+      selectMode: 2,
+      children: job_categories_tree_data,
+      onLazyRead: function(node) {
+        node.appendAjax({
+          url: "/j/job_categories_picker_node_children",
+          data: $("#query_form").serialize() + "&key=" + node.data.key
+        });
+      },
+      onSelect: function(flag, node) {
+        var selectedNodes = node.tree.getSelectedNodes();
+        var selectedKeys = $.map(selectedNodes, function(node) { return node.data.key; }).join(";");
+        var selectedTitles = $.map(selectedNodes, function(node) { return node.data.title; });
+        if (selectedTitles.length > 0) {
+          selectedTitles = selectedTitles.join("; ");
+        } else {
+          selectedTitles = I18n["all"];
+        }
+        $("#q_job_categories").attr("value", selectedKeys);
+        $('.job_categories .selected_list').html(selectedTitles);
+      }
+    });
+
     $(".locations_picker_link a").overlay({
       mask: '#fff', 
       effect: 'apple',
       fixed: false,
-      load: true
+      load: false
     });
 
     $(".locations_tree").dynatree({
@@ -33,19 +62,21 @@ $(function() {
       children: locations_tree_data,
       onLazyRead: function(node) {
         node.appendAjax({
-          url: "/j/location_picker_node_children",
-          data: {"key": node.data.key }
+          url: "/j/locations_picker_node_children",
+          data: $("#query_form").serialize() + "&key=" + node.data.key
         });
       },
       onSelect: function(flag, node) {
-        if( ! flag ) alert("You deselected node with title " + node.data.title);
-        console.log(node);
         var selectedNodes = node.tree.getSelectedNodes();
-        var selectedKeys = $.map(selectedNodes, function(node){
-          return node.data.key;
-        });
-        
-        alert("Selected keys: " + selectedKeys.join(", "));
+        var selectedKeys = $.map(selectedNodes, function(node) { return node.data.key; }).join(";");
+        var selectedTitles = $.map(selectedNodes, function(node) { return node.data.title; });
+        if (selectedTitles.length > 0) {
+          selectedTitles = selectedTitles.join("; ");
+        } else {
+          selectedTitles = I18n["all"];
+        }
+        $("#q_locations").attr("value", selectedKeys);
+        $('.locations .selected_list').html(selectedTitles);
       }
     });
   }

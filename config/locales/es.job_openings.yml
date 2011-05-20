@@ -11,10 +11,10 @@ es:
       national_id: "Documento nacional de identidad"
     index:
       employer: Empleador
-      job_categories: ~
+      job_categories: "Categorías de empleo"
       keywords: "Palabras clave"
       location: Localización
-      locations: ~
+      locations: Ubicaciones
       update_search: "Actualización de la búsqueda"
     items:
       ago: Hace

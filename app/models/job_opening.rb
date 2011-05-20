@@ -32,14 +32,26 @@ class JobOpening
       limit: 10,
       sort_by: "@id DESC",
       sort_mode: :extended,
-      match_mode: :extended
+      match_mode: :extended,
+      locations: { 
+        pcls: [],
+        admin1s: [],
+        admin2s: []
+      }
     }.merge(attrs)
 
     arr = []
     arr << "@(title,body) #{Riddle.escape(wrap_wildcards(attrs[:keywords]))}" if attrs[:keywords].present?
     arr << "@(employer) #{Riddle.escape(wrap_wildcards(attrs[:employer]))}" if attrs[:employer].present?
-    arr << "@(country,region,city) #{Riddle.escape(wrap_wildcards(attrs[:location]))}" if attrs[:location].present?
-    query = arr.compact.join(" ")
+    arr << "@(isco_code) (#{attrs[:job_categories].map { |code| code + "*" }.join(" | ")})" if attrs[:job_categories].present?
+
+    loc_arr = []
+    loc_arr << "@(pcl_geonameid) (#{attrs[:locations][:pcls].join(" | ")})" if attrs[:locations][:pcls].present?
+    loc_arr << "@(admin1_geonameid) (#{attrs[:locations][:admin1s].join(" | ")})" if attrs[:locations][:admin1s].present?
+    loc_arr << "@(admin2_geonameid) (#{attrs[:locations][:admin2s].join(" | ")})" if attrs[:locations][:admin2s].present?
+    arr << "(#{loc_arr.join(" | ")})" if loc_arr.present?
+
+    query = arr.join(" ")
 
     client = Riddle::Client.new 
     client.sort_mode = attrs[:sort_mode]
@@ -49,6 +61,8 @@ class JobOpening
     client.filters << Riddle::Client::Filter.new("deleted_at", [0])
     client.id_range = (attrs[:from_id] + 1)..0 if attrs[:from_id]
     results = client.query(query, "job_openings,job_openings_delta")
+    raise results[:error].inspect if results[:error].present?
+    return results
   end
 
   def self.reindex_main
@@ -128,15 +142,19 @@ class JobOpening
         schema.send("sphinx:field", name: "title", attr: "string")
         schema.send("sphinx:field", name: "body")
         schema.send("sphinx:field", name: "employer", attr: "string")
+        schema.send("sphinx:field", name: "isco_code", attr: "string")
+        schema.send("sphinx:field", name: "salary_currency", attr: "string")
+        schema.send("sphinx:field", name: "salary_period", attr: "string")
+        schema.send("sphinx:field", name: "country_code", attr: "string")
+        schema.send("sphinx:field", name: "pcl_geonameid")
+        schema.send("sphinx:field", name: "admin1_geonameid")
+        schema.send("sphinx:field", name: "admin2_geonameid")
+
+        #deprecated
         schema.send("sphinx:field", name: "country", attr: "string")
         schema.send("sphinx:field", name: "region", attr: "string")
         schema.send("sphinx:field", name: "city", attr: "string")
-        schema.send("sphinx:field", name: "salary_currency", attr: "string")
-        schema.send("sphinx:field", name: "salary_period", attr: "string")
         schema.send("sphinx:field", name: "isco", attr: "string")
-        schema.send("sphinx:field", name: "country_code", attr: "string")
-        schema.send("sphinx:field", name: "region_geonameid")
-        schema.send("sphinx:field", name: "city_geonameid")
 
         schema.send("sphinx:attr", name: "_id", type: "string")
         schema.send("sphinx:attr", name: "slug", type: "string")
@@ -160,14 +178,31 @@ class JobOpening
           doc.title(d.t(:title))
           doc.body(d.t(:body))
           doc.employer(d.employer.try(:name))
-          doc.country(I18n.t("iso_3166_1_alpha_2.#{d.location.country}").titleize) if d.location.try(:country)
-          doc.region(d.location.try(:region))
-          doc.city(d.location.try(:city))
           doc.salary_currency(d.salary.try(:currency))
           doc.salary_period(d.salary.try(:period))
-          doc.country_code(d.location.country) if d.location.country
-          doc.region_geonameid(d.location.region_geonameid)
-          doc.city_geonameid(d.location.city_geonameid)
+          doc.isco_code(d.isco.to_s.split(".").first.gsub(/0+$/, "")) if d.isco.present?
+
+          geoname_location = GeonamesLocation.where(geonameid: d.location.geonameid).first if d.location
+          if geoname_location
+            doc.country_code(geoname_location.country_code)
+            doc.pcl_geonameid(geoname_location.pcl_geonameid)
+            doc.admin1_geonameid(geoname_location.admin1_geonameid)
+            doc.admin2_geonameid(geoname_location.admin2_geonameid)
+          end
+
+          doc._id(id)
+          doc.slug(d.slug)
+          doc.publish_at(d.publish_at.to_i)
+          doc.normalized_salary(d.salary.normalized) if d.salary.try(:normalized)
+          doc.minimum_salary(d.salary.minimum) if d.salary.try(:minimum)
+          doc.worktime(d.worktime.type) if d.worktime.try(:type)
+          doc.duration(d.duration.length) if d.duration.try(:length)
+          doc.hours_per_week(d.worktime.hours_per_week) if d.worktime.try(:hours_per_week)
+
+          # deprecated
+          doc.country(I18n.t("iso_3166_1_alpha_2.#{d.location.country}").titleize) if d.location.try(:country).present?
+          doc.region(d.location.try(:region))
+          doc.city(d.location.try(:city))
 
           if d.isco
             isco = d.isco.to_s.split(".").first.gsub(/0+$/, "")
@@ -186,16 +221,6 @@ class JobOpening
             end
             doc.isco(I18n.t("isco_code.#{isco}").singularize) if isco.present?
           end
-
-          doc._id(id)
-          doc.slug(d.slug)
-          doc.publish_at(d.publish_at.to_i)
-          doc.normalized_salary(d.salary.normalized) if d.salary.try(:normalized)
-          doc.minimum_salary(d.salary.minimum) if d.salary.try(:minimum)
-          doc.worktime(d.worktime.type) if d.worktime.try(:type)
-          doc.duration(d.duration.length) if d.duration.try(:length)
-          doc.hours_per_week(d.worktime.hours_per_week) if d.worktime.try(:hours_per_week)
-
         end
       }
     end

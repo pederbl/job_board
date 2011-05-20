@@ -1,8 +1,8 @@
 class JobOpeningsController < ApplicationController
-
   respond_to :html, :js, :json
 
   def index
+    @query = JobOpeningQuery.new(params[:q])
     @result = query
   end
 
@@ -31,13 +31,37 @@ class JobOpeningsController < ApplicationController
   end
 
   def more 
+    @query = JobOpeningQuery.new(params[:q])
     @result = query
   end
 
-  def location_picker_node_children
+  def job_categories_picker_node_children
+    @query = JobOpeningQuery.new(params[:q])
+    children = Isco::children[params[:key]]
+    children.map! { |code|
+      { 
+        title: I18n.t("isco_code.#{code}"),
+        isLazy: Isco::children[code].present?, 
+        key: code,
+        select: @query.job_categories_codes.include?(code)
+      }
+    }
+    children.sort! { |x, y| x[:title] <=> y[:title] }
+    render json: children
+  end
+
+  def locations_picker_node_children
+    @query = JobOpeningQuery.new(params[:q])
     geoname_location = GeonamesLocation.where(geonameid: params[:key].split(":").last).first
     children = geoname_location.children
-    children.map! { |d| { title: d.name, isLazy: d.has_children, key: "#{d.feature_code}:#{d.geonameid}" } } 
+    children.map! { |d| 
+      { 
+        title: d.name, 
+        isLazy: d.has_children, 
+        key: "#{d.feature_code}:#{d.geonameid}",
+        select: @query.locations_geonameids.include?(d.geonameid)
+      } 
+    } 
     children.sort! { |x, y| x[:title] <=> y[:title] } 
     render json: children
   end
@@ -45,13 +69,13 @@ class JobOpeningsController < ApplicationController
   private 
 
   def query
-    q = params[:q] || {}
     return JobOpening.search(
-      keywords: q[:keywords], 
-      employer: q[:employer],
-      locations: q[:locations],
-      limit: q[:num] || 10,
-      from_id: q[:from_id].try(:to_i)
+      keywords: @query.attributes[:keywords], 
+      employer: @query.attributes[:employer],
+      locations: @query.locations_query_hash,
+      job_categories: @query.job_categories_codes,
+      limit: @query.attributes[:num] || 10,
+      from_id: @query.attributes[:from_id].try(:to_i)
     )
   end
 

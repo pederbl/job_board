@@ -1,20 +1,39 @@
 :javascript
-  var locations_tree_data = #{
-    Value.get(:countries).map { |country| 
+  var job_categories_tree_data = #{
+    (1..9).map { |code| 
       { 
-        title: t("iso_3166_1_alpha_2." + country["code"]), 
-        key: "PCL:#{country["geonameid"]}",
-        isLazy: country["has_children"]
+        title: t("isco_code.#{code}"), 
+        key: code,
+        isLazy: true,
+        select: @query.job_categories_codes.include?(code.to_s)
+      } 
+    }.to_json
+  };
+
+  var locations_tree_data = #{
+    ["AT:2782113", "BE:2802361", "BG:732800", "CY:146669", "CZ:3077311", "DE:2921044", "DK:2623032", "EE:453733", "ES:2510769", "FI:660013", "FR:3017382", "GB:2635167", "GR:390903", "HU:719819", "IE:2963597", "IT:3175395", "LT:597427", "LU:2960313", "LV:458258", "MT:2562770", "NL:2750405", "PL:798544", "PT:2264397", "RO:798549", "SE:2661886", "SI:3190538", "SK:3057568"].map { |country|
+      code, geonameid = country.split(":")
+      { 
+        title: t("iso_3166_1_alpha_2.#{code}"), 
+        key: "PCL:#{geonameid}",
+        isLazy: true,
+        select: @query.locations_geonameids.include?(geonameid)
       } 
     }.sort { |x, y| 
       x[:title] <=> y[:title] 
     }.to_json
   };
+
+  var I18n = { 
+    all: "#{t("all")}"
+  };
   
 
 .ji
   .left
-    = simple_form_for(:q, html: { method: :get, id: "query_form" }) do |f|
+    = simple_form_for(@query, as: "q", url: job_openings_path, html: { method: :get, id: "query_form" }) do |f|
+      %input{ id: "q_job_categories", name: "q[job_categories]", type: "hidden", value: params[:q].try(:[], :job_categories) }
+      %input{ id: "q_locations", name: "q[locations]", type: "hidden", value: params[:q].try(:[], :locations) }
       
       .item
         .label
@@ -28,21 +47,21 @@
             %a{ rel: "#job_categories_picker" } 
               = t("choose").downcase
         .selected_list
-          = "Chef, Cleaner, Waste Manager"
+          = @query.job_categories_names
         .separator
 
         .overlay#job_categories_picker
-          = "Job Categories Picker"
+          .job_categories_tree
           
 
-      .item
+      .item.locations
         .label
           = t(".locations") + ":"
           .edit.locations_picker_link
             %a{ rel: "#locations_picker" } 
               = t("choose").downcase
         .selected_list
-          = "All"
+          = @query.locations_names
         .separator
 
         .overlay#locations_picker

@@ -11,10 +11,10 @@ el:
       national_id: "Εθνική ταυτότητα"
     index:
       employer: Εργοδότης
-      job_categories: ~
+      job_categories: "Εργασία Κατηγορίες"
       keywords: Λέξεις-κλειδιά
       location: Τοποθεσία
-      locations: ~
+      locations: Τοποθεσίες
       update_search: "Ενημέρωση αναζήτησης"
     items:
       ago: πριν

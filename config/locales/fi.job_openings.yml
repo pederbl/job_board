@@ -11,10 +11,10 @@ fi:
       national_id: "Kansallinen tunnus"
     index:
       employer: Työnantaja
-      job_categories: ~
+      job_categories: "Job Kategoriat"
       keywords: Hakusanat
       location: Sijainti
-      locations: ~
+      locations: Toimipaikat
       update_search: "Päivitä Search"
     items:
       ago: sitten

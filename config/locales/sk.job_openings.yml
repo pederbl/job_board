@@ -11,10 +11,10 @@ sk:
       national_id: "Národný ID"
     index:
       employer: Zamestnávateľ
-      job_categories: ~
+      job_categories: "Kategória práce"
       keywords: "Kľúčové slová"
       location: Miesto
-      locations: ~
+      locations: Miest
       update_search: "Aktualizácia Hľadanie"
     items:
       ago: pred

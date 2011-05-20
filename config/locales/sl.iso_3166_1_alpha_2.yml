@@ -1,252 +1,252 @@
 sl:
   iso_3166_1_alpha_2:
-    "NO": ~
-    AD: ~
-    AE: ~
-    AF: ~
-    AG: ~
-    AI: ~
-    AL: ~
-    AM: ~
-    AO: ~
-    AQ: ~
-    AR: ~
-    AS: ~
-    AT: ~
-    AU: ~
-    AW: ~
-    AX: ~
-    AZ: ~
-    BA: ~
-    BB: ~
-    BD: ~
-    BE: ~
-    BF: ~
-    BG: ~
-    BH: ~
-    BI: ~
-    BJ: ~
-    BL: ~
-    BM: ~
-    BN: ~
-    BO: ~
-    BQ: ~
-    BR: ~
-    BS: ~
-    BT: ~
-    BV: ~
-    BW: ~
-    BY: ~
-    BZ: ~
-    CA: ~
-    CC: ~
-    CD: ~
-    CF: ~
-    CG: ~
-    CH: ~
-    CI: ~
-    CK: ~
-    CL: ~
-    CM: ~
-    CN: ~
-    CO: ~
-    CR: ~
-    CU: ~
-    CV: ~
-    CW: ~
-    CX: ~
-    CY: ~
-    CZ: ~
-    DE: ~
-    DJ: ~
-    DK: ~
-    DM: ~
-    DO: ~
-    DZ: ~
-    EC: ~
-    EE: ~
-    EG: ~
-    EH: ~
-    ER: ~
-    ES: ~
-    ET: ~
-    FI: ~
-    FJ: ~
-    FK: ~
-    FM: ~
-    FO: ~
-    FR: ~
-    GA: ~
-    GB: ~
-    GD: ~
-    GE: ~
-    GF: ~
-    GG: ~
-    GH: ~
-    GI: ~
-    GL: ~
-    GM: ~
-    GN: ~
-    GP: ~
-    GQ: ~
-    GR: ~
-    GS: ~
-    GT: ~
-    GU: ~
-    GW: ~
-    GY: ~
-    HK: ~
-    HM: ~
-    HN: ~
-    HR: ~
-    HT: ~
-    HU: ~
-    ID: ~
-    IE: ~
-    IL: ~
-    IM: ~
-    IN: ~
-    IO: ~
-    IQ: ~
-    IR: ~
-    IS: ~
-    IT: ~
-    JE: ~
-    JM: ~
-    JO: ~
-    JP: ~
-    KE: ~
-    KG: ~
-    KH: ~
-    KI: ~
-    KM: ~
-    KN: ~
-    KP: ~
-    KR: ~
-    KW: ~
-    KY: ~
-    KZ: ~
-    LA: ~
-    LB: ~
-    LC: ~
-    LI: ~
-    LK: ~
-    LR: ~
-    LS: ~
-    LT: ~
-    LU: ~
-    LV: ~
-    LY: ~
-    MA: ~
-    MC: ~
-    MD: ~
-    ME: ~
-    MF: ~
-    MG: ~
-    MH: ~
-    MK: ~
-    ML: ~
-    MM: ~
-    MN: ~
-    MO: ~
-    MP: ~
-    MQ: ~
-    MR: ~
-    MS: ~
-    MT: ~
-    MU: ~
-    MV: ~
-    MW: ~
-    MX: ~
-    MY: ~
-    MZ: ~
-    NA: ~
-    NC: ~
-    NE: ~
-    NF: ~
-    NG: ~
-    NI: ~
-    NL: ~
-    NP: ~
-    NR: ~
-    NU: ~
-    NZ: ~
-    OM: ~
-    PA: ~
-    PE: ~
-    PF: ~
-    PG: ~
-    PH: ~
-    PK: ~
-    PL: ~
-    PM: ~
-    PN: ~
-    PR: ~
-    PS: ~
-    PT: ~
-    PW: ~
-    PY: ~
-    QA: ~
-    RE: ~
-    RO: ~
-    RS: ~
-    RU: ~
-    RW: ~
-    SA: ~
-    SB: ~
-    SC: ~
-    SD: ~
-    SE: ~
-    SG: ~
-    SH: ~
-    SI: ~
-    SJ: ~
-    SK: ~
-    SL: ~
-    SM: ~
-    SN: ~
-    SO: ~
-    SR: ~
-    ST: ~
-    SV: ~
-    SX: ~
-    SY: ~
-    SZ: ~
-    TC: ~
-    TD: ~
-    TF: ~
-    TG: ~
-    TH: ~
-    TJ: ~
-    TK: ~
-    TL: ~
-    TM: ~
-    TN: ~
-    TO: ~
-    TR: ~
-    TT: ~
-    TV: ~
-    TW: ~
-    TZ: ~
-    UA: ~
-    UG: ~
-    UK: ~
-    UM: ~
-    US: ~
-    UY: ~
-    UZ: ~
-    VA: ~
-    VC: ~
-    VE: ~
-    VG: ~
-    VI: ~
-    VN: ~
-    VU: ~
-    WF: ~
-    WS: ~
-    XK: ~
-    YE: ~
-    YT: ~
-    ZA: ~
-    ZM: ~
-    ZW: ~
+    "NO": Norveško
+    AD: Andoro
+    AE: "Združeni arabski emirati"
+    AF: Afganistanu
+    AG: "Antigva in Barbuda"
+    AI: Anguilla
+    AL: Albanijo
+    AM: Armenijo
+    AO: Angola
+    AQ: Antarktiko
+    AR: Argentina
+    AS: "Ameriška Samoa"
+    AT: Austria
+    AU: Australia
+    AW: Aruba
+    AX: "Alandski otoki"
+    AZ: Azerbajdžanu
+    BA: "Bosna in Hercegovina"
+    BB: Barbados
+    BD: Bangladešu
+    BE: Belgiji
+    BF: "Burkina Faso"
+    BG: Bolgariji
+    BH: Bahrain
+    BI: Burundi
+    BJ: Benin
+    BL: "Saint Barthelemy"
+    BM: Bermuda
+    BN: Brunej
+    BO: "Bolivija, večnacionalni državi"
+    BQ: "Bonaire, Saint Eustatius in Saba"
+    BR: Brazilijo
+    BS: Bahamas
+    BT: Butan
+    BV: "Bouvet Island"
+    BW: Bocvano
+    BY: Belorusiji
+    BZ: Belize
+    CA: Canada
+    CC: "Cocos (Keeling) otoki"
+    CD: "Kongo, Demokratična republika"
+    CF: "Srednjeafriška republika"
+    CG: Kongo
+    CH: Švica
+    CI: "Slonokoščena obala"
+    CK: "Cookovi otoki"
+    CL: Chile
+    CM: Kamerun
+    CN: China
+    CO: Kolumbijo
+    CR: "Costa Rica"
+    CU: Cuba
+    CV: "Zelenortski otoki"
+    CW: Curacao
+    CX: "Christmas Island"
+    CY: Cipru
+    CZ: "Češka republika"
+    DE: Nemčiji
+    DJ: Djibouti
+    DK: Dansko
+    DM: Dominica
+    DO: "Dominikanska republika"
+    DZ: Alžirijo
+    EC: Ekvador
+    EE: Estoniji
+    EG: Egipt
+    EH: "Zahodna Sahara"
+    ER: Eritreja
+    ES: Španija
+    ET: Etiopiji
+    FI: Finsko
+    FJ: Fidži
+    FK: "Falklandski otoki (Malvini)"
+    FM: "Mikronezija, Federativne države"
+    FO: "Ferski otoki"
+    FR: France
+    GA: Gabon
+    GB: "Združeno kraljestvo"
+    GD: Grenada
+    GE: Georgia
+    GF: "Francoska Gvajana"
+    GG: Guernsey
+    GH: Gani
+    GI: Gibraltar
+    GL: Grenlandije
+    GM: Gambija
+    GN: Gvineji
+    GP: Guadeloupe
+    GQ: "Ekvatorialna Gvineja"
+    GR: Grčijo
+    GS: "Južna Georgia in otoki Južni Sandwich"
+    GT: Guatemala
+    GU: Guam
+    GW: "Gvineje Bissau"
+    GY: Gvajana
+    HK: "Hong Kong"
+    HM: "Heardov otok in McDonaldovi otoki"
+    HN: Honduras
+    HR: Hrvaška
+    HT: Haiti
+    HU: Madžarskem
+    ID: Indonezijo
+    IE: Slovenija
+    IL: Izrael
+    IM: "Isle of Man"
+    IN: India
+    IO: "Britansko ozemlje Indijskega oceana"
+    IQ: Iraku
+    IR: "Iran, Islamic Republic of"
+    IS: Islandijo
+    IT: Italijo
+    JE: Jersey
+    JM: Jamaica
+    JO: Jordan
+    JP: Japan
+    KE: Kenija
+    KG: Kirgizija
+    KH: Kambodža
+    KI: Kiribati
+    KM: Komori
+    KN: "Saint Kitts in Nevis"
+    KP: "Koreja, Demokratična ljudska republika od"
+    KR: "Republika Koreja"
+    KW: Kuwait
+    KY: "Kajmanski otoki"
+    KZ: Kazahstana
+    LA: "Laosa Ljudske republike"
+    LB: Libanonu
+    LC: "Saint Lucia"
+    LI: Liechtenstein
+    LK: "Šri Lanka"
+    LR: Liberiji
+    LS: Lesoto
+    LT: Litvo
+    LU: Luxembourg
+    LV: Latviji
+    LY: "Libijska arabska džamahirija"
+    MA: Maroku
+    MC: Monaco
+    MD: "Moldavija, Republika"
+    ME: "Črna Gora"
+    MF: "Saint Martin (francoski del)"
+    MG: Madagaskar
+    MH: "Marshallovi otoki"
+    MK: "Makedonija, Nekdanja jugoslovanska republika"
+    ML: Mali
+    MM: Mjanmar
+    MN: Mongoliji
+    MO: Macao
+    MP: "Severni Marianski otoki"
+    MQ: Martinique
+    MR: Mavretaniji
+    MS: Montserrat
+    MT: Malta
+    MU: Mauritius
+    MV: Maldivi
+    MW: Malawi
+    MX: Mexico
+    MY: Malezije
+    MZ: Mozambiku
+    NA: Namibije
+    NC: "Nova Kaledonija"
+    NE: Niger
+    NF: "Norfolk Island"
+    NG: Nigeriji
+    NI: Nikaragva
+    NL: Nizozemsko
+    NP: Nepal
+    NR: Nauru
+    NU: Niue
+    NZ: "Novo Zelandijo"
+    OM: Oman
+    PA: Panama
+    PE: Peru
+    PF: "Francoska Polinezija"
+    PG: "Papua Nova Gvineja"
+    PH: Filipinov
+    PK: Pakistan
+    PL: Poljskem
+    PM: "Saint Pierre in Miquelon"
+    PN: Pitcairn
+    PR: "Puerto Rico"
+    PS: "Palestinsko ozemlje, zasedeno"
+    PT: Portugalskem
+    PW: Palau
+    PY: Paragvaj
+    QA: Katar
+    RE: Reunion
+    RO: Romunije
+    RS: Srbija
+    RU: "Rusko federacijo"
+    RW: Ruandi
+    SA: "Savdska Arabija"
+    SB: "Salomonovi otoki"
+    SC: Sejšeli
+    SD: Sudan
+    SE: Švedsko
+    SG: Singapore
+    SH: "Saint Helena, Ascension in Tristan da Cunha"
+    SI: Slovenija
+    SJ: "Svalbard in Jan Mayen"
+    SK: Slovaškem
+    SL: "Sierra Leone"
+    SM: "San Marino"
+    SN: Senegal
+    SO: Somaliji
+    SR: Surinam
+    ST: "Sao Tome in Principe"
+    SV: "El Salvador"
+    SX: "Sint Maarten (nizozemski del)"
+    SY: "Sirsko arabsko republiko"
+    SZ: Svazija
+    TC: "Turks in Caicos"
+    TD: Chad
+    TF: "Francoska južna ozemlja"
+    TG: Togo
+    TH: Tajske
+    TJ: Tadžikistanu
+    TK: Tokelau
+    TL: "Vzhodni Timor"
+    TM: Turkmenistan
+    TN: Tunizijo
+    TO: Tonga
+    TR: Turčijo
+    TT: "Trinidad in Tobago"
+    TV: Tuvalu
+    TW: "Tajvan, Provinca Kitajske"
+    TZ: "Tanzanija, Združena republika"
+    UA: Ukrajini
+    UG: Uganda
+    UK: "Združeno kraljestvo"
+    UM: "Združene države Stranski zunanji otoki"
+    US: "Združene države"
+    UY: Urugvaj
+    UZ: Uzbekistan
+    VA: "Sveti sedež (Vatikanska mestna država)"
+    VC: "Saint Vincent in Grenadine"
+    VE: "Venezuela, Bolivarsko republiko"
+    VG: "Deviški otoki, britanski"
+    VI: "Deviški otoki, ZDA"
+    VN: Vietnam
+    VU: Vanuatu
+    WF: "Wallis in Futuna"
+    WS: Samoa
+    XK: Kosovo
+    YE: Jemen
+    YT: Mayotte
+    ZA: "Južna Afrika"
+    ZM: Zambija
+    ZW: Zimbabveju

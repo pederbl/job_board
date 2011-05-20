@@ -1,252 +1,252 @@
 lt:
   iso_3166_1_alpha_2:
-    "NO": ~
-    AD: ~
-    AE: ~
-    AF: ~
-    AG: ~
-    AI: ~
-    AL: ~
-    AM: ~
-    AO: ~
-    AQ: ~
-    AR: ~
-    AS: ~
-    AT: ~
-    AU: ~
-    AW: ~
-    AX: ~
-    AZ: ~
-    BA: ~
-    BB: ~
-    BD: ~
-    BE: ~
-    BF: ~
-    BG: ~
-    BH: ~
-    BI: ~
-    BJ: ~
-    BL: ~
-    BM: ~
-    BN: ~
-    BO: ~
-    BQ: ~
-    BR: ~
-    BS: ~
-    BT: ~
-    BV: ~
-    BW: ~
-    BY: ~
-    BZ: ~
-    CA: ~
-    CC: ~
-    CD: ~
-    CF: ~
-    CG: ~
-    CH: ~
-    CI: ~
-    CK: ~
-    CL: ~
-    CM: ~
-    CN: ~
-    CO: ~
-    CR: ~
-    CU: ~
-    CV: ~
-    CW: ~
-    CX: ~
-    CY: ~
-    CZ: ~
-    DE: ~
-    DJ: ~
-    DK: ~
-    DM: ~
-    DO: ~
-    DZ: ~
-    EC: ~
-    EE: ~
-    EG: ~
-    EH: ~
-    ER: ~
-    ES: ~
-    ET: ~
-    FI: ~
-    FJ: ~
-    FK: ~
-    FM: ~
-    FO: ~
-    FR: ~
-    GA: ~
-    GB: ~
-    GD: ~
-    GE: ~
-    GF: ~
-    GG: ~
-    GH: ~
-    GI: ~
-    GL: ~
-    GM: ~
-    GN: ~
-    GP: ~
-    GQ: ~
-    GR: ~
-    GS: ~
-    GT: ~
-    GU: ~
-    GW: ~
-    GY: ~
-    HK: ~
-    HM: ~
-    HN: ~
-    HR: ~
-    HT: ~
-    HU: ~
-    ID: ~
-    IE: ~
-    IL: ~
-    IM: ~
-    IN: ~
-    IO: ~
-    IQ: ~
-    IR: ~
-    IS: ~
-    IT: ~
-    JE: ~
-    JM: ~
-    JO: ~
-    JP: ~
-    KE: ~
-    KG: ~
-    KH: ~
-    KI: ~
-    KM: ~
-    KN: ~
-    KP: ~
-    KR: ~
-    KW: ~
-    KY: ~
-    KZ: ~
-    LA: ~
-    LB: ~
-    LC: ~
-    LI: ~
-    LK: ~
-    LR: ~
-    LS: ~
-    LT: ~
-    LU: ~
-    LV: ~
-    LY: ~
-    MA: ~
-    MC: ~
-    MD: ~
-    ME: ~
-    MF: ~
-    MG: ~
-    MH: ~
-    MK: ~
-    ML: ~
-    MM: ~
-    MN: ~
-    MO: ~
-    MP: ~
-    MQ: ~
-    MR: ~
-    MS: ~
-    MT: ~
-    MU: ~
-    MV: ~
-    MW: ~
-    MX: ~
-    MY: ~
-    MZ: ~
-    NA: ~
-    NC: ~
-    NE: ~
-    NF: ~
-    NG: ~
-    NI: ~
-    NL: ~
-    NP: ~
-    NR: ~
-    NU: ~
-    NZ: ~
-    OM: ~
-    PA: ~
-    PE: ~
-    PF: ~
-    PG: ~
-    PH: ~
-    PK: ~
-    PL: ~
-    PM: ~
-    PN: ~
-    PR: ~
-    PS: ~
-    PT: ~
-    PW: ~
-    PY: ~
-    QA: ~
-    RE: ~
-    RO: ~
-    RS: ~
-    RU: ~
-    RW: ~
-    SA: ~
-    SB: ~
-    SC: ~
-    SD: ~
-    SE: ~
-    SG: ~
-    SH: ~
-    SI: ~
-    SJ: ~
-    SK: ~
-    SL: ~
-    SM: ~
-    SN: ~
-    SO: ~
-    SR: ~
-    ST: ~
-    SV: ~
-    SX: ~
-    SY: ~
-    SZ: ~
-    TC: ~
-    TD: ~
-    TF: ~
-    TG: ~
-    TH: ~
-    TJ: ~
-    TK: ~
-    TL: ~
-    TM: ~
-    TN: ~
-    TO: ~
-    TR: ~
-    TT: ~
-    TV: ~
-    TW: ~
-    TZ: ~
-    UA: ~
-    UG: ~
-    UK: ~
-    UM: ~
-    US: ~
-    UY: ~
-    UZ: ~
-    VA: ~
-    VC: ~
-    VE: ~
-    VG: ~
-    VI: ~
-    VN: ~
-    VU: ~
-    WF: ~
-    WS: ~
-    XK: ~
-    YE: ~
-    YT: ~
-    ZA: ~
-    ZM: ~
-    ZW: ~
+    "NO": Norvegija
+    AD: Andora
+    AE: "Jungtiniai Arabų Emyratai"
+    AF: Afganistane
+    AG: "Antigva ir Barbuda"
+    AI: Angilija
+    AL: Albanija
+    AM: Armėnija
+    AO: Angola
+    AQ: Antarktida
+    AR: Argentina
+    AS: "Amerikos Samoa"
+    AT: Austrija
+    AU: Australija
+    AW: Aruba
+    AX: "Alandų salos"
+    AZ: Azerbaidžano
+    BA: "Bosnija ir Hercegovina"
+    BB: Barbadosas
+    BD: Bangladešas
+    BE: Belgija
+    BF: "Burkina Fasas"
+    BG: Bulgarija
+    BH: Bahreinas
+    BI: Burundis
+    BJ: Beninas
+    BL: "Švento Baltramiejaus sala"
+    BM: Bermudai
+    BN: "Brunėjaus Darusalamo"
+    BO: "Bolivija, Plurinational narė"
+    BQ: "Bonairė, Sent Eustatijus ir Saba"
+    BR: Brazilija
+    BS: Bahamos
+    BT: Butanas
+    BV: "Bouvet sala"
+    BW: Botsvana
+    BY: Baltarusija
+    BZ: Belizas
+    CA: Kanada
+    CC: "Kokosų (Keelingo) salos"
+    CD: "Kongo Demokratinė Respublika"
+    CF: "Centrinės Afrikos Respublika"
+    CG: Kongo
+    CH: Šveicarija
+    CI: "Cote D'ivoire"
+    CK: "Kuko salos"
+    CL: Čilė
+    CM: Kamerūnas
+    CN: Kinijos
+    CO: Kolumbija
+    CR: "Kosta Rika"
+    CU: Kuba
+    CV: "Žaliojo Kyšulio"
+    CW: Kiurasao
+    CX: "Kalėdų sala"
+    CY: Kipras
+    CZ: "Čekijos Respublika"
+    DE: Vokietija
+    DJ: Džibutis
+    DK: Danija
+    DM: Dominika
+    DO: "Dominikos Respublika"
+    DZ: Alžyras
+    EC: Ekvadoras
+    EE: Estijoje
+    EG: Egiptas
+    EH: "Vakarų Sachara"
+    ER: Eritrėja
+    ES: Ispanija
+    ET: Etiopija
+    FI: Suomija
+    FJ: Fidžis
+    FK: "Folklando (Malvinų)"
+    FM: "Mikronezijos Federacinių Valstijų"
+    FO: "Farerų salos"
+    FR: Prancūzija
+    GA: Gabonas
+    GB: "Jungtinė Karalystė"
+    GD: Grenada
+    GE: Gruzija
+    GF: "Prancūzijos Gviana"
+    GG: Gernsis
+    GH: Gana
+    GI: Gibraltaras
+    GL: Grenlandijos
+    GM: Gambija
+    GN: Gvinėja
+    GP: Gvadelupa
+    GQ: "Pusiaujo Gvinėja"
+    GR: Graikija
+    GS: "Pietų Džordžija ir Pietų Sandvičo salos"
+    GT: Gvatemala
+    GU: Guamas
+    GW: "Bisau Gvinėjos"
+    GY: Gajana
+    HK: Honkongas
+    HM: "Herdo ir Makdonaldo salos"
+    HN: Hondūras
+    HR: Kroatija
+    HT: Haitis
+    HU: Vengrija
+    ID: Indonezija
+    IE: Airija
+    IL: Izraelis
+    IM: "Meno sala"
+    IN: Indija
+    IO: "Indijos vandenyno britų sritis"
+    IQ: Irako
+    IR: "Iranas, Islamo Respublika"
+    IS: Islandija
+    IT: Italija
+    JE: Džersis
+    JM: Jamaika
+    JO: Jordanija
+    JP: Japonija
+    KE: Kenija
+    KG: Kirgizija
+    KH: Kambodža
+    KI: Kiribačio
+    KM: Komorų
+    KN: "Sent Kitsas ir Nevis"
+    KP: "Korėja, Demokratinė Liaudies Respublika"
+    KR: "Korėjos Respublika"
+    KW: Kuveitas
+    KY: "Kaimanų salos"
+    KZ: Kazachstanas
+    LA: "Laoso Liaudies Demokratinė Respublika"
+    LB: Libano
+    LC: "Sent Lusija"
+    LI: Lichtenšteinas
+    LK: "Šri Lanka"
+    LR: Liberija
+    LS: Lesotas
+    LT: Lietuva
+    LU: Liuksemburge
+    LV: Latvija
+    LY: "Libijos Arabų Džamahirija"
+    MA: Marokas
+    MC: Monakas
+    MD: "Moldovos Respublika"
+    ME: Juodkalnija
+    MF: "Saint-Martin (Prancūzijos dalis)"
+    MG: Madagaskaras
+    MH: "Maršalo salos"
+    MK: "Makedonija, Buvusi Jugoslavijos Respublika"
+    ML: Malis
+    MM: Mianmaras
+    MN: Mongolija
+    MO: Makao
+    MP: "Šiaurės Marianų salos"
+    MQ: Martinika
+    MR: Mauritanija
+    MS: Montseratas
+    MT: Maltos
+    MU: Mauricijus
+    MV: Maldyvai
+    MW: Malavis
+    MX: Meksika
+    MY: Malaizija
+    MZ: Mozambikas
+    NA: Namibija
+    NC: "Naujoji Kaledonija"
+    NE: Nigeris
+    NF: "Norfolko sala"
+    NG: Nigerija
+    NI: Nikaragva
+    NL: Nyderlandai
+    NP: Nepalas
+    NR: Nauru
+    NU: Niue
+    NZ: "Naujoji Zelandija"
+    OM: Omanas
+    PA: Panama
+    PE: Peru
+    PF: "Prancūzijos Polinezija"
+    PG: "Papua ir Naujoji Gvinėja"
+    PH: Filipinai
+    PK: Pakistanas
+    PL: Lenkija
+    PM: "Sen Pjeras ir Mikelonas"
+    PN: Pitkerno
+    PR: "Puerto Rikas"
+    PS: "Okupuota Palestinos teritorija"
+    PT: Portugalija
+    PW: Palau
+    PY: Paragvajus
+    QA: Kataras
+    RE: Reunionas
+    RO: Rumunija
+    RS: Serbija
+    RU: "Rusijos Federacija"
+    RW: Ruanda
+    SA: "Saudo Arabija"
+    SB: "Saliamono salos"
+    SC: Seišelių
+    SD: Sudane
+    SE: Švedijos
+    SG: Singapūras
+    SH: "Elenos sala, Šeštines ir Tristan da Cunha"
+    SI: Slovėnija
+    SJ: "Svalbardas ir Jan Mayenas"
+    SK: Slovakija
+    SL: "Siera Leonė"
+    SM: "San Marinas"
+    SN: Senegalas
+    SO: Somalyje
+    SR: Surinamas
+    ST: "San Tomė ir Prinsipė"
+    SV: Salvadoras
+    SX: "Sint Maarten (Olandijos dalis)"
+    SY: "Sirijos Arabų Respublika"
+    SZ: Svazilando
+    TC: "Turkso ir Caicoso salos"
+    TD: Čadas
+    TF: "Prancūzijos Pietinės ir Antarkties teritorijos"
+    TG: Togas
+    TH: Tailandas
+    TJ: Tadžikistanas
+    TK: Tokelau
+    TL: "Rytų Timore"
+    TM: Turkmėnistanas
+    TN: Tunisas
+    TO: Tonga
+    TR: Turkija
+    TT: "Trinidadas ir Tobagas"
+    TV: Tuvalu
+    TW: "Taivanas, Kinijos provincija"
+    TZ: "Tanzanijos Jungtinė Respublika"
+    UA: Ukraina
+    UG: Uganda
+    UK: "Jungtinė Karalystė"
+    UM: "Jungtinių Valstijų mažosios aplinkinės salos"
+    US: "Jungtinės Amerikos Valstijos"
+    UY: Urugvajus
+    UZ: Uzbekistanas
+    VA: "Šventasis Sostas (Vatikano Miesto Valstybę)"
+    VC: "Sent Vinsentas ir Grenadinai"
+    VE: "Venesuela, Bolivaro Respublikos"
+    VG: "Britų Mergelių salos"
+    VI: "Mergelių salos, JAV"
+    VN: Vietnamo
+    VU: Vanuatu
+    WF: "Volis ir Futūna"
+    WS: Samoa
+    XK: Kosove
+    YE: Jemenas
+    YT: Mayotte'as
+    ZA: "Pietų Afrikos Respublika"
+    ZM: Zambija
+    ZW: Zimbabvė

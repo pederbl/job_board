@@ -1,252 +1,252 @@
 et:
   iso_3166_1_alpha_2:
-    "NO": ~
-    AD: ~
-    AE: ~
-    AF: ~
-    AG: ~
-    AI: ~
-    AL: ~
-    AM: ~
-    AO: ~
-    AQ: ~
-    AR: ~
-    AS: ~
-    AT: ~
-    AU: ~
-    AW: ~
-    AX: ~
-    AZ: ~
-    BA: ~
-    BB: ~
-    BD: ~
-    BE: ~
-    BF: ~
-    BG: ~
-    BH: ~
-    BI: ~
-    BJ: ~
-    BL: ~
-    BM: ~
-    BN: ~
-    BO: ~
-    BQ: ~
-    BR: ~
-    BS: ~
-    BT: ~
-    BV: ~
-    BW: ~
-    BY: ~
-    BZ: ~
-    CA: ~
-    CC: ~
-    CD: ~
-    CF: ~
-    CG: ~
-    CH: ~
-    CI: ~
-    CK: ~
-    CL: ~
-    CM: ~
-    CN: ~
-    CO: ~
-    CR: ~
-    CU: ~
-    CV: ~
-    CW: ~
-    CX: ~
-    CY: ~
-    CZ: ~
-    DE: ~
-    DJ: ~
-    DK: ~
-    DM: ~
-    DO: ~
-    DZ: ~
-    EC: ~
-    EE: ~
-    EG: ~
-    EH: ~
-    ER: ~
-    ES: ~
-    ET: ~
-    FI: ~
-    FJ: ~
-    FK: ~
-    FM: ~
-    FO: ~
-    FR: ~
-    GA: ~
-    GB: ~
-    GD: ~
-    GE: ~
-    GF: ~
-    GG: ~
-    GH: ~
-    GI: ~
-    GL: ~
-    GM: ~
-    GN: ~
-    GP: ~
-    GQ: ~
-    GR: ~
-    GS: ~
-    GT: ~
-    GU: ~
-    GW: ~
-    GY: ~
-    HK: ~
-    HM: ~
-    HN: ~
-    HR: ~
-    HT: ~
-    HU: ~
-    ID: ~
-    IE: ~
-    IL: ~
-    IM: ~
-    IN: ~
-    IO: ~
-    IQ: ~
-    IR: ~
-    IS: ~
-    IT: ~
-    JE: ~
-    JM: ~
-    JO: ~
-    JP: ~
-    KE: ~
-    KG: ~
-    KH: ~
-    KI: ~
-    KM: ~
-    KN: ~
-    KP: ~
-    KR: ~
-    KW: ~
-    KY: ~
-    KZ: ~
-    LA: ~
-    LB: ~
-    LC: ~
-    LI: ~
-    LK: ~
-    LR: ~
-    LS: ~
-    LT: ~
-    LU: ~
-    LV: ~
-    LY: ~
-    MA: ~
-    MC: ~
-    MD: ~
-    ME: ~
-    MF: ~
-    MG: ~
-    MH: ~
-    MK: ~
-    ML: ~
-    MM: ~
-    MN: ~
-    MO: ~
-    MP: ~
-    MQ: ~
-    MR: ~
-    MS: ~
-    MT: ~
-    MU: ~
-    MV: ~
-    MW: ~
-    MX: ~
-    MY: ~
-    MZ: ~
-    NA: ~
-    NC: ~
-    NE: ~
-    NF: ~
-    NG: ~
-    NI: ~
-    NL: ~
-    NP: ~
-    NR: ~
-    NU: ~
-    NZ: ~
-    OM: ~
-    PA: ~
-    PE: ~
-    PF: ~
-    PG: ~
-    PH: ~
-    PK: ~
-    PL: ~
-    PM: ~
-    PN: ~
-    PR: ~
-    PS: ~
-    PT: ~
-    PW: ~
-    PY: ~
-    QA: ~
-    RE: ~
-    RO: ~
-    RS: ~
-    RU: ~
-    RW: ~
-    SA: ~
-    SB: ~
-    SC: ~
-    SD: ~
-    SE: ~
-    SG: ~
-    SH: ~
-    SI: ~
-    SJ: ~
-    SK: ~
-    SL: ~
-    SM: ~
-    SN: ~
-    SO: ~
-    SR: ~
-    ST: ~
-    SV: ~
-    SX: ~
-    SY: ~
-    SZ: ~
-    TC: ~
-    TD: ~
-    TF: ~
-    TG: ~
-    TH: ~
-    TJ: ~
-    TK: ~
-    TL: ~
-    TM: ~
-    TN: ~
-    TO: ~
-    TR: ~
-    TT: ~
-    TV: ~
-    TW: ~
-    TZ: ~
-    UA: ~
-    UG: ~
-    UK: ~
-    UM: ~
-    US: ~
-    UY: ~
-    UZ: ~
-    VA: ~
-    VC: ~
-    VE: ~
-    VG: ~
-    VI: ~
-    VN: ~
-    VU: ~
-    WF: ~
-    WS: ~
-    XK: ~
-    YE: ~
-    YT: ~
-    ZA: ~
-    ZM: ~
-    ZW: ~
+    "NO": Norra
+    AD: Andorra
+    AE: "Araabia Ühendemiraadid"
+    AF: Afganistanis
+    AG: "Antigua ja Barbuda"
+    AI: Anguilla
+    AL: Albaania
+    AM: Armeenia
+    AO: Angola
+    AQ: Antarktis
+    AR: Argentina
+    AS: "Ameerika Samoa"
+    AT: Austria
+    AU: Austraalia
+    AW: Aruba
+    AX: Ahvenamaa
+    AZ: Aserbaidžaan
+    BA: "Bosnia ja Hertsegoviina"
+    BB: Barbados
+    BD: Bangladesh
+    BE: Belgia
+    BF: "Burkina Faso"
+    BG: Bulgaaria
+    BH: Bahrain
+    BI: Burundi
+    BJ: Benin
+    BL: "Saint Barthelemy"
+    BM: Bermuda
+    BN: Brunei
+    BO: "Boliivia, mitut riiki haaravaid riik"
+    BQ: "Bonaire, Saint Eustatius ja Saba"
+    BR: Brasiilia
+    BS: Bahama
+    BT: Bhutan
+    BV: "Bouvet 'saar"
+    BW: Botswana
+    BY: Valgevene
+    BZ: Belize
+    CA: Kanada
+    CC: "Cocos (Keelingi saared)"
+    CD: "Kongo Demokraatlikus Vabariigis"
+    CF: "Kesk-Aafrika Vabariigis"
+    CG: Kongo
+    CH: Šveits
+    CI: Elevandiluurannik
+    CK: "Cooki saared"
+    CL: Tšiili
+    CM: Kamerun
+    CN: Hiina
+    CO: Kolumbia
+    CR: "Costa Rica"
+    CU: Kuuba
+    CV: "Cape Verde"
+    CW: Curacao
+    CX: Jõulusaar
+    CY: Küpros
+    CZ: "Tšehhi Vabariik"
+    DE: Saksamaa
+    DJ: Djibouti
+    DK: Taani
+    DM: Dominica
+    DO: "Dominikaani Vabariik"
+    DZ: Alžeeria
+    EC: Ecuador
+    EE: Eesti
+    EG: Egiptus
+    EH: Lääne-Sahara
+    ER: Eritrea
+    ES: Hispaania
+    ET: Etioopia
+    FI: Soome
+    FJ: Fidži
+    FK: "Falklandi saared (Malviinid)"
+    FM: "Mikroneesia kohta"
+    FO: "Fääri saared"
+    FR: Prantsusmaa
+    GA: Gabon
+    GB: Ühendkuningriik
+    GD: Grenada
+    GE: Gruusia
+    GF: "Prantsuse Guajaana"
+    GG: Guernsey
+    GH: Ghana
+    GI: Gibraltar
+    GL: Gröönimaa
+    GM: Gambia
+    GN: Guinea
+    GP: Guadeloupe
+    GQ: Ekvatoriaal-Guinea
+    GR: Kreeka
+    GS: "Lõuna-Georgia ja Lõuna-Sandwichi saared"
+    GT: Guatemala
+    GU: Guam
+    GW: Guinea-Bissau
+    GY: Guyana
+    HK: "Hong Kong"
+    HM: "Heardi ja McDonaldi saared"
+    HN: Honduras
+    HR: Horvaatia
+    HT: Haiti
+    HU: Ungari
+    ID: Indoneesia
+    IE: Iirimaa
+    IL: Iisrael
+    IM: "Isle of Man"
+    IN: India
+    IO: "Briti India Ookeani Territoorium"
+    IQ: Iraak
+    IR: "Iran, Islamic Republic of"
+    IS: Island
+    IT: Itaalia
+    JE: Jersey
+    JM: Jamaica
+    JO: Jordaania
+    JP: Jaapan
+    KE: Kenya
+    KG: Kõrgõzstan
+    KH: Kambodža
+    KI: Kiribati
+    KM: Comoros
+    KN: "Saint Kitts ja Nevis"
+    KP: "Korea Rahvademokraatlik Vabariik"
+    KR: Lõuna-Korea
+    KW: Kuveit
+    KY: Kaimanisaared
+    KZ: Kasahstani
+    LA: "Lao Demokraatlikust Rahvavabariigist"
+    LB: Liibanon
+    LC: "Saint Lucia"
+    LI: Liechtenstein
+    LK: "Sri Lanka"
+    LR: Libeeria
+    LS: Lesotho
+    LT: Leedu
+    LU: Luksemburg
+    LV: Läti
+    LY: Liibüa
+    MA: Maroko
+    MC: Monaco
+    MD: "Moldova Vabariik"
+    ME: Montenegro
+    MF: "Saint Martin (Prantsusmaa osa)"
+    MG: Madagaskar
+    MH: "Marshalli Saared"
+    MK: "Makedoonia, endine Jugoslaavia Vabariik"
+    ML: Mali
+    MM: Myanmar
+    MN: Mongoolia
+    MO: Aomeni
+    MP: Põhja-Mariaanid
+    MQ: Martinique
+    MR: Mauritaania
+    MS: Montserrat
+    MT: Malta
+    MU: Mauritius
+    MV: Maldiivid
+    MW: Malawi
+    MX: Mehhiko
+    MY: Malaisia
+    MZ: Mosambiik
+    NA: Namiibia
+    NC: Uus-Kaledoonia
+    NE: Niger
+    NF: "Norfolk Island"
+    NG: Nigeeria
+    NI: Nicaragua
+    NL: Holland
+    NP: Nepal
+    NR: Nauru
+    NU: Niue
+    NZ: Uus-Meremaa
+    OM: Oman
+    PA: Panama
+    PE: Peruu
+    PF: "Prantsuse Polüneesia"
+    PG: "Paapua Uus-Guinea"
+    PH: Filipiinid
+    PK: Pakistan
+    PL: Poola
+    PM: "Saint-Pierre ja Miquelon"
+    PN: Pitcairn
+    PR: "Puerto Rico"
+    PS: "Palestiina okupeeritud alad"
+    PT: Portugal
+    PW: Palau
+    PY: Paraguai
+    QA: Katar
+    RE: Kokkutulek
+    RO: Rumeenia
+    RS: Serbia
+    RU: "Vene Föderatsioon"
+    RW: Rwanda
+    SA: "Saudi Araabia"
+    SB: "Saalomoni Saarte"
+    SC: Seišellid
+    SD: Sudaan
+    SE: Rootsi
+    SG: Singapur
+    SH: "Saint Helena, Ascension ja Tristan Da Cunha"
+    SI: Sloveenia
+    SJ: "Svalbard ja Jan Mayen"
+    SK: Slovakkia
+    SL: "Sierra Leone"
+    SM: "San Marino"
+    SN: Senegal
+    SO: Somaalia
+    SR: Suriname
+    ST: "Sao Tome ja Principe"
+    SV: "El Salvador"
+    SX: "Sint Maarten (Hollandi osa)"
+    SY: "Süüria Araabia Vabariigist"
+    SZ: Svaasimaa
+    TC: "Turks ja Caicos"
+    TD: Chad
+    TF: "Prantsuse Lõunaalad"
+    TG: Togo
+    TH: Tai
+    TJ: Tadžikistan
+    TK: Tokelau
+    TL: Ida-Timori
+    TM: Turkmenistan
+    TN: Tuneesia
+    TO: Tonga
+    TR: Türgi
+    TT: "Trinidad ja Tobago"
+    TV: Tuvalu
+    TW: "Taiwani provints Hiinas"
+    TZ: "Tansaania kohta"
+    UA: Ukraina
+    UG: Uganda
+    UK: Ühendkuningriik
+    UM: "Ameerika Ühendriikide hajasaared"
+    US: "Ameerika Ühendriigid"
+    UY: Uruguay
+    UZ: Usbekistan
+    VA: "Püha Tool (Vatikani Linnriik)"
+    VC: "Saint Vincent ja Grenadiinid"
+    VE: "Venezuela Bolivari Vabariigi"
+    VG: "Neitsisaared, Briti"
+    VI: "Neitsisaared, USA"
+    VN: "Viet Nam"
+    VU: Vanuatu
+    WF: "Wallis ja Futuna"
+    WS: Samoa
+    XK: Kosovo
+    YE: Jeemen
+    YT: Mayotte
+    ZA: "Lõuna-Aafrika Vabariik"
+    ZM: Sambia
+    ZW: Zimbabwe

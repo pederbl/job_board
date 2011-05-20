@@ -11,10 +11,10 @@ bg:
       national_id: "Лична карта"
     index:
       employer: Работодател
-      job_categories: ~
+      job_categories: "Работа категории"
       keywords: "Ключови думи"
       location: Местоположение
-      locations: ~
+      locations: Места
       update_search: "Актуализация Търсене"
     items:
       ago: преди

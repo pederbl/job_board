@@ -11,10 +11,10 @@ sl:
       national_id: "National ID"
     index:
       employer: Delodajalec
-      job_categories: ~
+      job_categories: "Kategorije Job"
       keywords: "Ključne besede"
       location: Kraj
-      locations: ~
+      locations: Lokacije
       update_search: "Update Iskanje"
     items:
       ago: nazaj

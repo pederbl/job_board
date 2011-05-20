@@ -11,10 +11,10 @@ nl:
       national_id: "Nationale ID"
     index:
       employer: Werkgever
-      job_categories: ~
+      job_categories: Jobcategorieën
       keywords: Trefwoorden
       location: Locatie
-      locations: ~
+      locations: Locaties
       update_search: "Update zoeken"
     items:
       ago: geleden

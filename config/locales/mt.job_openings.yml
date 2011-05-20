@@ -11,10 +11,10 @@ mt:
       national_id: "Identità nazzjonali"
     index:
       employer: "Min iħaddem"
-      job_categories: ~
+      job_categories: "Kategoriji Job"
       keywords: Keywords
       location: Location
-      locations: ~
+      locations: Lokalitajiet
       update_search: "Aġġornament Fittex"
     items:
       ago: ilu

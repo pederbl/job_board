@@ -1,5 +1,6 @@
 en:
   about: About
+  choose: Choose
   description: Description
   email: Email
   fax: Fax
@@ -15,4 +16,3 @@ en:
   type: Type
   visit_address: "Visit address"
   website: Website
-  choose: Choose

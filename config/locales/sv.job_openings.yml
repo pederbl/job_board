@@ -11,10 +11,10 @@ sv:
       national_id: "Nationellt ID"
     index:
       employer: Arbetsgivare
-      job_categories: ~
+      job_categories: Yrkeskategorier
       keywords: Sökord
       location: Ort
-      locations: ~
+      locations: Orter
       update_search: "Uppdatera Sök"
     items:
       ago: sedan

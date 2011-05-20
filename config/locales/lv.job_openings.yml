@@ -11,10 +11,10 @@ lv:
       national_id: "Valsts identifikācijas"
     index:
       employer: "Darba devējs"
-      job_categories: ~
+      job_categories: "Darba Kategorijas"
       keywords: "Atslēgas vārdi"
       location: "Atrašanās vieta"
-      locations: ~
+      locations: Vietās
       update_search: "Update Meklēšana"
     items:
       ago: pirms

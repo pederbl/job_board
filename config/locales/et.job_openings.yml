@@ -11,10 +11,10 @@ et:
       national_id: "National ID"
     index:
       employer: Tööandja
-      job_categories: ~
+      job_categories: Töökategooriatesse
       keywords: Märksõnad
       location: Asukoht
-      locations: ~
+      locations: Asukohad
       update_search: "Update Otsi"
     items:
       ago: tagasi

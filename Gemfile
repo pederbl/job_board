@@ -15,3 +15,4 @@ gem 'whenever', :require => false
 
 gem "mongoid_translated_strings", require: "mongoid_translated_strings", path: "../mongoid_translated_strings"
 gem "job_opening_models", require: "job_opening_models", path: "../job_opening_models"
+gem "geonames", require: "geonames", path: "../geonames"

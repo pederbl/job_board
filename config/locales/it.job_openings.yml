@@ -11,10 +11,10 @@ it:
       national_id: "Identità nazionale"
     index:
       employer: "Datore di lavoro"
-      job_categories: ~
+      job_categories: "Lavoro Categorie"
       keywords: "Parole chiave"
       location: Posizione
-      locations: ~
+      locations: Sedi
       update_search: "Aggiornamento della ricerca"
     items:
       ago: fa

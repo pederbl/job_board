@@ -1,4 +1,9 @@
 PATH
+  remote: ../geonames
+  specs:
+    geonames (0.0.1)
+
+PATH
   remote: ../job_opening_models
   specs:
     job_opening_models (0.0.1)
@@ -103,6 +108,7 @@ PLATFORMS
 
 DEPENDENCIES
   bson_ext (~> 1.2)
+  geonames!
   haml
   hoptoad_notifier
   job_opening_models!

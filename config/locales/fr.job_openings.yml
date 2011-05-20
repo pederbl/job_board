@@ -11,10 +11,10 @@ fr:
       national_id: "Numéro d'identité national"
     index:
       employer: Employeur
-      job_categories: ~
+      job_categories: "Catégories d'emploi"
       keywords: Mots-clés
       location: Lieu
-      locations: ~
+      locations: Emplacements
       update_search: "Mettre à jour de la recherche"
     items:
       ago: "il y a "

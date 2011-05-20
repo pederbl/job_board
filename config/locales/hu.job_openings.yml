@@ -11,10 +11,10 @@ hu:
       national_id: "Nemzeti azonosító"
     index:
       employer: Munkáltató
-      job_categories: ~
+      job_categories: "Állás kategóriák"
       keywords: Kulcsszavak
       location: Helyszín
-      locations: ~
+      locations: Helyszínek
       update_search: "Frissítés keresése"
     items:
       ago: ezelőtt

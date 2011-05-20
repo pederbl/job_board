@@ -11,10 +11,10 @@ lt:
       national_id: "Nacionalinės asmens tapatybės"
     index:
       employer: Darbdavys
-      job_categories: ~
+      job_categories: "Darbo Kategorijos"
       keywords: "Raktiniai žodžiai"
       location: Vieta
-      locations: ~
+      locations: Vietovės
       update_search: "Atnaujinti Paieška"
     items:
       ago: prieš
