@@ -57,7 +57,7 @@ class JobOpeningQuery
       locations.split(";").each { |loc|   
         type, geonameid = loc.split(":")
         case type
-        when "PCL"; locs[:pcls] << geonameid
+        when /(PCL|TERR)/; locs[:pcls] << geonameid
         when "ADM1"; locs[:admin1s] << geonameid
         when "ADM2"; locs[:admin2s] << geonameid
         else raise type

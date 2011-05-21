@@ -38,7 +38,7 @@ class JobOpening
 
   def search_same_location
     return nil unless location.try(:geonameid)
-    JobOpening.search(JobOpeningQuery.new(locations: "#{geonames_location.feature_code}:#{@job.location.geonameid}", limit: 5)) 
+    JobOpening.search(JobOpeningQuery.new(locations: "#{geonames_location.feature_code}:#{location.geonameid}", limit: 5)) 
   end
 
   def search_same_job_category
