@@ -28,17 +28,17 @@ class JobOpening
   end
 
   def geonames_location
-    GeonamesLocation.where(geonameid: @job.location.geonameid).first
+    GeonamesLocation.where(geonameid: location.geonameid).first
   end
 
   def search_same_employer
     return nil unless employer
-    JobOpening.search(JobOpeningQuery.new(employer: employer.name))
+    JobOpening.search(JobOpeningQuery.new(employer: employer.name, limit: 5))
   end
 
   def search_same_location
     return nil unless location.try(:geonameid)
-    JobOpening.search(JobOpeningQuery.new(locations: "#{geonames_location.feature_code}:#{@job.location.geonameid}" )) 
+    JobOpening.search(JobOpeningQuery.new(locations: "#{geonames_location.feature_code}:#{@job.location.geonameid}", limit: 5)) 
   end
 
   def search_same_job_category
