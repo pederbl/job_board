@@ -42,7 +42,9 @@ module ApplicationHelper
     (
       Dir.glob("#{Rails.root}/public/stylesheets/*.css").entries.map { |path| File.basename(path).gsub(/.css$/,'') }  +
       Dir.glob("#{Rails.root}/public/stylesheets/auto_generated/*.css").map { |path| 'auto_generated/' + File.basename(path).gsub(/.css$/,'') }  + 
-      ['/javascripts/jquery/css/smoothness/jquery-ui-1.8.11.custom.css']
+      [
+        '/javascripts/jquery/css/smoothness/jquery-ui-1.8.11.custom.css'
+      ]
     )
   end
 

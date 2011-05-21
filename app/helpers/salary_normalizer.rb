@@ -83,7 +83,12 @@ module SalaryNormalizer
         "CONSEPT INGENIERIE Mme RECRUTEMENT RECRUTEMENT",
         "FINANCE M. MARTIN BORNE",
         "WUERTH ELEKTRONIK ITALIA S.R.L.",
-        "GARDASEE TOURISMUS GMBH"
+        "GARDASEE TOURISMUS GMBH",
+        "Hays Specialist Recruitment",
+        "",
+        "",
+        "",
+        ""
       ]
       list = JobOpening.where(deleted_at: nil, "salary.normalized".to_sym.ne => nil, "salary.normalized".to_sym.lt => 150, "employer.name".to_sym.ne => nil)
       list = list.not_in("employer.name" => salary_spam_employers)
