@@ -18,7 +18,7 @@
   <%= 
     (Rails.env.production? and File.exists?("#{Rails.root}/public/stylesheets/cached/all.css")) ? 
       stylesheet_link_tag('cached/all') : 
-      stylesheet_link_tag(all_stylesheets, concat: (true ? false : 'cached/all')) 
+      stylesheet_link_tag(all_stylesheets, concat: (false ? false : 'cached/all')) 
   %>
   <script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
   <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=pederbl"></script>
@@ -53,7 +53,7 @@
   <%= 
       (Rails.env.production? and File.exists?("#{Rails.root}/public/javascripts/cached/all.js")) ? 
         javascript_include_tag('cached/all') : 
-        javascript_include_tag(all_javascripts, concat: (true ? false : 'cached/all')) 
+        javascript_include_tag(all_javascripts, concat: (false ? false : 'cached/all')) 
   %>
   <script type="text/javascript">
     (function() {

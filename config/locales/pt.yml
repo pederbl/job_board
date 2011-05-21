@@ -13,6 +13,7 @@ pt:
   minimum: Mínimo
   phone: Telefone
   postal_address: "Endereço postal"
+  published: Publicação
   terms: Termos
   type: Tipo
   visit_address: "Visite o endereço"

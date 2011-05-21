@@ -13,6 +13,7 @@ sl:
   minimum: Najmanjša
   phone: Telefon
   postal_address: "Poštni naslov"
+  published: Objavljeno
   terms: Pogoji
   type: Vrsta
   visit_address: "Obiščite naslov"

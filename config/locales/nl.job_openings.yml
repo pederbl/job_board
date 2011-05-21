@@ -82,6 +82,17 @@ nl:
       none: Geen
       required: Vereist
       requirements: Eisen
+    results_list:
+      ago: geleden
+      posted: Geplaatst
     show:
       anonymous: Anoniem
-      published: Gepubliceerd
+    show_deleted:
+      deleted: "Deze baan is verwijderd"
+      find_other_jobs: "Vind andere banen"
+      job_openings: vacatures
+      jobs_at_same_employer: "Jobs bij dezelfde werkgever"
+      jobs_in_same_job_category: "Banen in dezelfde baan Categorie"
+      jobs_in_same_location: "Banen in dezelfde locatie"
+    show_deleted_same_list:
+      none: Geen

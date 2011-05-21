@@ -86,6 +86,17 @@ el:
       none: Καμία
       required: Απαιτούμενη
       requirements: Απαιτήσεις
+    results_list:
+      ago: πριν
+      posted: Καταχωρήθηκε
     show:
       anonymous: Ανώνυμος
-      published: Δημοσιεύθηκε
+    show_deleted:
+      deleted: "Αυτή η εργασία έχει διαγραφεί"
+      find_other_jobs: "Βρείτε Άλλες εργασίες"
+      job_openings: "νέες θέσεις εργασίας"
+      jobs_at_same_employer: "Θέσεις εργασίας στην ίδιο εργοδότη"
+      jobs_in_same_job_category: "Θέσεις εργασίας στην ίδια επαγγελματική κατηγορία"
+      jobs_in_same_location: "Θέσεις εργασίας στην ίδια τοποθεσία"
+    show_deleted_same_list:
+      none: Κανένας

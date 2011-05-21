@@ -13,6 +13,7 @@ lt:
   minimum: Minimalus
   phone: Telefonas
   postal_address: "Pašto adresas"
+  published: Paskelbta
   terms: Taisyklės
   type: Tipas
   visit_address: "Aplankykite adresas"

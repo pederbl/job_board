@@ -13,6 +13,7 @@ fi:
   minimum: Vähimmäismäärä
   phone: Puhelin
   postal_address: Postiosoite
+  published: Julkaistu
   terms: Ehdot
   type: Tyyppi
   visit_address: Käyntiosoite

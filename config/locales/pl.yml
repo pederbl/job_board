@@ -13,6 +13,7 @@ pl:
   minimum: Minimalny
   phone: Telefon
   postal_address: "Adres pocztowy"
+  published: Opublikowano
   terms: Warunki
   type: Typ
   visit_address: "Odwiedź adres"

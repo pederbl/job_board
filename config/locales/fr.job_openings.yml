@@ -86,6 +86,17 @@ fr:
       none: Aucun
       required: Requis
       requirements: "Conditions requises"
+    results_list:
+      ago: "il ya"
+      posted: Publié
     show:
       anonymous: Anonyme
-      published: Publié
+    show_deleted:
+      deleted: "Ce poste a été supprimé"
+      find_other_jobs: "Trouver d'autres emplois"
+      job_openings: "offres d'emploi"
+      jobs_at_same_employer: "Offres d'emploi chez l'employeur même"
+      jobs_in_same_job_category: "Offres d'emploi en même catégorie d'emploi"
+      jobs_in_same_location: "Offres d'emploi au même endroit"
+    show_deleted_same_list:
+      none: Aucun

@@ -76,8 +76,16 @@ module SalaryNormalizer
         "EUPRO CHUR AG", 
         "Hagen Manfred Haustechnik",
         "FRANCK LOIRE M. FRANCK LOIRE",
+        "HAYS Office Professionals",
+        "HAYS",
+        "Juergen Hemberle Personal Management SAS",
+        "SOCIETE SELECTION PROFESSIONNELLE Mme BLEUSE BRIGITTE",
+        "CONSEPT INGENIERIE Mme RECRUTEMENT RECRUTEMENT",
+        "FINANCE M. MARTIN BORNE",
+        "WUERTH ELEKTRONIK ITALIA S.R.L.",
+        "GARDASEE TOURISMUS GMBH"
       ]
-      list = JobOpening.where(deleted_at: nil, "salary.normalized".to_sym.ne => nil, "salary.normalized".to_sym.lt => 200, "employer.name".to_sym.ne => nil)
+      list = JobOpening.where(deleted_at: nil, "salary.normalized".to_sym.ne => nil, "salary.normalized".to_sym.lt => 150, "employer.name".to_sym.ne => nil)
       list = list.not_in("employer.name" => salary_spam_employers)
       list = list.desc("salary.normalized")
       list = list.limit(10)

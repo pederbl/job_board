@@ -13,6 +13,7 @@ et:
   minimum: Minimaalne
   phone: Telefon
   postal_address: Postiaadress
+  published: Published
   terms: Tingimused
   type: Tüüp
   visit_address: "Visit address"

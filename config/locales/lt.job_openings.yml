@@ -82,6 +82,17 @@ lt:
       none: Nėra
       required: Reikalinga
       requirements: Reikalavimai
+    results_list:
+      ago: prieš
+      posted: Paskelbta
     show:
       anonymous: Anoniminis
-      published: Paskelbta
+    show_deleted:
+      deleted: "Šis skelbimas buvo pašalintas"
+      find_other_jobs: "Rasti Kiti darbai"
+      job_openings: "laisvų darbo vietų"
+      jobs_at_same_employer: "Darbas patį darbdavį"
+      jobs_in_same_job_category: "Darbas patį darbą Kategorija"
+      jobs_in_same_location: "Darbas toje pačioje vietoje"
+    show_deleted_same_list:
+      none: Nėra

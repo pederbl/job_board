@@ -82,6 +82,17 @@ pl:
       none: Brak
       required: Wymagane
       requirements: Wymagania
+    results_list:
+      ago: temu
+      posted: Wysłany
     show:
       anonymous: Anonimowy
-      published: Opublikowano
+    show_deleted:
+      deleted: "Ta praca została usunięta"
+      find_other_jobs: "Znajdź Inne Praca"
+      job_openings: "ofert pracy"
+      jobs_at_same_employer: "Praca w samego pracodawcy"
+      jobs_in_same_job_category: "Praca w tej samej kategorii Praca"
+      jobs_in_same_location: "Praca w tym samym miejscu"
+    show_deleted_same_list:
+      none: Brak

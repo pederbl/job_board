@@ -11,13 +11,13 @@
 
   .overlay#locale_picker
     .col
-      - I18n.available_locales[0..10].each do |locale|
+      - I18n.available_locales[0..9].each do |locale|
         .item 
           %a{ "data-set-locale" => locale } 
             = I18n.name_for_locale(locale)
 
     .col
-      - I18n.available_locales[10..20].each do |locale|
+      - I18n.available_locales[10..19].each do |locale|
         .item 
           %a{ "data-set-locale" => locale } 
             = I18n.name_for_locale(locale)

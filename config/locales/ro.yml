@@ -13,6 +13,7 @@ ro:
   minimum: Minim
   phone: Telefon
   postal_address: "Adresa poştală"
+  published: Publicat
   terms: Termeni
   type: Tip
   visit_address: "Vizitaţi adresa"

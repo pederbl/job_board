@@ -82,6 +82,17 @@ mt:
       none: Xejn
       required: Meħtieġa
       requirements: Rekwiżiti
+    results_list:
+      ago: ilu
+      posted: Posted
     show:
       anonymous: Anonymous
-      published: Ippubblikat
+    show_deleted:
+      deleted: "Dan ix-xogħol ġiet imħassra"
+      find_other_jobs: "Sib Impjiegi Oħrajn"
+      job_openings: "impjieg fetħiet"
+      jobs_at_same_employer: "Impjiegi fil istess persuna li timpjega"
+      jobs_in_same_job_category: "Impjiegi fil-Kategorija istess impjieg"
+      jobs_in_same_location: "Impjiegi fl-istess post"
+    show_deleted_same_list:
+      none: Xejn

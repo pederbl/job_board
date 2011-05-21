@@ -13,6 +13,7 @@ sk:
   minimum: Minimálna
   phone: Telefón
   postal_address: "Poštová adresa"
+  published: Publikovaná
   terms: Podmienky
   type: Typ
   visit_address: "Navštívte adresu"

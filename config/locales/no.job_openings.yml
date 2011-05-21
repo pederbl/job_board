@@ -83,6 +83,17 @@
       none: Ingen
       required: Påkrevd
       requirements: Krav
+    results_list:
+      ago: siden
+      posted: Postet
     show:
       anonymous: Anonym
-      published: Publisert
+    show_deleted:
+      deleted: "Denne jobben er blitt slettet"
+      find_other_jobs: "Finn Andre stillinger"
+      job_openings: "ledige jobber"
+      jobs_at_same_employer: "Jobber hos samme arbeidsgiver"
+      jobs_in_same_job_category: "Jobber i samme jobb Category"
+      jobs_in_same_location: "Jobber i samme plassering"
+    show_deleted_same_list:
+      none: Ingen

@@ -82,6 +82,17 @@ lv:
       none: Neviens
       required: Nepieciešams
       requirements: Prasības
+    results_list:
+      ago: pirms
+      posted: Ievietojis
     show:
       anonymous: Anonīms
-      published: Publicēts
+    show_deleted:
+      deleted: "Šis darbs ir izdzēsts"
+      find_other_jobs: "Atrast citi darbi"
+      job_openings: "darba piedāvājumiem"
+      jobs_at_same_employer: "Darba iespējas paša darba devēja"
+      jobs_in_same_job_category: "Darbavietu Same Darba Kategorija"
+      jobs_in_same_location: "Darbavietas tajā pašā vietā"
+    show_deleted_same_list:
+      none: Neviens

@@ -82,6 +82,17 @@ et:
       none: "Mitte ükski"
       required: Nõutav
       requirements: Nõuded
+    results_list:
+      ago: tagasi
+      posted: Posted
     show:
       anonymous: Anonüümne
-      published: Published
+    show_deleted:
+      deleted: "See töö on kustutatud"
+      find_other_jobs: "Leia Muud tööd"
+      job_openings: töökoha
+      jobs_at_same_employer: "Töökohad sama tööandja juures"
+      jobs_in_same_job_category: "Töökohtade sama tööd Kategooria"
+      jobs_in_same_location: "Töökohtade samas kohas"
+    show_deleted_same_list:
+      none: "Mitte ükski"

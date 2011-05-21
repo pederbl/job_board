@@ -82,6 +82,17 @@ sl:
       none: Noben
       required: Zahtevana
       requirements: Zahteve
+    results_list:
+      ago: nazaj
+      posted: Objavljeno
     show:
       anonymous: Anonymous
-      published: Objavljeno
+    show_deleted:
+      deleted: "Ta posel je bil izbrisan"
+      find_other_jobs: "Najdi Druga delovna mesta"
+      job_openings: "dela odprtine"
+      jobs_at_same_employer: "Zaposlitev pri istem delodajalcu"
+      jobs_in_same_job_category: "Delovna mesta v isti kategoriji Job"
+      jobs_in_same_location: "Jobs na istem mestu"
+    show_deleted_same_list:
+      none: Noben

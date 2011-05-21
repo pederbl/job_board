@@ -82,6 +82,17 @@ bg:
       none: Никой
       required: Задължително
       requirements: Изисквания
+    results_list:
+      ago: преди
+      posted: Публикувано
     show:
       anonymous: Анонимен
-      published: Публикувано
+    show_deleted:
+      deleted: "Тази работа е била изтрита"
+      find_other_jobs: "Да намерят друга работа"
+      job_openings: "работни места"
+      jobs_at_same_employer: "Работа в един и същ работодател"
+      jobs_in_same_job_category: "Работа в една и съща работа Категория"
+      jobs_in_same_location: "Работа в едно и също място"
+    show_deleted_same_list:
+      none: Никой

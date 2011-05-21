@@ -82,6 +82,17 @@ ro:
       none: "Nici unul"
       required: Necesare
       requirements: Cerinţe
+    results_list:
+      ago: "în urmă"
+      posted: Postat
     show:
       anonymous: Anonim
-      published: Publicat
+    show_deleted:
+      deleted: "Acest post a fost şters"
+      find_other_jobs: "Găsiţi Alte locuri de muncă"
+      job_openings: "deschideri de locuri de muncă"
+      jobs_at_same_employer: "Locuri de muncă la acelaşi angajator"
+      jobs_in_same_job_category: "Locuri de munca din categoria acelaşi loc de muncă"
+      jobs_in_same_location: "Locuri de muncă în aceeaşi locaţie"
+    show_deleted_same_list:
+      none: "Nici unul"

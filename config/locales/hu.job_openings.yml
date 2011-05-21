@@ -82,6 +82,17 @@ hu:
       none: "Egyik sem"
       required: Szükséges
       requirements: Követelmények
+    results_list:
+      ago: ezelőtt
+      posted: Megjelenés
     show:
       anonymous: Anonim
-      published: Publikálva
+    show_deleted:
+      deleted: "Ezt a munkát törölték"
+      find_other_jobs: "Keresse Egyéb munkák"
+      job_openings: állás
+      jobs_at_same_employer: "Állások ugyanannál a munkáltatónál"
+      jobs_in_same_job_category: "Aktuális ugyanazért a munkáért kategória"
+      jobs_in_same_location: "Aktuális ugyanazon a helyen"
+    show_deleted_same_list:
+      none: "Egyik sem"

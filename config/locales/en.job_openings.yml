@@ -16,11 +16,6 @@ en:
       location: Location
       locations: Locations
       update_search: "Update Search"
-    show_deleted_same_list:
-      none: None
-    results_list:
-      ago: ago
-      posted: Posted
     items:
       ago: ago
       posted: Posted
@@ -93,14 +88,17 @@ en:
       none: None
       required: Required
       requirements: Requirements
+    results_list:
+      ago: ago
+      posted: Posted
     show:
       anonymous: Anonymous
-    show_deleted: 
-      deleted: This job has been deleted
-      find_other_jobs: Find Other Jobs
-      job_openings: job openings
-      jobs_at_same_employer: Jobs at Same Employer
-      jobs_in_same_location: Jobs in Same Location
-      jobs_in_same_job_category: Jobs in Same Job Category
-
-
+    show_deleted:
+      deleted: "This job has been deleted"
+      find_other_jobs: "Find Other Jobs"
+      job_openings: "job openings"
+      jobs_at_same_employer: "Jobs at Same Employer"
+      jobs_in_same_job_category: "Jobs in Same Job Category"
+      jobs_in_same_location: "Jobs in Same Location"
+    show_deleted_same_list:
+      none: None

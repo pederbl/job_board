@@ -82,6 +82,17 @@ cs:
       none: Žádné
       required: Požadované
       requirements: Požadavky
+    results_list:
+      ago: před
+      posted: Publikováno
     show:
       anonymous: Anonym
-      published: Publikovaná
+    show_deleted:
+      deleted: "Tato práce byla smazána"
+      find_other_jobs: "Najít další práce"
+      job_openings: "pracovních míst"
+      jobs_at_same_employer: "Pracovních míst na jednoho zaměstnavatele"
+      jobs_in_same_job_category: "Práce v stejnou práci kategorii"
+      jobs_in_same_location: "Práce v tomtéž místě"
+    show_deleted_same_list:
+      none: Žádné

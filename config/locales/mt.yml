@@ -13,6 +13,7 @@ mt:
   minimum: Minimu
   phone: Phone
   postal_address: "Indirizz postali"
+  published: Ippubblikat
   terms: Termini
   type: Tip
   visit_address: "Żur indirizz"

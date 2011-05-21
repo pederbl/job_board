@@ -82,6 +82,17 @@ fi:
       none: Ei
       required: Vaadittu
       requirements: Vaatimukset
+    results_list:
+      ago: sitten
+      posted: Julkaistu
     show:
       anonymous: Nimetön
-      published: Julkaistu
+    show_deleted:
+      deleted: "Tämä työ on poistettu"
+      find_other_jobs: "Etsi Muut työt"
+      job_openings: "avoimista työpaikoista"
+      jobs_at_same_employer: "Työpaikat saman työnantajan palveluksessa"
+      jobs_in_same_job_category: "Työpaikat samassa työpaikassa luokkaan"
+      jobs_in_same_location: "Työpaikat samassa paikassa"
+    show_deleted_same_list:
+      none: Ei

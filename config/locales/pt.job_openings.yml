@@ -82,6 +82,17 @@ pt:
       none: Nenhum
       required: Obrigatório
       requirements: Requisitos
+    results_list:
+      ago: atrás
+      posted: Postado
     show:
       anonymous: Anónimo
-      published: Publicação
+    show_deleted:
+      deleted: "Este trabalho foi excluído"
+      find_other_jobs: "Encontrar outro emprego"
+      job_openings: "vagas de emprego"
+      jobs_at_same_employer: "Empregos na mesma entidade patronal"
+      jobs_in_same_job_category: "Empregos na mesma categoria profissional"
+      jobs_in_same_location: "Empregos no mesmo local"
+    show_deleted_same_list:
+      none: Nenhum

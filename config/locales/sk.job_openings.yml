@@ -82,6 +82,17 @@ sk:
       none: Žiadne
       required: Požadované
       requirements: Požiadavky
+    results_list:
+      ago: pred
+      posted: Publikované
     show:
       anonymous: Anonym
-      published: Publikovaná
+    show_deleted:
+      deleted: "Táto práca bola vymazaná"
+      find_other_jobs: "Nájsť ďalšie práce"
+      job_openings: "pracovných miest"
+      jobs_at_same_employer: "Pracovných miest na jedného zamestnávateľa"
+      jobs_in_same_job_category: "Práca v rovnakú prácu kategórii"
+      jobs_in_same_location: "Práca v tom istom mieste"
+    show_deleted_same_list:
+      none: Žiadne

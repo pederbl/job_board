@@ -82,6 +82,17 @@ ga:
       none: None
       required: Riachtanach
       requirements: Riachtanais
+    results_list:
+      ago: "ó shin"
+      posted: Posted
     show:
       anonymous: Anonymous
-      published: Foilsithe
+    show_deleted:
+      deleted: "Tá an post Scriosadh"
+      find_other_jobs: "Aimsigh Jobs Eile"
+      job_openings: "oscailtí poist"
+      jobs_at_same_employer: "Poist ag Fostóir same"
+      jobs_in_same_job_category: "Jobs in same Catagóir Poist"
+      jobs_in_same_location: "Jobs in Suíomh same"
+    show_deleted_same_list:
+      none: None

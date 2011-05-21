@@ -86,6 +86,17 @@ de:
       none: Keine
       required: Erforderliche
       requirements: Bedarf
+    results_list:
+      ago: vor
+      posted: Geschrieben
     show:
       anonymous: Anonym
-      published: Veröffentlicht
+    show_deleted:
+      deleted: "Dieser Job wurde gelöscht"
+      find_other_jobs: "Finden Sie weitere Jobangebote"
+      job_openings: Stellenangebote
+      jobs_at_same_employer: "Jobs bei demselben Arbeitgeber"
+      jobs_in_same_job_category: "Jobs in gleichen Job Kategorie"
+      jobs_in_same_location: "Jobs in derselben Lage"
+    show_deleted_same_list:
+      none: Keine
