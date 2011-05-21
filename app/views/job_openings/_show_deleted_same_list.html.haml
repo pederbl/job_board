@@ -1,0 +1,11 @@
+
+.list
+  .header
+    = title
+  - if results.try(:[], :matches).present?
+    .items
+      = render partial: "results_list", locals: { results: results }
+  - else
+    .item
+      = t(".none")
+
