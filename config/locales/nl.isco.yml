@@ -1,6 +1,17 @@
 --- 
 nl: 
   isco_code: 
+    "1": Wetgevers, topambtenaren en managers
+    "2": Professionals
+    "3": Technici en lagere functies
+    "4": Clerks
+    "5": Dienstverlening werknemers en winkel en verkopen op de markt werknemers
+    "6": Geschoolde landbouw-en visserijproducten werknemers
+    "7": Craft en aanverwante beroepen
+    "8": Plant-en machine-operators en monteurs
+    "9": Elementaire beroepen
+    "0": Krijgsmacht
+
     "11": Leden van wetgevende lichamen, beleidvoerende functies
     "111": Leden van wetgevende lichamen
     "1120": Ambtenaren in beleidvoerende functies

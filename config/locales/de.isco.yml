@@ -1,6 +1,17 @@
 --- 
 de: 
   isco_code: 
+    "1": Angehörige gesetzgebender Körperschaften, leitende Verwaltungsbedienstete und Führungskräfte
+    "2": Professionals
+    "3": Techniker und gleichrangige nichttechnische Berufe
+    "4": Clerks
+    "5": Dienstleistungen in Geschäften und auf Märkten
+    "6": Fachkräfte in der Landwirtschaft und Fischerei
+    "7": Handwerk und verwandte Berufe
+    "8": Anlagen-und Maschinenbediener sowie Montierer
+    "9": Hilfsarbeitskräfte
+    "0": Streitkräfte
+
     "11": "Angeh\xC3\xB6rige gesetzgebender k\xC3\xB6rperschaften und leitende verwaltungsbedienstete"
     "111": "Angeh\xC3\xB6rige gesetzgebender k\xC3\xB6rperschaften"
     "1120": Leitende verwaltungsbedienstete

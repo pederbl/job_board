@@ -1,4 +1,9 @@
 :javascript
+  var live_search_idx = 0;
+  var live_search_last_returned_idx = 0; 
+
+  var next_max_id = #{ (@result[:matches].last.try(:[], :doc) || 0) - 1};
+
   var job_categories_tree_data = #{
     (1..9).map { |code| 
       { 
@@ -38,7 +43,7 @@
       .item
         .label
           = t(".keywords")
-        = f.text_field "keywords", value: params[:keywords]
+        = f.text_field "keywords"
 
       .item.job_categories
         .label
@@ -70,7 +75,7 @@
       .item
         .label
           = t(".employer")
-        = f.text_field "employer", value: params[:employer]
+        = f.text_field "employer"
 
       = f.submit t(".update_search")
     

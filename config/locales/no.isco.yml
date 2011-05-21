@@ -1,6 +1,17 @@
 --- 
 "no": 
   isco_code: 
+    "1": Lovgivere, embetsmenn og ledere
+    "2": Professionals
+    "3": Høgskoleyrker
+    "4": Kontoryrker
+    "5": Service arbeidere og butikk og salg på markedet arbeidere
+    "6": Dyktige landbruk og fiske
+    "7": Craft og fagarbeidere
+    "8": Operatører og montører
+    "9": Renholdere yrker
+    "0": Forsvaret
+
     "11": "Politisk arbeid og \xC3\xB8vre ledelse"
     "111": Politikere
     "1120": "H\xC3\xB8yere embetsmenn"

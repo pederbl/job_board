@@ -1,6 +1,18 @@
 --- 
 es: 
   isco_code: 
+    "1": Legisladores, altos funcionarios y directivos
+    "2": Profesionales
+    "3": Técnicos y profesionales de
+    "4": Empleados
+    "5": Servicios de los trabajadores y vendedores de comercios y mercados
+    "6": Trabajadores calificados agropecuarios y pesqueros
+    "7": Arte y afines
+    "8": Instalaciones y máquinas y ensambladores
+    "9": Trabajadores no calificados
+    "0": Las fuerzas armadas
+
+
     "11": "Miembros del poder ejecutivo y de los cuerpos legislativos y personal directivo de la administraci\xC3\xB3n..."
     "111": Miembros del poder ejecutivo y de los cuerpos legislativos
     "1120": "Personal directivo de la administraci\xC3\xB3n p\xC3\xBAblica"

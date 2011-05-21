@@ -49,7 +49,14 @@ module JobOpeningsHelper
   end
 
   def attrs_location(attrs)
-    [attrs[:country], attrs[:region], attrs[:city]].reject { |s| s.blank? }.reverse.join(", ")
+    arr = []
+    arr << attrs[:city]
+    arr << attrs[:region]
+    arr << t("iso_3166_1_alpha_2.#{attrs[:country_code]}") if attrs[:country_code].present?
+    arr.compact!
+    arr.reject! { |s| s.blank? }
+    arr.map! { |x| x.force_encoding("utf-8") } 
+    arr.join(", ")
   end
 
   def isco_translation(job = nil)
@@ -101,7 +108,7 @@ module JobOpeningsHelper
     duration = t("job_openings.job_information.length_type.#{attrs[:duration]}") if attrs[:duration].present?
     salary = if attrs[:minimum_salary] != 0.0 and attrs[:salary_currency].present? and attrs[:salary_period].present?
       period = t("job_openings.job_information.salary_period.#{attrs[:salary_period]}")
-      "#{attrs[:minimum_salary]} #{attrs[:salary_currency]} / #{period}" 
+      "#{"%.2f" % attrs[:minimum_salary]} #{attrs[:salary_currency]} / #{period}" 
     else
       nil
     end

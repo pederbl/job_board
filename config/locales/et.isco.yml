@@ -1,6 +1,17 @@
 --- 
 et: 
   isco_code: 
+    "1": Seadusandjad, kõrgemad ametnikud ja juhid
+    "2": Spetsialistid
+    "3": Keskastme spetsialistid ja tehnikud
+    "4": Clerks
+    "5": Teenused töötajate ja poes ja müügitöötajad
+    "6": Talunikud ja kalanduse oskustöölised
+    "7": Oskus-ja käsitöölised
+    "8": Seadme-ja masinaoperaatorid ja koostajad
+    "9": Lihttöölised
+    "0": Relvajõud
+
     "11": "Seadusandjad ja k\xC3\xB5rgemad ametnikud"
     "111": Seadusandjad
     "1120": "K\xC3\xB5rgemad valitsusametnikud"

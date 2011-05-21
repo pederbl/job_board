@@ -1,6 +1,17 @@
 --- 
 sv: 
   isco_code: 
+    "1": Ledningsarbete
+    "2": Arbete som kräver teoretisk specialistkompetens 
+    "3": Arbete som kräver kortare högskoleutbildning
+    "4": Kontors- och kundservicearbete
+    "5": Service-, omsorgs- och försäljningsarbete 
+    "6": Arbete inom jordbruk, trädgård, skogsbruk och fiske
+    "7": Hantverksarbete inom byggverksamhet och tillverkning 
+    "8": Process- och maskinoperatörsarbete, transportarbete m.m.
+    "9": Arbete utan krav på särskild yrkesutbildning 
+    "0": Militärt arbete  
+
     "11": Politiskt arbete m.m.
     "111": Politiker
     "1120": "H\xC3\xB6gre \xC3\xA4mbetsm\xC3\xA4n"

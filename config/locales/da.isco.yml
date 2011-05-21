@@ -1,6 +1,17 @@
 --- 
 da: 
   isco_code: 
+    "1": Lovgivere, højtstående embedsmænd og ledere
+    "2": Professionals
+    "3": Teknikere og tilknyttede fagfolk
+    "4": Clerks
+    "5": Service arbejdere og butik og sælgere
+    "6": Faglærte landbrug og fiskeri
+    "7": Craft og beslægtede fag
+    "8": Plante-og maskinoperatører og montører
+    "9": Elementary erhverv
+    "0": De væbnede styrker
+
     "11": Lovgivningsarbejde samt ledelse i offentlig administration og interesseorganisationer
     "111": Lovgivning
     "1120": Ledere i offentlig administration

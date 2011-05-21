@@ -8,6 +8,14 @@ class JobOpeningQuery
     @attributes = (attrs || {}).with_indifferent_access
   end
   
+  def keywords
+    attributes[:keywords]
+  end
+
+  def employer
+    attributes[:employer]
+  end
+
   def job_categories
     attributes[:job_categories] || ""
   end

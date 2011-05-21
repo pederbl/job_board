@@ -1,6 +1,17 @@
 --- 
 sl: 
   isco_code: 
+    "1": Zakonodajalci, visoki uradniki, menedžerji
+    "2": Professionals
+    "3": Tehniki in drugi strokovni sodelavci
+    "4": Clerks
+    "5": Services delavcev in prodajalci delavcev
+    "6": Kmetovalci, gozdarji, ribiči, lovci
+    "7": Craft in podobni delavci poslov
+    "8": Upravljalci strojev in naprav ter sestavljalci
+    "9": Poklici za preprosta dela
+    "0": Vojaški
+
     "11": Zakonodajalci/zakonodajalke, visoki uradniki/visoke uradnice
     "111": Zakonodajalci/zakonodajalke
     "1120": "Visoki dr\xC5\xBEavni uradniki/visoke dr\xC5\xBEavne uradnice"

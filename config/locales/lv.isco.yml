@@ -1,6 +1,17 @@
 --- 
 lv: 
   isco_code: 
+    "1": Likumdevēji, valsts vecākās amatpersonas un vadītāji
+    "2": Speciālisti
+    "3": Speciālisti
+    "4": Kalpotāji
+    "5": Pakalpojumi darbinieku un veikalu un tirdzniecības darbinieki
+    "6": Kvalificēti lauksaimniecības un zivsaimniecības darbinieki
+    "7": Kuģi un tiem radniecīgu profesiju strādnieki
+    "8": Iekārtu un mašīnu operatori un izstrādājumu montieri
+    "9": Vienkāršās profesijas
+    "0": Bruņotie spēki
+
     "11": "Likumdev\xC4\x93ji un augst\xC4\x81k\xC4\x81s amatpersonas"
     "111": "Likumdev\xC4\x93ji"
     "1120": "Augst\xC4\x81k\xC4\x81s valsts amatpersonas"

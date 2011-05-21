@@ -1,2 +1,10 @@
-$(".matches").html("<%= escape_javascript(render partial: "matches") %>");
-$(".matches").removeClass("dimmed");
+if (<%= params[:live_search_idx] %> > live_search_last_returned_idx) {
+  live_search_last_returned_idx = <%= params[:live_search_idx] %>;
+  $(".matches").html("<%= escape_javascript(render partial: "matches") %>");
+  <% if @result[:total] > @result[:matches].length %>
+    next_max_id = <%= @result[:matches].last[:doc] - 1 %>;
+  <% end %>
+}
+if (<%= params[:live_search_idx] %> == live_search_idx) {
+  $(".matches").removeClass("dimmed");
+}

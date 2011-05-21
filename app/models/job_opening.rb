@@ -27,18 +27,41 @@ class JobOpening
     update_attribute("location.geonameid", geonameid)
   end
 
-  def self.search(attrs)
+  def geonames_location
+    GeonamesLocation.where(geonameid: @job.location.geonameid).first
+  end
+
+  def search_same_employer
+    JobOpening.search(JobOpeningQuery.new(employer: employer.name))
+  end
+
+  def search_same_location
+    return nil unless location.try(:geonameid)
+    JobOpening.search(JobOpeningQuery.new(locations: "#{geonames_location.feature_code}:#{@job.location.geonameid}" )) 
+  end
+
+  def search_same_job_category
+    return nil unless isco
+    JobOpening.search(JobOpeningQuery.new(job_categories: isco.to_s, limit: 5))
+  end
+
+  def self.num_active
+    where(deleted_at: nil).count
+  end
+
+  def self.search(job_opening_query)
+    q = job_opening_query
     attrs = {
-      limit: 10,
+      keywords: q.keywords, 
+      employer: q.employer,
+      locations: q.locations_query_hash,
+      job_categories: q.job_categories_codes,
+      limit: q.attributes[:limit] || 10,
+      max_id: q.attributes[:max_id].try(:to_i),
       sort_by: "@id DESC",
       sort_mode: :extended,
-      match_mode: :extended,
-      locations: { 
-        pcls: [],
-        admin1s: [],
-        admin2s: []
-      }
-    }.merge(attrs)
+      match_mode: :extended
+    }
 
     arr = []
     arr << "@(title,body) #{Riddle.escape(wrap_wildcards(attrs[:keywords]))}" if attrs[:keywords].present?
@@ -52,15 +75,15 @@ class JobOpening
     arr << "(#{loc_arr.join(" | ")})" if loc_arr.present?
 
     query = arr.join(" ")
-
     client = Riddle::Client.new 
     client.sort_mode = attrs[:sort_mode]
     client.sort_by = attrs[:sort_by]
     client.match_mode = attrs[:match_mode]
     client.limit = attrs[:limit]
     client.filters << Riddle::Client::Filter.new("deleted_at", [0])
-    client.id_range = (attrs[:from_id] + 1)..0 if attrs[:from_id]
+    client.id_range = 0..(attrs[:max_id]) if attrs[:max_id]
     results = client.query(query, "job_openings,job_openings_delta")
+    
     raise results[:error].inspect if results[:error].present?
     return results
   end
@@ -89,7 +112,8 @@ class JobOpening
   end
 
   def self.delta_xmlpipe_feed
-    job_openings = JobOpening.where(deleted_at: nil, :sphinx_id.ne => nil, :sphinx_id.gte => delta_min_id).desc(:sphinx_id)
+    # "- 1" bug workaround "fullscan requires extern docinfo" on empty indexes
+    job_openings = JobOpening.where(deleted_at: nil, :sphinx_id.ne => nil, :sphinx_id.gte => delta_min_id - 1).desc(:sphinx_id) 
     create_job_openings_feed(job_openings.map(&:id))
   end
 
@@ -146,9 +170,9 @@ class JobOpening
         schema.send("sphinx:field", name: "salary_currency", attr: "string")
         schema.send("sphinx:field", name: "salary_period", attr: "string")
         schema.send("sphinx:field", name: "country_code", attr: "string")
-        schema.send("sphinx:field", name: "pcl_geonameid")
-        schema.send("sphinx:field", name: "admin1_geonameid")
-        schema.send("sphinx:field", name: "admin2_geonameid")
+        schema.send("sphinx:field", name: "pcl_geonameid", attr: "string")
+        schema.send("sphinx:field", name: "admin1_geonameid", attr: "string")
+        schema.send("sphinx:field", name: "admin2_geonameid", attr: "string")
 
         #deprecated
         schema.send("sphinx:field", name: "country", attr: "string")

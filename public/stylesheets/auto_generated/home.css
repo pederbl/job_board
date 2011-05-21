@@ -8,10 +8,18 @@
   border:1px;
 }
 
+.hm .one_liner {
+  margin-top: 35px;
+  font-size:2em;
+  font-weight: bold;
+  font-style: italic;
+  color: #4b69a8;
+}
+
 .hm .find_jobs input {
   font-size:1.5em;
   padding:10px 20px;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 .hm .lists {
@@ -44,6 +52,11 @@
   font-size:1em;
   font-weight:bold;
   margin-bottom:10px;
+}
+
+.hm .list .header img {
+  position:relative;
+  top:4px;
 }
 
 .hm .item {

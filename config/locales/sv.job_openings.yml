@@ -18,7 +18,7 @@ sv:
       update_search: "Uppdatera Sök"
     items:
       ago: sedan
-      posted: Inlagd
+      posted: "Inlagd för"
     job_description:
       job_description: Jobbbeskrivning
     job_information:

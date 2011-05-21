@@ -1,6 +1,17 @@
 --- 
 fi: 
   isco_code: 
+    "1": Lainsäätäjien, johtajat ja ylimmät virkamiehet
+    "2": Ammattilaiset
+    "3": Asiantuntijat
+    "4": Clerks
+    "5": Palvelut työntekijöiden ja myynti-ja työntekijöiden
+    "6": Maanviljelijät ja kalastusalan työntekijät
+    "7": korjaus-ja valmistustyöntekijät
+    "8": Kasvien ja ja kuljetustyöntekijät
+    "9": Muut työntekijät
+    "0": Puolustusvoimat
+
     "11": "Lains\xC3\xA4\xC3\xA4t\xC3\xA4j\xC3\xA4t ja ylimm\xC3\xA4t virkamiehet"
     "111": "Lains\xC3\xA4\xC3\xA4t\xC3\xA4j\xC3\xA4t"
     "1120": "Ylimm\xC3\xA4t virkamiehet"

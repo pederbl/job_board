@@ -1,6 +1,7 @@
 en:
   home:
     index:
+      one_liner: "The job market for the EU"
       find_jobs: "Find Jobs"
       highest_paid_jobs: "Highest Paid Jobs"
       job_openings: "job openings"

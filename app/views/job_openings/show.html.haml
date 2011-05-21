@@ -1,14 +1,13 @@
-.job
-  - if @job.deleted_at and !bot?
-    = render partial: 'show_deleted'
-  - else
-    = render partial: 'show'
-   
-  - if Rails.env.development?
-    .separator
-    %hr
-    .line
-      = link_to "Source", @job.source_url
-    .line
-      = raw @job.attributes.reject { |k,v| k == "_id" }.to_yaml.gsub("\n", "<br/>").gsub(" ", "&nbsp;")
+- if @job.deleted_at and !bot?
+  = render partial: 'show_deleted'
+- else
+  = render partial: 'show'
+ 
+- if false and Rails.env.development?
+  .separator
+  %hr
+  .line
+    = link_to "Source", @job.source_url
+  .line
+    = raw @job.attributes.reject { |k,v| k == "_id" }.to_yaml.gsub("\n", "<br/>").gsub(" ", "&nbsp;")
 

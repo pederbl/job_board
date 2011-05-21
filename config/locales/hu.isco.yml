@@ -1,6 +1,17 @@
 --- 
 hu: 
   isco_code: 
+    "1": Törvényhozók, vezető tisztségviselők és menedzserek
+    "2": Szakemberek
+    "3": Technikusok és szakmai
+    "4": Shop-stop
+    "5": Szolgáltatások és bolti és piaci értékesítési dolgozók
+    "6": Szakképzett mezőgazdasági és halászati ​​foglalkozások
+    "7": Kézműves és kapcsolódó foglalkozások
+    "8": Növény-és gépkezelők és összeszerelők
+    "9": Foglalkozások
+    "0": Fegyveres erők
+
     "11": "T\xC3\xB6rv\xC3\xA9nyhoz\xC3\xB3k \xC3\xA9s igazgat\xC3\xA1si vezet\xC5\x91k"
     "111": "T\xC3\xB6rv\xC3\xA9nyhoz\xC3\xB3k"
     "1120": "Orsz\xC3\xA1gos k\xC3\xB6zigazgat\xC3\xA1s vezet\xC5\x91i"

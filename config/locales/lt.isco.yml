@@ -1,6 +1,17 @@
 --- 
 lt: 
   isco_code: 
+    "1": Įstatymų leidėjai, vyresnieji pareigūnai ir valdytojai
+    "2": Profesionalai
+    "3": Jaunesnieji specialistai ir technikai
+    "4": Sekretoriai
+    "5": Paslaugos darbuotojų ir parduotuvių bei turgaviečių darbuotojai
+    "6": Kvalifikuoti prekinio žemės ūkio ir žuvininkystės darbininkai
+    "7": Amatų ir giminiškų profesijų darbininkai
+    "8": Įrenginių ir mašinų operatoriai ir surinkėjai
+    "9": Nekvalifikuoti darbininkai
+    "0": Ginkluotosios pajėgos
+
     "11": "\xC4\xAEstatym\xC5\xB3 leid\xC4\x97jai ir vyresnieji pareig\xC5\xABnai"
     "111": "\xC4\xAEstatym\xC5\xB3 leid\xC4\x97jai"
     "1120": "Vyresnieji pareig\xC5\xABnai"

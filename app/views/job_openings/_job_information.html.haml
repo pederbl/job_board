@@ -82,7 +82,7 @@
             .header
               = t("minimum") + ":"
             .value
-              = @job.salary.minimum
+              = "%.2f" % @job.salary.minimum
               - if @job.salary.currency
                 = @job.salary.currency
               - if @job.salary.period
@@ -93,7 +93,7 @@
             .header
               = t("maximum") + ":"
             .value
-              = @job.salary.maximum
+              = "%.2f" % @job.salary.maximum
               - if @job.salary.currency
                 = @job.salary.currency
               - if @job.salary.period

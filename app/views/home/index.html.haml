@@ -1,14 +1,18 @@
 .hm
   
+  .one_liner
+    = t(".one_liner")
+
   .find_jobs
     = button_to t(".find_jobs"), job_openings_path, method: :get
 
   .count
-    = "#{number_with_delimiter(@num_jobs)} #{t(".job_openings")}"
+    = "#{number_with_delimiter(JobOpening.num_active)} #{t(".job_openings")}"
 
   .lists
     .left.list
       .header
+        = image_tag("sharing_logos.png")
         = t(".most_shared_jobs")
       .items
         - @most_shared_jobs.each do |d|

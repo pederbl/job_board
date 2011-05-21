@@ -3,7 +3,7 @@ class JobOpeningsController < ApplicationController
 
   def index
     @query = JobOpeningQuery.new(params[:q])
-    @result = query
+    @result = JobOpening.search(@query)
   end
 
   def show
@@ -32,7 +32,7 @@ class JobOpeningsController < ApplicationController
 
   def more 
     @query = JobOpeningQuery.new(params[:q])
-    @result = query
+    @result = JobOpening.search(@query)
   end
 
   def job_categories_picker_node_children
@@ -64,19 +64,6 @@ class JobOpeningsController < ApplicationController
     } 
     children.sort! { |x, y| x[:title] <=> y[:title] } 
     render json: children
-  end
-
-  private 
-
-  def query
-    return JobOpening.search(
-      keywords: @query.attributes[:keywords], 
-      employer: @query.attributes[:employer],
-      locations: @query.locations_query_hash,
-      job_categories: @query.job_categories_codes,
-      limit: @query.attributes[:num] || 10,
-      from_id: @query.attributes[:from_id].try(:to_i)
-    )
   end
 
 end

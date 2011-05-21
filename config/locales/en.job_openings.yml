@@ -16,6 +16,11 @@ en:
       location: Location
       locations: Locations
       update_search: "Update Search"
+    show_deleted_same_list:
+      none: None
+    results_list:
+      ago: ago
+      posted: Posted
     items:
       ago: ago
       posted: Posted
@@ -90,4 +95,12 @@ en:
       requirements: Requirements
     show:
       anonymous: Anonymous
-      published: Published
+    show_deleted: 
+      deleted: This job has been deleted
+      find_other_jobs: Find Other Jobs
+      job_openings: job openings
+      jobs_at_same_employer: Jobs at Same Employer
+      jobs_in_same_location: Jobs in Same Location
+      jobs_in_same_job_category: Jobs in Same Job Category
+
+

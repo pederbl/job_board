@@ -1,6 +1,17 @@
 --- 
 ga: 
   isco_code: 
+    "1": Reachtóirí, oifigigh shinsearacha agus bainisteoirí
+    "2": Gairmithe
+    "3": Teicneoirí agus Comhghairmithe
+    "4": Cléirigh
+    "5": Oibrithe Seirbhísí agus siopa agus ar dhíolacháin mhargaidh, oibrithe
+    "6": Oibrithe talmhaíochta agus iascaigh Oilte
+    "7": Ceardaíocht agus oibrithe ceirdeanna gaolmhara
+    "8": Oibreoirí Gléasra agus meaisín agus comhghabhálaithe
+    "9": Gairmeacha Elementary
+    "0": Fórsaí armtha
+
     "11": "Reacht\xC3\xB3ir\xC3\xAD agus oifigigh shinsearacha"
     "111": "Reacht\xC3\xB3ir\xC3\xAD"
     "1120": Oifigigh shinsearacha rialtais

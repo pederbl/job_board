@@ -1,5 +1,6 @@
 en:
   about: About
+  all: All
   choose: Choose
   description: Description
   email: Email
@@ -16,3 +17,4 @@ en:
   type: Type
   visit_address: "Visit address"
   website: Website
+  published: Published

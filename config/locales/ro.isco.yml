@@ -1,6 +1,17 @@
 --- 
 ro: 
   isco_code: 
+    "1": Legislatori, înalţi funcţionari şi manageri
+    "2": Profesionişti
+    "3": Tehnicieni şi profesionişti asociaţi
+    "4": Grefieri
+    "5": Muncitori Servicii si magazin de piaţă şi de vânzări lucrătorilor
+    "6": Lucrători calificaţi în agricultură şi pescuit
+    "7": Craft şi lucrători în meserii
+    "8": Operatorii de instalaţii şi maşini şi asamblori
+    "9": Muncitori necalificaţi
+    "0": Forţele armate
+
     "11": "Membri ai executivului \xC5\x9Fi ai corpului legislativ, \xC3\xAEnal\xC5\xA3i func\xC5\xA3ionari ai administra\xC5\xA3iei publice"
     "111": "Membri ai executivului \xC5\x9Fi ai corpului legislativ"
     "1120": "\xC3\x8Enal\xC5\xA3i func\xC5\xA3ionari ai administra\xC5\xA3iei publice"

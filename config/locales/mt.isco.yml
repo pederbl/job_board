@@ -1,6 +1,17 @@
 --- 
 mt: 
   isco_code: 
+    "1": Leġiżlaturi, uffiċjali anzjani u managers
+    "2": Professjonisti
+    "3": Technicians u professjonisti assoċjati
+    "4": Iskrivani
+    "5": Servizzi ħaddiema u tal-ħwienet u l-bejgħ ħaddiema tas-suq
+    "6": Ħaddiema tas-sengħa agrikola u tas-sajd
+    "7": L-Artiġjanat u ħaddiema relatati snajja
+    "8": L-operaturi tal-Pjanti u l-magna u muntaturi
+    "9": Okkupazzjonijiet Elementari
+    "0": Il-forzi Armati
+
     "11": "Le\xC4\xA1i\xC5\xBClaturi u uffi\xC4\x8Bjali g\xC4\xA7olja"
     "111": "Le\xC4\xA1i\xC5\xBClaturi"
     "1120": "Uffi\xC4\x8Bjali g\xC4\xA7olja tal-gvern"

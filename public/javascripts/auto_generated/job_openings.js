@@ -3,12 +3,15 @@ $(function() {
   if ($(".ji").length == 1) {
     var dirty_url = false;
   
-//    $("#_keywords,#_employer").observe_field(0.2, function( ) {
-//      $(".matches").addClass("dimmed");
-//      $.get($("#query_form").attr("action") + ".js", $("#query_form").serialize(), null, "script");
-//      dirty_url = true;
-//    });
+    function live_search() {
+      live_search_idx += 1;
+      $(".matches").addClass("dimmed");
+      $.get($("#query_form").attr("action") + ".js", $("#query_form").serialize() + "&live_search_idx=" + live_search_idx, null, "script");
+      dirty_url = true;
+    }
   
+    $("#q_keywords,#q_employer").observe_field(0.2, live_search);
+    
     $(".matches .items a").live("click", function() {
       if (dirty_url) {
         history.replaceState(null, "", "/j?" + $("#query_form").serialize());
@@ -16,7 +19,7 @@ $(function() {
     });
 
     $(".matches .more_button input").live("click", function() {
-      var data = $("#query_form").serialize() + "&from_id=" + from_id;
+      var data = $("#query_form").serialize() + "&q[max_id]=" + (next_max_id);
       $.get("/j/more.js", data, null, "script");
     });
 
@@ -47,6 +50,7 @@ $(function() {
         }
         $("#q_job_categories").attr("value", selectedKeys);
         $('.job_categories .selected_list').html(selectedTitles);
+        live_search();
       }
     });
 
@@ -78,6 +82,7 @@ $(function() {
         }
         $("#q_locations").attr("value", selectedKeys);
         $('.locations .selected_list').html(selectedTitles);
+        live_search();
       }
     });
   }

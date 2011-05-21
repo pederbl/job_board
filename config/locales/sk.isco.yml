@@ -1,6 +1,17 @@
 --- 
 sk: 
   isco_code: 
+    "1": Zákonodarcovia, vedúci a riadiaci pracovníci
+    "2": Profesionálov
+    "3": Technickí a odborní pracovníci
+    "4": Úradníci
+    "5": Služby pracovníkov a obchodu a predaja na trhu pracovníci
+    "6": Kvalifikovaní poľnohospodárstvo a rybárstvo
+    "7": Remeselníci a zamestnanci v príbuzných odboroch
+    "8": Obsluha strojov a zariadení
+    "9": Pomocní a nekvalifikovaní zamestnanci
+    "0": Ozbrojené sily
+
     "11": "Z\xC3\xA1konodarcovia a vy\xC5\xA1\xC5\xA1\xC3\xAD \xC3\xBAradn\xC3\xADci"
     "111": "Z\xC3\xA1konodarcovia"
     "1120": "Vy\xC5\xA1\xC5\xA1\xC3\xAD vl\xC3\xA1dni \xC3\xBAradn\xC3\xADci"

@@ -2,6 +2,16 @@
 en: 
   isco_code: 
     "1": Legislators, senior officials and managers
+    "2": Professionals
+    "3": Technicians and associate professionals
+    "4": Clerks
+    "5": Services workers and shop and market sales workers
+    "6": Skilled agricultural and fishery workers
+    "7": Craft and related trades workers 
+    "8": Plant and machine operators and assemblers
+    "9": Elementary occupations
+    "0": Armed forces
+    
     "11": Legislators and senior officials
     "111": Legislators
     "1120": Senior government officials
@@ -44,7 +54,6 @@ en:
     "1317": General managers of business services
     "1318": General managers in personal care, cleaning and related services
     "1319": General managers not elsewhere classified
-    "2": Professionals
     "21": Computing, engineering and science professionals
     "211": Physicists, chemists and related professionals
     "2111": Physicists and astronomers
@@ -122,7 +131,6 @@ en:
     "2455": Film, stage and related actors and directors
     "246": Religious professionals
     "2460": Religious professionals
-    "3": Technicians and associate professionals
     "31": Computing, engineering and science associate professionals
     "311": Physical and engineering science technicians
     "3111": Chemical and physical science technicians
@@ -221,7 +229,6 @@ en:
     "3475": Athletes. sports persons and related associate professionals
     "348": Religious associate professionals
     "3480": Religious associate professionals
-    "4": Clerks
     "41": Office staff
     "411": Secretaries and keyboard-operating clerks
     "4111": Stenographers and typists
@@ -254,7 +261,6 @@ en:
     "4221": Travel agency and related clerks
     "4222": Receptionists and information clerks
     "4223": Telephone switchboard operators
-    "5": Services workers and shop and market sales workers
     "51": Hotel, catering and personal services staff
     "511": Travel attendants and related workers
     "5111": Travel attendants and travel stewards
@@ -289,7 +295,6 @@ en:
     "5220": Shop sales persons and demonstrators
     "523": Stall and market sales persons
     "5230": Stall and market sales persons
-    "6": Skilled agricultural and fishery workers
     "61": Skilled agricultural, fishery and forestry workers
     "611": Market gardeners and crop growers
     "6111": Field crop and vegetable growers
@@ -315,7 +320,6 @@ en:
     "62": Subsistence agricultural and fishery workers
     "621": Subsistence agricultural and fishery workers
     "6210": Subsistence agricultural and fishery workers
-    "7": Craft and related trades workers 
     "71": Construction, mining and quarrying workers
     "711": Miners, shotfirers, stone cutters and carvers
     "7111": Miners and quarry workers
@@ -406,7 +410,6 @@ en:
     "744": Pelt, leather and shoemaking trades workers
     "7441": Pelt dressers, tanners and fell mongers
     "7442": Shoe-makers and related workers
-    "8": Plant and machine operators and assemblers
     "81": Stationary-plant and related operators
     "811": Mining- and mineral-processing-plant operators
     "8111": Mining-plant operators
@@ -500,7 +503,6 @@ en:
     "8334": Lifting-truck operators
     "834": Ships' deck crews and related workers
     "8340": Ships' deck crews and related workers
-    "9": Elementary occupations
     "91": Sales, services and cleaning elementary occupations
     "911": Street vendors and related workers
     "9111": Street food vendors
@@ -539,7 +541,6 @@ en:
     "9331": Hand or pedal vehicle drivers
     "9332": Drivers of animal-drawn vehicles and machinery
     "9333": Freight handlers
-    "0": Armed forces
     "01": Armed forces
     "011": Armed forces
     "0110": Armed forces

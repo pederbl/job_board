@@ -1,6 +1,17 @@
 --- 
 cs: 
   isco_code: 
+    "1": "Zákonodárci, vedoucí a řídící pracovníci"
+    "2": "Profesionály"
+    "3": "Techničtí a odborní pracovníci"
+    "4": "Úředníci"
+    "5": "Služby pracovníků a obchodu a prodeje na trhu pracovníci"
+    "6": "Kvalifikovaní zemědělství a rybářství"
+    "7": "Řemeslníci a pracovníci v příbuzných oborech"
+    "8": "Obsluha strojů a zařízení"
+    "9": "Pomocní a nekvalifikovaní pracovníci"
+    "0": "Ozbrojené síly"
+
     "11": "Z\xC3\xA1konod\xC3\xA1rci, vy\xC5\xA1\xC5\xA1\xC3\xAD \xC3\xBA\xC5\x99edn\xC3\xADci"
     "111": "Z\xC3\xA1konod\xC3\xA1rci"
     "1120": "Vy\xC5\xA1\xC5\xA1\xC3\xAD st\xC3\xA1tn\xC3\xAD \xC3\xBA\xC5\x99edn\xC3\xADci"

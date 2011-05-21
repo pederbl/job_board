@@ -1,6 +1,6 @@
 $(".items").append("<%= escape_javascript(render partial: "items") %>");
 <% if @result[:total] > @result[:matches].length %>
-  from_id = <%= @result[:matches].last[:doc] %>;
+  next_max_id = <%= @result[:matches].last[:doc] - 1 %>;
 <% else %>
   $(".more_button").hide();
 <% end %>

@@ -1,6 +1,17 @@
 --- 
 pt: 
   isco_code: 
+    "1": Legislativos, quadros superiores e gestores
+    "2": Profissionais
+    "3": Técnicos e profissionais de
+    "4": Balconista
+    "5": Os trabalhadores dos serviços e uma loja, vendedores e trabalhadores do mercado
+    "6": Trabalhadores qualificados da agricultura e da pesca
+    "7": Artesanato e trabalhadores similares
+    "8": Operadores de instalações e máquinas e trabalhadores da montagem
+    "9": Trabalhadores não qualificados
+    "0": Forças armadas
+
     "11": "Membros dos corpos legislativos e quadros superiores da administra\xC3\xA7\xC3\xA3o p\xC3\xBAblica"
     "111": Membros dos corpos legislativos e do governo
     "1120": "Quadros superiores da administra\xC3\xA7\xC3\xA3o p\xC3\xBAblica"

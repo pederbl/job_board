@@ -1,6 +1,17 @@
 --- 
 fr: 
   isco_code: 
+    "1": Les législateurs, hauts fonctionnaires et cadres
+    "2": Les professionnels
+    "3": Les techniciens et professions intermédiaires
+    "4": Commis
+    "5": Les travailleurs des services et vendeurs de magasin et de marché travailleurs
+    "6": Ouvriers qualifiés de l'agriculture et la pêche
+    "7": Artisans et ouvriers des métiers
+    "8": Les exploitants d'installations et de machines
+    "9": Les professions primaires
+    "0": Les forces armées
+
     "11": "L\xC3\xA9gislateurs et hauts fonctionnaires"
     "111": "Membres de ex\xC3\xA9cutif et des corps l\xC3\xA9gislatifs"
     "1120": "Cadres sup\xC3\xA9rieurs de l'administration publique"

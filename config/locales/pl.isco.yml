@@ -1,6 +1,17 @@
 --- 
 pl: 
   isco_code: 
+    "1": Wyżsi urzędnicy i kierownicy
+    "2": Professionals
+    "3": Technicy i inny średni personel
+    "4": Clerks
+    "5": Pracownicy usług osobistych i sprzedaży na rynku pracowników
+    "6": Ogrodnicy, leśnicy i rybacy
+    "7": Craft i pokrewni
+    "8": Maszyn i operatorzy i monterzy
+    "9": Pracownicy przy pracach prostych
+    "0": Siły zbrojne
+
     "11": "Przedstawiciele w\xC5\x82adz publicznych, wy\xC5\xBCsi urz\xC4\x99dnicy, zawodowi dzia\xC5\x82acze"
     "111": "Przedstawiciele w\xC5\x82adz publicznych i wy\xC5\xBCsi urz\xC4\x99dnicy"
     "1120": "Wy\xC5\xBCsi urz\xC4\x99dnicy rz\xC4\x85dowi"

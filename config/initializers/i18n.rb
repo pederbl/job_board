@@ -28,14 +28,21 @@ module I18n
 end
 
 
-if Rails.env.production?
+if Rails.env.production? 
   module I18n
     def self.just_raise_that_exception(*args)
       raise args.first
     end
+
+    def self.notify_hoptoad(*args)
+      HoptoadNotifier.notify(
+        :error_class => "I18n",
+        :error_message => "Missing translation: #{args.first}"
+      )
+    end
   end
   
-  I18n.exception_handler = :just_raise_that_exception 
+  I18n.exception_handler = :notify_hoptoad 
   
   module ActionView
     module Helpers

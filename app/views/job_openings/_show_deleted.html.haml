@@ -1,1 +1,18 @@
-Deleted
+
+.dj
+  
+  .deleted
+    = t(".deleted")
+
+  .find_jobs
+    = button_to t(".find_other_jobs"), job_openings_path, method: :get
+
+  .count
+    = "#{number_with_delimiter(JobOpening.num_active)} #{t(".job_openings")}"
+
+  .lists
+    = render partial: "show_deleted_same_list", locals: { title: t(".jobs_at_same_employer"), results: @job.search_same_employer }
+    = render partial: "show_deleted_same_list", locals: { title: t(".jobs_in_same_location"), results: @job.search_same_location }
+    = render partial: "show_deleted_same_list", locals: { title: t(".jobs_in_same_job_category"), results: @job.search_same_job_category }
+    
+

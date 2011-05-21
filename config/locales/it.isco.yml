@@ -1,6 +1,17 @@
 --- 
 it: 
   isco_code: 
+    "1": Legislatori, alti funzionari e dirigenti
+    "2": Professionisti
+    "3": Tecnici e professionisti associati
+    "4": Impiegati
+    "5": Operatori dei servizi e shop e delle vendite sul mercato dei lavoratori
+    "6": Qualificati i lavoratori agricoli e della pesca
+    "7": Artigiani e lavoratori mestieri
+    "8": Conduttori di impianti e macchine e assemblatori
+    "9": Professioni elementari
+    "0": Le forze armate
+
     "11": "Membri dell\xE2\x80\x99esecutivo e dei corpi legislativi, quadri superiori della pubblica amministrazione"
     "111": "Membri dell\xE2\x80\x99esecutivo e dei corpi legislativi"
     "1120": Quadri superiori della pubblica amministrazione
