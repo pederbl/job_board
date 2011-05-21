@@ -21,7 +21,7 @@ module I18n
     arr.sort! { |x, y| y.last <=> x.last }
     arr.map! { |l| l.first.downcase.gsub(/-[a-z]+$/i) { |x| x.upcase }.to_sym }
     return arr.find { |l| available_locales.include?(l) } || 
-           arr.find { |l| available_locales.include?(l.gsub(/-../, "")) } 
+           arr.find { |l| available_locales.include?(l.to_s.gsub(/-../, "").to_sym) } 
   end
 
 
