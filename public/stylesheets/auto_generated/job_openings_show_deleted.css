@@ -1,0 +1,90 @@
+/* job_openings_show_deleted */
+
+.dj {
+  text-align:center;
+  width:1000px;
+  margin: 0 auto;
+  border:1px;
+}
+
+.dj .deleted {
+  margin-top: 35px;
+  font-size:1.5em;
+  font-weight: bold;
+  font-style: italic;
+  color: #4b69a8;
+}
+
+.dj .find_jobs input {
+  font-size:1.5em;
+  padding:10px 20px;
+  margin-top: 35px;
+}
+
+.dj .lists {
+  margin-top:50px;
+  margin-left:30px;
+  text-align:center;
+}
+
+.dj .list {
+  float:left;
+  margin-left: 20px;
+
+}
+
+.dj .list {
+  width: 300px;
+  text-align:left;
+}
+
+.dj .list a {
+  color:black;
+}
+.dj .list a:hover {
+  text-decoration:none;
+}
+
+.dj .list .header {
+  color: rgb(108, 0, 54);
+  font-size:1em;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+.dj .item {
+  margin-bottom: 15px;
+  font-size:0.8em;
+}
+
+.dj .item:hover {
+  background:#eee;
+}
+
+.dj .item .employer {
+  float:left;
+  width:300px;
+  font-weight:bold;
+  color: rgb(0,0,128);
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+.dj .item .location {
+  color:rgb(0,84,0);
+  font-size:0.9em;
+}
+
+.dj .item .title {
+  clear:both;
+  color:#333;
+  width:300px;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+.dj .item .info {
+  color: #666;
+  font-size:0.85em;
+}
+
