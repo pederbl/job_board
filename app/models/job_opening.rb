@@ -32,6 +32,7 @@ class JobOpening
   end
 
   def search_same_employer
+    return nil unless employer
     JobOpening.search(JobOpeningQuery.new(employer: employer.name))
   end
 
