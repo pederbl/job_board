@@ -97,8 +97,8 @@ sv:
       deleted: "Det här jobbet har raderats"
       find_other_jobs: "Hitta andra jobb"
       job_openings: "lediga jobb"
-      jobs_at_same_employer: "Jobba på samma arbetsgivare"
-      jobs_in_same_job_category: "Jobb i samma jobb Kategori"
-      jobs_in_same_location: "Jobb i samma plats"
+      jobs_at_same_employer: "Jobba hos samma arbetsgivare"
+      jobs_in_same_job_category: "Jobb i samma jobbkategori"
+      jobs_in_same_location: "Jobb i samma ort"
     show_deleted_same_list:
       none: Inga

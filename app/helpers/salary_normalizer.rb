@@ -85,7 +85,7 @@ module SalaryNormalizer
         "WUERTH ELEKTRONIK ITALIA S.R.L.",
         "GARDASEE TOURISMUS GMBH",
         "Hays Specialist Recruitment",
-        "",
+        "Sellbytel Group",
         "",
         "",
         ""
