@@ -3,11 +3,13 @@
 - else
   = render partial: 'show'
  
-- if false and Rails.env.development?
+- if Rails.env.development?
   .separator
   %hr
   .line
     = link_to "Source", @job.source_url
+
+- if false and Rails.env.development?
   .line
     = raw @job.attributes.reject { |k,v| k == "_id" }.to_yaml.gsub("\n", "<br/>").gsub(" ", "&nbsp;")
 

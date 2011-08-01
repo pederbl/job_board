@@ -86,6 +86,9 @@ module SalaryNormalizer
         "GARDASEE TOURISMUS GMBH",
         "Hays Specialist Recruitment",
         "Sellbytel Group",
+        "KAPRIJKE GEMEENTEBESTUUR",
+        "Hays Office Professionals Brussel",
+        "",
         "",
         "",
         ""

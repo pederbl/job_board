@@ -73,9 +73,11 @@ class JobOpening
     loc_arr << "@(pcl_geonameid) (#{attrs[:locations][:pcls].join(" | ")})" if attrs[:locations][:pcls].present?
     loc_arr << "@(admin1_geonameid) (#{attrs[:locations][:admin1s].join(" | ")})" if attrs[:locations][:admin1s].present?
     loc_arr << "@(admin2_geonameid) (#{attrs[:locations][:admin2s].join(" | ")})" if attrs[:locations][:admin2s].present?
-    arr << "(#{loc_arr.join(" | ")})" if loc_arr.present?
+    arr << "#{loc_arr.join(" | ")}" if loc_arr.present?
 
-    query = arr.join(" ")
+    query = arr.join(" ").gsub("\\\"", "\"")
+
+
     client = Riddle::Client.new 
     client.sort_mode = attrs[:sort_mode]
     client.sort_by = attrs[:sort_by]
@@ -84,13 +86,15 @@ class JobOpening
     client.filters << Riddle::Client::Filter.new("deleted_at", [0])
     client.id_range = 0..(attrs[:max_id]) if attrs[:max_id]
     results = client.query(query, "job_openings,job_openings_delta")
+    #raise query
+    #raise results.inspect
     
     raise results[:error].inspect if results[:error].present?
     return results
   end
 
   def self.reindex_main
-    system("cd /home/ec2-user/sphinx-1.10-beta; sudo /usr/local/bin/indexer job_openings --rotate >> /home/ec2-user/log/indexer_main.log 2>&1")
+    system("cd /home/ec2-user/sphinx-2.0.1-beta; sudo /usr/local/bin/indexer job_openings --rotate >> /home/ec2-user/log/indexer_main.log 2>&1")
     puts "old delta_min_id: #{delta_min_id}"
     self.delta_min_id = main_max_id + 1
     puts "new delta_min_id: #{delta_min_id}"
@@ -99,7 +103,7 @@ class JobOpening
   def self.reindex_delta
     puts "delta_min_id: #{delta_min_id}"
     set_sphinx_ids
-    system("cd /home/ec2-user/sphinx-1.10-beta; sudo /usr/local/bin/indexer job_openings_delta --rotate >> /home/ec2-user/log/indexer_delta.log 2>&1")
+    system("cd /home/ec2-user/sphinx-2.0.1-beta; sudo /usr/local/bin/indexer job_openings_delta --rotate >> /home/ec2-user/log/indexer_delta.log 2>&1")
   end
 
   def self.main_xmlpipe_feed

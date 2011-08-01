@@ -8,6 +8,7 @@ class JobOpeningsController < ApplicationController
 
   def show
     @job = JobOpening.where(slug: params[:id]).first
+    raise "not found" if !@job and Rails.env.development? 
     return redirect_to("/", status: 301) unless @job
   end
 
@@ -29,6 +30,11 @@ class JobOpeningsController < ApplicationController
 
   def update 
   end
+
+  def apply
+    @job = JobOpening.where(slug: params[:id]).first
+  end
+
 
   def more 
     @query = JobOpeningQuery.new(params[:q])

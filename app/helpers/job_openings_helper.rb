@@ -2,7 +2,7 @@ module JobOpeningsHelper
 
   def title
     case params[:action] 
-    when 'show'
+    when /(show|apply)/
       arr = []
       arr << @job.t(:title) if @job.title
       at = []
@@ -20,7 +20,7 @@ module JobOpeningsHelper
       title = [keywords, at].compact.join(" @ ")
       return title.present? ? title : "Jobboteket"
 
-    else nil
+    else "Jobboteket"
     end
   end
 

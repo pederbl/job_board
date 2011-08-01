@@ -23,6 +23,9 @@
       = render partial: "job_description"
       - if @job.employer and @job.employer.name
         = render partial: "employer"
+
+      - if Rails.env.development? 
+        = @job.application.to_hash
     
     .right
       = render partial: "contacts"
